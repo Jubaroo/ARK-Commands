@@ -1,0 +1,1267 @@
+[
+  {
+    "name": "Red",
+    "id": "1",
+    "hex": "#ff0000"
+  },
+  {
+    "name": "Blue",
+    "id": "2",
+    "hex": "#0000ff"
+  },
+  {
+    "name": "Green",
+    "id": "3",
+    "hex": "#00ff00"
+  },
+  {
+    "name": "Yellow",
+    "id": "4",
+    "hex": "#ffff00"
+  },
+  {
+    "name": "Cyan",
+    "id": "5",
+    "hex": "#00ffff"
+  },
+  {
+    "name": "Magenta",
+    "id": "6",
+    "hex": "#ff00ff"
+  },
+  {
+    "name": "Light Green",
+    "id": "7",
+    "hex": "#c0ffba"
+  },
+  {
+    "name": "Light Grey",
+    "id": "8",
+    "hex": "#c8caca"
+  },
+  {
+    "name": "Light Brown",
+    "id": "9",
+    "hex": "#786759"
+  },
+  {
+    "name": "Light Orange",
+    "id": "10",
+    "hex": "#ffb46c"
+  },
+  {
+    "name": "Light Yellow",
+    "id": "11",
+    "hex": "#fffa8a"
+  },
+  {
+    "name": "Light Red",
+    "id": "12",
+    "hex": "#ff756c"
+  },
+  {
+    "name": "Dark Grey",
+    "id": "13",
+    "hex": "#7b7b7b"
+  },
+  {
+    "name": "Black",
+    "id": "14",
+    "hex": "#3b3b3b"
+  },
+  {
+    "name": "Brown",
+    "id": "15",
+    "hex": "#593a2a"
+  },
+  {
+    "name": "Dark Green",
+    "id": "16",
+    "hex": "#224900"
+  },
+  {
+    "name": "Dark Red",
+    "id": "17",
+    "hex": "#812118"
+  },
+  {
+    "name": "White",
+    "id": "18",
+    "hex": "#ffffff"
+  },
+  {
+    "name": "Dino Light Red",
+    "id": "19",
+    "hex": "#ffa8a8"
+  },
+  {
+    "name": "Dino Dark Red",
+    "id": "20",
+    "hex": "#592b2b"
+  },
+  {
+    "name": "Dino Light Orange",
+    "id": "21",
+    "hex": "#ffb694"
+  },
+  {
+    "name": "Dino Dark Orange",
+    "id": "22",
+    "hex": "#88532f"
+  },
+  {
+    "name": "Dino Light Yellow",
+    "id": "23",
+    "hex": "#cacaa0"
+  },
+  {
+    "name": "Dino Dark Yellow",
+    "id": "24",
+    "hex": "#94946c"
+  },
+  {
+    "name": "Dino Light Green",
+    "id": "25",
+    "hex": "#e0ffe0"
+  },
+  {
+    "name": "Dino Medium Green",
+    "id": "26",
+    "hex": "#799479"
+  },
+  {
+    "name": "Dino Dark Green",
+    "id": "27",
+    "hex": "#224122"
+  },
+  {
+    "name": "Dino Light Blue",
+    "id": "28",
+    "hex": "#d9e0ff"
+  },
+  {
+    "name": "Dino Dark Blue",
+    "id": "29",
+    "hex": "#394263"
+  },
+  {
+    "name": "Dino Light Purple",
+    "id": "30",
+    "hex": "#e4d9ff"
+  },
+  {
+    "name": "Dino Dark Purple",
+    "id": "31",
+    "hex": "#403459"
+  },
+  {
+    "name": "Dino Light Brown",
+    "id": "32",
+    "hex": "#ffe0ba"
+  },
+  {
+    "name": "Dino Medium Brown",
+    "id": "33",
+    "hex": "#948575"
+  },
+  {
+    "name": "Dino Dark Brown",
+    "id": "34",
+    "hex": "#594e41"
+  },
+  {
+    "name": "Dino Darker Grey",
+    "id": "35",
+    "hex": "#595959"
+  },
+  {
+    "name": "Dino Albino",
+    "id": "36",
+    "hex": "#ffffff"
+  },
+  {
+    "name": "BigFoot0",
+    "id": "37",
+    "hex": "#b79683"
+  },
+  {
+    "name": "BigFoot4",
+    "id": "38",
+    "hex": "#eadad5"
+  },
+  {
+    "name": "BigFoot5",
+    "id": "39",
+    "hex": "#d0a794"
+  },
+  {
+    "name": "WolfFur",
+    "id": "40",
+    "hex": "#c3b39f"
+  },
+  {
+    "name": "DarkWolfFur",
+    "id": "41",
+    "hex": "#887666"
+  },
+  {
+    "name": "DragonBase0",
+    "id": "42",
+    "hex": "#a0664b"
+  },
+  {
+    "name": "DragonBase1",
+    "id": "43",
+    "hex": "#cb7956"
+  },
+  {
+    "name": "DragonFire",
+    "id": "44",
+    "hex": "#bc4f00"
+  },
+  {
+    "name": "DragonGreen0",
+    "id": "45",
+    "hex": "#79846c"
+  },
+  {
+    "name": "DragonGreen1",
+    "id": "46",
+    "hex": "#909c79"
+  },
+  {
+    "name": "DragonGreen2",
+    "id": "47",
+    "hex": "#a5a48b"
+  },
+  {
+    "name": "DragonGreen3",
+    "id": "48",
+    "hex": "#74939c"
+  },
+  {
+    "name": "WyvernPurple0",
+    "id": "49",
+    "hex": "#787496"
+  },
+  {
+    "name": "WyvernPurple1",
+    "id": "50",
+    "hex": "#b0a2c0"
+  },
+  {
+    "name": "WyvernBlue0",
+    "id": "51",
+    "hex": "#6281a7"
+  },
+  {
+    "name": "WyvernBlue1",
+    "id": "52",
+    "hex": "#485c75"
+  },
+  {
+    "name": "Dino Medium Blue",
+    "id": "53",
+    "hex": "#5fa4ea"
+  },
+  {
+    "name": "Dino Deep Blue",
+    "id": "54",
+    "hex": "#4568d4"
+  },
+  {
+    "name": "NearWhite",
+    "id": "55",
+    "hex": "#ededed"
+  },
+  {
+    "name": "NearBlack",
+    "id": "56",
+    "hex": "#515151"
+  },
+  {
+    "name": "DarkTurquoise",
+    "id": "57",
+    "hex": "#184546"
+  },
+  {
+    "name": "MediumTurquoise",
+    "id": "58",
+    "hex": "#007060"
+  },
+  {
+    "name": "Turquoise",
+    "id": "59",
+    "hex": "#00c5ab"
+  },
+  {
+    "name": "GreenSlate",
+    "id": "60",
+    "hex": "#40594c"
+  },
+  {
+    "name": "Sage",
+    "id": "61",
+    "hex": "#3e4f40"
+  },
+  {
+    "name": "DarkWarmGray",
+    "id": "62",
+    "hex": "#3b3938"
+  },
+  {
+    "name": "MediumWarmGray",
+    "id": "63",
+    "hex": "#585554"
+  },
+  {
+    "name": "LightWarmGray",
+    "id": "64",
+    "hex": "#9b9290"
+  },
+  {
+    "name": "DarkCement",
+    "id": "65",
+    "hex": "#525b56"
+  },
+  {
+    "name": "LightCement",
+    "id": "66",
+    "hex": "#8aa196"
+  },
+  {
+    "name": "LightPink",
+    "id": "67",
+    "hex": "#e8b0ff"
+  },
+  {
+    "name": "DeepPink",
+    "id": "68",
+    "hex": "#ff119a"
+  },
+  {
+    "name": "DarkViolet",
+    "id": "69",
+    "hex": "#730046"
+  },
+  {
+    "name": "DarkMagenta",
+    "id": "70",
+    "hex": "#b70042"
+  },
+  {
+    "name": "BurntSienna",
+    "id": "71",
+    "hex": "#7e331e"
+  },
+  {
+    "name": "MediumAutumn",
+    "id": "72",
+    "hex": "#a93000"
+  },
+  {
+    "name": "Vermillion",
+    "id": "73",
+    "hex": "#ef3100"
+  },
+  {
+    "name": "Coral",
+    "id": "74",
+    "hex": "#ff5834"
+  },
+  {
+    "name": "Orange",
+    "id": "75",
+    "hex": "#ff7f00"
+  },
+  {
+    "name": "Peach",
+    "id": "76",
+    "hex": "#ffa73a"
+  },
+  {
+    "name": "LightAutumn",
+    "id": "77",
+    "hex": "#ae7000"
+  },
+  {
+    "name": "Mustard",
+    "id": "78",
+    "hex": "#949427"
+  },
+  {
+    "name": "ActualBlack",
+    "id": "79",
+    "hex": "#000000"
+  },
+  {
+    "name": "MidnightBlue",
+    "id": "80",
+    "hex": "#191d36"
+  },
+  {
+    "name": "DarkBlue",
+    "id": "81",
+    "hex": "#152b3a"
+  },
+  {
+    "name": "BlackSands",
+    "id": "82",
+    "hex": "#302531"
+  },
+  {
+    "name": "LemonLime",
+    "id": "83",
+    "hex": "#a8ff44"
+  },
+  {
+    "name": "Mint",
+    "id": "84",
+    "hex": "#38e985"
+  },
+  {
+    "name": "Jade",
+    "id": "85",
+    "hex": "#008840"
+  },
+  {
+    "name": "PineGreen",
+    "id": "86",
+    "hex": "#0f552e"
+  },
+  {
+    "name": "SpruceGreen",
+    "id": "87",
+    "hex": "#005b45"
+  },
+  {
+    "name": "LeafGreen",
+    "id": "88",
+    "hex": "#5b9725"
+  },
+  {
+    "name": "DarkLavender",
+    "id": "89",
+    "hex": "#5e275f"
+  },
+  {
+    "name": "MediumLavender",
+    "id": "90",
+    "hex": "#853587"
+  },
+  {
+    "name": "Lavender",
+    "id": "91",
+    "hex": "#bd77be"
+  },
+  {
+    "name": "DarkTeal",
+    "id": "92",
+    "hex": "#0e404a"
+  },
+  {
+    "name": "MediumTeal",
+    "id": "93",
+    "hex": "#105563"
+  },
+  {
+    "name": "Teal",
+    "id": "94",
+    "hex": "#14849c"
+  },
+  {
+    "name": "PowderBlue",
+    "id": "95",
+    "hex": "#82a7ff"
+  },
+  {
+    "name": "Glacial",
+    "id": "96",
+    "hex": "#aceaff"
+  },
+  {
+    "name": "Cammo",
+    "id": "97",
+    "hex": "#505118"
+  },
+  {
+    "name": "DryMoss",
+    "id": "98",
+    "hex": "#766e3f"
+  },
+  {
+    "name": "Custard",
+    "id": "99",
+    "hex": "#c0bd5e"
+  },
+  {
+    "name": "Cream",
+    "id": "100",
+    "hex": "#f4ffc0"
+  },
+  {
+    "name": "Black Dye",
+    "id": "201",
+    "hex": "#1f1f1f"
+  },
+  {
+    "name": "Blue Dye",
+    "id": "202",
+    "hex": "#0000ff"
+  },
+  {
+    "name": "Brown Dye",
+    "id": "203",
+    "hex": "#756147"
+  },
+  {
+    "name": "Cyan Dye",
+    "id": "204",
+    "hex": "#00ffff"
+  },
+  {
+    "name": "Forest Dye",
+    "id": "205",
+    "hex": "#006c00"
+  },
+  {
+    "name": "Green Dye",
+    "id": "206",
+    "hex": "#00ff00"
+  },
+  {
+    "name": "Purple Dye",
+    "id": "207",
+    "hex": "#6c00ba"
+  },
+  {
+    "name": "Orange Dye",
+    "id": "208",
+    "hex": "#ff8800"
+  },
+  {
+    "name": "Parchment Dye",
+    "id": "209",
+    "hex": "#ffffba"
+  },
+  {
+    "name": "Pink Dye",
+    "id": "210",
+    "hex": "#ff7be1"
+  },
+  {
+    "name": "Unused Purple Dye",
+    "id": "211",
+    "hex": "#7b00e0"
+  },
+  {
+    "name": "Red Dye",
+    "id": "212",
+    "hex": "#ff0000"
+  },
+  {
+    "name": "Royalty Dye",
+    "id": "213",
+    "hex": "#7b00a8"
+  },
+  {
+    "name": "Silver Dye",
+    "id": "214",
+    "hex": "#e0e0e0"
+  },
+  {
+    "name": "Sky Dye",
+    "id": "215",
+    "hex": "#bad4ff"
+  },
+  {
+    "name": "Tan Dye",
+    "id": "216",
+    "hex": "#ffed82"
+  },
+  {
+    "name": "Tangerine Dye",
+    "id": "217",
+    "hex": "#ad652c"
+  },
+  {
+    "name": "White Dye",
+    "id": "218",
+    "hex": "#fefefe"
+  },
+  {
+    "name": "Yellow Dye",
+    "id": "219",
+    "hex": "#ffff00"
+  },
+  {
+    "name": "Magenta Dye",
+    "id": "220",
+    "hex": "#e71fd9"
+  },
+  {
+    "name": "Brick Dye",
+    "id": "221",
+    "hex": "#94341f"
+  },
+  {
+    "name": "Cantaloupe Dye",
+    "id": "222",
+    "hex": "#ff9a00"
+  },
+  {
+    "name": "Mud Dye",
+    "id": "223",
+    "hex": "#473b2b"
+  },
+  {
+    "name": "Navy Dye",
+    "id": "224",
+    "hex": "#34346c"
+  },
+  {
+    "name": "Olive Dye",
+    "id": "225",
+    "hex": "#baba59"
+  },
+  {
+    "name": "Slate Dye",
+    "id": "226",
+    "hex": "#595959"
+  },
+  {
+    "name": "Burn Coloring",
+    "id": "128",
+    "hex": "#330000"
+  },
+  {
+    "name": "Scab Coloring",
+    "id": "129",
+    "hex": "#660000"
+  },
+  {
+    "name": "Gore Coloring",
+    "id": "130",
+    "hex": "#B30000"
+  },
+  {
+    "name": "Red Coloring",
+    "id": "131",
+    "hex": "#FF0000"
+  },
+  {
+    "name": "Tulip Coloring",
+    "id": "132",
+    "hex": "#FF7373"
+  },
+  {
+    "name": "Salmon Coloring",
+    "id": "133",
+    "hex": "#FFBFBF"
+  },
+  {
+    "name": "Incense Coloring",
+    "id": "134",
+    "hex": "#D98D8D"
+  },
+  {
+    "name": "Edocha Coloring",
+    "id": "135",
+    "hex": "#A65353"
+  },
+  {
+    "name": "Bronze Coloring",
+    "id": "136",
+    "hex": "#331900"
+  },
+  {
+    "name": "Terracotta Coloring",
+    "id": "137",
+    "hex": "#663300"
+  },
+  {
+    "name": "Windsor Coloring",
+    "id": "138",
+    "hex": "#B35900"
+  },
+  {
+    "name": "Orange Coloring",
+    "id": "139",
+    "hex": "#FF7F00"
+  },
+  {
+    "name": "Cantaloupe Coloring",
+    "id": "140",
+    "hex": "#FFB973"
+  },
+  {
+    "name": "Peach Coloring",
+    "id": "141",
+    "hex": "#FFDFBF"
+  },
+  {
+    "name": "Latte Coloring",
+    "id": "142",
+    "hex": "#D9B38D"
+  },
+  {
+    "name": "Dirt Coloring",
+    "id": "143",
+    "hex": "#A67C53"
+  },
+  {
+    "name": "Drab Coloring",
+    "id": "144",
+    "hex": "#333300"
+  },
+  {
+    "name": "Olive Coloring",
+    "id": "145",
+    "hex": "#666600"
+  },
+  {
+    "name": "Citron Coloring",
+    "id": "146",
+    "hex": "#B2B300"
+  },
+  {
+    "name": "Yellow Coloring",
+    "id": "147",
+    "hex": "#FFFF00"
+  },
+  {
+    "name": "Canary Coloring",
+    "id": "148",
+    "hex": "#FFFF73"
+  },
+  {
+    "name": "Buttermilk Coloring",
+    "id": "149",
+    "hex": "#FFFFBF"
+  },
+  {
+    "name": "Khaki Coloring",
+    "id": "150",
+    "hex": "#D9D98D"
+  },
+  {
+    "name": "Mold Coloring",
+    "id": "151",
+    "hex": "#A6A653"
+  },
+  {
+    "name": "Swamp Coloring",
+    "id": "152",
+    "hex": "#193300"
+  },
+  {
+    "name": "Avocado Coloring",
+    "id": "153",
+    "hex": "#336600"
+  },
+  {
+    "name": "Orc Coloring",
+    "id": "154",
+    "hex": "#59B300"
+  },
+  {
+    "name": "Chartreuse Coloring",
+    "id": "155",
+    "hex": "#80FF00"
+  },
+  {
+    "name": "Menthol Coloring",
+    "id": "156",
+    "hex": "#B9FF73"
+  },
+  {
+    "name": "Nyanza Coloring",
+    "id": "157",
+    "hex": "#DFFFBF"
+  },
+  {
+    "name": "Putrescence Coloring",
+    "id": "158",
+    "hex": "#B3D98D"
+  },
+  {
+    "name": "Filth Coloring",
+    "id": "159",
+    "hex": "#7CA653"
+  },
+  {
+    "name": "Nori Coloring",
+    "id": "160",
+    "hex": "#003300"
+  },
+  {
+    "name": "Hunter Coloring",
+    "id": "161",
+    "hex": "#006600"
+  },
+  {
+    "name": "Emerald Coloring",
+    "id": "162",
+    "hex": "#00B300"
+  },
+  {
+    "name": "Green Coloring",
+    "id": "163",
+    "hex": "#00FF00"
+  },
+  {
+    "name": "Mint Coloring",
+    "id": "164",
+    "hex": "#73FF73"
+  },
+  {
+    "name": "Pistachio Coloring",
+    "id": "165",
+    "hex": "#BFFFBF"
+  },
+  {
+    "name": "Celadon Coloring",
+    "id": "166",
+    "hex": "#8DD98D"
+  },
+  {
+    "name": "Chateau Coloring",
+    "id": "167",
+    "hex": "#53A653"
+  },
+  {
+    "name": "Jungle Coloring",
+    "id": "168",
+    "hex": "#00331A"
+  },
+  {
+    "name": "Forest Coloring",
+    "id": "169",
+    "hex": "#006633"
+  },
+  {
+    "name": "Lagoon Coloring",
+    "id": "170",
+    "hex": "#00B359"
+  },
+  {
+    "name": "Spring Coloring",
+    "id": "171",
+    "hex": "#00FF80"
+  },
+  {
+    "name": "Aquamarine Coloring",
+    "id": "172",
+    "hex": "#73FFB9"
+  },
+  {
+    "name": "Seafoam Coloring",
+    "id": "173",
+    "hex": "#BFFFDF"
+  },
+  {
+    "name": "Turquoise Coloring",
+    "id": "174",
+    "hex": "#8DD9B3"
+  },
+  {
+    "name": "Shamrock Coloring",
+    "id": "175",
+    "hex": "#53A67C"
+  },
+  {
+    "name": "Mariana Coloring",
+    "id": "176",
+    "hex": "#003333"
+  },
+  {
+    "name": "Skobeloff Coloring",
+    "id": "177",
+    "hex": "#006666"
+  },
+  {
+    "name": "Teal Coloring",
+    "id": "178",
+    "hex": "#00B3B3"
+  },
+  {
+    "name": "Cyan Coloring",
+    "id": "179",
+    "hex": "#00FFFF"
+  },
+  {
+    "name": "Electricity Coloring",
+    "id": "180",
+    "hex": "#73FFFF"
+  },
+  {
+    "name": "Celeste Coloring",
+    "id": "181",
+    "hex": "#BFFFFF"
+  },
+  {
+    "name": "Crystal Coloring",
+    "id": "182",
+    "hex": "#8DD9D9"
+  },
+  {
+    "name": "Ocean Coloring",
+    "id": "183",
+    "hex": "#53A6A6"
+  },
+  {
+    "name": "Cetecean Coloring",
+    "id": "184",
+    "hex": "#001A33"
+  },
+  {
+    "name": "Prussian Coloring",
+    "id": "185",
+    "hex": "#003366"
+  },
+  {
+    "name": "Sapphire Coloring",
+    "id": "186",
+    "hex": "#0059B3"
+  },
+  {
+    "name": "Azure Coloring",
+    "id": "187",
+    "hex": "#007FFF"
+  },
+  {
+    "name": "Babyblue Coloring",
+    "id": "188",
+    "hex": "#73B9FF"
+  },
+  {
+    "name": "Cornflower Coloring",
+    "id": "189",
+    "hex": "#BFDFFF"
+  },
+  {
+    "name": "Overcast Coloring",
+    "id": "190",
+    "hex": "#8CB2D9"
+  },
+  {
+    "name": "Moonstone Coloring",
+    "id": "191",
+    "hex": "#537CA6"
+  },
+  {
+    "name": "Midnight Coloring",
+    "id": "192",
+    "hex": "#000033"
+  },
+  {
+    "name": "Navy Coloring",
+    "id": "193",
+    "hex": "#000066"
+  },
+  {
+    "name": "Cobalt Coloring",
+    "id": "194",
+    "hex": "#0000B3"
+  },
+  {
+    "name": "Blue Coloring",
+    "id": "195",
+    "hex": "#0000FF"
+  },
+  {
+    "name": "Denim Coloring",
+    "id": "196",
+    "hex": "#7373FF"
+  },
+  {
+    "name": "Ice Coloring",
+    "id": "197",
+    "hex": "#BFBFFF"
+  },
+  {
+    "name": "Frost Coloring",
+    "id": "198",
+    "hex": "#8C8CD9"
+  },
+  {
+    "name": "Deepfreeze Coloring",
+    "id": "199",
+    "hex": "#5353A6"
+  },
+  {
+    "name": "Twilight Coloring",
+    "id": "200",
+    "hex": "#190033"
+  },
+  {
+    "name": "Eminence Coloring",
+    "id": "201",
+    "hex": "#330066"
+  },
+  {
+    "name": "Indigo Coloring",
+    "id": "202",
+    "hex": "#5900B3"
+  },
+  {
+    "name": "Violet Coloring",
+    "id": "203",
+    "hex": "#8000FF"
+  },
+  {
+    "name": "Lilac Coloring",
+    "id": "204",
+    "hex": "#B973FF"
+  },
+  {
+    "name": "Lavender Coloring",
+    "id": "205",
+    "hex": "#DFBFFF"
+  },
+  {
+    "name": "Mauve Coloring",
+    "id": "206",
+    "hex": "#B38DD9"
+  },
+  {
+    "name": "Royalty Coloring",
+    "id": "207",
+    "hex": "#7C53A6"
+  },
+  {
+    "name": "Eggplant Coloring",
+    "id": "208",
+    "hex": "#330033"
+  },
+  {
+    "name": "Plum Coloring",
+    "id": "209",
+    "hex": "#660066"
+  },
+  {
+    "name": "Purple Coloring",
+    "id": "210",
+    "hex": "#B200B3"
+  },
+  {
+    "name": "Magenta Coloring",
+    "id": "211",
+    "hex": "#FF00FF"
+  },
+  {
+    "name": "Pink Coloring",
+    "id": "212",
+    "hex": "#FF73FF"
+  },
+  {
+    "name": "Cottoncandy Coloring",
+    "id": "213",
+    "hex": "#FFBFFF"
+  },
+  {
+    "name": "Orchid Coloring",
+    "id": "214",
+    "hex": "#D98DD9"
+  },
+  {
+    "name": "Bruise Coloring",
+    "id": "215",
+    "hex": "#A653A6"
+  },
+  {
+    "name": "Raisin Coloring",
+    "id": "216",
+    "hex": "#330019"
+  },
+  {
+    "name": "Tyrian Coloring",
+    "id": "217",
+    "hex": "#660033"
+  },
+  {
+    "name": "Lust Coloring",
+    "id": "218",
+    "hex": "#B30059"
+  },
+  {
+    "name": "Fuschia Coloring",
+    "id": "219",
+    "hex": "#FF007F"
+  },
+  {
+    "name": "Flamingo Coloring",
+    "id": "220",
+    "hex": "#FF73B9"
+  },
+  {
+    "name": "Valentine Coloring",
+    "id": "221",
+    "hex": "#FFBFDF"
+  },
+  {
+    "name": "Kobi Coloring",
+    "id": "222",
+    "hex": "#D98DB3"
+  },
+  {
+    "name": "Rouge Coloring",
+    "id": "223",
+    "hex": "#A6537C"
+  },
+  {
+    "name": "Black Coloring",
+    "id": "224",
+    "hex": "#191919"
+  },
+  {
+    "name": "Shadow Coloring",
+    "id": "225",
+    "hex": "#333333"
+  },
+  {
+    "name": "Charcoal Coloring",
+    "id": "226",
+    "hex": "#4D4D4D"
+  },
+  {
+    "name": "Gunmetal Coloring",
+    "id": "227",
+    "hex": "#666666"
+  },
+  {
+    "name": "Slate Coloring",
+    "id": "228",
+    "hex": "#808080"
+  },
+  {
+    "name": "Steel Coloring",
+    "id": "229",
+    "hex": "#999999"
+  },
+  {
+    "name": "Grey Coloring",
+    "id": "230",
+    "hex": "#B3B3B3"
+  },
+  {
+    "name": "Silver Coloring",
+    "id": "231",
+    "hex": "#CCCCCC"
+  },
+  {
+    "name": "Wisp Coloring",
+    "id": "232",
+    "hex": "#E6E6E6"
+  },
+  {
+    "name": "White Coloring",
+    "id": "233",
+    "hex": "#FFFFFF"
+  },
+  {
+    "name": "Mud Coloring",
+    "id": "234",
+    "hex": "#403522"
+  },
+  {
+    "name": "Bark Coloring",
+    "id": "235",
+    "hex": "#594724"
+  },
+  {
+    "name": "Brown Coloring",
+    "id": "236",
+    "hex": "#80642D"
+  },
+  {
+    "name": "Leather Coloring",
+    "id": "237",
+    "hex": "#99823D"
+  },
+  {
+    "name": "Camel Coloring",
+    "id": "238",
+    "hex": "#B39C59"
+  },
+  {
+    "name": "Tan Coloring",
+    "id": "239",
+    "hex": "#CCB266"
+  },
+  {
+    "name": "Sand Coloring",
+    "id": "240",
+    "hex": "#E6C973"
+  },
+  {
+    "name": "Parchment Coloring",
+    "id": "241",
+    "hex": "#FFEFBF"
+  },
+  {
+    "name": "Cream Coloring",
+    "id": "242",
+    "hex": "#F5F5DC"
+  },
+  {
+    "name": "Brick Coloring",
+    "id": "243",
+    "hex": "#994326"
+  },
+  {
+    "name": "Tangerine Coloring",
+    "id": "244",
+    "hex": "#FFA424"
+  },
+  {
+    "name": "Gold Coloring",
+    "id": "245",
+    "hex": "#FFC000"
+  },
+  {
+    "name": "Mustard Coloring",
+    "id": "246",
+    "hex": "#F0F032"
+  },
+  {
+    "name": "Craggy-Dew Coloring",
+    "id": "247",
+    "hex": "#B3E912"
+  },
+  {
+    "name": "Grass Coloring",
+    "id": "248",
+    "hex": "#227330"
+  },
+  {
+    "name": "Stream Coloring",
+    "id": "249",
+    "hex": "#2AC6B6"
+  },
+  {
+    "name": "Marine Coloring",
+    "id": "250",
+    "hex": "#007189"
+  },
+  {
+    "name": "Haze Coloring",
+    "id": "251",
+    "hex": "#535872"
+  },
+  {
+    "name": "Dusk Coloring",
+    "id": "252",
+    "hex": "#8F4EA5"
+  },
+  {
+    "name": "Thistle Coloring",
+    "id": "253",
+    "hex": "#E6C3DD"
+  },
+  {
+    "name": "Bubblegum Coloring",
+    "id": "254",
+    "hex": "#FFBFCF"
+  }
+]

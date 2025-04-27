@@ -1,0 +1,8406 @@
+[
+  {
+    "name": "Absorbent Substrate",
+    "id": "SubstrateAbsorbent"
+  },
+  {
+    "name": "Achatina Paste",
+    "id": "SnailPaste"
+  },
+  {
+    "name": "Ammonite Bile",
+    "id": "AmmoniteBlood"
+  },
+  {
+    "name": "Angler Gel",
+    "id": "AnglerGel"
+  },
+  {
+    "name": "Black Pearl",
+    "id": "BlackPearl"
+  },
+  {
+    "name": "Blue Gem",
+    "id": "Gem_BioLum"
+  },
+  {
+    "name": "Blood Pack",
+    "id": "BloodPack"
+  },
+  {
+    "name": "Cementing Paste",
+    "id": "ChitinPaste"
+  },
+  {
+    "name": "Charcoal",
+    "id": "Charcoal"
+  },
+  {
+    "name": "Charge Battery",
+    "id": "ChargeBattery"
+  },
+  {
+    "name": "Chitin or Keratin",
+    "id": "ChitinOrKeratin"
+  },
+  {
+    "name": "Chitin",
+    "id": "PrimalItemResource_Chitin"
+  },
+  {
+    "name": "Clay",
+    "id": "Clay"
+  },
+  {
+    "name": "Congealed Gas Ball",
+    "id": "PrimalItemResource_Gas"
+  },
+  {
+    "name": "Crystal",
+    "id": "PrimalItemResource_Crystal"
+  },
+  {
+    "name": "Deathworm Horn",
+    "id": "KeratinSpike"
+  },
+  {
+    "name": "Electronics",
+    "id": "Electronics"
+  },
+  {
+    "name": "Element",
+    "id": "PrimalItemResource_Element"
+  },
+  {
+    "name": "Element Ore",
+    "id": "ElementOre"
+  },
+  {
+    "name": "Element Shard",
+    "id": "ElementShard"
+  },
+  {
+    "name": "Fertilizer",
+    "id": "Fertilizer_Compost"
+  },
+  {
+    "name": "Fiber",
+    "id": "Fibers"
+  },
+  {
+    "name": "Flint",
+    "id": "Flint"
+  },
+  {
+    "name": "Fungal Wood",
+    "id": "FungalWood"
+  },
+  {
+    "name": "Gasoline",
+    "id": "PrimalItemResource_Gasoline"
+  },
+  {
+    "name": "Green Gem",
+    "id": "Gem_Fertile"
+  },
+  {
+    "name": "Gunpowder",
+    "id": "Gunpowder"
+  },
+  {
+    "name": "Hide",
+    "id": "PrimalItemResource_Hide"
+  },
+  {
+    "name": "Human Hair",
+    "id": "PrimalItemResource_Hair"
+  },
+  {
+    "name": "Keratin",
+    "id": "PrimalItemResource_Keratin"
+  },
+  {
+    "name": "Leech Blood",
+    "id": "LeechBlood"
+  },
+  {
+    "name": "Leech Blood or Horns",
+    "id": "Curing"
+  },
+  {
+    "name": "Metal Ingot",
+    "id": "PrimalItemResource_MetalIngot"
+  },
+  {
+    "name": "Metal",
+    "id": "PrimalItemResource_Metal"
+  },
+  {
+    "name": "Narcotic",
+    "id": "Narcotic"
+  },
+  {
+    "name": "Obsidian",
+    "id": "Obsidian"
+  },
+  {
+    "name": "Oil",
+    "id": "PrimalItemResource_Oil"
+  },
+  {
+    "name": "Oil (Tusoteuthis)",
+    "id": "SquidOil"
+  },
+  {
+    "name": "Organic Polymer",
+    "id": "Polymer_Organic"
+  },
+  {
+    "name": "Pelt",
+    "id": "PrimalItemResource_Pelt"
+  },
+  {
+    "name": "Pelt, Hair, or Wool",
+    "id": "PeltOrHair"
+  },
+  {
+    "name": "Polymer",
+    "id": "PrimalItemResource_Polymer"
+  },
+  {
+    "name": "Preserving Salt",
+    "id": "PreservingSalt"
+  },
+  {
+    "name": "Propellant",
+    "id": "Propellant"
+  },
+  {
+    "name": "Rare Flower",
+    "id": "RareFlower"
+  },
+  {
+    "name": "Rare Mushroom",
+    "id": "RareMushroom"
+  },
+  {
+    "name": "Raw Salt",
+    "id": "RawSalt"
+  },
+  {
+    "name": "Re-Fertilizer",
+    "id": "PrimalItemConsumableMiracleGro"
+  },
+  {
+    "name": "Red Gem",
+    "id": "Gem_Element"
+  },
+  {
+    "name": "Sand",
+    "id": "Sand"
+  },
+  {
+    "name": "Sap",
+    "id": "PrimalItemResource_Sap"
+  },
+  {
+    "name": "Silica Pearls",
+    "id": "Silicon"
+  },
+  {
+    "name": "Silk",
+    "id": "Silk"
+  },
+  {
+    "name": "Sparkpowder",
+    "id": "Sparkpowder"
+  },
+  {
+    "name": "Stimulant",
+    "id": "Stimulant"
+  },
+  {
+    "name": "Stone",
+    "id": "PrimalItemResource_Stone"
+  },
+  {
+    "name": "Sulfur",
+    "id": "Sulfur"
+  },
+  {
+    "name": "Thatch",
+    "id": "PrimalItemResource_Thatch"
+  },
+  {
+    "name": "Wood",
+    "id": "PrimalItemResource_Wood"
+  },
+  {
+    "name": "Wool",
+    "id": "PrimalItemResource_Wool"
+  },
+  {
+    "name": "Woolly Rhino Horn",
+    "id": "PrimalItemResource_Horn"
+  },
+  {
+    "name": "Blood Extraction Syringe",
+    "id": "BloodExtractor"
+  },
+  {
+    "name": "Camera",
+    "id": "PrimalItem_Camera"
+  },
+  {
+    "name": "Chainsaw",
+    "id": "PrimalItem_ChainSaw"
+  },
+  {
+    "name": "Compass",
+    "id": "WeaponCompass"
+  },
+  {
+    "name": "Fishing Rod",
+    "id": "PrimalItem_WeaponFishingRod"
+  },
+  {
+    "name": "GPS",
+    "id": "WeaponGPS"
+  },
+  {
+    "name": "Magnifying Glass",
+    "id": "WeaponMagnifyingGlass"
+  },
+  {
+    "name": "Metal Hatchet",
+    "id": "PrimalItem_WeaponMetalHatchet"
+  },
+  {
+    "name": "Metal Pick",
+    "id": "WeaponMetalPick"
+  },
+  {
+    "name": "Metal Sickle",
+    "id": "WeaponSickle"
+  },
+  {
+    "name": "Paintbrush",
+    "id": "WeaponPaintbrush"
+  },
+  {
+    "name": "Pliers",
+    "id": "Pliers"
+  },
+  {
+    "name": "Radio",
+    "id": "PrimalItemRadio"
+  },
+  {
+    "name": "Scissors",
+    "id": "WeaponScissors"
+  },
+  {
+    "name": "Spyglass",
+    "id": "WeaponSpyglass"
+  },
+  {
+    "name": "Stone Hatchet",
+    "id": "WeaponStoneHatchet"
+  },
+  {
+    "name": "Stone Pick",
+    "id": "PrimalItem_WeaponStonePick"
+  },
+  {
+    "name": "Torch",
+    "id": "WeaponTorch"
+  },
+  {
+    "name": "Whip",
+    "id": "WeaponWhip"
+  },
+  {
+    "name": "Cloth Pants",
+    "id": "PrimalItemArmor_ClothPants"
+  },
+  {
+    "name": "Cloth Shirt",
+    "id": "PrimalItemArmor_ClothShirt"
+  },
+  {
+    "name": "Cloth Hat",
+    "id": "ClothHelmet"
+  },
+  {
+    "name": "Cloth Boots",
+    "id": "PrimalItemArmor_ClothBoots"
+  },
+  {
+    "name": "Cloth Gloves",
+    "id": "PrimalItemArmor_ClothGloves"
+  },
+  {
+    "name": "Hide Pants",
+    "id": "HidePants"
+  },
+  {
+    "name": "Hide Shirt",
+    "id": "HideShirt"
+  },
+  {
+    "name": "Hide Hat",
+    "id": "PrimalItemArmor_HideHelmet"
+  },
+  {
+    "name": "Hide Boots",
+    "id": "HideBoots"
+  },
+  {
+    "name": "Hide Gloves",
+    "id": "HideGloves"
+  },
+  {
+    "name": "Chitin Leggings",
+    "id": "ChitinPants"
+  },
+  {
+    "name": "Chitin Chestpiece",
+    "id": "ChitinShirt"
+  },
+  {
+    "name": "Chitin Helmet",
+    "id": "ChitinHelmet"
+  },
+  {
+    "name": "Chitin Boots",
+    "id": "ChitinBoots"
+  },
+  {
+    "name": "Chitin Gauntlets",
+    "id": "ChitinGloves"
+  },
+  {
+    "name": "Parachute",
+    "id": "Parachute"
+  },
+  {
+    "name": "Flak Leggings",
+    "id": "MetalPants"
+  },
+  {
+    "name": "Flak Chestpiece",
+    "id": "MetalShirt"
+  },
+  {
+    "name": "Flak Helmet",
+    "id": "MetalHelmet"
+  },
+  {
+    "name": "Flak Boots",
+    "id": "MetalBoots"
+  },
+  {
+    "name": "Flak Gauntlets",
+    "id": "MetalGloves"
+  },
+  {
+    "name": "Heavy Miner's Helmet",
+    "id": "MinersHelmet"
+  },
+  {
+    "name": "SCUBA Tank",
+    "id": "ScubaShirt_SuitWithTank"
+  },
+  {
+    "name": "SCUBA Mask",
+    "id": "ScubaHelmet_Goggles"
+  },
+  {
+    "name": "SCUBA Flippers",
+    "id": "ScubaBoots_Flippers"
+  },
+  {
+    "name": "Fur Leggings",
+    "id": "FurPants"
+  },
+  {
+    "name": "Fur Chestpiece",
+    "id": "FurShirt"
+  },
+  {
+    "name": "Fur Cap",
+    "id": "FurHelmet"
+  },
+  {
+    "name": "Fur Boots",
+    "id": "FurBoots"
+  },
+  {
+    "name": "Fur Gauntlets",
+    "id": "FurGloves"
+  },
+  {
+    "name": "Riot Leggings",
+    "id": "RiotPants"
+  },
+  {
+    "name": "Riot Chestpiece",
+    "id": "RiotShirt"
+  },
+  {
+    "name": "Riot Gauntlets",
+    "id": "RiotGloves"
+  },
+  {
+    "name": "Riot Boots",
+    "id": "RiotBoots"
+  },
+  {
+    "name": "Riot Helmet",
+    "id": "RiotHelmet"
+  },
+  {
+    "name": "Tek Boots",
+    "id": "PrimalItemArmor_TekBoots"
+  },
+  {
+    "name": "Tek Chestpiece",
+    "id": "PrimalItemArmor_TekShirt"
+  },
+  {
+    "name": "Tek Gauntlets",
+    "id": "PrimalItemArmor_TekGloves"
+  },
+  {
+    "name": "Tek Helmet",
+    "id": "PrimalItemArmor_TekHelmet"
+  },
+  {
+    "name": "Tek Leggings",
+    "id": "PrimalItemArmor_TekPants"
+  },
+  {
+    "name": "SCUBA Leggings",
+    "id": "ScubaPants"
+  },
+  {
+    "name": "Wooden Shield",
+    "id": "WoodShield"
+  },
+  {
+    "name": "Metal Shield",
+    "id": "MetalShield"
+  },
+  {
+    "name": "Riot Shield",
+    "id": "TransparentRiotShield"
+  },
+  {
+    "name": "Tek Shield",
+    "id": "ShieldTek"
+  },
+  {
+    "name": "Ghillie Boots",
+    "id": "GhillieBoots"
+  },
+  {
+    "name": "Ghillie Chestpiece",
+    "id": "GhillieShirt"
+  },
+  {
+    "name": "Ghillie Gauntlets",
+    "id": "GhillieGloves"
+  },
+  {
+    "name": "Ghillie Leggings",
+    "id": "GhilliePants"
+  },
+  {
+    "name": "Ghillie Mask",
+    "id": "GhillieHelmet"
+  },
+  {
+    "name": "Gas Mask",
+    "id": "GasMask"
+  },
+  {
+    "name": "Desert Cloth Boots",
+    "id": "DesertClothBoots"
+  },
+  {
+    "name": "Desert Cloth Gloves",
+    "id": "DesertClothGloves"
+  },
+  {
+    "name": "Desert Goggles and Hat",
+    "id": "DesertClothGogglesHelmet"
+  },
+  {
+    "name": "Desert Cloth Pants",
+    "id": "DesertClothPants"
+  },
+  {
+    "name": "Desert Cloth Shirt",
+    "id": "DesertClothShirt"
+  },
+  {
+    "name": "Night Vision Goggles",
+    "id": "NightVisionGoggles"
+  },
+  {
+    "name": "Hazard Suit Boots",
+    "id": "HazardSuitBoots"
+  },
+  {
+    "name": "Hazard Suit Gloves",
+    "id": "HazardSuitGloves"
+  },
+  {
+    "name": "Hazard Suit Hat",
+    "id": "HazardSuitHelmet"
+  },
+  {
+    "name": "Hazard Suit Pants",
+    "id": "HazardSuitPants"
+  },
+  {
+    "name": "Hazard Suit Shirt",
+    "id": "HazardSuitShirt"
+  },
+  {
+    "name": "Allosaurus Saddle",
+    "id": "AlloSaddle"
+  },
+  {
+    "name": "Ankylo Saddle",
+    "id": "AnkyloSaddle"
+  },
+  {
+    "name": "Araneo Saddle",
+    "id": "SpiderSaddle"
+  },
+  {
+    "name": "Argentavis Saddle",
+    "id": "ArgentavisSaddle"
+  },
+  {
+    "name": "Arthropluera Saddle",
+    "id": "ArthroSaddle"
+  },
+  {
+    "name": "Baryonyx Saddle",
+    "id": "BaryonyxSaddle"
+  },
+  {
+    "name": "Basilisk Saddle",
+    "id": "BasiliskSaddle"
+  },
+  {
+    "name": "Basilosaurus Saddle",
+    "id": "BasiloSaddle"
+  },
+  {
+    "name": "Beelzebufo Saddle",
+    "id": "ToadSaddle"
+  },
+  {
+    "name": "Bronto Platform Saddle",
+    "id": "SauroSaddle_Platform"
+  },
+  {
+    "name": "Bronto Saddle",
+    "id": "PrimalItemArmor_SauroSaddle"
+  },
+  {
+    "name": "Carbonemys Saddle",
+    "id": "PrimalItemArmor_TurtleSaddle"
+  },
+  {
+    "name": "Carno Saddle",
+    "id": "CarnoSaddle"
+  },
+  {
+    "name": "Castoroides Saddle",
+    "id": "BeaverSaddle"
+  },
+  {
+    "name": "Chalicotherium Saddle",
+    "id": "ChalicoSaddle"
+  },
+  {
+    "name": "Daeodon Saddle",
+    "id": "DaeodonSaddle"
+  },
+  {
+    "name": "Diplodocus Saddle",
+    "id": "DiplodocusSaddle"
+  },
+  {
+    "name": "Direbear Saddle",
+    "id": "DireBearSaddle"
+  },
+  {
+    "name": "Doedicurus Saddle",
+    "id": "DoedSaddle"
+  },
+  {
+    "name": "Dunkleosteus Saddle",
+    "id": "DunkleosteusSaddle"
+  },
+  {
+    "name": "Equus Saddle",
+    "id": "EquusSaddle"
+  },
+  {
+    "name": "Gallimimus Saddle",
+    "id": "PrimalItemArmor_Gallimimus"
+  },
+  {
+    "name": "Giganotosaurus Saddle",
+    "id": "GigantSaddle"
+  },
+  {
+    "name": "Hyaenodon Meatpack",
+    "id": "HyaenodonSaddle"
+  },
+  {
+    "name": "Ichthyosaurus Saddle",
+    "id": "PrimalItemArmor_DolphinSaddle"
+  },
+  {
+    "name": "Iguanodon Saddle",
+    "id": "IguanodonSaddle"
+  },
+  {
+    "name": "Kaprosuchus Saddle",
+    "id": "KaprosuchusSaddle"
+  },
+  {
+    "name": "Karkinos Saddle",
+    "id": "CrabSaddle"
+  },
+  {
+    "name": "Lymantria Saddle",
+    "id": "PrimalItemArmor_MothSaddle"
+  },
+  {
+    "name": "Mammoth Saddle",
+    "id": "MammothSaddle"
+  },
+  {
+    "name": "Manta Saddle",
+    "id": "MantaSaddle"
+  },
+  {
+    "name": "Mantis Saddle",
+    "id": "MantisSaddle"
+  },
+  {
+    "name": "Megaloceros Saddle",
+    "id": "StagSaddle"
+  },
+  {
+    "name": "Megalodon Saddle",
+    "id": "PrimalItemArmor_MegalodonSaddle"
+  },
+  {
+    "name": "Megalosaurus Saddle",
+    "id": "MegalosaurusSaddle"
+  },
+  {
+    "name": "Megalania Saddle",
+    "id": "MegalaniaSaddle"
+  },
+  {
+    "name": "Megalodon Tek Saddle",
+    "id": "MegalodonSaddle_Tek"
+  },
+  {
+    "name": "Megatherium Saddle",
+    "id": "MegatheriumSaddle"
+  },
+  {
+    "name": "Morellatops Saddle",
+    "id": "CamelsaurusSaddle"
+  },
+  {
+    "name": "Mosasaur Platform Saddle",
+    "id": "MosaSaddle_Platform"
+  },
+  {
+    "name": "Mosasaur Saddle",
+    "id": "PrimalItemArmor_MosaSaddle"
+  },
+  {
+    "name": "Mosasaur Tek Saddle",
+    "id": "MosaSaddle_Tek"
+  },
+  {
+    "name": "Pachy Saddle",
+    "id": "PachySaddle"
+  },
+  {
+    "name": "Pachyrhinosaurus Saddle",
+    "id": "PachyrhinoSaddle"
+  },
+  {
+    "name": "Paracer Platform Saddle",
+    "id": "ParacerSaddle_Platform"
+  },
+  {
+    "name": "Paracer Saddle",
+    "id": "Paracer_Saddle"
+  },
+  {
+    "name": "Parasaur Saddle",
+    "id": "PrimalItemArmor_ParaSaddle"
+  },
+  {
+    "name": "Pelagornis Saddle",
+    "id": "PelaSaddle"
+  },
+  {
+    "name": "Phiomia Saddle",
+    "id": "PhiomiaSaddle"
+  },
+  {
+    "name": "Plesiosaur Platform Saddle",
+    "id": "PlesiSaddle_Platform"
+  },
+  {
+    "name": "Plesiosaur Saddle",
+    "id": "PlesiaSaddle"
+  },
+  {
+    "name": "Procoptodon Saddle",
+    "id": "ProcoptodonSaddle"
+  },
+  {
+    "name": "Pteranodon Saddle",
+    "id": "PteroSaddle"
+  },
+  {
+    "name": "Pulmonoscorpius Saddle",
+    "id": "ScorpionSaddle"
+  },
+  {
+    "name": "Quetz Platform Saddle",
+    "id": "QuetzSaddle_Platform"
+  },
+  {
+    "name": "Quetz Saddle",
+    "id": "PrimalItemArmor_QuetzSaddle"
+  },
+  {
+    "name": "Raptor Saddle",
+    "id": "PrimalItemArmor_RaptorSaddle"
+  },
+  {
+    "name": "Ravager Saddle",
+    "id": "CavewolfSaddle"
+  },
+  {
+    "name": "Rex Saddle",
+    "id": "PrimalItemArmor_RexSaddle"
+  },
+  {
+    "name": "Rex Tek Saddle",
+    "id": "RexSaddle_Tek"
+  },
+  {
+    "name": "Rock Drake Saddle",
+    "id": "PrimalItemArmor_RockDrakeSaddle"
+  },
+  {
+    "name": "Rock Drake Tek Saddle",
+    "id": "RockDrakeSaddle_Tek"
+  },
+  {
+    "name": "Rock Golem Saddle",
+    "id": "RockGolemSaddle"
+  },
+  {
+    "name": "Roll Rat Saddle",
+    "id": "MoleRatSaddle"
+  },
+  {
+    "name": "Sabertooth Saddle",
+    "id": "SaberSaddle"
+  },
+  {
+    "name": "Sarco Saddle",
+    "id": "SarcoSaddle"
+  },
+  {
+    "name": "Spino Saddle",
+    "id": "SpinoSaddle"
+  },
+  {
+    "name": "Stego Saddle",
+    "id": "StegoSaddle"
+  },
+  {
+    "name": "Tapejara Saddle",
+    "id": "TapejaraSaddle"
+  },
+  {
+    "name": "Tapejara Tek Saddle",
+    "id": "Tapejara_Tek"
+  },
+  {
+    "name": "Terror Bird Saddle",
+    "id": "TerrorBirdSaddle"
+  },
+  {
+    "name": "Therizinosaurus Saddle",
+    "id": "TherizinosaurusSaddle"
+  },
+  {
+    "name": "Thorny Dragon Saddle",
+    "id": "SpineyLizardSaddle"
+  },
+  {
+    "name": "Thylacoleo Saddle",
+    "id": "ThylacoSaddle"
+  },
+  {
+    "name": "Titanosaur Platform Saddle",
+    "id": "TitanSaddle_Platform"
+  },
+  {
+    "name": "Trike Saddle",
+    "id": "TrikeSaddle"
+  },
+  {
+    "name": "Tusoteuthis Saddle",
+    "id": "TusoSaddle"
+  },
+  {
+    "name": "Woolly Rhino Saddle",
+    "id": "PrimalItemArmor_RhinoSaddle"
+  },
+  {
+    "name": "Yutyrannus Saddle",
+    "id": "YutySaddle"
+  },
+  {
+    "name": "Campfire",
+    "id": "Campfire"
+  },
+  {
+    "name": "Standing Torch",
+    "id": "StandingTorch"
+  },
+  {
+    "name": "Hide Sleeping Bag",
+    "id": "SleepingBag_Hide"
+  },
+  {
+    "name": "Thatch Ceiling",
+    "id": "ThatchCeiling"
+  },
+  {
+    "name": "Thatch Door",
+    "id": "ThatchDoor"
+  },
+  {
+    "name": "Thatch Foundation",
+    "id": "ThatchFloor"
+  },
+  {
+    "name": "Thatch Wall",
+    "id": "PrimalItemStructure_ThatchWall"
+  },
+  {
+    "name": "Thatch Doorframe",
+    "id": "ThatchWallWithDoor"
+  },
+  {
+    "name": "Wooden Catwalk",
+    "id": "WoodCatwalk"
+  },
+  {
+    "name": "Wooden Ceiling",
+    "id": "PrimalItemStructure_WoodCeiling"
+  },
+  {
+    "name": "Wooden Hatchframe",
+    "id": "WoodCeilingWithTrapdoor"
+  },
+  {
+    "name": "Wooden Door",
+    "id": "WoodDoor"
+  },
+  {
+    "name": "Wooden Foundation",
+    "id": "WoodFloor"
+  },
+  {
+    "name": "Wooden Ladder",
+    "id": "WoodLadder"
+  },
+  {
+    "name": "Wooden Pillar",
+    "id": "WoodPillar"
+  },
+  {
+    "name": "Wooden Ramp",
+    "id": "WoodRamp"
+  },
+  {
+    "name": "Wooden Trapdoor",
+    "id": "WoodTrapdoor"
+  },
+  {
+    "name": "Wooden Wall",
+    "id": "PrimalItemStructure_WoodWall"
+  },
+  {
+    "name": "Wooden Doorframe",
+    "id": "WoodWallWithDoor"
+  },
+  {
+    "name": "Wooden Windowframe",
+    "id": "WoodWallWithWindow"
+  },
+  {
+    "name": "Wooden Window",
+    "id": "WoodWindow"
+  },
+  {
+    "name": "Wooden Sign",
+    "id": "PrimalItemStructure_WoodSign"
+  },
+  {
+    "name": "Storage Box",
+    "id": "StorageBox_Small"
+  },
+  {
+    "name": "Large Storage Box",
+    "id": "StorageBox_Large"
+  },
+  {
+    "name": "Mortar and Pestle",
+    "id": "MortarAndPestle"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Intake",
+    "id": "StonePipeIntake"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Straight",
+    "id": "StonePipeStraight"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Inclined",
+    "id": "StonePipeIncline"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Intersection",
+    "id": "StonePipeIntersection"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Vertical",
+    "id": "StonePipeVertical"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Tap",
+    "id": "StonePipeTap"
+  },
+  {
+    "name": "Refining Forge",
+    "id": "PrimalItemStructure_Forge"
+  },
+  {
+    "name": "Smithy",
+    "id": "AnvilBench"
+  },
+  {
+    "name": "Compost Bin",
+    "id": "CompostBin"
+  },
+  {
+    "name": "Cooking Pot",
+    "id": "PrimalItemStructure_CookingPot"
+  },
+  {
+    "name": "Simple Bed",
+    "id": "Bed_Simple"
+  },
+  {
+    "name": "Small Crop Plot",
+    "id": "CropPlot_Small"
+  },
+  {
+    "name": "Wooden Fence Foundation",
+    "id": "WoodFenceFoundation"
+  },
+  {
+    "name": "Dinosaur Gateway",
+    "id": "WoodGateframe"
+  },
+  {
+    "name": "Dinosaur Gate",
+    "id": "PrimalItemStructure_WoodGate"
+  },
+  {
+    "name": "Metal Catwalk",
+    "id": "MetalCatwalk"
+  },
+  {
+    "name": "Metal Ceiling",
+    "id": "PrimalItemStructure_MetalCeiling"
+  },
+  {
+    "name": "Metal Hatchframe",
+    "id": "PrimalItemStructure_MetalCeilingWithTrapdoor"
+  },
+  {
+    "name": "Metal Door",
+    "id": "MetalDoor"
+  },
+  {
+    "name": "Metal Fence Foundation",
+    "id": "MetalFenceFoundation"
+  },
+  {
+    "name": "Metal Foundation",
+    "id": "MetalFloor"
+  },
+  {
+    "name": "Behemoth Gate",
+    "id": "MetalGate_Large"
+  },
+  {
+    "name": "Behemoth Gateway",
+    "id": "MetalGateframe_Large"
+  },
+  {
+    "name": "Metal Ladder",
+    "id": "MetalLadder"
+  },
+  {
+    "name": "Metal Pillar",
+    "id": "MetalPillar"
+  },
+  {
+    "name": "Metal Ramp",
+    "id": "MetalRamp"
+  },
+  {
+    "name": "Metal Trapdoor",
+    "id": "PrimalItemStructure_MetalTrapdoor"
+  },
+  {
+    "name": "Metal Wall",
+    "id": "PrimalItemStructure_MetalWall"
+  },
+  {
+    "name": "Metal Doorframe",
+    "id": "MetalWallWithDoor"
+  },
+  {
+    "name": "Metal Windowframe",
+    "id": "MetalWallWithWindow"
+  },
+  {
+    "name": "Metal Window",
+    "id": "MetalWindow"
+  },
+  {
+    "name": "Fabricator",
+    "id": "Fabricator"
+  },
+  {
+    "name": "Water Reservoir",
+    "id": "PrimalItemStructure_WaterTank"
+  },
+  {
+    "name": "Air Conditioner",
+    "id": "AirConditioner"
+  },
+  {
+    "name": "Electrical Generator",
+    "id": "PowerGenerator"
+  },
+  {
+    "name": "Electrical Outlet",
+    "id": "PowerOutlet"
+  },
+  {
+    "name": "Inclined Electrical Cable",
+    "id": "PowerCableIncline"
+  },
+  {
+    "name": "Electrical Cable Intersection",
+    "id": "PowerCableIntersection"
+  },
+  {
+    "name": "Straight Electrical Cable",
+    "id": "PowerCableStraight"
+  },
+  {
+    "name": "Vertical Electrical Cable",
+    "id": "PowerCableVertical"
+  },
+  {
+    "name": "Lamppost",
+    "id": "PrimalItemStructure_Lamppost"
+  },
+  {
+    "name": "Refrigerator",
+    "id": "IceBox"
+  },
+  {
+    "name": "Auto Turret",
+    "id": "PrimalItemStructure_Turret"
+  },
+  {
+    "name": "Remote Keypad",
+    "id": "Keypad"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Inclined",
+    "id": "MetalPipeIncline"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Intake",
+    "id": "MetalPipeIntake"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Intersection",
+    "id": "MetalPipeIntersection"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Straight",
+    "id": "MetalPipeStraight"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Tap",
+    "id": "MetalPipeTap"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Vertical",
+    "id": "MetalPipeVertical"
+  },
+  {
+    "name": "Metal Sign",
+    "id": "PrimalItemStructure_MetalSign"
+  },
+  {
+    "name": "Wooden Billboard",
+    "id": "WoodSign_Large"
+  },
+  {
+    "name": "Metal Billboard",
+    "id": "MetalSign_Large"
+  },
+  {
+    "name": "Medium Crop Plot",
+    "id": "CropPlot_Medium"
+  },
+  {
+    "name": "Large Crop Plot",
+    "id": "CropPlot_Large"
+  },
+  {
+    "name": "Wooden Wall Sign",
+    "id": "WoodSign_Wall"
+  },
+  {
+    "name": "Metal Dinosaur Gateway",
+    "id": "PrimalItemStructure_MetalGateframe"
+  },
+  {
+    "name": "Metal Dinosaur Gate",
+    "id": "PrimalItemStructure_MetalGate"
+  },
+  {
+    "name": "Metal Wall Sign",
+    "id": "MetalSign_Wall"
+  },
+  {
+    "name": "Multi-Panel Flag",
+    "id": "PrimalItemStructure_Flag"
+  },
+  {
+    "name": "Spider Flag",
+    "id": "Flag_Spider"
+  },
+  {
+    "name": "Preserving Bin",
+    "id": "PreservingBin"
+  },
+  {
+    "name": "Metal Spike Wall",
+    "id": "MetalSpikeWall"
+  },
+  {
+    "name": "Vault",
+    "id": "StorageBox_Huge"
+  },
+  {
+    "name": "Wooden Spike Wall",
+    "id": "WoodSpikeWall"
+  },
+  {
+    "name": "Bookshelf",
+    "id": "Bookshelf"
+  },
+  {
+    "name": "Stone Fence Foundation",
+    "id": "StoneFenceFoundation"
+  },
+  {
+    "name": "Stone Wall",
+    "id": "PrimalItemStructure_StoneWall"
+  },
+  {
+    "name": "Metal Water Reservoir",
+    "id": "WaterTankMetal"
+  },
+  {
+    "name": "Stone Ceiling",
+    "id": "PrimalItemStructure_StoneCeiling"
+  },
+  {
+    "name": "Stone Hatchframe",
+    "id": "PrimalItemStructure_StoneCeilingWithTrapdoor"
+  },
+  {
+    "name": "Reinforced Wooden Door",
+    "id": "StoneDoor"
+  },
+  {
+    "name": "Stone Foundation",
+    "id": "StoneFloor"
+  },
+  {
+    "name": "Reinforced Dinosaur Gate",
+    "id": "PrimalItemStructure_StoneGate"
+  },
+  {
+    "name": "Stone Dinosaur Gateway",
+    "id": "PrimalItemStructure_StoneGateframe"
+  },
+  {
+    "name": "Stone Pillar",
+    "id": "StonePillar"
+  },
+  {
+    "name": "Stone Doorframe",
+    "id": "StoneWallWithDoor"
+  },
+  {
+    "name": "Stone Windowframe",
+    "id": "StoneWallWithWindow"
+  },
+  {
+    "name": "Reinforced Window",
+    "id": "StoneWindow"
+  },
+  {
+    "name": "Reinforced Trapdoor",
+    "id": "StoneTrapdoor"
+  },
+  {
+    "name": "Omnidirectional Lamppost",
+    "id": "LamppostOmni"
+  },
+  {
+    "name": "Industrial Grill",
+    "id": "Grill"
+  },
+  {
+    "name": "Single Panel Flag",
+    "id": "Flag_Single"
+  },
+  {
+    "name": "Feeding Trough",
+    "id": "FeedingTrough"
+  },
+  {
+    "name": "Behemoth Stone Dinosaur Gateway",
+    "id": "StoneGateframe_Large"
+  },
+  {
+    "name": "Behemoth Reinforced Dinosaur Gate",
+    "id": "StoneGateLarge"
+  },
+  {
+    "name": "Sloped Thatch Roof",
+    "id": "ThatchRoof"
+  },
+  {
+    "name": "Sloped Thatch Wall Left",
+    "id": "ThatchWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Thatch Wall Right",
+    "id": "ThatchWall_Sloped_Right"
+  },
+  {
+    "name": "Sloped Wooden Roof",
+    "id": "WoodRoof"
+  },
+  {
+    "name": "Sloped Wood Wall Left",
+    "id": "WoodWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Wood Wall Right",
+    "id": "WoodWall_Sloped_Right"
+  },
+  {
+    "name": "Sloped Stone Roof",
+    "id": "StoneRoof"
+  },
+  {
+    "name": "Sloped Stone Wall Left",
+    "id": "StoneWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Stone Wall Right",
+    "id": "StoneWall_Sloped_Right"
+  },
+  {
+    "name": "Sloped Metal Roof",
+    "id": "MetalRoof"
+  },
+  {
+    "name": "Sloped Metal Wall Left",
+    "id": "MetalWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Metal Wall Right",
+    "id": "MetalWall_Sloped_Right"
+  },
+  {
+    "name": "Wooden Raft",
+    "id": "PrimalItemRaft"
+  },
+  {
+    "name": "Painting Canvas",
+    "id": "PaintingCanvas"
+  },
+  {
+    "name": "Greenhouse Wall",
+    "id": "PrimalItemStructure_GreenhouseWall"
+  },
+  {
+    "name": "Greenhouse Ceiling",
+    "id": "GreenhouseCeiling"
+  },
+  {
+    "name": "Greenhouse Doorframe",
+    "id": "GreenhouseWallWithDoor"
+  },
+  {
+    "name": "Greenhouse Door",
+    "id": "GreenhouseDoor"
+  },
+  {
+    "name": "Sloped Greenhouse Wall Left",
+    "id": "GreenhouseWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Greenhouse Wall Right",
+    "id": "GreenhouseWall_Sloped_Right"
+  },
+  {
+    "name": "Sloped Greenhouse Roof",
+    "id": "GreenhouseRoof"
+  },
+  {
+    "name": "Greenhouse Window",
+    "id": "GreenhouseWindow"
+  },
+  {
+    "name": "Elevator Track",
+    "id": "ElevatorTrackBase"
+  },
+  {
+    "name": "Small Elevator Platform",
+    "id": "ElevatorPlatformSmall"
+  },
+  {
+    "name": "Medium Elevator Platform",
+    "id": "ElevatorPlatfromMedium"
+  },
+  {
+    "name": "Large Elevator Platform",
+    "id": "ElevatorPlatformLarge"
+  },
+  {
+    "name": "Ballista Turret",
+    "id": "TurretBallista"
+  },
+  {
+    "name": "Wooden Chair",
+    "id": "Furniture_WoodChair"
+  },
+  {
+    "name": "Wooden Bench",
+    "id": "Furniture_WoodBench"
+  },
+  {
+    "name": "Gravestone",
+    "id": "Furniture_Gravestone"
+  },
+  {
+    "name": "Artifact Pedastal",
+    "id": "TrophyBase"
+  },
+  {
+    "name": "Wardrums",
+    "id": "Wardrums"
+  },
+  {
+    "name": "War Map",
+    "id": "WarMap"
+  },
+  {
+    "name": "Wooden Railing",
+    "id": "WoodRailing"
+  },
+  {
+    "name": "Stone Railing",
+    "id": "StoneRailing"
+  },
+  {
+    "name": "Metal Railing",
+    "id": "MetalRailing"
+  },
+  {
+    "name": "Trophy Wall-Mount",
+    "id": "TrophyWall"
+  },
+  {
+    "name": "Minigun Turret",
+    "id": "TurretMinigun"
+  },
+  {
+    "name": "Catapult Turret",
+    "id": "TurretCatapult"
+  },
+  {
+    "name": "Rocket Turret",
+    "id": "TurretRocket"
+  },
+  {
+    "name": "Homing Underwater Mine",
+    "id": "SeaMine"
+  },
+  {
+    "name": "Wall Torch",
+    "id": "WallTorch"
+  },
+  {
+    "name": "Industrial Forge",
+    "id": "IndustrialForge"
+  },
+  {
+    "name": "Industrial Cooker",
+    "id": "IndustrialCookingPot"
+  },
+  {
+    "name": "Bunk Bed",
+    "id": "Bed_Modern"
+  },
+  {
+    "name": "Wooden Table",
+    "id": "Furniture_WoodTable"
+  },
+  {
+    "name": "Stone Fireplace",
+    "id": "Fireplace"
+  },
+  {
+    "name": "Wooden Cage",
+    "id": "WoodCage"
+  },
+  {
+    "name": "Beer Barrel",
+    "id": "BeerBarrel"
+  },
+  {
+    "name": "Chemistry Bench",
+    "id": "ChemBench"
+  },
+  {
+    "name": "Cannon",
+    "id": "PrimalItemStructure_Cannon"
+  },
+  {
+    "name": "Gorilla Flag",
+    "id": "Flag_Gorilla"
+  },
+  {
+    "name": "Dragon Flag",
+    "id": "Flag_Dragon"
+  },
+  {
+    "name": "Training Dummy",
+    "id": "TrainingDummy"
+  },
+  {
+    "name": "Rope Ladder",
+    "id": "PrimalItemStructure_RopeLadder"
+  },
+  {
+    "name": "Wooden Tree Platform",
+    "id": "TreePlatform_Wood"
+  },
+  {
+    "name": "Metal Tree Platform",
+    "id": "TreePlatform_Metal"
+  },
+  {
+    "name": "Tree Sap Tap",
+    "id": "TreeTap"
+  },
+  {
+    "name": "Wooden Staircase",
+    "id": "WoodStairs"
+  },
+  {
+    "name": "Stone Staircase",
+    "id": "StoneStairs"
+  },
+  {
+    "name": "Metal Staircase",
+    "id": "MetalStairs"
+  },
+  {
+    "name": "Industrial Grinder",
+    "id": "Grinder"
+  },
+  {
+    "name": "Giant Stone Hatchframe",
+    "id": "StoneCeilingWithTrapdoorGiant"
+  },
+  {
+    "name": "Giant Reinforced Trapdoor",
+    "id": "StoneCeilingDoorGiant"
+  },
+  {
+    "name": "Giant Metal Hatchframe",
+    "id": "MetalCeilingWithTrapdoorGiant"
+  },
+  {
+    "name": "Giant Metal Trapdoor",
+    "id": "MetalTrapdoorGiant"
+  },
+  {
+    "name": "Adobe Ceiling",
+    "id": "PrimalItemStructure_AdobeCeiling"
+  },
+  {
+    "name": "Giant Adobe Trapdoor",
+    "id": "AdobeCeilingDoorGiant"
+  },
+  {
+    "name": "Giant Adobe Hatchframe",
+    "id": "AdobeCeilingWithDoorWay_Giant"
+  },
+  {
+    "name": "Adobe Hatchframe",
+    "id": "AdobeCeilingWithTrapdoor"
+  },
+  {
+    "name": "Adobe Door",
+    "id": "AdobeDoor"
+  },
+  {
+    "name": "Adobe Fence Foundation",
+    "id": "AdobeFenceFoundation"
+  },
+  {
+    "name": "Adobe Foundation",
+    "id": "AdobeFloor"
+  },
+  {
+    "name": "Adobe Dinosaur Gateway",
+    "id": "AdobeFrameGate"
+  },
+  {
+    "name": "Adobe Dinosaur Gate",
+    "id": "PrimalItemStructure_AdobeGateDoor"
+  },
+  {
+    "name": "Behemoth Adobe Dinosaur Gate",
+    "id": "AdobeGateDoor_Large"
+  },
+  {
+    "name": "Behemoth Adobe Dinosaur Gateway",
+    "id": "AdobeGateframe_Large"
+  },
+  {
+    "name": "Adobe Ladder",
+    "id": "AdobeLader"
+  },
+  {
+    "name": "Adobe Pillar",
+    "id": "AdobePillar"
+  },
+  {
+    "name": "Adobe Railing",
+    "id": "AdobeRailing"
+  },
+  {
+    "name": "Adobe Ramp",
+    "id": "AdobeRamp"
+  },
+  {
+    "name": "Sloped Adobe Roof",
+    "id": "AdobeRoof"
+  },
+  {
+    "name": "Adobe Staircase",
+    "id": "AdobeStaircase"
+  },
+  {
+    "name": "Adobe Trapdoor",
+    "id": "AdobeTrapdoor"
+  },
+  {
+    "name": "Adobe Wall",
+    "id": "PrimalItemStructure_AdobeWall"
+  },
+  {
+    "name": "Sloped Adobe Wall Left",
+    "id": "AdobeWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Adobe Wall Right",
+    "id": "AdobeWall_Sloped_Right"
+  },
+  {
+    "name": "Adobe Doorframe",
+    "id": "AdobeWallWithDoor"
+  },
+  {
+    "name": "Adobe Windowframe",
+    "id": "AdobeWallWithWindow"
+  },
+  {
+    "name": "Adobe Window",
+    "id": "AdobeWindow"
+  },
+  {
+    "name": "Manticore Flag",
+    "id": "Flag_Manticore"
+  },
+  {
+    "name": "Mirror",
+    "id": "Mirror"
+  },
+  {
+    "name": "Oil Pump",
+    "id": "oilPump"
+  },
+  {
+    "name": "Tent",
+    "id": "PrimalItemStructure_Tent"
+  },
+  {
+    "name": "Vessel",
+    "id": "Vessel"
+  },
+  {
+    "name": "Water Well",
+    "id": "WaterWell"
+  },
+  {
+    "name": "Wind Turbine",
+    "id": "WindTurbine"
+  },
+  {
+    "name": "Tek Replicator",
+    "id": "TekReplicator"
+  },
+  {
+    "name": "Tek Transmitter",
+    "id": "TekTransmitter"
+  },
+  {
+    "name": "Behemoth Tek Gate",
+    "id": "TekGate_Large"
+  },
+  {
+    "name": "Behemoth Tek Gateway",
+    "id": "TekGateframe_Large"
+  },
+  {
+    "name": "Sloped Tek Roof",
+    "id": "TekRoof"
+  },
+  {
+    "name": "Sloped Tek Wall Left",
+    "id": "TekWall_Sloped_Left"
+  },
+  {
+    "name": "Sloped Tek Wall Right",
+    "id": "TekWall_Sloped_Right"
+  },
+  {
+    "name": "Tek Catwalk",
+    "id": "TekCatwalk"
+  },
+  {
+    "name": "Tek Ceiling",
+    "id": "PrimalItemStructure_TekCeiling"
+  },
+  {
+    "name": "Tek Dinosaur Gate",
+    "id": "PrimalItemStructure_TekGate"
+  },
+  {
+    "name": "Tek Dinosaur Gateway",
+    "id": "PrimalItemStructure_TekGateframe"
+  },
+  {
+    "name": "Tek Door",
+    "id": "TekDoor"
+  },
+  {
+    "name": "Tek Doorframe",
+    "id": "TekWallWithDoor"
+  },
+  {
+    "name": "Tek Fence Foundation",
+    "id": "TekFenceFoundation"
+  },
+  {
+    "name": "Tek Forcefield",
+    "id": "TekShield"
+  },
+  {
+    "name": "Tek Foundation",
+    "id": "TekFloor"
+  },
+  {
+    "name": "Tek Hatchframe",
+    "id": "TekCeilingWithTrapdoor"
+  },
+  {
+    "name": "Tek Ladder",
+    "id": "TekLadder"
+  },
+  {
+    "name": "Tek Pillar",
+    "id": "TekPillar"
+  },
+  {
+    "name": "Tek Railing",
+    "id": "TekRailing"
+  },
+  {
+    "name": "Tek Ramp",
+    "id": "TekRamp"
+  },
+  {
+    "name": "Tek Staircase",
+    "id": "TekStairs"
+  },
+  {
+    "name": "Tek Trapdoor",
+    "id": "TekTrapdoor"
+  },
+  {
+    "name": "Tek Wall",
+    "id": "PrimalItemStructure_TekWall"
+  },
+  {
+    "name": "Tek Window",
+    "id": "TekWindow"
+  },
+  {
+    "name": "Tek Windowframe",
+    "id": "TekWallWithWindow"
+  },
+  {
+    "name": "Tek Generator",
+    "id": "TekGenerator"
+  },
+  {
+    "name": "Tek Teleporter",
+    "id": "PrimalItemStructure_TekTeleporter"
+  },
+  {
+    "name": "Vacuum Compartment",
+    "id": "PrimalItemStructure_UnderwaterBase"
+  },
+  {
+    "name": "Vacuum Compartment Moonpool",
+    "id": "UnderwaterBase_Moonpool"
+  },
+  {
+    "name": "Bee Hive",
+    "id": "BeeHive"
+  },
+  {
+    "name": "Cloning Chamber",
+    "id": "TekCloningChamber"
+  },
+  {
+    "name": "Tek Turret",
+    "id": "TurretTek"
+  },
+  {
+    "name": "Motorboat",
+    "id": "PrimalItemMotorboat"
+  },
+  {
+    "name": "Toilet",
+    "id": "Toilet"
+  },
+  {
+    "name": "Tek Trough",
+    "id": "TekTrough"
+  },
+  {
+    "name": "Tek Light",
+    "id": "TekLight"
+  },
+  {
+    "name": "Heavy Auto Turret",
+    "id": "HeavyTurret"
+  },
+  {
+    "name": "Fish Basket",
+    "id": "PrimalItemStructure_FishBasket"
+  },
+  {
+    "name": "Tek Sleeping Pod",
+    "id": "Bed_Tek"
+  },
+  {
+    "name": "Gas Collector",
+    "id": "GasCollector"
+  },
+  {
+    "name": "Large Wood Elevator Platform",
+    "id": "WoodElevatorPlatform_Large"
+  },
+  {
+    "name": "Medium Wood Elevator Platform",
+    "id": "WoodElevatorPlatform_Medium"
+  },
+  {
+    "name": "Metal Cliff Platform",
+    "id": "Metal_CliffPlatform"
+  },
+  {
+    "name": "Portable Rope Ladder",
+    "id": "PortableLadder"
+  },
+  {
+    "name": "Rockwell Flag",
+    "id": "PrimalItemStructure_Flag_Rockwell"
+  },
+  {
+    "name": "Shag Rug",
+    "id": "Furniture_Rug"
+  },
+  {
+    "name": "Small Wood Elevator Platform",
+    "id": "WoodElevatorPlatform_Small"
+  },
+  {
+    "name": "Stone Cliff Platform",
+    "id": "Stone_CliffPlatform"
+  },
+  {
+    "name": "Wood Elevator Top Switch",
+    "id": "WoodElevatorTopSwitch"
+  },
+  {
+    "name": "Wood Elevator Track",
+    "id": "WoodElevatorTrack"
+  },
+  {
+    "name": "Wooden Platform",
+    "id": "BaseCliffPlatform"
+  },
+  {
+    "name": "Rockwell Final Form Flag",
+    "id": "Flag_RockwellGen2"
+  },
+  {
+    "name": "Rockwell Final Form Trophy",
+    "id": "PrimalItemTrophy_RockwellGen2"
+  },
+  {
+    "name": "Chibi-Noglin",
+    "id": "PrimalItemSkin_ChibiDino_BrainSlug"
+  },
+  {
+    "name": "Chibi-Shadowmane",
+    "id": "ChibiDino_Shadowmane"
+  },
+  {
+    "name": "Poglin Mask Skin",
+    "id": "PoglinHat"
+  },
+  {
+    "name": "Mutated Survivor Costume Skin",
+    "id": "Costume_MutatedSurvivor"
+  },
+  {
+    "name": "Tek Canteen",
+    "id": "TekCanteenCraftable"
+  },
+  {
+    "name": "Unassembled Exo-mek",
+    "id": "Spawner_Exosuit"
+  },
+  {
+    "name": "Unassembled Hoversail",
+    "id": "PrimalItem_Spawner_HoverSail"
+  },
+  {
+    "name": "Mutagen",
+    "id": "PrimalItemConsumable_Mutagen"
+  },
+  {
+    "name": "Mutagel",
+    "id": "Mutagel"
+  },
+  {
+    "name": "Canoe",
+    "id": "PrimalItemCanoe"
+  },
+  {
+    "name": "Plant Species R Seed",
+    "id": "PrimalItemConsumable_Seed_PlantSpeciesR"
+  },
+  {
+    "name": "Plant Species R-1 Seed",
+    "id": "r_rawmeat"
+  },
+  {
+    "name": "Plant Species R-2 Seed",
+    "id": "r_rawfish"
+  },
+  {
+    "name": "Plant Species R-3 Seed",
+    "id": "r_spoiledmeat"
+  },
+  {
+    "name": "Plant Species R-4 Seed",
+    "id": "r_primemeat"
+  },
+  {
+    "name": "Extraordinary Maewing Egg",
+    "id": "kglider_sp"
+  },
+  {
+    "name": "Exceptional Maewing Egg",
+    "id": "kglider_xl"
+  },
+  {
+    "name": "Superior Maewing Egg",
+    "id": "kglider_L"
+  },
+  {
+    "name": "Regular Maewing Egg",
+    "id": "kglider_M"
+  },
+  {
+    "name": "Simple Maewing Egg",
+    "id": "kglider_sm"
+  },
+  {
+    "name": "Basic Maewing Egg",
+    "id": "kglider_xs"
+  },
+  {
+    "name": "Extraordinary Fertilized Maewing Egg",
+    "id": "er_special_f"
+  },
+  {
+    "name": "Exceptional Fertilized Maewing Egg",
+    "id": "er_xlarge_f"
+  },
+  {
+    "name": "Superior Fertilized Maewing Egg",
+    "id": "er_large_f"
+  },
+  {
+    "name": "Regular Fertilized Maewing Egg",
+    "id": "er_medium_f"
+  },
+  {
+    "name": "Simple Fertilized Maewing Egg",
+    "id": "er_small_f"
+  },
+  {
+    "name": "Federation Exo-Helm Skin",
+    "id": "TekHelmet_Gen2"
+  },
+  {
+    "name": "Federation Exo-Chest Skin",
+    "id": "TekShirt_Gen2"
+  },
+  {
+    "name": "Federation Exo-Gloves Skin",
+    "id": "TekGloves_Gen2"
+  },
+  {
+    "name": "Federation Exo-Leggings Skin",
+    "id": "TekPants_Gen2"
+  },
+  {
+    "name": "Federation Exo-Boots Skin",
+    "id": "TekBoots_Gen2"
+  },
+  {
+    "name": "Viking Canoe Skin",
+    "id": "Canoe_Viking"
+  },
+  {
+    "name": "Tek Canoe Skin",
+    "id": "Canoe_Tek"
+  },
+  {
+    "name": "Maewing Saddle",
+    "id": "MilkGliderSaddle"
+  },
+  {
+    "name": "Ammo Box",
+    "id": "AmmoContainer"
+  },
+  {
+    "name": "Tek Crop Plot",
+    "id": "CropPlot_Tek"
+  },
+  {
+    "name": "Egg Incubator",
+    "id": "EggIncubator"
+  },
+  {
+    "name": "Loadout Mannequin",
+    "id": "PrimalItemStructure_LoadoutDummy"
+  },
+  {
+    "name": "Tek Remote Camera",
+    "id": "SecurityCamera"
+  },
+  {
+    "name": "Minigun",
+    "id": "PrimalItem_WeaponMinigun"
+  },
+  {
+    "name": "Net Projectile",
+    "id": "PrimalItemAmmo_ArrowNet"
+  },
+  {
+    "name": "Tek Phase Pistol",
+    "id": "PrimalItem_WeaponTekPistol"
+  },
+  {
+    "name": "Tek Bow",
+    "id": "PrimalItem_WeaponTekBow"
+  },
+  {
+    "name": "Plant Species R-5 Seed",
+    "id": "r_primefish"
+  },
+  {
+    "name": "Basic Fertilized Maewing Egg",
+    "id": "er_xsmall_f"
+  },
+  {
+    "name": "Modern Canoe Skin",
+    "id": "Canoe_Modern"
+  },
+  {
+    "name": "Astrodelphis Saddle",
+    "id": "SpaceDolphinSaddle_Tek"
+  },
+  {
+    "name": "Tek Camera Console",
+    "id": "TekSecurityConsole"
+  },
+  {
+    "name": "Jar of Pitch",
+    "id": "Boulder_Fire"
+  },
+  {
+    "name": "Black Coloring",
+    "id": "PrimalItemDye_Black"
+  },
+  {
+    "name": "Blue Coloring",
+    "id": "PrimalItemDye_Blue"
+  },
+  {
+    "name": "Brick Coloring",
+    "id": "Brick"
+  },
+  {
+    "name": "Brown Coloring",
+    "id": "Brown"
+  },
+  {
+    "name": "Cantaloupe Coloring",
+    "id": "Cantaloupe"
+  },
+  {
+    "name": "Cyan Coloring",
+    "id": "Cyan"
+  },
+  {
+    "name": "Forest Coloring",
+    "id": "PrimalItemDye_Forest"
+  },
+  {
+    "name": "Green Coloring",
+    "id": "PrimalItemDye_Green"
+  },
+  {
+    "name": "Magenta Coloring",
+    "id": "ActuallyMagenta"
+  },
+  {
+    "name": "Mud Coloring",
+    "id": "Mud"
+  },
+  {
+    "name": "Navy Coloring",
+    "id": "Navy"
+  },
+  {
+    "name": "Olive Coloring",
+    "id": "Olive"
+  },
+  {
+    "name": "Orange Coloring",
+    "id": "Orange"
+  },
+  {
+    "name": "Parchment Coloring",
+    "id": "Parchment"
+  },
+  {
+    "name": "Pink Coloring",
+    "id": "Pink"
+  },
+  {
+    "name": "Purple Coloring",
+    "id": "Purple"
+  },
+  {
+    "name": "Red Coloring",
+    "id": "PrimalItemDye_Red"
+  },
+  {
+    "name": "Royalty Coloring",
+    "id": "Royalty"
+  },
+  {
+    "name": "Silver Coloring",
+    "id": "Silver"
+  },
+  {
+    "name": "Sky Coloring",
+    "id": "Sky"
+  },
+  {
+    "name": "Slate Coloring",
+    "id": "Slate"
+  },
+  {
+    "name": "Tan Coloring",
+    "id": "PrimalItemDye_Tan"
+  },
+  {
+    "name": "Tangerine Coloring",
+    "id": "Tangerine"
+  },
+  {
+    "name": "White Coloring",
+    "id": "White"
+  },
+  {
+    "name": "Yellow Coloring",
+    "id": "Yellow"
+  },
+  {
+    "name": "Raw Meat",
+    "id": "PrimalItemConsumable_RawMeat"
+  },
+  {
+    "name": "Spoiled Meat",
+    "id": "PrimalItemConsumable_SpoiledMeat"
+  },
+  {
+    "name": "Cooked Meat",
+    "id": "PrimalItemConsumable_CookedMeat"
+  },
+  {
+    "name": "Raw Prime Meat",
+    "id": "PrimalItemConsumable_RawPrimeMeat"
+  },
+  {
+    "name": "Cooked Prime Meat",
+    "id": "PrimalItemConsumable_CookedPrimeMeat"
+  },
+  {
+    "name": "Cooked Meat Jerky",
+    "id": "CookedMeat_Jerky"
+  },
+  {
+    "name": "Prime Meat Jerky",
+    "id": "CookedPrimeMeat_Jerky"
+  },
+  {
+    "name": "Raw Fish Meat",
+    "id": "RawMeat_Fish"
+  },
+  {
+    "name": "Cooked Fish Meat",
+    "id": "CookedMeat_Fish"
+  },
+  {
+    "name": "Raw Prime Fish Meat",
+    "id": "RawPrimeMeat_Fish"
+  },
+  {
+    "name": "Cooked Prime Fish Meat",
+    "id": "CookedPrimeMeat_Fish"
+  },
+  {
+    "name": "Raw Mutton",
+    "id": "RawMutton"
+  },
+  {
+    "name": "Cooked Lamb Chop",
+    "id": "CookedLambChop"
+  },
+  {
+    "name": "Filled Fish Basket",
+    "id": "FishBasketFilled"
+  },
+  {
+    "name": "Wyvern Milk",
+    "id": "WyvernMilk"
+  },
+  {
+    "name": "Amarberry",
+    "id": "Berry_Amarberry"
+  },
+  {
+    "name": "Azulberry",
+    "id": "Berry_Azulberry"
+  },
+  {
+    "name": "Mejoberry",
+    "id": "Berry_Mejoberry"
+  },
+  {
+    "name": "Narcoberry",
+    "id": "Berry_Narcoberry"
+  },
+  {
+    "name": "Stimberry",
+    "id": "Berry_Stimberry"
+  },
+  {
+    "name": "Tintoberry",
+    "id": "Berry_Tintoberry"
+  },
+  {
+    "name": "Cactus Sap",
+    "id": "CactusSap"
+  },
+  {
+    "name": "Citronal",
+    "id": "Veggie_Citronal"
+  },
+  {
+    "name": "Longrass",
+    "id": "Veggie_Longrass"
+  },
+  {
+    "name": "Rockarrot",
+    "id": "Veggie_Rockarrot"
+  },
+  {
+    "name": "Savoroot",
+    "id": "Veggie_Savoroot"
+  },
+  {
+    "name": "Aggeravic Mushroom",
+    "id": "CommonMushroom"
+  },
+  {
+    "name": "Aquatic Mushroom",
+    "id": "Mushroom_Aquatic"
+  },
+  {
+    "name": "Ascerbic Mushroom",
+    "id": "Mushroom_Ascerbic"
+  },
+  {
+    "name": "Auric Mushroom",
+    "id": "Mushroom_Auric"
+  },
+  {
+    "name": "Mushroom Brew",
+    "id": "Soup_MushroomSoup"
+  },
+  {
+    "name": "Waterskin (Empty)",
+    "id": "WaterskinCraftable"
+  },
+  {
+    "name": "Waterskin (Filled)",
+    "id": "WaterskinRefill"
+  },
+  {
+    "name": "Water Jar (Empty)",
+    "id": "WaterJarCraftable"
+  },
+  {
+    "name": "Water Jar (Full)",
+    "id": "PrimalItemConsumable_WaterJarRefill"
+  },
+  {
+    "name": "Iced Water Jar (Empty)",
+    "id": "PrimalItemConsumable_IcedWaterJar"
+  },
+  {
+    "name": "Iced Water Jar (Full)",
+    "id": "IcedWaterJarRefill"
+  },
+  {
+    "name": "Canteen (Empty)",
+    "id": "PrimalItemConsumable_CanteenCraftable"
+  },
+  {
+    "name": "Canteen (Full)",
+    "id": "PrimalItemConsumable_CanteenRefill"
+  },
+  {
+    "name": "Iced Canteen (Empty)",
+    "id": "PrimalItemConsumable_IcedCanteen"
+  },
+  {
+    "name": "Iced Canteen (Full)",
+    "id": "IcedCanteenRefill"
+  },
+  {
+    "name": "Beer Liquid",
+    "id": "PrimalItemResource_Beer"
+  },
+  {
+    "name": "Beer Jar",
+    "id": "PrimalItemConsumable_BeerJar"
+  },
+  {
+    "name": "Beer Jar (alt)",
+    "id": "BeerJarAlt"
+  },
+  {
+    "name": "Bio Toxin",
+    "id": "JellyVenom"
+  },
+  {
+    "name": "Medical Brew",
+    "id": "PrimalItemConsumable_HealSoup"
+  },
+  {
+    "name": "Energy Brew",
+    "id": "PrimalItemConsumable_StaminaSoup"
+  },
+  {
+    "name": "Battle Tartare",
+    "id": "Soup_BattleTartare"
+  },
+  {
+    "name": "Broth of Enlightenment",
+    "id": "TheHorn"
+  },
+  {
+    "name": "Bug Repellant",
+    "id": "BugRepellant"
+  },
+  {
+    "name": "Cactus Broth",
+    "id": "CactusBuffSoup"
+  },
+  {
+    "name": "Calien Soup",
+    "id": "Soup_CalienSoup"
+  },
+  {
+    "name": "Enduro Stew",
+    "id": "Soup_EnduroStew"
+  },
+  {
+    "name": "Focal Chili",
+    "id": "Soup_FocalChili"
+  },
+  {
+    "name": "Fria Curry",
+    "id": "Soup_FriaCurry"
+  },
+  {
+    "name": "Lazarus Chowder",
+    "id": "Soup_LazarusChowder"
+  },
+  {
+    "name": "Lesser Antidote",
+    "id": "CureLow"
+  },
+  {
+    "name": "Mindwipe Tonic",
+    "id": "PrimalItemConsumableRespecSoup"
+  },
+  {
+    "name": "Shadow Steak Saute",
+    "id": "Soup_ShadowSteak"
+  },
+  {
+    "name": "Soap",
+    "id": "PrimalItemConsumableSoap"
+  },
+  {
+    "name": "Sweet Vegetable Cake",
+    "id": "SweetVeggieCake"
+  },
+  {
+    "name": "Giant Bee Honey",
+    "id": "Honey"
+  },
+  {
+    "name": "Kibble (Allosaurus Egg)",
+    "id": "PrimalItemConsumable_Kibble_Allo"
+  },
+  {
+    "name": "Kibble (Ankylo Egg)",
+    "id": "Kibble_AnkyloEgg"
+  },
+  {
+    "name": "Kibble (Araneo Egg)",
+    "id": "Kibble_SpiderEgg"
+  },
+  {
+    "name": "Kibble (Archaeopteryx Egg)",
+    "id": "Kibble_ArchaEgg"
+  },
+  {
+    "name": "Kibble (Argentavis Egg)",
+    "id": "Kibble_ArgentEgg"
+  },
+  {
+    "name": "Kibble (Baryonyx Egg)",
+    "id": "Kibble_BaryonyxEgg"
+  },
+  {
+    "name": "Kibble (Bronto Egg)",
+    "id": "Kibble_SauroEgg"
+  },
+  {
+    "name": "Kibble (Camelsaurus Egg)",
+    "id": "Kibble_Camelsaurus"
+  },
+  {
+    "name": "Kibble (Carbonemys Egg)",
+    "id": "Kibble_TurtleEgg"
+  },
+  {
+    "name": "Kibble (Carno Egg)",
+    "id": "Kibble_CarnoEgg"
+  },
+  {
+    "name": "Kibble (Compy Egg)",
+    "id": "PrimalItemConsumable_Kibble_Compy"
+  },
+  {
+    "name": "Kibble (Dilo Egg)",
+    "id": "Kibble_DiloEgg"
+  },
+  {
+    "name": "Kibble (Dimetrodon Egg)",
+    "id": "Kibble_DimetroEgg"
+  },
+  {
+    "name": "Kibble (Dimorph Egg)",
+    "id": "Kibble_DimorphEgg"
+  },
+  {
+    "name": "Kibble (Diplo Egg)",
+    "id": "Kibble_DiploEgg"
+  },
+  {
+    "name": "Kibble (Dodo Egg)",
+    "id": "Kibble_DodoEgg"
+  },
+  {
+    "name": "Kibble (Featherlight Egg)",
+    "id": "Kibble_LanternBirdEgg"
+  },
+  {
+    "name": "Kibble (Gallimimus Egg)",
+    "id": "Kibble_GalliEgg"
+  },
+  {
+    "name": "Kibble (Glowtail Egg)",
+    "id": "Kibble_LanternLizardEgg"
+  },
+  {
+    "name": "Kibble (Ichthyornis Egg)",
+    "id": "Kibble_IchthyornisEgg"
+  },
+  {
+    "name": "Kibble (Iguanodon Egg)",
+    "id": "Kibble_IguanodonEgg"
+  },
+  {
+    "name": "Kibble (Kairuku Egg)",
+    "id": "Kibble_KairukuEgg"
+  },
+  {
+    "name": "Kibble (Kaprosuchus Egg)",
+    "id": "Kibble_KaproEgg"
+  },
+  {
+    "name": "Kibble (Kentrosaurus Egg)",
+    "id": "Kibble_KentroEgg"
+  },
+  {
+    "name": "Kibble (Lystrosaurus Egg)",
+    "id": "Kibble_LystroEgg"
+  },
+  {
+    "name": "Kibble (Mantis Egg)",
+    "id": "Kibble_Mantis"
+  },
+  {
+    "name": "Kibble (Megalania Egg)",
+    "id": "PrimalItemConsumable_Kibble_Megalania"
+  },
+  {
+    "name": "Kibble (Megalosaurus Egg)",
+    "id": "Kibble_MegalosaurusEgg"
+  },
+  {
+    "name": "Kibble (Microraptor Egg)",
+    "id": "Kibble_MicroraptorEgg"
+  },
+  {
+    "name": "Kibble (Moschops Egg)",
+    "id": "Kibble_MoschopsEgg"
+  },
+  {
+    "name": "Kibble (Moth Egg)",
+    "id": "Kibble_Moth"
+  },
+  {
+    "name": "Kibble (Oviraptor Egg)",
+    "id": "Kibble_OviraptorEgg"
+  },
+  {
+    "name": "Kibble (Pachy Egg)",
+    "id": "Kibble_PachyEgg"
+  },
+  {
+    "name": "Kibble (Pachyrhino Egg)",
+    "id": "Kibble_PachyRhinoEgg"
+  },
+  {
+    "name": "Kibble (Parasaur Egg)",
+    "id": "Kibble_ParaEgg"
+  },
+  {
+    "name": "Kibble (Pegomastax Egg)",
+    "id": "Kibble_PegomastaxEgg"
+  },
+  {
+    "name": "Kibble (Pelagornis Egg)",
+    "id": "PrimalItemConsumable_Kibble_Pela"
+  },
+  {
+    "name": "Kibble (Pteranodon Egg)",
+    "id": "Kibble_PteroEgg"
+  },
+  {
+    "name": "Kibble (Pulmonoscorpius Egg)",
+    "id": "Kibble_ScorpionEgg"
+  },
+  {
+    "name": "Kibble (Quetzal Egg)",
+    "id": "Kibble_QuetzEgg"
+  },
+  {
+    "name": "Kibble (Raptor Egg)",
+    "id": "Kibble_RaptorEgg"
+  },
+  {
+    "name": "Kibble (Rex Egg)",
+    "id": "Kibble_RexEgg"
+  },
+  {
+    "name": "Kibble (Rock Drake Egg)",
+    "id": "Kibble_RockDrakeEgg"
+  },
+  {
+    "name": "Kibble (Sarco Egg)",
+    "id": "Kibble_SarcoEgg"
+  },
+  {
+    "name": "Kibble (Spino Egg)",
+    "id": "Kibble_SpinoEgg"
+  },
+  {
+    "name": "Kibble (Stego Egg)",
+    "id": "Kibble_StegoEgg"
+  },
+  {
+    "name": "Kibble (Tapejara Egg)",
+    "id": "Kibble_TapejaraEgg"
+  },
+  {
+    "name": "Kibble (Terror Bird Egg)",
+    "id": "Kibble_TerrorbirdEgg"
+  },
+  {
+    "name": "Kibble (Therizinosaurus Egg)",
+    "id": "Kibble_TherizinoEgg"
+  },
+  {
+    "name": "Kibble (Thorny Dragon Egg)",
+    "id": "Kibble_SpineyLizard"
+  },
+  {
+    "name": "Kibble (Titanboa Egg)",
+    "id": "Kibble_BoaEgg"
+  },
+  {
+    "name": "Kibble (Trike Egg)",
+    "id": "Kibble_TrikeEgg"
+  },
+  {
+    "name": "Kibble (Troodon Egg)",
+    "id": "Kibble_TroodonEgg"
+  },
+  {
+    "name": "Kibble (Vulture Egg)",
+    "id": "Kibble_Vulture"
+  },
+  {
+    "name": "Evil Emote",
+    "id": "UnlockEmote_Evil"
+  },
+  {
+    "name": "Note",
+    "id": "PrimalItem_Note"
+  },
+  {
+    "name": "Notes on Rockwell Recipes",
+    "id": "RecipeNote_Measurements"
+  },
+  {
+    "name": "Rockwell Recipes: Battle Tartare",
+    "id": "RecipeNote_BattleTartare"
+  },
+  {
+    "name": "Rockwell Recipes: Calien Soup",
+    "id": "RecipeNote_CalienSoup"
+  },
+  {
+    "name": "Rockwell Recipes: Decorative Coloring",
+    "id": "RecipeNote_Dye"
+  },
+  {
+    "name": "Rockwell Recipes: Egg-based Kibble",
+    "id": "PrimalItem_RecipeNote_Kibble"
+  },
+  {
+    "name": "Rockwell Recipes: Enduro Stew",
+    "id": "RecipeNote_EnduroStew"
+  },
+  {
+    "name": "Rockwell Recipes: Energy Brew",
+    "id": "RecipeNote_StaminaSoup"
+  },
+  {
+    "name": "Rockwell Recipes: Focal Chili",
+    "id": "RecipeNote_FocalChili"
+  },
+  {
+    "name": "Rockwell Recipes: Fria Curry",
+    "id": "RecipeNote_FriaCurry"
+  },
+  {
+    "name": "Rockwell Recipes: Lazarus Chowder",
+    "id": "RecipeNote_LazarusChowder"
+  },
+  {
+    "name": "Rockwell Recipes: Meat Jerky",
+    "id": "RecipeNote_Jerky"
+  },
+  {
+    "name": "Rockwell Recipes: Medical Brew",
+    "id": "RecipeNote_HealSoup"
+  },
+  {
+    "name": "Rockwell Recipes: Mindwipe Tonic",
+    "id": "RecipeNote_RespecSoup"
+  },
+  {
+    "name": "Rockwell Recipes: Shadow Steak Saute",
+    "id": "RecipeNote_ShadowSteak"
+  },
+  {
+    "name": "Allosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Allo"
+  },
+  {
+    "name": "Ankylo Egg",
+    "id": "PrimalItemConsumable_Egg_Ankylo"
+  },
+  {
+    "name": "Araneo Egg",
+    "id": "PrimalItemConsumable_Egg_Spider"
+  },
+  {
+    "name": "Archaeopteryx Egg",
+    "id": "PrimalItemConsumable_Egg_Archa"
+  },
+  {
+    "name": "Argentavis Egg",
+    "id": "PrimalItemConsumable_Egg_Argent"
+  },
+  {
+    "name": "Baryonyx Egg",
+    "id": "PrimalItemConsumable_Egg_Baryonyx"
+  },
+  {
+    "name": "Basilisk Egg",
+    "id": "Egg_Basilisk"
+  },
+  {
+    "name": "Bronto Egg",
+    "id": "PrimalItemConsumable_Egg_Bronto"
+  },
+  {
+    "name": "Camelsaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Camelsaurus"
+  },
+  {
+    "name": "Carno Egg",
+    "id": "PrimalItemConsumable_Egg_Carno"
+  },
+  {
+    "name": "Compy Egg",
+    "id": "PrimalItemConsumable_Egg_Compy"
+  },
+  {
+    "name": "Dilo Egg",
+    "id": "PrimalItemConsumable_Egg_Dilo"
+  },
+  {
+    "name": "Dimetrodon Egg",
+    "id": "PrimalItemConsumable_Egg_Dimetrodon"
+  },
+  {
+    "name": "Dimorph Egg",
+    "id": "PrimalItemConsumable_Egg_Dimorph"
+  },
+  {
+    "name": "Diplo Egg",
+    "id": "PrimalItemConsumable_Egg_Diplo"
+  },
+  {
+    "name": "Dodo Egg",
+    "id": "PrimalItemConsumable_Egg_Dodo"
+  },
+  {
+    "name": "Featherlight Egg",
+    "id": "PrimalItemConsumable_Egg_LanternBird"
+  },
+  {
+    "name": "Fish Egg",
+    "id": "PrimalItemConsumable_UnderwaterEgg"
+  },
+  {
+    "name": "Gallimimus Egg",
+    "id": "PrimalItemConsumable_Egg_Galli"
+  },
+  {
+    "name": "Giganotosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Gigant"
+  },
+  {
+    "name": "Glowtail Egg",
+    "id": "PrimalItemConsumable_Egg_LanternLizard"
+  },
+  {
+    "name": "Golden Hesperornis Egg",
+    "id": "Egg_Hesperonis_Golden"
+  },
+  {
+    "name": "Hesperornis Egg",
+    "id": "PrimalItemConsumable_Egg_Hesperonis"
+  },
+  {
+    "name": "Ichthyornis Egg",
+    "id": "PrimalItemConsumable_Egg_Ichthyornis"
+  },
+  {
+    "name": "Iguanodon Egg",
+    "id": "PrimalItemConsumable_Egg_Iguanodon"
+  },
+  {
+    "name": "Kairuku Egg",
+    "id": "PrimalItemConsumable_Egg_Kairuku"
+  },
+  {
+    "name": "Kaprosuchus Egg",
+    "id": "PrimalItemConsumable_Egg_Kaprosuchus"
+  },
+  {
+    "name": "Kentro Egg",
+    "id": "PrimalItemConsumable_Egg_Kentro"
+  },
+  {
+    "name": "Lystro Egg",
+    "id": "PrimalItemConsumable_Egg_Lystro"
+  },
+  {
+    "name": "Mantis Egg",
+    "id": "PrimalItemConsumable_Egg_Mantis"
+  },
+  {
+    "name": "Megalania Egg",
+    "id": "PrimalItemConsumable_Egg_Megalania"
+  },
+  {
+    "name": "Megalosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Megalosaurus"
+  },
+  {
+    "name": "Microraptor Egg",
+    "id": "PrimalItemConsumable_Egg_MicroRaptor"
+  },
+  {
+    "name": "Moschops Egg",
+    "id": "PrimalItemConsumable_Egg_Moschops"
+  },
+  {
+    "name": "Moth Egg",
+    "id": "PrimalItemConsumable_Egg_Moth"
+  },
+  {
+    "name": "Oviraptor Egg",
+    "id": "PrimalItemConsumable_Egg_Oviraptor"
+  },
+  {
+    "name": "Pachycephalosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Pachy"
+  },
+  {
+    "name": "Pachyrhino Egg",
+    "id": "PrimalItemConsumable_Egg_Pachyrhino"
+  },
+  {
+    "name": "Parasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Para"
+  },
+  {
+    "name": "Pegomastax Egg",
+    "id": "PrimalItemConsumable_Egg_Pegomastax"
+  },
+  {
+    "name": "Pelagornis Egg",
+    "id": "PrimalItemConsumable_Egg_Pela"
+  },
+  {
+    "name": "Pteranodon Egg",
+    "id": "PrimalItemConsumable_Egg_Ptero"
+  },
+  {
+    "name": "Pulmonoscorpius Egg",
+    "id": "PrimalItemConsumable_Egg_Scorpion"
+  },
+  {
+    "name": "Quetzal Egg",
+    "id": "PrimalItemConsumable_Egg_Quetz"
+  },
+  {
+    "name": "Raptor Egg",
+    "id": "PrimalItemConsumable_Egg_Raptor"
+  },
+  {
+    "name": "Rex Egg",
+    "id": "PrimalItemConsumable_Egg_Rex"
+  },
+  {
+    "name": "Fertilized Rock Drake Egg",
+    "id": "Egg_RockDrake_Fertilized"
+  },
+  {
+    "name": "Sarco Egg",
+    "id": "PrimalItemConsumable_Egg_Sarco"
+  },
+  {
+    "name": "Spino Egg",
+    "id": "PrimalItemConsumable_Egg_Spino"
+  },
+  {
+    "name": "Stego Egg",
+    "id": "PrimalItemConsumable_Egg_Stego"
+  },
+  {
+    "name": "Tapejara Egg",
+    "id": "PrimalItemConsumable_Egg_Tapejara"
+  },
+  {
+    "name": "Terror Bird Egg",
+    "id": "PrimalItemConsumable_Egg_Terrorbird"
+  },
+  {
+    "name": "Therizino Egg",
+    "id": "PrimalItemConsumable_Egg_Therizino"
+  },
+  {
+    "name": "Thorny Dragon Egg",
+    "id": "PrimalItemConsumable_Egg_SpineyLizard"
+  },
+  {
+    "name": "Titanoboa Egg",
+    "id": "Egg_Boa"
+  },
+  {
+    "name": "Trike Egg",
+    "id": "PrimalItemConsumable_Egg_Trike"
+  },
+  {
+    "name": "Troodon Egg",
+    "id": "PrimalItemConsumable_Egg_Troodon"
+  },
+  {
+    "name": "Turtle Egg",
+    "id": "PrimalItemConsumable_Egg_Turtle"
+  },
+  {
+    "name": "Vulture Egg",
+    "id": "PrimalItemConsumable_Egg_Vulture"
+  },
+  {
+    "name": "Wyvern Egg Fire",
+    "id": "Egg_Wyvern_Fertilized_Fire"
+  },
+  {
+    "name": "Wyvern Egg Lightning",
+    "id": "Egg_Wyvern_Fertilized_Lightning"
+  },
+  {
+    "name": "Wyvern Egg Poison",
+    "id": "Egg_Wyvern_Fertilized_Poison"
+  },
+  {
+    "name": "Yutyrannus Egg",
+    "id": "PrimalItemConsumable_Egg_Yuty"
+  },
+  {
+    "name": "Small Animal Feces",
+    "id": "DinoPoopSmall"
+  },
+  {
+    "name": "Human Feces",
+    "id": "HumanPoop"
+  },
+  {
+    "name": "Medium Animal Feces",
+    "id": "PrimalItemConsumable_DinoPoopMedium"
+  },
+  {
+    "name": "Large Animal Feces",
+    "id": "DinoPoopLarge"
+  },
+  {
+    "name": "Massive Animal Feces",
+    "id": "DinoPoopMassive"
+  },
+  {
+    "name": "Amarberry Seed",
+    "id": "PrimalItemConsumable_Seed_Amarberry"
+  },
+  {
+    "name": "Azulberry Seed",
+    "id": "PrimalItemConsumable_Seed_Azulberry"
+  },
+  {
+    "name": "Citronal Seed",
+    "id": "PrimalItemConsumable_Seed_Citronal"
+  },
+  {
+    "name": "Longrass Seed",
+    "id": "PrimalItemConsumable_Seed_Longrass"
+  },
+  {
+    "name": "Mejoberry Seed",
+    "id": "PrimalItemConsumable_Seed_Mejoberry"
+  },
+  {
+    "name": "Narcoberry Seed",
+    "id": "PrimalItemConsumable_Seed_Narcoberry"
+  },
+  {
+    "name": "Plant Species X Seed",
+    "id": "PrimalItemConsumable_Seed_DefensePlant"
+  },
+  {
+    "name": "Plant Species Y Seed",
+    "id": "PrimalItemConsumable_Seed_PlantSpeciesY"
+  },
+  {
+    "name": "Plant Species Z Seed",
+    "id": "PrimalItemConsumable_Seed_PlantSpeciesZ"
+  },
+  {
+    "name": "Rockarrot Seed",
+    "id": "PrimalItemConsumable_Seed_Rockarrot"
+  },
+  {
+    "name": "Savoroot Seed",
+    "id": "PrimalItemConsumable_Seed_Savoroot"
+  },
+  {
+    "name": "Stimberry Seed",
+    "id": "PrimalItemConsumable_Seed_Stimberry"
+  },
+  {
+    "name": "Tintoberry Seed",
+    "id": "PrimalItemConsumable_Seed_Tintoberry"
+  },
+  {
+    "name": "Assault Rifle",
+    "id": "PrimalItem_WeaponRifle"
+  },
+  {
+    "name": "Bear Trap",
+    "id": "PrimalItemStructure_BearTrap"
+  },
+  {
+    "name": "Bola",
+    "id": "WeaponBola"
+  },
+  {
+    "name": "Boomerang",
+    "id": "PrimalItem_WeaponBoomerang"
+  },
+  {
+    "name": "Bow",
+    "id": "PrimalItem_WeaponBow"
+  },
+  {
+    "name": "C4 Remote Detonator",
+    "id": "WeaponC4"
+  },
+  {
+    "name": "Chain Bola",
+    "id": "ChainBola"
+  },
+  {
+    "name": "Charge Lantern",
+    "id": "WeaponRadioactiveLanternCharge"
+  },
+  {
+    "name": "Climbing Pick",
+    "id": "WeaponClimbPick"
+  },
+  {
+    "name": "Cluster Grenade",
+    "id": "PrimalItem_WeaponClusterGrenade"
+  },
+  {
+    "name": "Compound Bow",
+    "id": "PrimalItem_WeaponCompoundBow"
+  },
+  {
+    "name": "Crossbow",
+    "id": "PrimalItem_WeaponCrossbow"
+  },
+  {
+    "name": "Electric Prod",
+    "id": "PrimalItem_WeaponProd"
+  },
+  {
+    "name": "Fabricated Pistol",
+    "id": "PrimalItem_WeaponMachinedPistol"
+  },
+  {
+    "name": "Fabricated Sniper Rifle",
+    "id": "PrimalItem_WeaponMachinedSniper"
+  },
+  {
+    "name": "Flamethrower",
+    "id": "PrimalItem_WeapFlamethrower"
+  },
+  {
+    "name": "Flare Gun",
+    "id": "WeaponFlareGun"
+  },
+  {
+    "name": "Glow Stick",
+    "id": "PrimalItem_GlowStick"
+  },
+  {
+    "name": "Grenade",
+    "id": "PrimalItem_WeaponGrenade"
+  },
+  {
+    "name": "Handcuffs",
+    "id": "WeaponHandcuffs"
+  },
+  {
+    "name": "Harpoon Launcher",
+    "id": "PrimalItem_WeaponHarpoon"
+  },
+  {
+    "name": "Improvised Explosive Device",
+    "id": "WeaponTripwireC4"
+  },
+  {
+    "name": "Lance",
+    "id": "WeaponLance"
+  },
+  {
+    "name": "Large Bear Trap",
+    "id": "BearTrap_Large"
+  },
+  {
+    "name": "Lasso",
+    "id": "WeaponLasso"
+  },
+  {
+    "name": "Longneck Rifle",
+    "id": "PrimalItem_WeaponOneShotRifle"
+  },
+  {
+    "name": "Oil Jar",
+    "id": "WeaponOilJar"
+  },
+  {
+    "name": "Pike",
+    "id": "PrimalItem_WeaponPike"
+  },
+  {
+    "name": "Plant Species Y Trap",
+    "id": "PlantSpeciesYTrap"
+  },
+  {
+    "name": "Plant Species Z Fruit",
+    "id": "PlantSpeciesZ_Grenade"
+  },
+  {
+    "name": "Poison Grenade",
+    "id": "PoisonGrenade"
+  },
+  {
+    "name": "Pump-Action Shotgun",
+    "id": "PrimalItem_WeaponMachinedShotgun"
+  },
+  {
+    "name": "Rocket Launcher",
+    "id": "PrimalItem_WeaponRocketLauncher"
+  },
+  {
+    "name": "Shotgun",
+    "id": "PrimalItem_WeaponShotgun"
+  },
+  {
+    "name": "Simple Pistol",
+    "id": "PrimalItem_WeaponGun"
+  },
+  {
+    "name": "Slingshot",
+    "id": "PrimalItem_WeaponSlingshot"
+  },
+  {
+    "name": "Smoke Grenade",
+    "id": "GasGrenade"
+  },
+  {
+    "name": "Spear",
+    "id": "PrimalItem_WeaponSpear"
+  },
+  {
+    "name": "Spray Painter",
+    "id": "WeaponSprayPaint"
+  },
+  {
+    "name": "Sword",
+    "id": "PrimalItem_WeaponSword"
+  },
+  {
+    "name": "Tek Grenade",
+    "id": "PrimalItem_TekGrenade"
+  },
+  {
+    "name": "Tek Railgun",
+    "id": "PrimalItem_TekSniper"
+  },
+  {
+    "name": "Tek Rifle",
+    "id": "PrimalItem_TekRifle"
+  },
+  {
+    "name": "Tek Sword",
+    "id": "PrimalItem_WeaponTekSword"
+  },
+  {
+    "name": "Transponder Tracker",
+    "id": "WeaponTransGPS"
+  },
+  {
+    "name": "Tripwire Alarm Trap",
+    "id": "WeaponAlarmTrap"
+  },
+  {
+    "name": "Tripwire Narcotic Trap",
+    "id": "WeaponPoisonTrap"
+  },
+  {
+    "name": "Wooden Club",
+    "id": "PrimalItem_WeaponStoneClub"
+  },
+  {
+    "name": "Flashlight Attachment",
+    "id": "Flashlight"
+  },
+  {
+    "name": "Holo-Scope Attachment",
+    "id": "HoloScope"
+  },
+  {
+    "name": "Laser Attachment",
+    "id": "Laser"
+  },
+  {
+    "name": "Scope Attachment",
+    "id": "PrimalItemWeaponAttachment_Scope"
+  },
+  {
+    "name": "Silencer Attachment",
+    "id": "Silencer"
+  },
+  {
+    "name": "Advanced Bullet",
+    "id": "AdvancedBullet"
+  },
+  {
+    "name": "Advanced Rifle Bullet",
+    "id": "AdvancedRifleBullet"
+  },
+  {
+    "name": "Advanced Sniper Bullet",
+    "id": "AdvancedSniperBullet"
+  },
+  {
+    "name": "Boulder",
+    "id": "PrimalItemAmmo_Boulder"
+  },
+  {
+    "name": "C4 Charge",
+    "id": "PrimalItemC4Ammo"
+  },
+  {
+    "name": "Cannon Ball",
+    "id": "CannonBall"
+  },
+  {
+    "name": "Flame Arrow",
+    "id": "ArrowFlame"
+  },
+  {
+    "name": "Flamethrower Ammo",
+    "id": "PrimalItemAmmo_Flamethrower"
+  },
+  {
+    "name": "Grappling Hook",
+    "id": "GrapplingHook"
+  },
+  {
+    "name": "Metal Arrow",
+    "id": "CompoundBowArrow"
+  },
+  {
+    "name": "Pheromone Dart",
+    "id": "AggroTranqDart"
+  },
+  {
+    "name": "Rocket Homing Missile",
+    "id": "RocketHomingMissile"
+  },
+  {
+    "name": "Rocket Propelled Grenade",
+    "id": "PrimalItemAmmo_Rocket"
+  },
+  {
+    "name": "Shocking Tranquilizer Dart",
+    "id": "RefinedTranqDart"
+  },
+  {
+    "name": "Simple Bullet",
+    "id": "SimpleBullet"
+  },
+  {
+    "name": "Simple Rifle Ammo",
+    "id": "SimpleRifleBullet"
+  },
+  {
+    "name": "Simple Shotgun Ammo",
+    "id": "SimpleShotgunBullet"
+  },
+  {
+    "name": "Spear Bolt",
+    "id": "BallistaArrow"
+  },
+  {
+    "name": "Stone Arrow",
+    "id": "ArrowStone"
+  },
+  {
+    "name": "Tranquilizer Arrow",
+    "id": "ArrowTranq"
+  },
+  {
+    "name": "Tranquilizer Dart",
+    "id": "PrimalItemAmmo_TranqDart"
+  },
+  {
+    "name": "Tranq Spear Bolt",
+    "id": "TranqSpearBolt"
+  },
+  {
+    "name": "Transponder Node",
+    "id": "PrimalItemTransGPSAmmo"
+  },
+  {
+    "name": "Zip-Line Anchor",
+    "id": "PrimalItemAmmo_Zipline"
+  },
+  {
+    "name": "Aberrant Helmet",
+    "id": "AberrationHelmet"
+  },
+  {
+    "name": "Aberrant Sword",
+    "id": "AberrationSword"
+  },
+  {
+    "name": "Birthday Suit Pants Skin",
+    "id": "BirthdayPants"
+  },
+  {
+    "name": "Birthday Suit Shirt Skin",
+    "id": "BirthdayShirt"
+  },
+  {
+    "name": "Bronto Bone Costume",
+    "id": "BoneSauro"
+  },
+  {
+    "name": "Bulbdog Mask",
+    "id": "PugMask"
+  },
+  {
+    "name": "Bunny Ears Skin",
+    "id": "PrimalItemSkin_BunnyHat"
+  },
+  {
+    "name": "Candy Cane Club Skin",
+    "id": "CandyClub"
+  },
+  {
+    "name": "Captain's Hat Skin",
+    "id": "CaptainsHat"
+  },
+  {
+    "name": "Carno Bone Costume",
+    "id": "BoneCarno"
+  },
+  {
+    "name": "Chieftan Hat Skin",
+    "id": "PrimalItemSkin_TurkeyHat"
+  },
+  {
+    "name": "Chili Helmet",
+    "id": "PrimalItemSkin_Chili"
+  },
+  {
+    "name": "Clown Mask Skin",
+    "id": "ClownMask"
+  },
+  {
+    "name": "Cute Dino Helmet",
+    "id": "DinoCute"
+  },
+  {
+    "name": "Decorative Ravager Saddle",
+    "id": "CavewolfPromoSaddle"
+  },
+  {
+    "name": "Dino Bunny Ears Skin",
+    "id": "DinoBunnyHat"
+  },
+  {
+    "name": "Dino Glasses",
+    "id": "DinoSpecs"
+  },
+  {
+    "name": "Dino Party Hat Skin",
+    "id": "DinoPartyHat"
+  },
+  {
+    "name": "Dino Santa Hat Skin",
+    "id": "DinoSantaHat"
+  },
+  {
+    "name": "Dino Witch Hat Skin",
+    "id": "DinoWitchHat"
+  },
+  {
+    "name": "DodoRex Mask Skin",
+    "id": "DodorexMask"
+  },
+  {
+    "name": "DodoWyvern Mask Skin",
+    "id": "DodowyvernHat"
+  },
+  {
+    "name": "Fireworks Flaregun Skin",
+    "id": "FlaregunFireworks"
+  },
+  {
+    "name": "Fireworks Rocket Launcher Skin",
+    "id": "RocketLauncherFireworks"
+  },
+  {
+    "name": "Giga Bionic Costume",
+    "id": "BionicGigant"
+  },
+  {
+    "name": "Giganotosaurus Bone Costume",
+    "id": "BoneGigant"
+  },
+  {
+    "name": "Glider Suit",
+    "id": "PrimalItemArmor_Glider"
+  },
+  {
+    "name": "Hunter Hat Skin",
+    "id": "HideHelmetAlt"
+  },
+  {
+    "name": "Jerboa Bone Costume",
+    "id": "BoneJerboa"
+  },
+  {
+    "name": "Manticore Boots Skin",
+    "id": "ManticoreBoots"
+  },
+  {
+    "name": "Manticore Chestpiece Skin",
+    "id": "ManticoreShirt"
+  },
+  {
+    "name": "Manticore Gauntlets Skin",
+    "id": "ManticoreGloves"
+  },
+  {
+    "name": "Manticore Helmet Skin",
+    "id": "ManticoreHelmet"
+  },
+  {
+    "name": "Manticore Leggings Skin",
+    "id": "ManticorePants"
+  },
+  {
+    "name": "Manticore Shield Skin",
+    "id": "ManticoreShield"
+  },
+  {
+    "name": "Megaloceros Reindeer Costume",
+    "id": "ReindeerStag"
+  },
+  {
+    "name": "Nerdry Glasses",
+    "id": "PrimalItemSkin_Glasses"
+  },
+  {
+    "name": "Otter Mask",
+    "id": "OtterMask"
+  },
+  {
+    "name": "Parasaur Stylish Saddle Skin",
+    "id": "ParaSaddle_Launch"
+  },
+  {
+    "name": "Party Hat Skin",
+    "id": "PrimalItemSkin_PartyHat"
+  },
+  {
+    "name": "Procoptodon Bunny Costume",
+    "id": "ProcopBunny"
+  },
+  {
+    "name": "Quetzalcoatlus Bone Costume",
+    "id": "BoneQuetz"
+  },
+  {
+    "name": "Raptor Bone Costume",
+    "id": "BoneRaptor"
+  },
+  {
+    "name": "Reaper Helmet",
+    "id": "ReaperHelmet"
+  },
+  {
+    "name": "Rex Bionic Costume",
+    "id": "BionicRex"
+  },
+  {
+    "name": "Rex Bone Costume",
+    "id": "BoneRex"
+  },
+  {
+    "name": "Rex Bone Helmet",
+    "id": "BoneHelmet"
+  },
+  {
+    "name": "Rex Stomped Glasses Saddle Skin",
+    "id": "RexSaddle_StompedGlasses"
+  },
+  {
+    "name": "Safari Hat Skin",
+    "id": "ExplorerHat"
+  },
+  {
+    "name": "Santa Hat Skin",
+    "id": "PrimalItemSkin_SantaHat"
+  },
+  {
+    "name": "Scary Skull Helmet",
+    "id": "ScarySkull"
+  },
+  {
+    "name": "Scorched Spike Skin",
+    "id": "ScorchedSpear"
+  },
+  {
+    "name": "Scorched Sword Skin",
+    "id": "ScorchedSword"
+  },
+  {
+    "name": "Scorched Torch Skin",
+    "id": "TorchScorched"
+  },
+  {
+    "name": "Stego Bone Costume",
+    "id": "BoneStego"
+  },
+  {
+    "name": "Thorny Dragon Vagabond Saddle Skin",
+    "id": "SpineyLizardPromoSaddle"
+  },
+  {
+    "name": "Top Hat Skin",
+    "id": "PrimalItemSkin_TopHat"
+  },
+  {
+    "name": "Torch Sparkler Skin",
+    "id": "TorchSparkler"
+  },
+  {
+    "name": "Trike Bone Costume",
+    "id": "BoneTrike"
+  },
+  {
+    "name": "Trike Bone Helmet Skin",
+    "id": "PrimalItemSkin_TrikeSkullHelmet"
+  },
+  {
+    "name": "Vampire Eyes Skin",
+    "id": "VampireEyes"
+  },
+  {
+    "name": "Werewolf Mask Skin",
+    "id": "WerewolfHat"
+  },
+  {
+    "name": "Witch Hat Skin",
+    "id": "PrimalItemSkin_WitchHat"
+  },
+  {
+    "name": "Wyvern Bone Costume",
+    "id": "BoneWyvern"
+  },
+  {
+    "name": "Wyvern Gloves Skin",
+    "id": "WyvernGloves"
+  },
+  {
+    "name": "Zip-Line Motor Attachment",
+    "id": "ZiplineMotor"
+  },
+  {
+    "name": "Specimen Implant",
+    "id": "PrimalItem_StartingNote"
+  },
+  {
+    "name": "Artifact Of The Brute",
+    "id": "PrimalItemArtifact_12"
+  },
+  {
+    "name": "Artifact Of The Clever",
+    "id": "PrimalItemArtifact_05"
+  },
+  {
+    "name": "Artifact Of The Cunning",
+    "id": "PrimalItemArtifact_11"
+  },
+  {
+    "name": "Artifact Of The Devourer",
+    "id": "PrimalItemArtifact_07"
+  },
+  {
+    "name": "Artifact Of The Hunter",
+    "id": "PrimalItemArtifact_01"
+  },
+  {
+    "name": "Artifact Of The Immune",
+    "id": "PrimalItemArtifact_08"
+  },
+  {
+    "name": "Artifact Of The Massive",
+    "id": "PrimalItemArtifact_03"
+  },
+  {
+    "name": "Artifact Of The Pack",
+    "id": "PrimalItemArtifact_02"
+  },
+  {
+    "name": "Artifact Of The Skylord",
+    "id": "PrimalItemArtifact_06"
+  },
+  {
+    "name": "Artifact Of The Strong",
+    "id": "PrimalItemArtifact_09"
+  },
+  {
+    "name": "Artifact Of The Gatekeeper",
+    "id": "PrimalItemArtifactSE_01"
+  },
+  {
+    "name": "Artifact Of The Crag",
+    "id": "PrimalItemArtifactSE_02"
+  },
+  {
+    "name": "Artifact Of The Destroyer",
+    "id": "PrimalItemArtifactSE_03"
+  },
+  {
+    "name": "Artifact Of The Depths",
+    "id": "PrimalItemArtifactAB"
+  },
+  {
+    "name": "Artifact Of The Shadows",
+    "id": "PrimalItemArtifactAB_2"
+  },
+  {
+    "name": "Artifact Of The Stalker",
+    "id": "PrimalItemArtifactAB_3"
+  },
+  {
+    "name": "Argentavis Talon",
+    "id": "PrimalItemResource_ApexDrop_Argentavis"
+  },
+  {
+    "name": "Megalodon Tooth",
+    "id": "PrimalItemResource_ApexDrop_Megalodon"
+  },
+  {
+    "name": "Tyrannosaurus Arm",
+    "id": "PrimalItemResource_ApexDrop_Rex"
+  },
+  {
+    "name": "Sauropod Vertebra",
+    "id": "PrimalItemResource_ApexDrop_Sauro"
+  },
+  {
+    "name": "Tusoteuthis Tentacle",
+    "id": "PrimalItemResource_ApexDrop_Tuso"
+  },
+  {
+    "name": "Fire Talon",
+    "id": "PrimalItemResource_ApexDrop_FireWyvern"
+  },
+  {
+    "name": "Lightning Talon",
+    "id": "PrimalItemResource_ApexDrop_LightningWyvern"
+  },
+  {
+    "name": "Poison Talon",
+    "id": "PrimalItemResource_ApexDrop_PoisonWyvern"
+  },
+  {
+    "name": "Alpha Basilisk Fang",
+    "id": "PrimalItemResource_ApexDrop_Basilisk_Alpha"
+  },
+  {
+    "name": "Alpha Carnotaurus Arm",
+    "id": "PrimalItemResource_ApexDrop_AlphaCarno"
+  },
+  {
+    "name": "Alpha Karkinos Claw",
+    "id": "PrimalItemResource_ApexDrop_CrabClaw"
+  },
+  {
+    "name": "Alpha Leedsichthys Blubber",
+    "id": "PrimalItemResource_ApexDrop_AlphaLeeds"
+  },
+  {
+    "name": "Alpha Megalodon Fin",
+    "id": "PrimalItemResource_ApexDrop_AlphaMegalodon"
+  },
+  {
+    "name": "Alpha Mosasaur Tooth",
+    "id": "PrimalItemResource_ApexDrop_AlphaMosasaur"
+  },
+  {
+    "name": "Alpha Raptor Claw",
+    "id": "PrimalItemResource_ApexDrop_AlphaRaptor"
+  },
+  {
+    "name": "Alpha Reaper King Barb",
+    "id": "PrimalItemResource_ApexDrop_ReaperBarb"
+  },
+  {
+    "name": "Alpha Tusoteuthis Eye",
+    "id": "PrimalItemResource_ApexDrop_AlphaTuso"
+  },
+  {
+    "name": "Alpha Tyrannosaur Tooth",
+    "id": "PrimalItemResource_ApexDrop_AlphaRex"
+  },
+  {
+    "name": "Allosaurus Brain",
+    "id": "PrimalItemResource_ApexDrop_Allo"
+  },
+  {
+    "name": "Basilisk Scale",
+    "id": "PrimalItemResource_ApexDrop_Basilisk"
+  },
+  {
+    "name": "Basilosaurus Blubber",
+    "id": "PrimalItemResource_ApexDrop_Basilo"
+  },
+  {
+    "name": "Giganotosaurus Heart",
+    "id": "PrimalItemResource_ApexDrop_Giga"
+  },
+  {
+    "name": "Megalania Toxin",
+    "id": "PrimalItemResource_ApexDrop_Megalania"
+  },
+  {
+    "name": "Nameless Venom",
+    "id": "PrimalItemConsumable_NamelessVenom"
+  },
+  {
+    "name": "Reaper Pheromone Gland",
+    "id": "PrimalItemResource_XenomorphPheromoneGland"
+  },
+  {
+    "name": "Rock Drake Feather",
+    "id": "PrimalItemResource_ApexDrop_RockDrake"
+  },
+  {
+    "name": "Sarcosuchus Skin",
+    "id": "PrimalItemResource_ApexDrop_Sarco"
+  },
+  {
+    "name": "Spinosaurus Sail",
+    "id": "PrimalItemResource_ApexDrop_Spino"
+  },
+  {
+    "name": "Therizino Claws",
+    "id": "PrimalItemResource_ApexDrop_Theriz"
+  },
+  {
+    "name": "Thylacoleo Hook-Claw",
+    "id": "PrimalItemResource_ApexDrop_Thylaco"
+  },
+  {
+    "name": "Titanoboa Venom",
+    "id": "PrimalItemResource_ApexDrop_Boa"
+  },
+  {
+    "name": "Yutyrannus Lungs",
+    "id": "PrimalItemResource_ApexDrop_Yuty"
+  },
+  {
+    "name": "Alpha Deathworm Trophy",
+    "id": "AlphaWorm"
+  },
+  {
+    "name": "Alpha Rex Trophy",
+    "id": "PrimalItemTrophy_AlphaRex"
+  },
+  {
+    "name": "Alpha Wyvern Trophy",
+    "id": "AlphaWyvern"
+  },
+  {
+    "name": "Broodmother Trophy",
+    "id": "PrimalItemTrophy_Broodmother"
+  },
+  {
+    "name": "Dragon Trophy",
+    "id": "PrimalItemTrophy_Dragon"
+  },
+  {
+    "name": "Manticore Trophy",
+    "id": "PrimalItemTrophy_Manticore"
+  },
+  {
+    "name": "Megapithecus Trophy",
+    "id": "PrimalItemTrophy_Gorilla"
+  },
+  {
+    "name": "Alpha Broodmother Trophy",
+    "id": "Broodmother_Alpha"
+  },
+  {
+    "name": "Beta Broodmother Trophy",
+    "id": "Broodmother_Beta"
+  },
+  {
+    "name": "Gamma Broodmother Trophy",
+    "id": "Broodmother_Gamma"
+  },
+  {
+    "name": "Alpha Megapithecus Trophy",
+    "id": "Gorilla_Alpha"
+  },
+  {
+    "name": "Beta Megapithecus Trophy",
+    "id": "Gorilla_Beta"
+  },
+  {
+    "name": "Gamma Megapithecus Trophy",
+    "id": "Gorilla_Gamma"
+  },
+  {
+    "name": "Alpha Dragon Trophy",
+    "id": "Dragon_Alpha"
+  },
+  {
+    "name": "Beta Dragon Trophy",
+    "id": "Dragon_Beta"
+  },
+  {
+    "name": "Gamma Dragon Trophy",
+    "id": "Dragon_Gamma"
+  },
+  {
+    "name": "Alpha Manticore Trophy",
+    "id": "Manticore_Alpha"
+  },
+  {
+    "name": "Beta Manticore Trophy",
+    "id": "Manticore_Beta"
+  },
+  {
+    "name": "Gamma Manticore Trophy",
+    "id": "Manticore_Gamma"
+  },
+  {
+    "name": "Rockwell Trophy (Alpha)",
+    "id": "Rockwell_Beta_Alpha"
+  },
+  {
+    "name": "Rockwell Trophy (Beta)",
+    "id": "PrimalItemTrophy_Rockwell_Beta"
+  },
+  {
+    "name": "Rockwell Trophy (Gamma)",
+    "id": "PrimalItemTrophy_Rockwell"
+  },
+  {
+    "name": "Survivor's Trophy",
+    "id": "ARKLogo"
+  },
+  {
+    "name": "Super Test Meat",
+    "id": "SuperTestMeat"
+  },
+  {
+    "name": "Amarberry Seed (instant grow)",
+    "id": "Seed_Amarberry_SpeedHack"
+  },
+  {
+    "name": "Azulberry Seed (instant grow)",
+    "id": "Seed_Azulberry_SpeedHack"
+  },
+  {
+    "name": "Berrybush Seeds",
+    "id": "Seed_Test"
+  },
+  {
+    "name": "Bingleberry Soup",
+    "id": "BerrySoup"
+  },
+  {
+    "name": "Citronal Seed (instant grow)",
+    "id": "Seed_Citronal_SpeedHack"
+  },
+  {
+    "name": "Longrass Seed (instant grow)",
+    "id": "Seed_Longrass_SpeedHack"
+  },
+  {
+    "name": "Mejoberry Seed (instant grow)",
+    "id": "Seed_Mejoberry_SpeedHack"
+  },
+  {
+    "name": "Narcoberry Seed (instant grow)",
+    "id": "Seed_Narcoberry_SpeedHack"
+  },
+  {
+    "name": "Plant Species X Seed (instant grow)",
+    "id": "Seed_DefensePlant_SpeedHack"
+  },
+  {
+    "name": "Plant Species X",
+    "id": "TurretPlant"
+  },
+  {
+    "name": "Plant Species Y Seed (instant grow)",
+    "id": "Seed_PlantSpeciesY_SpeedHack"
+  },
+  {
+    "name": "Plant Species Z Seed (SpeedHack)",
+    "id": "Seed_PlantSpeciesZ_SpeedHack"
+  },
+  {
+    "name": "Rockarrot Seed (instant grow)",
+    "id": "Seed_Rockarrot_SpeedHack"
+  },
+  {
+    "name": "Savoroot Seed (instant grow)",
+    "id": "Seed_Savoroot_SpeedHack"
+  },
+  {
+    "name": "Stimberry Seed (instant grow)",
+    "id": "Seed_Stimberry_SpeedHack"
+  },
+  {
+    "name": "Tintoberry Seed (instant grow)",
+    "id": "Seed_Tintoberry_SpeedHack"
+  },
+  {
+    "name": "Magenta Coloring 2",
+    "id": "PrimalItemDye_Magenta"
+  },
+  {
+    "name": "Wizard Ballcap Skin",
+    "id": "Skin_Account_DevKitMaster"
+  },
+  {
+    "name": "ARK Tester Hat Skin",
+    "id": "Skin_Account_GameTester"
+  },
+  {
+    "name": "Fan Ballcap Skin",
+    "id": "Skin_Account_WildcardAdmin"
+  },
+  {
+    "name": "Tek ATV",
+    "id": "PrimalItemVHBuggy"
+  },
+  {
+    "name": "Artifact Of The Devious",
+    "id": "PrimalItemArtifact_04"
+  },
+  {
+    "name": "Artifact Of The Lost",
+    "id": "PrimalItemArtifactAB_4"
+  },
+  {
+    "name": "Mysterious Snow Globe",
+    "id": "PrimalItem_Bonus"
+  },
+  {
+    "name": "Revealed Snow Globe",
+    "id": "PrimalItem_Bonus2"
+  },
+  {
+    "name": "Survival of the Fittest Trophy: 1st Place",
+    "id": "SotF_1st"
+  },
+  {
+    "name": "Survival of the Fittest Trophy: 2nd Place",
+    "id": "SotF_2nd"
+  },
+  {
+    "name": "Survival of the Fittest Trophy: 3rd Place",
+    "id": "SotF_3rd"
+  },
+  {
+    "name": "SotF: Unnatural Selection Trophy: 1st Place",
+    "id": "SotFUS_1st"
+  },
+  {
+    "name": "SotF: Unnatural Selection Trophy: 2nd Place",
+    "id": "SotFUS_2nd"
+  },
+  {
+    "name": "SotF: Unnatural Selection Trophy: 3rd Place",
+    "id": "SotFUS_3rd"
+  },
+  {
+    "name": "Summon Broodmother",
+    "id": "PrimalItemConsumable_SpawnTameBoss_Spider"
+  },
+  {
+    "name": "Summon Megapithecus",
+    "id": "PrimalItemConsumable_SpawnTameBoss_Gorilla"
+  },
+  {
+    "name": "Generate Broodmother Portal",
+    "id": "PrimalItem_BossTribute1"
+  },
+  {
+    "name": "Generate Dragon Portal",
+    "id": "PrimalItem_BossTribute3"
+  },
+  {
+    "name": "Generate Megapithecus Portal",
+    "id": "PrimalItem_BossTribute2"
+  },
+  {
+    "name": "Artifact Of The Flamekeeper",
+    "id": "PrimalItemArtifact_10"
+  },
+  {
+    "name": "Pumpkin",
+    "id": "1"
+  },
+  {
+    "name": "Scarecrow",
+    "id": "Scarecrow"
+  },
+  {
+    "name": "Stolen Headstone",
+    "id": "HW_Grave"
+  },
+  {
+    "name": "Wishbone",
+    "id": "Wishbone"
+  },
+  {
+    "name": "Turkey Emote",
+    "id": "UnlockEmote_Turkey"
+  },
+  {
+    "name": "Summon DodoRex",
+    "id": "DodoRexTribute"
+  },
+  {
+    "name": "Mistletoe",
+    "id": "MistleToe"
+  },
+  {
+    "name": "Coal",
+    "id": "PrimalItemResource_Coal"
+  },
+  {
+    "name": "Wreath",
+    "id": "PrimalItemStructure_Wreath"
+  },
+  {
+    "name": "Holiday Lights",
+    "id": "XmasLights"
+  },
+  {
+    "name": "Holiday Stocking",
+    "id": "Stocking"
+  },
+  {
+    "name": "Holiday Tree",
+    "id": "ChristmasTree"
+  },
+  {
+    "name": "Snowman",
+    "id": "Snowman"
+  },
+  {
+    "name": "Gift Box",
+    "id": "StorageBox_ChristmasGift"
+  },
+  {
+    "name": "Snowball Emote",
+    "id": "UnlockEmote_Snowball"
+  },
+  {
+    "name": "Box o' Chocolates",
+    "id": "ValentinesChocolate"
+  },
+  {
+    "name": "Heart Emote",
+    "id": "UnlockEmote_Heart"
+  },
+  {
+    "name": "Romantic Head Hair",
+    "id": "UnlockHairstyle_Head_Romantic"
+  },
+  {
+    "name": "Romantic Facial Hair",
+    "id": "UnlockHairstyle_Facial_Romantic"
+  },
+  {
+    "name": "Bunny Egg",
+    "id": "1"
+  },
+  {
+    "name": "Birthday Cake",
+    "id": "1"
+  },
+  {
+    "name": "Birthday Candle",
+    "id": "BirthdayCandle"
+  },
+  {
+    "name": "Dinosaur Bone",
+    "id": "ARKBone"
+  },
+  {
+    "name": "Tek Rex Egg",
+    "id": "Egg_Rex_Bionic"
+  },
+  {
+    "name": "Tek Stego Egg",
+    "id": "Egg_Stego_Bionic"
+  },
+  {
+    "name": "Tek Raptor Egg",
+    "id": "Egg_Raptor_Bionic"
+  },
+  {
+    "name": "Tek Quetzal Egg",
+    "id": "Egg_Quetz_Bionic"
+  },
+  {
+    "name": "Tek Parasaur Egg",
+    "id": "Egg_Para_Bionic"
+  },
+  {
+    "name": "Brachiosaurus Costume",
+    "id": "Brachiosaurus"
+  },
+  {
+    "name": "Corrupted Boots",
+    "id": "CorruptedBoots"
+  },
+  {
+    "name": "Corrupted Helmet",
+    "id": "CorruptedHelmet"
+  },
+  {
+    "name": "Corrupted Pants",
+    "id": "CorruptedPants"
+  },
+  {
+    "name": "Corrupted Chestpiece",
+    "id": "CorruptedShirt"
+  },
+  {
+    "name": "Corrupted Gloves",
+    "id": "CorruptedGloves"
+  },
+  {
+    "name": "Dilo Mask",
+    "id": "DiloMask"
+  },
+  {
+    "name": "Dino Easter Chick Hat",
+    "id": "DinoChickHat"
+  },
+  {
+    "name": "Dino Easter Egg Hat",
+    "id": "DinoEasterEggHat"
+  },
+  {
+    "name": "Easter Chick Hat",
+    "id": "PrimalItemSkin_EasterChick"
+  },
+  {
+    "name": "Easter Egg Hat",
+    "id": "PrimalItemSkin_EasterEggHat"
+  },
+  {
+    "name": "Stygimoloch Costume",
+    "id": "Stygimoloch"
+  },
+  {
+    "name": "Styracosaurus Costume",
+    "id": "Styracosaurus"
+  },
+  {
+    "name": "Dermis",
+    "id": "TaxidermyDermis"
+  },
+  {
+    "name": "Dino Spawner",
+    "id": "DinoSpawner_Base"
+  },
+  {
+    "name": "Artifact of Chaos",
+    "id": "Extinction_DesertKaiju"
+  },
+  {
+    "name": "Artifact of Growth",
+    "id": "Extinction_ForestKaiju"
+  },
+  {
+    "name": "Artifact of the Void",
+    "id": "Extinction_IceKaiju"
+  },
+  {
+    "name": "Condensed Gas",
+    "id": "CondensedGas"
+  },
+  {
+    "name": "Snow Owl Egg",
+    "id": "PrimalItemConsumable_Egg_Owl"
+  },
+  {
+    "name": "Fertilized Snow Owl Egg",
+    "id": "Egg_Owl_Fertilized"
+  },
+  {
+    "name": "Snow Owl Pellet",
+    "id": "OwlPellet"
+  },
+  {
+    "name": "Corrupt Heart",
+    "id": "RareDrop_CorruptHeart"
+  },
+  {
+    "name": "M.R.L.M",
+    "id": "MekBackpack_MissilePod"
+  },
+  {
+    "name": "M.D.S.M",
+    "id": "MekBackpack_Shield"
+  },
+  {
+    "name": "M.S.C.M",
+    "id": "MekBackpack_SiegeCannon"
+  },
+  {
+    "name": "Ice Titan Trophy",
+    "id": "Kaiju_Ice"
+  },
+  {
+    "name": "Cannon Shell",
+    "id": "CannonShell"
+  },
+  {
+    "name": "Rocket Pod",
+    "id": "RocketPod"
+  },
+  {
+    "name": "Corrupted Nodule",
+    "id": "CorruptedPolymer"
+  },
+  {
+    "name": "Ice Titan Saddle",
+    "id": "PrimalItemArmor_IceKaiju"
+  },
+  {
+    "name": "Cryofridge",
+    "id": "CryoFridge"
+  },
+  {
+    "name": "Red Crystalized Sap",
+    "id": "RedSap"
+  },
+  {
+    "name": "Superior Augmented Kibble",
+    "id": "Kibble_Base_Large_EX"
+  },
+  {
+    "name": "Blue Crystalized Sap",
+    "id": "BlueSap"
+  },
+  {
+    "name": "Regular Augmented Kibble",
+    "id": "Kibble_Base_Medium_EX"
+  },
+  {
+    "name": "Small Advanced Kibble",
+    "id": "Kibble_Base_Small_EX"
+  },
+  {
+    "name": "Extraordinary Augmented Kibble",
+    "id": "Kibble_Base_Special_EX"
+  },
+  {
+    "name": "Element Dust",
+    "id": "PrimalItemResource_ElementDust"
+  },
+  {
+    "name": "Exceptional Augmented Kibble",
+    "id": "Kibble_Base_XLarge_EX"
+  },
+  {
+    "name": "Corrupted Wood",
+    "id": "CorruptedWood"
+  },
+  {
+    "name": "Extra Small Advanced Kibble",
+    "id": "Kibble_Base_XSmall_EX"
+  },
+  {
+    "name": "Scrap Metal",
+    "id": "PrimalItemResource_ScrapMetal"
+  },
+  {
+    "name": "Scrap Metal Ingot",
+    "id": "ScrapMetalIngot"
+  },
+  {
+    "name": "Mek Backpack",
+    "id": "MekBackpack_Base"
+  },
+  {
+    "name": "Empty Cryopod",
+    "id": "WeaponEmptyCryopod"
+  },
+  {
+    "name": "Unassembled Enforcer",
+    "id": "PrimalItem_Spawner_Enforcer"
+  },
+  {
+    "name": "Unassembled Mek",
+    "id": "Spawner_Mek"
+  },
+  {
+    "name": "Gasbags bladder",
+    "id": "ApexDrop_GasBag"
+  },
+  {
+    "name": "Velonasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Spindles"
+  },
+  {
+    "name": "Fertilized Velonasaur Egg",
+    "id": "Egg_Spindles_Fertilized"
+  },
+  {
+    "name": "Managarmr Saddle",
+    "id": "IceJumperSaddle"
+  },
+  {
+    "name": "Snow Owl Saddle",
+    "id": "OwlSaddle"
+  },
+  {
+    "name": "Velonasaur Saddle",
+    "id": "SpindlesSaddle"
+  },
+  {
+    "name": "Dino Leash",
+    "id": "DinoLeash"
+  },
+  {
+    "name": "Gacha Saddle",
+    "id": "GachaSaddle"
+  },
+  {
+    "name": "Fragmented Green Gem",
+    "id": "FracturedGem"
+  },
+  {
+    "name": "Gacha Crystal",
+    "id": "GachaPod"
+  },
+  {
+    "name": "Desert Titan Trophy",
+    "id": "Kaiju_Desert"
+  },
+  {
+    "name": "Desert Titan Saddle",
+    "id": "PrimalItemArmor_DesertKaiju"
+  },
+  {
+    "name": "Scout Remote",
+    "id": "PrimalItem_WeaponScoutRemote"
+  },
+  {
+    "name": "Forest Titan Trophy",
+    "id": "Kaiju_Forest"
+  },
+  {
+    "name": "Forest Titan Saddle",
+    "id": "PrimalItemArmor_ForestKaiju"
+  },
+  {
+    "name": "Gasbags Saddle",
+    "id": "GasBagsSaddle"
+  },
+  {
+    "name": "Unstable Element",
+    "id": "ElementRefined"
+  },
+  {
+    "name": "Unstable Element Shard",
+    "id": "ShardRefined"
+  },
+  {
+    "name": "Delivery Crate",
+    "id": "StorageBox_Balloon"
+  },
+  {
+    "name": "Taxidermy Base",
+    "id": "PrimalItemStructure_TaxidermyBase"
+  },
+  {
+    "name": "Large Taxidermy Base",
+    "id": "TaxidermyBase_Large"
+  },
+  {
+    "name": "Medium Taxidermy Base",
+    "id": "TaxidermyBase_Medium"
+  },
+  {
+    "name": "Small Taxidermy Base",
+    "id": "TaxidermyBase_Small"
+  },
+  {
+    "name": "Taxidermy Tool",
+    "id": "WeaponTaxidermyTool"
+  },
+  {
+    "name": "Tek Bridge",
+    "id": "TekBridge"
+  },
+  {
+    "name": "Tek Gravity Grenade",
+    "id": "WeaponTekGravityGrenade"
+  },
+  {
+    "name": "M.O.M.I",
+    "id": "MekTransformer"
+  },
+  {
+    "name": "HomoDeus Boots",
+    "id": "HomoDeusBoots"
+  },
+  {
+    "name": "HomoDeus Gloves",
+    "id": "HomoDeusGloves"
+  },
+  {
+    "name": "HomoDeus Helmet",
+    "id": "HomoDeusHelmet"
+  },
+  {
+    "name": "HomoDeus Pants",
+    "id": "HomoDeusPants"
+  },
+  {
+    "name": "HomoDeus Shirt",
+    "id": "HomoDeusShirt"
+  },
+  {
+    "name": "Admin Blink Rifle",
+    "id": "WeaponAdminBlinkRifle"
+  },
+  {
+    "name": "King Titan Flag",
+    "id": "PrimalItemStructure_Flag_KingKaiju"
+  },
+  {
+    "name": "Mecha King Titan Flag",
+    "id": "Flag_KingKaijuMecha"
+  },
+  {
+    "name": "King Titan Trophy (Alpha)",
+    "id": "Kaiju_King_Alpha"
+  },
+  {
+    "name": "King Titan Trophy (Beta)",
+    "id": "Kaiju_King_Beta"
+  },
+  {
+    "name": "King Titan Trophy (Gamma)",
+    "id": "Kaiju_King_Gamma"
+  },
+  {
+    "name": "Silicate",
+    "id": "Silicate"
+  },
+  {
+    "name": "Crafted Element Dust",
+    "id": "ElementDustFromShards"
+  },
+  {
+    "name": "Dinosaur Egg",
+    "id": "PrimalItemConsumable_Egg"
+  },
+  {
+    "name": "Large Egg",
+    "id": "Egg_Large"
+  },
+  {
+    "name": "Medium Egg",
+    "id": "Egg_Medium"
+  },
+  {
+    "name": "Small Egg",
+    "id": "Egg_Small"
+  },
+  {
+    "name": "Special Egg",
+    "id": "Egg_Special"
+  },
+  {
+    "name": "Extra Large Egg",
+    "id": "Egg_XtraLarge"
+  },
+  {
+    "name": "Extra Small Egg",
+    "id": "Egg_XSmall"
+  },
+  {
+    "name": "Generate Center Portal",
+    "id": "1"
+  },
+  {
+    "name": "Generate Scorched Earth Portal",
+    "id": "BossTribute_ScorchedEarth"
+  },
+  {
+    "name": "Festive Dino Candy",
+    "id": "FestiveDinoCandy"
+  },
+  {
+    "name": "Adobe Double Doorframe",
+    "id": "DoubleDoorframe_Adobe"
+  },
+  {
+    "name": "Adobe Double Door",
+    "id": "DoubleDoor_Adobe"
+  },
+  {
+    "name": "Adobe Fence Support",
+    "id": "FenceSupport_Adobe"
+  },
+  {
+    "name": "Adobe Stairs",
+    "id": "Ramp_Adobe"
+  },
+  {
+    "name": "Adobe Triangle Ceiling",
+    "id": "TriCeiling_Adobe"
+  },
+  {
+    "name": "Adobe Triangle Foundation",
+    "id": "TriFoundation_Adobe"
+  },
+  {
+    "name": "Adobe Triangle Roof",
+    "id": "TriRoof_Adobe"
+  },
+  {
+    "name": "Flexible Electrical Cable",
+    "id": "Wire_Flex"
+  },
+  {
+    "name": "Greenhouse Double Doorframe",
+    "id": "DoubleDoorframe_Greenhouse"
+  },
+  {
+    "name": "Greenhouse Double Door",
+    "id": "DoubleDoor_Greenhouse"
+  },
+  {
+    "name": "Greenhouse Triangle Ceiling",
+    "id": "TriCeiling_Greenhouse"
+  },
+  {
+    "name": "Greenhouse Triangle Roof",
+    "id": "TriRoof_Greenhouse"
+  },
+  {
+    "name": "Large Adobe Wall",
+    "id": "LargeWall_Adobe"
+  },
+  {
+    "name": "Large Metal Wall",
+    "id": "LargeWall_Metal"
+  },
+  {
+    "name": "Large Stone Wall",
+    "id": "LargeWall_Stone"
+  },
+  {
+    "name": "Large Tek Wall",
+    "id": "LargeWall_Tek"
+  },
+  {
+    "name": "Large Wooden Wall",
+    "id": "LargeWall_Wood"
+  },
+  {
+    "name": "Metal Double Doorframe",
+    "id": "DoubleDoorframe_Metal"
+  },
+  {
+    "name": "Metal Double Door",
+    "id": "DoubleDoor_Metal"
+  },
+  {
+    "name": "Metal Fence Support",
+    "id": "FenceSupport_Metal"
+  },
+  {
+    "name": "Metal Irrigation Pipe - Flexible",
+    "id": "PipeFlex_Metal"
+  },
+  {
+    "name": "Metal Stairs",
+    "id": "Ramp_Metal"
+  },
+  {
+    "name": "Metal Triangle Ceiling",
+    "id": "TriCeiling_Metal"
+  },
+  {
+    "name": "Metal Triangle Foundation",
+    "id": "TriFoundation_Metal"
+  },
+  {
+    "name": "Metal Triangle Roof",
+    "id": "TriRoof_Metal"
+  },
+  {
+    "name": "Reinforced Double Door",
+    "id": "DoubleDoor_Stone"
+  },
+  {
+    "name": "Stone Double Doorframe",
+    "id": "DoubleDoorframe_Stone"
+  },
+  {
+    "name": "Stone Fence Support",
+    "id": "FenceSupport_Stone"
+  },
+  {
+    "name": "Stone Irrigation Pipe - Flexible",
+    "id": "PipeFlex_Stone"
+  },
+  {
+    "name": "Stone Stairs",
+    "id": "Ramp_Stone"
+  },
+  {
+    "name": "Stone Triangle Ceiling",
+    "id": "TriCeiling_Stone"
+  },
+  {
+    "name": "Stone Triangle Foundation",
+    "id": "TriFoundation_Stone"
+  },
+  {
+    "name": "Stone Triangle Roof",
+    "id": "TriRoof_Stone"
+  },
+  {
+    "name": "Tek Dedicated Storage",
+    "id": "DedicatedStorage"
+  },
+  {
+    "name": "Tek Double Doorframe",
+    "id": "DoubleDoorframe_Tek"
+  },
+  {
+    "name": "Tek Double Door",
+    "id": "DoubleDoor_Tek"
+  },
+  {
+    "name": "Tek Fence Support",
+    "id": "FenceSupport_Tek"
+  },
+  {
+    "name": "Tek Stairs",
+    "id": "Ramp_Tek"
+  },
+  {
+    "name": "Tek Triangle Ceiling",
+    "id": "TriCeiling_Tek"
+  },
+  {
+    "name": "Tek Triangle Foundation",
+    "id": "TriFoundation_Tek"
+  },
+  {
+    "name": "Tek Triangle Roof",
+    "id": "TriRoof_Tek"
+  },
+  {
+    "name": "Wooden Double Doorframe",
+    "id": "DoubleDoorframe_Wood"
+  },
+  {
+    "name": "Wooden Double Door",
+    "id": "DoubleDoor_Wood"
+  },
+  {
+    "name": "Wooden Fence Support",
+    "id": "FenceSupport_Wood"
+  },
+  {
+    "name": "Wooden Stairs",
+    "id": "Ramp_Wood"
+  },
+  {
+    "name": "Wooden Triangle Ceiling",
+    "id": "TriCeiling_Wood"
+  },
+  {
+    "name": "Wooden Triangle Foundation",
+    "id": "TriFoundation_Wood"
+  },
+  {
+    "name": "Wooden Triangle Roof",
+    "id": "TriRoof_Wood"
+  },
+  {
+    "name": "Basic Kibble",
+    "id": "Kibble_Base_XSmall"
+  },
+  {
+    "name": "Simple Kibble",
+    "id": "Kibble_Base_Small"
+  },
+  {
+    "name": "Regular Kibble",
+    "id": "Kibble_Base_Medium"
+  },
+  {
+    "name": "Superior Kibble",
+    "id": "Kibble_Base_Large"
+  },
+  {
+    "name": "Exceptional Kibble",
+    "id": "Kibble_Base_XLarge"
+  },
+  {
+    "name": "Extraordinary Kibble",
+    "id": "Kibble_Base_Special"
+  },
+  {
+    "name": "Valentines Dino Candy",
+    "id": "ValentinesDinoCandy"
+  },
+  {
+    "name": "Deinonychus Egg",
+    "id": "Egg_Deinonychus_Fertilized"
+  },
+  {
+    "name": "Deinonychus Saddle",
+    "id": "DeinonychusSaddle"
+  },
+  {
+    "name": "Alpha Raptor Swim Bottom",
+    "id": "SummerSwimPants_Alpha"
+  },
+  {
+    "name": "Alpha Raptor Swim Top",
+    "id": "SummerSwimShirt_Alpha"
+  },
+  {
+    "name": "Araneo Swim Bottom",
+    "id": "FE_Underwear_Araneo"
+  },
+  {
+    "name": "Araneo Swim Top",
+    "id": "FE_SwimShirt_Araneo"
+  },
+  {
+    "name": "Chocolate Rabbit Club",
+    "id": "Club_ChocolateRabbit"
+  },
+  {
+    "name": "Corrupted Avatar Helmet",
+    "id": "PrimalItemSkin_Gen1AvatarHelmet"
+  },
+  {
+    "name": "Dino Marshmallow Hat",
+    "id": "DinoMarshmallowHat"
+  },
+  {
+    "name": "Dino Uncle Sam Hat",
+    "id": "TopHat_Summer_Dino"
+  },
+  {
+    "name": "Floral Swim Bottom",
+    "id": "SummerSwimPants_Flowers"
+  },
+  {
+    "name": "Floral Swim Top",
+    "id": "SummerSwimShirt_Flowers"
+  },
+  {
+    "name": "Giga Poop Swim Bottom",
+    "id": "SummerSwimPants_Carno"
+  },
+  {
+    "name": "Giga Poop Swim Top",
+    "id": "SummerSwimShirt_Carno"
+  },
+  {
+    "name": "Headless Costume",
+    "id": "FE_HeadlessHat"
+  },
+  {
+    "name": "Hockey Mask",
+    "id": "FE_ScaryFaceMask"
+  },
+  {
+    "name": "Marshmallow Hat",
+    "id": "PrimalItemSkin_MarshmallowHat"
+  },
+  {
+    "name": "Mini-HLNA",
+    "id": "MiniHLNA"
+  },
+  {
+    "name": "Onyc Swim Bottom",
+    "id": "FE_Underwear_Onyc"
+  },
+  {
+    "name": "Onyc Swim Top",
+    "id": "FE_SwimShirt_Onyc"
+  },
+  {
+    "name": "Scary Pumpkin Helmet",
+    "id": "PrimalItemSkin_FE_PumpkinHat"
+  },
+  {
+    "name": "Summer Swimsuit",
+    "id": "PrimalItemSkin_SummerSwimPants"
+  },
+  {
+    "name": "T-Rex Swim Bottom",
+    "id": "SummerSwimPants_Arthro"
+  },
+  {
+    "name": "T-Rex Swim Top",
+    "id": "SummerSwimShirt_Arthro"
+  },
+  {
+    "name": "Uncle Sam Hat",
+    "id": "PrimalItemSkin_TopHat_Summer"
+  },
+  {
+    "name": "Vampire Dodo Swim Bottom",
+    "id": "FE_Underwear_VampireDodo"
+  },
+  {
+    "name": "Vampire Dodo Swim Top",
+    "id": "FE_SwimShirt_VampireDodo"
+  },
+  {
+    "name": "Fish Net",
+    "id": "PrimalItem_WeaponFishingNet"
+  },
+  {
+    "name": "Fish Net (Bog Mission)",
+    "id": "WeaponFishingNet_BogMission"
+  },
+  {
+    "name": "Fish Net (Maintain After Catch)",
+    "id": "WeaponFishingNet_MaintainAfterCatch"
+  },
+  {
+    "name": "Mining Drill",
+    "id": "PrimalItem_WeaponMiningDrill"
+  },
+  {
+    "name": "Tek Claws",
+    "id": "PrimalItem_WeaponTekClaws"
+  },
+  {
+    "name": "Tek Cruise Missile",
+    "id": "WeaponTekCruiseMissile"
+  },
+  {
+    "name": "Tek Grenade Launcher",
+    "id": "PrimalItem_WeaponTekGrenadeLauncher"
+  },
+  {
+    "name": "Tek Shoulder Cannon",
+    "id": "ShoulderCannon"
+  },
+  {
+    "name": "Metal Ocean Platform",
+    "id": "Metal_OceanPlatform"
+  },
+  {
+    "name": "Pressure Plate",
+    "id": "PressurePlate"
+  },
+  {
+    "name": "Tek Alarm System",
+    "id": "PrimalItemStructure_TekAlarm"
+  },
+  {
+    "name": "Tek Hover-Skiff",
+    "id": "PrimalItemStructure_HoverSkiff"
+  },
+  {
+    "name": "Tek Jump Pad",
+    "id": "TekJumpPad"
+  },
+  {
+    "name": "Wooden Ocean Platform",
+    "id": "Wood_OceanPlatform"
+  },
+  {
+    "name": "Astrocetus Tek Saddle",
+    "id": "SpaceWhaleSaddle_Tek"
+  },
+  {
+    "name": "Magmasaur Saddle",
+    "id": "CherufeSaddle"
+  },
+  {
+    "name": "Megachelon Platform Saddle",
+    "id": "GiantTurtleSaddle"
+  },
+  {
+    "name": "Corrupted Avatar Boots Skin",
+    "id": "Gen1AvatartBoots"
+  },
+  {
+    "name": "Corrupted Avatar Helmet Skin",
+    "id": "PrimalItemSkin_Gen1AvatarHelmet"
+  },
+  {
+    "name": "Corrupted Avatar Shirt Skin",
+    "id": "Gen1AvatarShirt"
+  },
+  {
+    "name": "Corrupted Avatar Gloves Skin",
+    "id": "Gen1AvatarGloves"
+  },
+  {
+    "name": "Corrupted Avatar Pants Skin",
+    "id": "Gen1AvatarPants"
+  },
+  {
+    "name": "Moeder Trophy",
+    "id": "PrimalItemTrophy_EelBoss"
+  },
+  {
+    "name": "Alpha Moeder Trophy",
+    "id": "EelBoss_Alpha"
+  },
+  {
+    "name": "Beta Moeder Trophy",
+    "id": "EelBoss_Beta"
+  },
+  {
+    "name": "Gamma Moeder Trophy",
+    "id": "EelBoss_Gamma"
+  },
+  {
+    "name": "Master Controller Trophy",
+    "id": "PrimalItemTrophy_MasterController"
+  },
+  {
+    "name": "Shell Fragment",
+    "id": "TurtleShell"
+  },
+  {
+    "name": "Moeder Flag",
+    "id": "Flag_EelBoss"
+  },
+  {
+    "name": "VR Boss Flag",
+    "id": "Flag_VRBoss"
+  },
+  {
+    "name": "Fertilized X-Parasaur Egg",
+    "id": "Egg_Para_Fertilized_Bog"
+  },
+  {
+    "name": "Fertilized X-Raptor Egg",
+    "id": "Egg_Raptor_Fertilized_Bog"
+  },
+  {
+    "name": "Fertilized X-Spino Egg",
+    "id": "Egg_Spino_Fertilized_Bog"
+  },
+  {
+    "name": "Fertilized X-Tapejara Egg",
+    "id": "Egg_Tapejara_Fertilized_Bog"
+  },
+  {
+    "name": "Fertilized X-Argentavis Egg",
+    "id": "Egg_Argent_Fertilized_Snow"
+  },
+  {
+    "name": "Fertilized X-Yutyrannus Egg",
+    "id": "Egg_Yuty_Fertilized_Snow"
+  },
+  {
+    "name": "Fertilized X-Allosaurus Egg",
+    "id": "Egg_Allo_Fertilized_Volcano"
+  },
+  {
+    "name": "Fertilized X-Ankylosaurus Egg",
+    "id": "Egg_Ankylo_Fertilized_Volcano"
+  },
+  {
+    "name": "Fertilized X-Rex Egg",
+    "id": "Egg_Rex_Fertilized_Volcano"
+  },
+  {
+    "name": "Fertilized X-Trike Egg",
+    "id": "Egg_Trike_Fertilized_Volcano"
+  },
+  {
+    "name": "Bloodstalker Egg",
+    "id": "PrimalItemConsumable_Egg_BogSpider"
+  },
+  {
+    "name": "Fertilized Bloodstalker Egg",
+    "id": "Egg_BogSpider_Fertilized"
+  },
+  {
+    "name": "Megachelon Egg",
+    "id": "PrimalItemConsumable_Egg_GiantTurtle"
+  },
+  {
+    "name": "Fertilized Megachelon Egg",
+    "id": "Egg_GiantTurtle_Fertilized"
+  },
+  {
+    "name": "Magmasaur Egg (Mission)",
+    "id": "Egg_Cherufe_Retrieve"
+  },
+  {
+    "name": "Golden Nugget",
+    "id": "GoldenNugget"
+  },
+  {
+    "name": "High Quality Pollen",
+    "id": "HighQualityPollen"
+  },
+  {
+    "name": "Golden Striped Megalodon Tooth",
+    "id": "RetrieveMegTooth"
+  },
+  {
+    "name": "Reaper King Phermone Gland",
+    "id": "RetrieveReaperGland"
+  },
+  {
+    "name": "Alpha X-Triceratops Skull",
+    "id": "TrikeSkullHelmet_Retrieve"
+  },
+  {
+    "name": "Tier 1 Lootcrate",
+    "id": "Lootcrate_lvl1"
+  },
+  {
+    "name": "Tier 2 Lootcrate",
+    "id": "Lootcrate_lvl2"
+  },
+  {
+    "name": "Tier 3 Lootcrate",
+    "id": "Lootcrate_lvl3"
+  },
+  {
+    "name": "Master Controller Helmet Skin",
+    "id": "MasterControllerHelmet"
+  },
+  {
+    "name": "Chibi Bloodstalker Skin",
+    "id": "ChibiDino_BogSpider"
+  },
+  {
+    "name": "Chibi Ferox Skin",
+    "id": "ChibiDino_Shapeshifter_Small"
+  },
+  {
+    "name": "Chibi Magmasaur Skin",
+    "id": "ChibiDino_Cherufe"
+  },
+  {
+    "name": "Chibi Mutated Ferox Skin",
+    "id": "ChibiDino_Shapeshifter_Large"
+  },
+  {
+    "name": "Gauntlet Assault Rifle",
+    "id": "WeaponRifle_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Bow",
+    "id": "WeaponBow_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Chainsaw",
+    "id": "ChainSaw_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Cluster Grenade",
+    "id": "WeaponClusterGrenade_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Compound Bow",
+    "id": "WeaponCompoundBow_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Fabricated Pistol",
+    "id": "WeaponMachinedPistol_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Fabricated Sniper",
+    "id": "WeaponMachinedSniper_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Flame Bow",
+    "id": "WeaponBow_Flame_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Flame Crossbow",
+    "id": "WeaponCrossbow_Flame_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Flame Spear",
+    "id": "WeaponSpear_Flame_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Flamethrower",
+    "id": "WeapFlamethrower_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Grenade",
+    "id": "WeaponGrenade_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Longneck Rifle",
+    "id": "WeaponOneShotRifle_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Metal Hatchet",
+    "id": "WeaponMetalHatchet_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Metal Sword",
+    "id": "WeaponSword_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Pike",
+    "id": "WeaponPike_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Pump Shotgun",
+    "id": "WeaponMachinedShotgun_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Rocket Launcher",
+    "id": "WeaponRocketLauncher_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Sighted Fabricated Pistol",
+    "id": "WeaponMachinedPistol_Holosight_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Simple Pistol",
+    "id": "WeaponGun_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Spear",
+    "id": "WeaponSpear_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Claws",
+    "id": "WeaponTekClaws_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Grenade Launcher",
+    "id": "WeaponTekGrenadeLauncher_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Rifle",
+    "id": "PrimalItem_TekRifle_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Sniper",
+    "id": "TekSniper_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Sword",
+    "id": "WeaponTekSword_Gauntlet"
+  },
+  {
+    "name": "Magmasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Cherufe"
+  },
+  {
+    "name": "Unassembled Tek Hover Skiff",
+    "id": "Spawner_HoverSkiff"
+  },
+  {
+    "name": "Fertilized Crystal Wyvern Egg (Blood)",
+    "id": "Egg_CrystalWyvern_Fertilized_Bloodfall"
+  },
+  {
+    "name": "Fertilized Crystal Wyvern Egg (Ember)",
+    "id": "Egg_CrystalWyvern_Fertilized_Ember"
+  },
+  {
+    "name": "Fertilized Crystal Wyvern Egg (Tropical)",
+    "id": "Egg_CrystalWyvern_Fertilized_WS"
+  },
+  {
+    "name": "Alpha Crystal Talon",
+    "id": "ApexDrop_AlphaCrystalWyvern"
+  },
+  {
+    "name": "Crystal Wyvern Egg",
+    "id": "PrimalItemConsumable_Egg_CrystalWyvern"
+  },
+  {
+    "name": "Fertilized Crystal Wyvern Egg",
+    "id": "PrimalItemConsumable_Egg_CrystalWyvern_Fertilized"
+  },
+  {
+    "name": "Crystal Talon",
+    "id": "ApexDrop_CrystalWyvern"
+  },
+  {
+    "name": "Primal Crystal",
+    "id": "Crystal_IslesPrimal"
+  },
+  {
+    "name": "Tropeognathus Egg",
+    "id": "PrimalItemConsumable_Egg_Tropeognathus"
+  },
+  {
+    "name": "Tropeognathus Saddle",
+    "id": "TropeSaddle"
+  },
+  {
+    "name": "Knock Emote Unlock",
+    "id": "UnlockEmote_FEKnock"
+  },
+  {
+    "name": "Scare Emote Unlock",
+    "id": "UnlockEmote_FEScare"
+  },
+  {
+    "name": "Afro Hairstyle Unlock",
+    "id": "UnlockHair_Head_Afro"
+  },
+  {
+    "name": "Air Drums Emote Unlock",
+    "id": "UnlockEmote_AirDrum"
+  },
+  {
+    "name": "Air Guitar Emote Unlock",
+    "id": "UnlockEmote_AirGuitar"
+  },
+  {
+    "name": "Alpha Crystal Wyvern Queen Trophy",
+    "id": "CIBoss_Alpha"
+  },
+  {
+    "name": "Ambergris",
+    "id": "Ambergris"
+  },
+  {
+    "name": "Archer Flex Emote Unlock",
+    "id": "UnlockEmote_Flex2"
+  },
+  {
+    "name": "ARK Anniversary Surprise Cake",
+    "id": "PrimalItemStructure_BirthdayCake"
+  },
+  {
+    "name": "Arthropluera Egg",
+    "id": "PrimalItemConsumable_Egg_Arthro"
+  },
+  {
+    "name": "Access Tek Cave (Gamma)",
+    "id": "DungeonEntrance_TekCave_Easy"
+  },
+  {
+    "name": "Access Tek Cave (Alpha)",
+    "id": "DungeonEntrance_TekCave_Hard"
+  },
+  {
+    "name": "Access Tek Cave (Beta)",
+    "id": "DungeonEntrance_TekCave_Medium"
+  },
+  {
+    "name": "Basilisk Ghost Costume",
+    "id": "GhostBasilisk"
+  },
+  {
+    "name": "Belly Rub Emote Unlock",
+    "id": "UnlockEmote_BellyRub"
+  },
+  {
+    "name": "Beta Crystal Wyvern Queen Trophy",
+    "id": "CIBoss_Beta"
+  },
+  {
+    "name": "Bicep Smooch Emote Unlock",
+    "id": "UnlockEmote_Flex1"
+  },
+  {
+    "name": "Bingleberry",
+    "id": "Berry_Base"
+  },
+  {
+    "name": "Blue-Ball Winter Beanie Skin",
+    "id": "WW_WinterHatD"
+  },
+  {
+    "name": "Bonnet Hat Skin",
+    "id": "TT_BonnetHat"
+  },
+  {
+    "name": "Bow & Eros Skin",
+    "id": "CupidBow"
+  },
+  {
+    "name": "Braids Hairstyle Unlock",
+    "id": "UnlockHair_Head_Braids"
+  },
+  {
+    "name": "Generate Broodmother Portal (Gamma)",
+    "id": "BossTribute_Spider_Easy"
+  },
+  {
+    "name": "Generate Broodmother Portal (Alpha)",
+    "id": "BossTribute_Spider_Hard"
+  },
+  {
+    "name": "Generate Broodmother Portal (Beta)",
+    "id": "BossTribute_Spider_Medium"
+  },
+  {
+    "name": "Bulbdog Ghost Costume",
+    "id": "GhostLanternPug"
+  },
+  {
+    "name": "Bulbdog-Print Shirt",
+    "id": "HawaiianShirt_Bulbdog"
+  },
+  {
+    "name": "Bunny Hop Dance Emote",
+    "id": "UnlockEmote_BunnyHopDance"
+  },
+  {
+    "name": "Cake Slice",
+    "id": "CakeSlice"
+  },
+  {
+    "name": "Caroling Emote Unlock",
+    "id": "UnlockEmote_Caroling"
+  },
+  {
+    "name": "Generate Center Portal (Alpha)",
+    "id": "BossTribute_TheCenter_Hard"
+  },
+  {
+    "name": "Generate Center Portal (Beta)",
+    "id": "BossTribute_TheCenter_Medium"
+  },
+  {
+    "name": "Charge",
+    "id": "PowerNodeCharge"
+  },
+  {
+    "name": "Chibi Allosaurus",
+    "id": "ChibiDino_Allosaurus"
+  },
+  {
+    "name": "Chibi Ammonite",
+    "id": "ChibiDino_Ammonite"
+  },
+  {
+    "name": "Chibi Ankylosaurus",
+    "id": "ChibiDino_Ankylosaurus"
+  },
+  {
+    "name": "Chibi Argentavis",
+    "id": "ChibiDino_Argent"
+  },
+  {
+    "name": "Chibi Astrocetus",
+    "id": "ChibiDino_Astrocetus"
+  },
+  {
+    "name": "Chibi Baryonyx",
+    "id": "ChibiDino_Baryonyx"
+  },
+  {
+    "name": "Chibi Basilisk",
+    "id": "PrimalItemSkin_ChibiDino_Basilisk"
+  },
+  {
+    "name": "Chibi Beelzebufo",
+    "id": "ChibiDino_Beelzebufo"
+  },
+  {
+    "name": "Chibi Brontosaurus",
+    "id": "PrimalItemSkin_ChibiDino_Bronto"
+  },
+  {
+    "name": "Chibi Bulbdog",
+    "id": "PrimalItemSkin_ChibiDino_Bulbdog"
+  },
+  {
+    "name": "Chibi Bunny",
+    "id": "ChibiDino_Bunny"
+  },
+  {
+    "name": "Chibi Carbonemys",
+    "id": "ChibiDino_Carbonemys"
+  },
+  {
+    "name": "Chibi Carnotaurus",
+    "id": "PrimalItemSkin_ChibiDino_Carnotaurus"
+  },
+  {
+    "name": "Chibi Castoroides",
+    "id": "ChibiDino_Castroides"
+  },
+  {
+    "name": "Chibi Cnidaria",
+    "id": "ChibiDino_Cnidaria"
+  },
+  {
+    "name": "Chibi Daeodon",
+    "id": "ChibiDino_Daeodon"
+  },
+  {
+    "name": "Chibi Direbear",
+    "id": "ChibiDino_Direbear"
+  },
+  {
+    "name": "Chibi Direwolf",
+    "id": "PrimalItemSkin_ChibiDino_Direwolf"
+  },
+  {
+    "name": "Chibi Dodo",
+    "id": "PrimalItemSkin_ChibiDino_Dodo"
+  },
+  {
+    "name": "Chibi Doedicurus",
+    "id": "ChibiDino_Doedicurus"
+  },
+  {
+    "name": "Chibi Equus",
+    "id": "ChibiDino_Equus"
+  },
+  {
+    "name": "Chibi Featherlight",
+    "id": "PrimalItemSkin_ChibiDino_Featherlight"
+  },
+  {
+    "name": "Chibi Gacha Claus",
+    "id": "ChibiDino_GachaClaus"
+  },
+  {
+    "name": "Chibi GasBag",
+    "id": "ChibiDino_Gasbag"
+  },
+  {
+    "name": "Chibi Giganotosaurus",
+    "id": "PrimalItemSkin_ChibiDino_Gigant"
+  },
+  {
+    "name": "Chibi Gigantopithecus",
+    "id": "PrimalItemSkin_ChibiDino_Gigantopithecus"
+  },
+  {
+    "name": "Chibi Glowtail",
+    "id": "PrimalItemSkin_ChibiDino_Glowtail"
+  },
+  {
+    "name": "Chibi Griffin",
+    "id": "ChibiDino_Griffin"
+  },
+  {
+    "name": "Chibi Iguanodon",
+    "id": "ChibiDino_Iguanodon"
+  },
+  {
+    "name": "Chibi Karkinos",
+    "id": "ChibiDino_Karkinos"
+  },
+  {
+    "name": "Chibi Kentrosaurus",
+    "id": "ChibiDino_Kentrosaurus"
+  },
+  {
+    "name": "Chibi Mammoth",
+    "id": "ChibiDino_Mammoth"
+  },
+  {
+    "name": "Chibi Managarmr",
+    "id": "ChibiDino_Managarmr"
+  },
+  {
+    "name": "Chibi Manta",
+    "id": "ChibiDino_Manta"
+  },
+  {
+    "name": "Chibi Megalania",
+    "id": "ChibiDino_Megalania"
+  },
+  {
+    "name": "Chibi Megaloceros",
+    "id": "ChibiDino_Megaloceros"
+  },
+  {
+    "name": "Chibi Megalodon",
+    "id": "ChibiDino_Megalodon"
+  },
+  {
+    "name": "Chibi Megatherium",
+    "id": "ChibiDino_Megatherium"
+  },
+  {
+    "name": "Chibi Moschops",
+    "id": "ChibiDino_Moschops"
+  },
+  {
+    "name": "Chibi Noglin",
+    "id": "PrimalItemSkin_ChibiDino_BrainSlug"
+  },
+  {
+    "name": "Chibi Oviraptor",
+    "id": "ChibiDino_Oviraptor"
+  },
+  {
+    "name": "Chibi Ovis",
+    "id": "ChibiDino_Sheep"
+  },
+  {
+    "name": "Chibi Pair-o-Saurs",
+    "id": "ChibiDino_Pairosaurs_VDay"
+  },
+  {
+    "name": "Chibi Paraceratherium",
+    "id": "ChibiDino_Paraceratherium"
+  },
+  {
+    "name": "Chibi Parasaurolophus",
+    "id": "ChibiDino_Parasaur"
+  },
+  {
+    "name": "Chibi Party Rex",
+    "id": "ChibiDino_PartyRex"
+  },
+  {
+    "name": "Chibi Phiomia",
+    "id": "ChibiDino_Phiomia"
+  },
+  {
+    "name": "Chibi Phoenix",
+    "id": "ChibiDino_Phoenix"
+  },
+  {
+    "name": "Chibi Plesiosaur",
+    "id": "ChibiDino_Plesiosaur"
+  },
+  {
+    "name": "Chibi Procoptodon",
+    "id": "ChibiDino_Procoptodon"
+  },
+  {
+    "name": "Chibi Pteranodon",
+    "id": "ChibiDino_Pteranodon"
+  },
+  {
+    "name": "Chibi Pulmonoscorpius",
+    "id": "ChibiDino_Pulmonoscorpius"
+  },
+  {
+    "name": "Chibi Quetzalcoatlus",
+    "id": "PrimalItemSkin_ChibiDino_Quetzal"
+  },
+  {
+    "name": "Chibi Raptor",
+    "id": "PrimalItemSkin_ChibiDino_Raptor"
+  },
+  {
+    "name": "Chibi Reaper",
+    "id": "ChibiDino_Reaper"
+  },
+  {
+    "name": "Chibi Reindeer",
+    "id": "ChibiDino_Reindeer"
+  },
+  {
+    "name": "Chibi Rex",
+    "id": "PrimalItemSkin_ChibiDino_Rex"
+  },
+  {
+    "name": "Chibi Rock Drake",
+    "id": "ChibiDino_RockDrake"
+  },
+  {
+    "name": "Chibi Rock Golem",
+    "id": "ChibiDino_RockGolem"
+  },
+  {
+    "name": "Chibi Roll Rat",
+    "id": "ChibiDino_MoleRat"
+  },
+  {
+    "name": "Chibi Sabertooth",
+    "id": "PrimalItemSkin_ChibiDino_Saber"
+  },
+  {
+    "name": "Chibi Sarco",
+    "id": "ChibiDino_Sarco"
+  },
+  {
+    "name": "Chibi Seeker",
+    "id": "ChibiDino_Seeker"
+  },
+  {
+    "name": "Chibi Shinehorn",
+    "id": "PrimalItemSkin_ChibiDino_Shinehorn"
+  },
+  {
+    "name": "Chibi Skeletal Brontosaurus",
+    "id": "ChibiDino_Bronto_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Carno",
+    "id": "ChibiDino_Carnotaurus_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Giganotosaurus",
+    "id": "ChibiDino_Gigant_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Jerboa",
+    "id": "ChibiDino_Jerboa_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Quetzal",
+    "id": "ChibiDino_Quetzal_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Raptor",
+    "id": "ChibiDino_Raptor_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Rex",
+    "id": "ChibiDino_Rex_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Stego",
+    "id": "ChibiDino_Stego_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Trike",
+    "id": "ChibiDino_Trike_Bone"
+  },
+  {
+    "name": "Chibi Skeletal Wyvern",
+    "id": "ChibiDino_Wyvern_Bone"
+  },
+  {
+    "name": "Chibi Snow Owl",
+    "id": "ChibiDino_SnowOwl"
+  },
+  {
+    "name": "Chibi Spinosaurus",
+    "id": "ChibiDino_Spino"
+  },
+  {
+    "name": "Chibi Stegosaurus",
+    "id": "PrimalItemSkin_ChibiDino_Stego"
+  },
+  {
+    "name": "Chibi Tapejara",
+    "id": "ChibiDino_Tapejara"
+  },
+  {
+    "name": "Chibi Terror Bird",
+    "id": "ChibiDino_TerrorBird"
+  },
+  {
+    "name": "Chibi Therizinosaurus",
+    "id": "ChibiDino_Therizino"
+  },
+  {
+    "name": "Chibi Thylacoleo",
+    "id": "ChibiDino_Thylacoleo"
+  },
+  {
+    "name": "Chibi Titanosaur",
+    "id": "ChibiDino_Titano"
+  },
+  {
+    "name": "Chibi Triceratops",
+    "id": "PrimalItemSkin_ChibiDino_Trike"
+  },
+  {
+    "name": "Chibi Troodon",
+    "id": "ChibiDino_Troodon"
+  },
+  {
+    "name": "Chibi Tropeognathus",
+    "id": "ChibiDino_Tropeognathus"
+  },
+  {
+    "name": "Chibi Unicorn",
+    "id": "ChibiDino_Unicorn"
+  },
+  {
+    "name": "Chibi Woolly Rhino",
+    "id": "ChibiDino_WoollyRhino"
+  },
+  {
+    "name": "Chibi Wyvern",
+    "id": "PrimalItemSkin_ChibiDino_Wyvern"
+  },
+  {
+    "name": "Chibi Yutyrannus",
+    "id": "ChibiDino_Yutyrannus"
+  },
+  {
+    "name": "Chibi Zombie Wyvern",
+    "id": "ChibiDino_Wyvern_Zombie"
+  },
+  {
+    "name": "Chibi-Bonnet Otter",
+    "id": "ChibiDino_OtterBonnet"
+  },
+  {
+    "name": "Chibi-Broodmother",
+    "id": "ChibiDino_BroodMother"
+  },
+  {
+    "name": "Chibi-Dunkleosteus",
+    "id": "ChibiDino_Dunkleo"
+  },
+  {
+    "name": "Chibi-Mantis",
+    "id": "PrimalItemSkin_ChibiDino_Mantis"
+  },
+  {
+    "name": "Chibi-Tusoteuthis",
+    "id": "ChibiDino_Tuso"
+  },
+  {
+    "name": "Christmas Bola Skin",
+    "id": "WW_Xmas_Bola"
+  },
+  {
+    "name": "Crab Fest Swim Bottom",
+    "id": "SummerSwimPants_CrabParty"
+  },
+  {
+    "name": "Crab Fest Swim Top",
+    "id": "SummerSwimShirt_CrabParty"
+  },
+  {
+    "name": "Crafted Summer Swirl Taffy",
+    "id": "Crafted_FourthOfJulyDinoCandy"
+  },
+  {
+    "name": "Crystal Wyvern Queen Alpha Tribute",
+    "id": "BossTribute_CIBoss_Hard"
+  },
+  {
+    "name": "Crystal Wyvern Queen Beta Tribute",
+    "id": "BossTribute_CIBoss_Medium"
+  },
+  {
+    "name": "Crystal Wyvern Queen Flag",
+    "id": "Flag_CIBoss"
+  },
+  {
+    "name": "Crystal Wyvern Queen Gamma Tribute",
+    "id": "BossTribute_CIBoss_Easy"
+  },
+  {
+    "name": "Crystal Wyvern Queen Trophy",
+    "id": "PrimalItemTrophy_CIBoss"
+  },
+  {
+    "name": "Cupid Couture Bottom Skin",
+    "id": "ValentinePants"
+  },
+  {
+    "name": "Cupid Couture Top Skin",
+    "id": "ValentineShirt"
+  },
+  {
+    "name": "Curly Beard Facial Hair Unlock",
+    "id": "UnlockHair_Facial_CurlyBeard"
+  },
+  {
+    "name": "Dance Emote Unlock",
+    "id": "UnlockEmote_Dance"
+  },
+  {
+    "name": "Desert Titan Tribute",
+    "id": "BossTribute_DesertKaiju"
+  },
+  {
+    "name": "Dino Candy Corn",
+    "id": "FE_Crafted_CandyCorn"
+  },
+  {
+    "name": "Dino Candy Corn (Craftable)",
+    "id": "FE_Craftable_CandyCorn"
+  },
+  {
+    "name": "Dino Ornament Swim Bottom",
+    "id": "WW_Underwear_DinoOrnaments"
+  },
+  {
+    "name": "Dino Ornament Swim Top",
+    "id": "WW_SwimShirt_DinoOrnaments"
+  },
+  {
+    "name": "Direwolf Ghost Costume",
+    "id": "GhostDirewolf"
+  },
+  {
+    "name": "Dodo Pie Swim Bottom Skin",
+    "id": "TT_SwimPants_DodoPie"
+  },
+  {
+    "name": "Dodo Pie Swim Top Skin",
+    "id": "TT_SwimShirt_DodoPie"
+  },
+  {
+    "name": "Dodorex Swim Bottom",
+    "id": "PrimalItemSkin_SwimPants_Dodo"
+  },
+  {
+    "name": "Dodorex Swim Top",
+    "id": "PrimalItemSkin_SwimShirt_Dodo"
+  },
+  {
+    "name": "Dodorex-Print Shirt",
+    "id": "PrimalItemSkin_HawaiianShirt_Dodo"
+  },
+  {
+    "name": "Generate Dragon Portal (Gamma)",
+    "id": "BossTribute_Dragon_Easy"
+  },
+  {
+    "name": "Generate Dragon Portal (Alpha)",
+    "id": "BossTribute_Dragon_Hard"
+  },
+  {
+    "name": "Generate Dragon Portal (Beta)",
+    "id": "BossTribute_Dragon_Medium"
+  },
+  {
+    "name": "Dread Beard Facial Hair Unlock",
+    "id": "UnlockHair_Facial_Dreadbeard"
+  },
+  {
+    "name": "Dreadlocks Hairstyle Unlock",
+    "id": "UnlockHair_Head_Dreadlocks"
+  },
+  {
+    "name": "E4 Remote Eggsplosives Skin",
+    "id": "EasterBasket_C4"
+  },
+  {
+    "name": "Easter Egghead Skin",
+    "id": "EggNestHat"
+  },
+  {
+    "name": "Electronic Binoculars",
+    "id": "WeaponElectronicBinoculars"
+  },
+  {
+    "name": "Element Dust from Element",
+    "id": "ElementDustFromElement"
+  },
+  {
+    "name": "Element from Power Node",
+    "id": "ElementPowerNode"
+  },
+  {
+    "name": "Federation Exo Boots",
+    "id": "TekBoots_V2"
+  },
+  {
+    "name": "Federation Exo-leggings",
+    "id": "TekPants_V2"
+  },
+  {
+    "name": "Felt Reindeer Antlers Skin",
+    "id": "WW_ReindeerAntlersHat"
+  },
+  {
+    "name": "Fertilized Aberrant Angler Egg",
+    "id": "UnderwaterEgg_Angler_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Ankylo Egg",
+    "id": "Egg_Ankylo_Fertilized_AB"
+  },
+  {
+    "name": "Fertilized Aberrant Araneo Egg",
+    "id": "Egg_Spider_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Arthropluera Egg",
+    "id": "Egg_Arthro_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Baryonyx Egg",
+    "id": "Egg_Baryonyx_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Beelzebufo Egg",
+    "id": "UnderwaterEgg_Toad_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Carbonemys Egg",
+    "id": "Egg_Turtle_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Carno Egg",
+    "id": "Egg_Carno_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Dimetrodon Egg",
+    "id": "Egg_Dimetrodon_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Diplo Egg",
+    "id": "Egg_Diplo_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Diplocaulus Egg",
+    "id": "UnderwaterEgg_Diplocaulus_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Dodo Egg",
+    "id": "Egg_Dodo_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Electrophorus Egg",
+    "id": "UnderwaterEgg_Eel_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Iguanodon Egg",
+    "id": "Egg_Iguanodon_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Lystrosaurus Egg",
+    "id": "Egg_Lystro_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Megalania Egg",
+    "id": "Egg_Megalania_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Megalosaurus Egg",
+    "id": "Egg_Megalosaurus_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Moschops Egg",
+    "id": "Egg_Moschops_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Parasaur Egg",
+    "id": "Egg_Para_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Pulminoscorpius Egg",
+    "id": "Egg_Scorpion_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Raptor Egg",
+    "id": "Egg_Raptor_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Sarco Egg",
+    "id": "Egg_Sarco_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Spino Egg",
+    "id": "Egg_Spino_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Stego Egg",
+    "id": "Egg_Stego_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Aberrant Trike Egg",
+    "id": "Egg_Trike_Fertilized_Aberrant"
+  },
+  {
+    "name": "Fertilized Allosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Allo_Fertilized"
+  },
+  {
+    "name": "Fertilized Angler Egg",
+    "id": "PrimalItemConsumable_UnderwaterEgg_Angler"
+  },
+  {
+    "name": "Fertilized Ankylo Egg",
+    "id": "PrimalItemConsumable_Egg_Ankylo_Fertilized"
+  },
+  {
+    "name": "Fertilized Araneo Egg",
+    "id": "PrimalItemConsumable_Egg_Spider_Fertilized"
+  },
+  {
+    "name": "Fertilized Archaeopteryx Egg",
+    "id": "Egg_Archa_Fertilized"
+  },
+  {
+    "name": "Fertilized Argentavis Egg",
+    "id": "PrimalItemConsumable_Egg_Argent_Fertilized"
+  },
+  {
+    "name": "Fertilized Arthropluera Egg",
+    "id": "PrimalItemConsumable_Egg_Arthro_Fertilized"
+  },
+  {
+    "name": "Fertilized Baryonyx Egg",
+    "id": "PrimalItemConsumable_Egg_Baryonyx_Fertilized"
+  },
+  {
+    "name": "Fertilized Beelzebufo Egg",
+    "id": "PrimalItemConsumable_UnderwaterEgg_Toad"
+  },
+  {
+    "name": "Fertilized Bronto Egg",
+    "id": "Egg_Bronto_Fertilized"
+  },
+  {
+    "name": "Fertilized Carbonemys Egg",
+    "id": "PrimalItemConsumable_Egg_Turtle_Fertilized"
+  },
+  {
+    "name": "Fertilized Carno Egg",
+    "id": "PrimalItemConsumable_Egg_Carno_Fertilized"
+  },
+  {
+    "name": "Fertilized Compy Egg",
+    "id": "Egg_Compy_Fertilized"
+  },
+  {
+    "name": "Fertilized Dilo Egg",
+    "id": "Egg_Dilo_Fertilized"
+  },
+  {
+    "name": "Fertilized Dimetrodon Egg",
+    "id": "PrimalItemConsumable_Egg_Dimetrodon_Fertilized"
+  },
+  {
+    "name": "Fertilized Aberrant Dimorph Egg",
+    "id": "Egg_Dimorph_Fertilized_Abberant"
+  },
+  {
+    "name": "Fertilized Dimorph Egg",
+    "id": "PrimalItemConsumable_Egg_Dimorph_Fertilized"
+  },
+  {
+    "name": "Fertilized Diplo Egg",
+    "id": "PrimalItemConsumable_Egg_Diplo_Fertilized"
+  },
+  {
+    "name": "Fertilized Diplocaulus Egg",
+    "id": "PrimalItemConsumable_UnderwaterEgg_Diplocaulus"
+  },
+  {
+    "name": "Fertilized Dodo Egg",
+    "id": "PrimalItemConsumable_Egg_Dodo_Fertilized"
+  },
+  {
+    "name": "Fertilized Electrophorus Egg",
+    "id": "PrimalItemConsumable_UnderwaterEgg_Eel"
+  },
+  {
+    "name": "Fertilized Featherlight Egg",
+    "id": "Egg_LanternBird_Fertilized"
+  },
+  {
+    "name": "Fertilized Gallimimus Egg",
+    "id": "Egg_Galli_Fertilized"
+  },
+  {
+    "name": "Fertilized Giganotosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Gigant_Fertilized"
+  },
+  {
+    "name": "Fertilized Glowtail Egg",
+    "id": "Egg_LanternLizard_Fertilized"
+  },
+  {
+    "name": "Fertilized Hesperornis Egg",
+    "id": "Egg_Hesperonis_Fertilized"
+  },
+  {
+    "name": "Fertilized Ice Wyvern Egg",
+    "id": "RAG_Item_Egg_Wyvern_Fertilized_Ice"
+  },
+  {
+    "name": "Fertilized Ichthyornis Egg",
+    "id": "Egg_Ichthyornis_Fertilized"
+  },
+  {
+    "name": "Fertilized Iguanodon Egg",
+    "id": "PrimalItemConsumable_Egg_Iguanodon_Fertilized"
+  },
+  {
+    "name": "Fertilized Kairuku Egg",
+    "id": "Egg_Kairuku_Fertilized"
+  },
+  {
+    "name": "Fertilized Kaprosuchus Egg",
+    "id": "Egg_Kaprosuchus_Fertilized"
+  },
+  {
+    "name": "Fertilized Kentro Egg",
+    "id": "Egg_Kentro_Fertilized"
+  },
+  {
+    "name": "Fertilized Lymantria Egg",
+    "id": "Egg_Moth_Fertilized"
+  },
+  {
+    "name": "Fertilized Lystrosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Lystro_Fertilized"
+  },
+  {
+    "name": "Fertilized Magmasaur Egg",
+    "id": "Egg_Cherufe_Fertilized"
+  },
+  {
+    "name": "Fertilized Mantis Egg",
+    "id": "Egg_Mantis_Fertilized"
+  },
+  {
+    "name": "Fertilized Megalania Egg",
+    "id": "PrimalItemConsumable_Egg_Megalania_Fertilized"
+  },
+  {
+    "name": "Fertilized Megalosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Megalosaurus_Fertilized"
+  },
+  {
+    "name": "Fertilized Microraptor Egg",
+    "id": "Egg_MicroRaptor_Fertilized"
+  },
+  {
+    "name": "Fertilized Morellatops Egg",
+    "id": "Egg_Camelsaurus_Fertilized"
+  },
+  {
+    "name": "Fertilized Moschops Egg",
+    "id": "PrimalItemConsumable_Egg_Moschops_Fertilized"
+  },
+  {
+    "name": "Fertilized Oviraptor Egg",
+    "id": "Egg_Oviraptor_Fertilized"
+  },
+  {
+    "name": "Fertilized Pachycephalosaurus Egg",
+    "id": "Egg_Pachy_Fertilized"
+  },
+  {
+    "name": "Fertilized Pachyrhino Egg",
+    "id": "Egg_PachyRhino_Fertilized"
+  },
+  {
+    "name": "Fertilized Parasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Para_Fertilized"
+  },
+  {
+    "name": "Fertilized Pegomastax Egg",
+    "id": "Egg_Pegomastax_Fertilized"
+  },
+  {
+    "name": "Fertilized Pelagornis Egg",
+    "id": "Egg_Pela_Fertilized"
+  },
+  {
+    "name": "Fertilized Pteranodon Egg",
+    "id": "Egg_Ptero_Fertilized"
+  },
+  {
+    "name": "Fertilized Pulminoscorpius Egg",
+    "id": "PrimalItemConsumable_Egg_Scorpion_Fertilized"
+  },
+  {
+    "name": "Fertilized Quetzal Egg",
+    "id": "PrimalItemConsumable_Egg_Quetz_Fertilized"
+  },
+  {
+    "name": "Fertilized Raptor Egg",
+    "id": "PrimalItemConsumable_Egg_Raptor_Fertilized"
+  },
+  {
+    "name": "Fertilized Rex Egg",
+    "id": "PrimalItemConsumable_Egg_Rex_Fertilized"
+  },
+  {
+    "name": "Fertilized Sarco Egg",
+    "id": "PrimalItemConsumable_Egg_Sarco_Fertilized"
+  },
+  {
+    "name": "Fertilized Spino Egg",
+    "id": "PrimalItemConsumable_Egg_Spino_Fertilized"
+  },
+  {
+    "name": "Fertilized Stego Egg",
+    "id": "PrimalItemConsumable_Egg_Stego_Fertilized"
+  },
+  {
+    "name": "Fertilized Tapejara Egg",
+    "id": "PrimalItemConsumable_Egg_Tapejara_Fertilized"
+  },
+  {
+    "name": "Fertilized Tek Giganotosaurus Egg",
+    "id": "Egg_Gigant_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Parasaur Egg",
+    "id": "Egg_Para_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Quetzal Egg",
+    "id": "Egg_Quetz_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Raptor Egg",
+    "id": "Egg_Raptor_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Rex Egg",
+    "id": "Egg_Rex_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Stego Egg",
+    "id": "Egg_Stego_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Tek Trike Egg",
+    "id": "Egg_Trike_Fertilized_Bionic"
+  },
+  {
+    "name": "Fertilized Terror Bird Egg",
+    "id": "Egg_Terrorbird_Fertilized"
+  },
+  {
+    "name": "Fertilized Therizino Egg",
+    "id": "Egg_Therizino_Fertilized"
+  },
+  {
+    "name": "Fertilized Thorny Dragon Egg",
+    "id": "Egg_SpineyLizard_Fertilized"
+  },
+  {
+    "name": "Fertilized Trike Egg",
+    "id": "PrimalItemConsumable_Egg_Trike_Fertilized"
+  },
+  {
+    "name": "Fertilized Troodon Egg",
+    "id": "Egg_Troodon_Fertilized"
+  },
+  {
+    "name": "Fertilized Tropeognathus Egg",
+    "id": "Egg_Tropeognathus_Fertilized"
+  },
+  {
+    "name": "Fertilized Tusoteuthis Egg",
+    "id": "UnderwaterEgg_Tuso"
+  },
+  {
+    "name": "Fertilized Vulture Egg",
+    "id": "Egg_Vulture_Fertilized"
+  },
+  {
+    "name": "Fertilized Yutyrannus Egg",
+    "id": "PrimalItemConsumable_Egg_Yuty_Fertilized"
+  },
+  {
+    "name": "Festive Dino Candy (Easter)",
+    "id": "EasterDinoCandy"
+  },
+  {
+    "name": "Fish Bite Swim Bottom",
+    "id": "SummerSwimPants_FishBite"
+  },
+  {
+    "name": "Fish Bite Swim Top",
+    "id": "SummerSwimShirt_FishBite"
+  },
+  {
+    "name": "Flirty Emote Unlock",
+    "id": "UnlockEmote_Flirt"
+  },
+  {
+    "name": "Flying Disc Skin",
+    "id": "Boomerang_Frisbee"
+  },
+  {
+    "name": "Food Coma Emote Unlock",
+    "id": "UnlockEmote_FoodComa"
+  },
+  {
+    "name": "Forest Titan Tribute",
+    "id": "BossTribute_ForestKaiju"
+  },
+  {
+    "name": "Gamma Crystal Wyvern Queen Trophy",
+    "id": "CIBoss_Gamma"
+  },
+  {
+    "name": "Gasbags-Print Shirt",
+    "id": "HawaiianShirt_Gasbags"
+  },
+  {
+    "name": "Gasoline from Gas Balls",
+    "id": "Gasoline_GasCrafted"
+  },
+  {
+    "name": "Goatee Facial Hair Unlock",
+    "id": "UnlockHair_Facial_Goatee"
+  },
+  {
+    "name": "Gray-Ball Winter Beanie Skin",
+    "id": "WW_WinterHatB"
+  },
+  {
+    "name": "Green-Ball Winter Beanie Skin",
+    "id": "WW_WinterHatF"
+  },
+  {
+    "name": "Grilling Spatula Skin",
+    "id": "Club_BBQSpatula"
+  },
+  {
+    "name": "Halo Headband Skin",
+    "id": "ValentineHaloHat"
+  },
+  {
+    "name": "Happy Clap Emote Unlock",
+    "id": "UnlockEmote_HappyClap"
+  },
+  {
+    "name": "Hungry Emote Unlock",
+    "id": "UnlockEmote_Hungry"
+  },
+  {
+    "name": "Ice Pop-Print Shirt",
+    "id": "HawaiianShirt_Island"
+  },
+  {
+    "name": "Ice Titan Tribute",
+    "id": "BossTribute_IceKaiju"
+  },
+  {
+    "name": "Ichthy Island Swim Bottom",
+    "id": "SummerSwimPants_IslandRetreat"
+  },
+  {
+    "name": "Ichthy Isles Swim Top",
+    "id": "SummerSwimShirt_IslandRetreat"
+  },
+  {
+    "name": "Jack-O-Lantern Swim Bottom",
+    "id": "FE_Underwear_Pumpkin"
+  },
+  {
+    "name": "Jack-O-Lantern Swim Top",
+    "id": "FE_SwimShirt_Pumpkin"
+  },
+  {
+    "name": "Jack-O-Lantern-Print Shirt",
+    "id": "HawaiianShirt_Pumpkin"
+  },
+  {
+    "name": "Jerboa Wreath Swim Bottom",
+    "id": "WW_Underwear_JerboaWreath"
+  },
+  {
+    "name": "Jerboa Wreath Swim Top",
+    "id": "WW_SwimShirt_JerboaWreath"
+  },
+  {
+    "name": "King Titan Easy Tribute",
+    "id": "BossTribute_KingKaijuEasy"
+  },
+  {
+    "name": "King Titan Hard Tribute",
+    "id": "BossTribute_KingKaijuHard"
+  },
+  {
+    "name": "King Titan Medium Tribute",
+    "id": "BossTribute_KingKaijuMedium"
+  },
+  {
+    "name": "Love Shackles Skin",
+    "id": "Vday_Handcuffs"
+  },
+  {
+    "name": "Manticore Easy Tribute",
+    "id": "BossTribute_Manticore_Easy"
+  },
+  {
+    "name": "Manticore Hard Tribute",
+    "id": "BossTribute_Manticore_Hard"
+  },
+  {
+    "name": "Manticore Medium Tribute",
+    "id": "BossTribute_Manticore_Medium"
+  },
+  {
+    "name": "Mantis Ghost Costume",
+    "id": "GhostMantis"
+  },
+  {
+    "name": "Meat Swim Bottom Skin",
+    "id": "TT_SwimPants_Meat"
+  },
+  {
+    "name": "Meat Swim Top Skin",
+    "id": "TT_SwimShirt_Meat"
+  },
+  {
+    "name": "Megapithecus Easy Tribute",
+    "id": "BossTribute_Gorilla_Easy"
+  },
+  {
+    "name": "Megapithecus Hard Tribute",
+    "id": "BossTribute_Gorilla_Hard"
+  },
+  {
+    "name": "Megapithecus Medium Tribute",
+    "id": "BossTribute_Gorilla_Medium"
+  },
+  {
+    "name": "Mohawk Hairstyle Unlock",
+    "id": "UnlockHair_Head_Mohawk"
+  },
+  {
+    "name": "Mosasaurus Bionic Costume",
+    "id": "BionicMosa"
+  },
+  {
+    "name": "Mosh Pit Emote Unlock",
+    "id": "UnlockEmote_MoshPit"
+  },
+  {
+    "name": "Moustache Facial Hair Unlock",
+    "id": "UnlockHair_Facial_Moustache"
+  },
+  {
+    "name": "Murder Turkey Swim Bottom",
+    "id": "SwimPants_MurderTurkey"
+  },
+  {
+    "name": "Murder Turkey Swim Top",
+    "id": "SwimShirt_MurderTurkey"
+  },
+  {
+    "name": "Murder-Turkey-Print Shirt",
+    "id": "HawaiianShirt_MurderTurkey"
+  },
+  {
+    "name": "Mutton Chops Facial Hair Unlock",
+    "id": "UnlockHair_Facial_MuttonChops"
+  },
+  {
+    "name": "Noglin Swim Bottom Skin",
+    "id": "WW_Underwear_Noglin"
+  },
+  {
+    "name": "Noglin Swim Top Skin",
+    "id": "WW_SwimShirt_Noglin"
+  },
+  {
+    "name": "Nutcracker Dance Emote Unlock",
+    "id": "UnlockEmote_NutcrackerDance"
+  },
+  {
+    "name": "Nutcracker Slingshot Skin",
+    "id": "WW_Nutcracker_Slingshot"
+  },
+  {
+    "name": "Panic Emote Unlock",
+    "id": "UnlockEmote_Panic"
+  },
+  {
+    "name": "Parasaur Bionic Costume",
+    "id": "BionicParasaur"
+  },
+  {
+    "name": "Pilgrim Hat Skin",
+    "id": "TT_PilgrimHat"
+  },
+  {
+    "name": "Pitchfork Skin",
+    "id": "TT_Pike_Pitchfork"
+  },
+  {
+    "name": "Ponytail Hairstyle Unlock",
+    "id": "UnlockHair_Head_Ponytail"
+  },
+  {
+    "name": "Purple-Ball Winter Beanie Skin (WW5)",
+    "id": "WW_WinterHatE"
+  },
+  {
+    "name": "Purple-Ball Winter Beanie Skin",
+    "id": "WW_WinterHatC"
+  },
+  {
+    "name": "Quetzal Bionic Costume",
+    "id": "BionicQuetzal"
+  },
+  {
+    "name": "Generate Ragnarok Portal (Easy)",
+    "id": "PrimalItem_BossTribute_Ragnarok"
+  },
+  {
+    "name": "Generate Ragnarok Portal (Hard)",
+    "id": "BossTribute_Ragnarok_Hard"
+  },
+  {
+    "name": "Generate Ragnarok Portal (Medium)",
+    "id": "BossTribute_Ragnarok_Medium"
+  },
+  {
+    "name": "Random Chibi",
+    "id": "PrimalItem_ChibiDino_RandomCraftable"
+  },
+  {
+    "name": "Raptor 'ARK: The Animated Series' Costume",
+    "id": "AnimeRaptor"
+  },
+  {
+    "name": "Raptor Bionic Costume",
+    "id": "BionicRaptor"
+  },
+  {
+    "name": "Reaper Ghost Costume",
+    "id": "GhostReaper"
+  },
+  {
+    "name": "Reaper Swim Bottom",
+    "id": "FE_Underwear_Reaper"
+  },
+  {
+    "name": "Reaper Swim Top",
+    "id": "FE_SwimShirt_Reaper"
+  },
+  {
+    "name": "Reaper-Print Shirt",
+    "id": "HawaiianShirt_Reaper"
+  },
+  {
+    "name": "Red-Ball Winter Beanie Skin",
+    "id": "WW_WinterHatA"
+  },
+  {
+    "name": "Rex Ghost Costume",
+    "id": "GhostRex"
+  },
+  {
+    "name": "Rock Drake Egg",
+    "id": "PrimalItemConsumable_Egg_RockDrake"
+  },
+  {
+    "name": "Rockwell Easy Tribute",
+    "id": "BossTribute_Aberration_Easy"
+  },
+  {
+    "name": "Rockwell Hard Tribute",
+    "id": "BossTribute_Aberration_Hard"
+  },
+  {
+    "name": "Rockwell Medium Tribute",
+    "id": "BossTribute_Aberration_Medium"
+  },
+  {
+    "name": "Rockwell Recipes: Allosaurus Kibble",
+    "id": "RecipeNote_Kibble_Allo"
+  },
+  {
+    "name": "Rockwell Recipes: Ankylosaurus Kibble",
+    "id": "RecipeNote_Kibble_Ankylo"
+  },
+  {
+    "name": "Rockwell Recipes: Archaeopteryx Kibble",
+    "id": "RecipeNote_Kibble_archaeopteryx"
+  },
+  {
+    "name": "Rockwell Recipes: Argentavis Kibble",
+    "id": "RecipeNote_Kibble_Argentavis"
+  },
+  {
+    "name": "Rockwell Recipes: Baryonyx Kibble",
+    "id": "RecipeNote_Kibble_Baryonyx"
+  },
+  {
+    "name": "Rockwell Recipes: Brontosaurus Kibble",
+    "id": "RecipeNote_Kibble_Bronto"
+  },
+  {
+    "name": "Rockwell Recipes: Carbonemys Kibble",
+    "id": "RecipeNote_Kibble_Carbonemys"
+  },
+  {
+    "name": "Rockwell Recipes: Carnotaurus Kibble",
+    "id": "RecipeNote_Kibble_Carno"
+  },
+  {
+    "name": "Rockwell Recipes: Compy Kibble",
+    "id": "RecipeNote_Kibble_Compy"
+  },
+  {
+    "name": "Rockwell Recipes: Dilophosaur Kibble",
+    "id": "RecipeNote_Kibble_Dilo"
+  },
+  {
+    "name": "Rockwell Recipes: Dimetrodon Kibble",
+    "id": "RecipeNote_Kibble_Dimetrodon"
+  },
+  {
+    "name": "Rockwell Recipes: Dimorphodon Kibble",
+    "id": "RecipeNote_Kibble_Dimorphodon"
+  },
+  {
+    "name": "Rockwell Recipes: Diplodocus Kibble",
+    "id": "RecipeNote_Kibble_Diplodocus"
+  },
+  {
+    "name": "Rockwell Recipes: Dodo Kibble",
+    "id": "RecipeNote_Kibble_Dodo"
+  },
+  {
+    "name": "Rockwell Recipes: Gallimimus Kibble",
+    "id": "RecipeNote_Kibble_Gallimimus"
+  },
+  {
+    "name": "Rockwell Recipes: Ichthyornis Kibble",
+    "id": "RecipeNote_Kibble_Ichthyornis"
+  },
+  {
+    "name": "Rockwell Recipes: Iguandodon Kibble",
+    "id": "RecipeNote_Kibble_Iguandodon"
+  },
+  {
+    "name": "Rockwell Recipes: Iguanodon Kibble",
+    "id": "RecipeNote_Kibble_Iguanodon"
+  },
+  {
+    "name": "Rockwell Recipes: Kairuku Kibble",
+    "id": "RecipeNote_Kibble_Kairuku"
+  },
+  {
+    "name": "Rockwell Recipes: Kentrosaurus Kibble",
+    "id": "RecipeNote_Kibble_Kentrosaurus"
+  },
+  {
+    "name": "Rockwell Recipes: Lystrosaurus Kibble",
+    "id": "RecipeNote_Kibble_Lystro"
+  },
+  {
+    "name": "Rockwell Recipes: Megalania Kibble",
+    "id": "RecipeNote_Kibble_Megalania"
+  },
+  {
+    "name": "Rockwell Recipes: Megalosaurus Kibble",
+    "id": "RecipeNote_Kibble_Megalosaurus"
+  },
+  {
+    "name": "Rockwell Recipes: Microraptor Kibble",
+    "id": "RecipeNote_Kibble_Microraptor"
+  },
+  {
+    "name": "Rockwell Recipes: Moschops Kibble",
+    "id": "RecipeNote_Kibble_Moschops"
+  },
+  {
+    "name": "Rockwell Recipes: Oviraptor Kibble",
+    "id": "RecipeNote_Kibble_Oviraptor"
+  },
+  {
+    "name": "Rockwell Recipes: Pachycephalosaurus Kibble",
+    "id": "PrimalItem_RecipeNote_Kibble_Pachy"
+  },
+  {
+    "name": "Rockwell Recipes: Pachyrhinosaurus Kibble",
+    "id": "RecipeNote_Kibble_PachyRhino"
+  },
+  {
+    "name": "Rockwell Recipes: Parasaur Kibble",
+    "id": "RecipeNote_Kibble_Parasaur"
+  },
+  {
+    "name": "Rockwell Recipes: Pegomastax Kibble",
+    "id": "RecipeNote_Kibble_Pegomastax"
+  },
+  {
+    "name": "Rockwell Recipes: Pelagornis Kibble",
+    "id": "RecipeNote_Kibble_Pela"
+  },
+  {
+    "name": "Rockwell Recipes: Pteranodon Kibble",
+    "id": "RecipeNote_Kibble_Ptero"
+  },
+  {
+    "name": "Rockwell Recipes: Pulmono Kibble",
+    "id": "RecipeNote_Kibble_Pulmono"
+  },
+  {
+    "name": "Rockwell Recipes: Quetzal Kibble",
+    "id": "RecipeNote_Kibble_Quetz"
+  },
+  {
+    "name": "Rockwell Recipes: Raptor Kibble",
+    "id": "RecipeNote_Kibble_Raptor"
+  },
+  {
+    "name": "Rockwell Recipes: Sarcosuchus Kibble",
+    "id": "RecipeNote_Kibble_Sarco"
+  },
+  {
+    "name": "Rockwell Recipes: Spinosaur Kibble",
+    "id": "RecipeNote_Kibble_Spino"
+  },
+  {
+    "name": "Rockwell Recipes: Stegosaurus Kibble",
+    "id": "RecipeNote_Kibble_Stegosaurus"
+  },
+  {
+    "name": "Rockwell Recipes: Tapejara Kibble",
+    "id": "RecipeNote_Kibble_Tapejara"
+  },
+  {
+    "name": "Rockwell Recipes: Terror Bird Kibble",
+    "id": "RecipeNote_Kibble_TerrorBird"
+  },
+  {
+    "name": "Rockwell Recipes: Therizino Kibble",
+    "id": "RecipeNote_Kibble_Therizino"
+  },
+  {
+    "name": "Rockwell Recipes: Titanoboa Kibble",
+    "id": "RecipeNote_Kibble_Titanoboa"
+  },
+  {
+    "name": "Rockwell Recipes: Triceratops Kibble",
+    "id": "RecipeNote_Kibble_Triceratops"
+  },
+  {
+    "name": "Rockwell Recipes: Troodon Kibble",
+    "id": "RecipeNote_Kibble_Troodon"
+  },
+  {
+    "name": "Rockwell Recipes: Tyrannosaurus Kibble",
+    "id": "RecipeNote_Kibble_Rex"
+  },
+  {
+    "name": "Santiago's Axe",
+    "id": "Hatchet_Santiago"
+  },
+  {
+    "name": "Santiago's Spear",
+    "id": "Spear_Santiago"
+  },
+  {
+    "name": "Scout Remote in City Terminal",
+    "id": "WeaponScoutRemote_CityTerminal"
+  },
+  {
+    "name": "Sea Life-Print Shirt",
+    "id": "HawaiianShirt_SeaStuff"
+  },
+  {
+    "name": "Snow Owl Ghost Costume",
+    "id": "GhostOwl"
+  },
+  {
+    "name": "Stegosaurus Bionic Costume",
+    "id": "BionicStego"
+  },
+  {
+    "name": "Summer Swirl Taffy",
+    "id": "Craftable_FourthOfJulyDinoCandy"
+  },
+  {
+    "name": "Summon Dino Hats",
+    "id": "HatTributeDino"
+  },
+  {
+    "name": "Summon Player Hats",
+    "id": "HatTributePlayer"
+  },
+  {
+    "name": "Sunglasses",
+    "id": "PrimalItemSkin_SunGlasses"
+  },
+  {
+    "name": "Sweet Spear Carrot Skin",
+    "id": "Spear_Carrot"
+  },
+  {
+    "name": "Teddy Bear Grenades Skin",
+    "id": "VDay_Grenade_ValentineBear"
+  },
+  {
+    "name": "Tek Giganotosaurus Egg",
+    "id": "Egg_Gigant_Bionic"
+  },
+  {
+    "name": "Tek Trike Egg",
+    "id": "Egg_Trike_Bionic"
+  },
+  {
+    "name": "Thanksgiving Candy",
+    "id": "TT_Crafted_ThanksgivingCandy"
+  },
+  {
+    "name": "Thanksgiving Candy (Craftable)",
+    "id": "TT_Craftable_ThanksgivingCandy"
+  },
+  {
+    "name": "Triceratops Bionic Costume",
+    "id": "BionicTrike"
+  },
+  {
+    "name": "Turkey Berry Swim Bottom Skin",
+    "id": "TT_SwimPants_TurkeyBerry"
+  },
+  {
+    "name": "Turkey Berry Swim Top Skin",
+    "id": "TT_SwimShirt_TurkeyBerry"
+  },
+  {
+    "name": "Turkey Hat Skin",
+    "id": "TT_ActualTurkeyHat"
+  },
+  {
+    "name": "Turkey Leg Skin",
+    "id": "TT_Club_TurkeyLeg"
+  },
+  {
+    "name": "Ugly Bronto Sweater Skin",
+    "id": "WW_XmasSweaterBronto"
+  },
+  {
+    "name": "Ugly Bulbdog Sweater Skin",
+    "id": "WW_XmasSweater_Bulbdog"
+  },
+  {
+    "name": "Ugly Carno Sweater Skin",
+    "id": "WW_XmasSweaterCarno"
+  },
+  {
+    "name": "Ugly Caroling Sweater Skin",
+    "id": "WW_XmasSweater_Carolers"
+  },
+  {
+    "name": "Ugly Chibi Sweater Skin",
+    "id": "WW_XmasSweaterChibi"
+  },
+  {
+    "name": "Ugly Cornucopia Sweater",
+    "id": "Sweater_Cornucopia"
+  },
+  {
+    "name": "Ugly T-Rex Sweater Skin",
+    "id": "WW_XmasSweater_Rex"
+  },
+  {
+    "name": "Ugly Trike Sweater",
+    "id": "Sweater_Trike"
+  },
+  {
+    "name": "Unassembled Enforcer in City Terminal",
+    "id": "Spawner_Enforcer_CityTerminal"
+  },
+  {
+    "name": "Generate Valguero Portal (Easy)",
+    "id": "BossTribute_ValThreeBoss_Easy"
+  },
+  {
+    "name": "Generate Valguero Portal (Hard)",
+    "id": "BossTribute_ValThreeBoss_Hard"
+  },
+  {
+    "name": "Generate Valguero Portal (Medium)",
+    "id": "BossTribute_ValThreeBoss_Medium"
+  },
+  {
+    "name": "Viking Beard Facial Hair Unlock",
+    "id": "UnlockHair_Facial_VikingBeard"
+  },
+  {
+    "name": "Viking Hairstyle Unlock",
+    "id": "UnlockHair_Head_Viking"
+  },
+  {
+    "name": "Water",
+    "id": "WaterContainer"
+  },
+  {
+    "name": "Water Soaker Skin",
+    "id": "Flamethrower_SuperSoaker"
+  },
+  {
+    "name": "White-Collar Kairuku",
+    "id": "ChibiDino_TophatKairuku"
+  },
+  {
+    "name": "Yeti Swim Bottom Skin",
+    "id": "WW_Underwear_Yeti"
+  },
+  {
+    "name": "Yeti Swim Top Skin",
+    "id": "WW_SwimShirt_Yeti"
+  },
+  {
+    "name": "Zombie Emote Unlock",
+    "id": "UnlockEmote_Zombie"
+  },
+  {
+    "name": "Federation Exo Chestpiece",
+    "id": "TekShirt_V2"
+  },
+  {
+    "name": "Alpha Rockwell Final Form Trophy",
+    "id": "RockwellGen2_Alpha"
+  },
+  {
+    "name": "Beta Rockwell Final Form Trophy",
+    "id": "RockwellGen2_Beta"
+  },
+  {
+    "name": "Gamma Rockwell Final Form Trophy",
+    "id": "RockwellGen2_Gamma"
+  },
+  {
+    "name": "Carnivorous Plant Seed",
+    "id": "Seed_Carnivorous_Plant"
+  },
+  {
+    "name": "Carnivorous Plant Trap",
+    "id": "Carnivorous_Plant_Trap"
+  },
+  {
+    "name": "Chibi-Achatina",
+    "id": "ChibiDino_Achatina"
+  },
+  {
+    "name": "Chibi-Crystal Wyvern",
+    "id": "ChibiDino_WyvernCrystal"
+  },
+  {
+    "name": "Excavation Rig",
+    "id": "TekStriderHarvester"
+  },
+  {
+    "name": "Explosive Arrow",
+    "id": "ExplosiveArrow"
+  },
+  {
+    "name": "Natural Armor",
+    "id": "ForLFL"
+  },
+  {
+    "name": "Net Gun",
+    "id": "WeaponNetGunGen"
+  },
+  {
+    "name": "Phase Cannon Rig",
+    "id": "PrimalItemArmor_TekStriderLargeCannon"
+  },
+  {
+    "name": "Pulse Cannon Rig",
+    "id": "PrimalItemArmor_TekStriderMachinegun"
+  },
+  {
+    "name": "Radar Rig",
+    "id": "TekStriderRadar"
+  },
+  {
+    "name": "Resource Attractor Rig",
+    "id": "TekStriderSaddlebags"
+  },
+  {
+    "name": "Shield Generator Rig",
+    "id": "TekStriderShield"
+  },
+  {
+    "name": "Shield Projector Rig",
+    "id": "PrimalItemArmor_TekStriderOnesidedShield"
+  },
+  {
+    "name": "Silence Cannon Rig",
+    "id": "TekStriderSilenceCannon"
+  },
+  {
+    "name": "Stryder Riding Platform",
+    "id": "TekStriderSaddle_Platform"
+  },
+  {
+    "name": "Tek Hoversail",
+    "id": "Spawner_HoverSail_Main"
+  },
+  {
+    "name": "Amargasaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Amargasaurus"
+  },
+  {
+    "name": "Fertilized Amargasaurus Egg",
+    "id": "Egg_Amargasaurus_Fertilized"
+  },
+  {
+    "name": "Sinomacrops Egg",
+    "id": "PrimalItemConsumable_Egg_Sinomacrops"
+  },
+  {
+    "name": "Fertilized Sinomacrops Egg",
+    "id": "Egg_Sinomacrops_Fertilized"
+  },
+  {
+    "name": "Amargasaurus Saddle",
+    "id": "AmargaSaddle"
+  },
+  {
+    "name": "Dinopithecus King Trophy",
+    "id": "PrimalItemTrophy_BossDinopithecus"
+  },
+  {
+    "name": "Dinopithecus King Trophy (Alpha)",
+    "id": "BossDinopithecus_Hard"
+  },
+  {
+    "name": "Dinopithecus King Trophy (Beta)",
+    "id": "BossDinopithecus_Medium"
+  },
+  {
+    "name": "Dinopithecus King Trophy (Gamma)",
+    "id": "BossDinopithecus_Easy"
+  },
+  {
+    "name": "Dinopithecus King Flag",
+    "id": "Flag_BossDinopithecus"
+  },
+  {
+    "name": "Dinopithecus Costume Skin",
+    "id": "Costume_Dinopithecus"
+  },
+  {
+    "name": "Alpha Fenrisulfr Trophy",
+    "id": "FenrirBoss_Alpha"
+  },
+  {
+    "name": "Amargasaurus Spike",
+    "id": "AmargaSpike"
+  },
+  {
+    "name": "Andrewsarchus Saddle",
+    "id": "AndrewsarchusSaddle"
+  },
+  {
+    "name": "Angler Hat Skin",
+    "id": "AnglerHat"
+  },
+  {
+    "name": "Any \"No Stat\" Weapon",
+    "id": "PrimalItemWeaponGenericNoStats"
+  },
+  {
+    "name": "Any Ammo",
+    "id": "PrimalItemAmmo_Base"
+  },
+  {
+    "name": "Any Ammoless Weapon",
+    "id": "PrimalItemWeaponGenericAmmoless"
+  },
+  {
+    "name": "Any Armor",
+    "id": "PrimalItemArmorGeneric"
+  },
+  {
+    "name": "Any Artifact",
+    "id": "PrimalItemArtifactGeneric"
+  },
+  {
+    "name": "Any Berry Seed",
+    "id": "Seed_BaseBerry"
+  },
+  {
+    "name": "Any Boots",
+    "id": "BaseBoots"
+  },
+  {
+    "name": "Any Charge Weapon",
+    "id": "StoresCharge"
+  },
+  {
+    "name": "Any Chibi",
+    "id": "ChibiDino_Base"
+  },
+  {
+    "name": "Any Club",
+    "id": "WeaponBaseClub"
+  },
+  {
+    "name": "Any Coloring",
+    "id": "PrimalItemDyeGeneric"
+  },
+  {
+    "name": "Any Craftable Resource",
+    "id": "PrimalItemResource_Craftable"
+  },
+  {
+    "name": "Any Fertilized Wyvern Egg",
+    "id": "PrimalItemConsumable_Egg_Wyvern_Fertilized"
+  },
+  {
+    "name": "Any Fertilizer",
+    "id": "Fertilizer_Base"
+  },
+  {
+    "name": "Any Gem",
+    "id": "Gem_Base"
+  },
+  {
+    "name": "Any Gloves",
+    "id": "BaseGloves"
+  },
+  {
+    "name": "Any Gun",
+    "id": "PrimalItemWeaponGenericGun"
+  },
+  {
+    "name": "Any Hat",
+    "id": "BaseHelmet"
+  },
+  {
+    "name": "Any Hatchet",
+    "id": "WeaponBaseHatchet"
+  },
+  {
+    "name": "Any Hawaiian Shirt",
+    "id": "HawaiianShirt_Base"
+  },
+  {
+    "name": "Any Meat",
+    "id": "Meat_Base"
+  },
+  {
+    "name": "Any Pants",
+    "id": "BasePants"
+  },
+  {
+    "name": "Any Pick",
+    "id": "WeaponBasePick"
+  },
+  {
+    "name": "Any Poop",
+    "id": "PrimalItemConsumablePoop"
+  },
+  {
+    "name": "Any Recipe",
+    "id": "RecipeNote_Base"
+  },
+  {
+    "name": "Any Resource",
+    "id": "PrimalItemResourceGeneric"
+  },
+  {
+    "name": "Any Saddle",
+    "id": "PrimalItemArmor_SaddleGeneric"
+  },
+  {
+    "name": "Any Seed",
+    "id": "PrimalItemConsumableSeed"
+  },
+  {
+    "name": "Any Shield",
+    "id": "PrimalItemArmor_Shield"
+  },
+  {
+    "name": "Any Shirt",
+    "id": "BaseShirt"
+  },
+  {
+    "name": "Any Single-Use Weapon",
+    "id": "PrimalItemWeaponGenericAmmolessConsumeSelf"
+  },
+  {
+    "name": "Any Spoiling Single-Use Weapon",
+    "id": "Spoils"
+  },
+  {
+    "name": "Any Swim Shirt",
+    "id": "SummerSwimShirt_Base"
+  },
+  {
+    "name": "Any Tek Armor",
+    "id": "Base_Tek"
+  },
+  {
+    "name": "Any Tek Saddle",
+    "id": "SaddleGeneric_Tek"
+  },
+  {
+    "name": "Any Veggie",
+    "id": "Veggie_Base"
+  },
+  {
+    "name": "Any Veggie Seed",
+    "id": "Seed_BaseVeggie"
+  },
+  {
+    "name": "Any Weapon",
+    "id": "PrimalItemWeaponGeneric"
+  },
+  {
+    "name": "Any Weapon Attachment",
+    "id": "PrimalItemWeaponAttachmentGeneric"
+  },
+  {
+    "name": "Any Wyvern Egg",
+    "id": "PrimalItemConsumable_Egg_Wyvern"
+  },
+  {
+    "name": "Asgard Return Tribute",
+    "id": "BossTribute_AsgardBack"
+  },
+  {
+    "name": "Asgard Tribute",
+    "id": "PrimalItem_BossTribute_Asgard"
+  },
+  {
+    "name": "Backflip Emote Unlock",
+    "id": "UnlockEmote_Backflip"
+  },
+  {
+    "name": "BearHug Swim Bottom Skin",
+    "id": "Vday_SwimPants_BearHug"
+  },
+  {
+    "name": "BearHug Swim Top Skin",
+    "id": "Vday_SwimShirt_Bearhug"
+  },
+  {
+    "name": "Beta Fenrisulfr Trophy",
+    "id": "FenrirBoss_Beta"
+  },
+  {
+    "name": "Beyla Relic",
+    "id": "MiniBossDrop_Beyla"
+  },
+  {
+    "name": "Beyla Tribute",
+    "id": "BossTribute_Beyla"
+  },
+  {
+    "name": "Broodmother Easy Tribute",
+    "id": "BossTribute_FJ_Spider_Easy"
+  },
+  {
+    "name": "Broodmother Hard Tribute",
+    "id": "BossTribute_FJ_Spider_Hard"
+  },
+  {
+    "name": "Broodmother Medium Tribute",
+    "id": "BossTribute_FJ_Spider_Med"
+  },
+  {
+    "name": "Bunny Costume Skin",
+    "id": "Costume_Bunny"
+  },
+  {
+    "name": "Bunny Tail",
+    "id": "BunnyTail"
+  },
+  {
+    "name": "Carcharo Saddle",
+    "id": "CarchaSaddle"
+  },
+  {
+    "name": "Carcharodontosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Carcha"
+  },
+  {
+    "name": "Chest Beat Emote Unlock",
+    "id": "UnlockEmote_ChestBeat"
+  },
+  {
+    "name": "Chibi \"Deal With It\" Dodo",
+    "id": "ChibiDino_DodoDealWithIt"
+  },
+  {
+    "name": "Chibi Amargasaurus",
+    "id": "ChibiDino_Amarga"
+  },
+  {
+    "name": "Chibi Anglerfish",
+    "id": "ChibiDino_Anglerfish"
+  },
+  {
+    "name": "Chibi Animated Series Raptor",
+    "id": "ChibiDino_RaptorAnimatedSeries"
+  },
+  {
+    "name": "Chibi Araneo",
+    "id": "ChibiDino_Araneo"
+  },
+  {
+    "name": "Chibi Archaeopteryx",
+    "id": "ChibiDino_Archaeopteryx"
+  },
+  {
+    "name": "Chibi Astrodelphis",
+    "id": "ChibiDino_Astrodelphis"
+  },
+  {
+    "name": "Chibi Carcharodontosaurus",
+    "id": "ChibiDino_Carcha"
+  },
+  {
+    "name": "Chibi Deinonychus",
+    "id": "ChibiDino_Deinonychus"
+  },
+  {
+    "name": "Chibi Desmodus",
+    "id": "ChibiDino_Desmodus"
+  },
+  {
+    "name": "Chibi Dilophosaur",
+    "id": "ChibiDino_Dilophosaur"
+  },
+  {
+    "name": "Chibi Dinopithecus",
+    "id": "ChibiDino_Dinopithecus"
+  },
+  {
+    "name": "Chibi Easter Chick",
+    "id": "ChibiDino_EasterChick"
+  },
+  {
+    "name": "Chibi Enforcer",
+    "id": "ChibiDino_Enforcer"
+  },
+  {
+    "name": "Chibi Festive Noglin",
+    "id": "ChibiDino_BrainSlugXmas"
+  },
+  {
+    "name": "Chibi Gallimimus",
+    "id": "ChibiDino_Gallimimus"
+  },
+  {
+    "name": "Chibi Ghost Basilisk",
+    "id": "ChibiDino_BasiliskGhost"
+  },
+  {
+    "name": "Chibi Ghost Direwolf",
+    "id": "ChibiDino_DirewolfGhost"
+  },
+  {
+    "name": "Chibi Ghost Mantis",
+    "id": "ChibiDino_MantisGhost"
+  },
+  {
+    "name": "Chibi Ghost Rex",
+    "id": "ChibiDino_RexGhost"
+  },
+  {
+    "name": "Chibi Gigantopithecus Chieftan",
+    "id": "ChibiDino_GigantopithecusChieftan"
+  },
+  {
+    "name": "Chibi Jerbunny",
+    "id": "ChibiDino_JerboaBunny"
+  },
+  {
+    "name": "Chibi Kairuku",
+    "id": "ChibiDino_Kairuku"
+  },
+  {
+    "name": "Chibi Kaprosuchus",
+    "id": "ChibiDino_Kaprosuchus"
+  },
+  {
+    "name": "Chibi Lovebird",
+    "id": "ChibiDino_LoveBird"
+  },
+  {
+    "name": "Chibi Maewing",
+    "id": "ChibiDino_Maewing"
+  },
+  {
+    "name": "Chibi Mesopithecus",
+    "id": "ChibiDino_Mesopithecus"
+  },
+  {
+    "name": "Chibi Microraptor",
+    "id": "ChibiDino_Microraptor"
+  },
+  {
+    "name": "Chibi Onyc",
+    "id": "ChibiDino_Onyc"
+  },
+  {
+    "name": "Chibi Otter",
+    "id": "PrimalItemSkin_ChibiDino_Otter"
+  },
+  {
+    "name": "Chibi Pelagornis",
+    "id": "ChibiDino_Pelagornis"
+  },
+  {
+    "name": "Chibi Purlovia",
+    "id": "ChibiDino_Purlovia"
+  },
+  {
+    "name": "Chibi Queen Bee",
+    "id": "ChibiDino_QueenBee"
+  },
+  {
+    "name": "Chibi Sinomacrops",
+    "id": "ChibiDino_Sinomacrops"
+  },
+  {
+    "name": "Chibi Spooky Bulbdog",
+    "id": "ChibiDino_Bulbdog_Pumpkin"
+  },
+  {
+    "name": "Chibi Spring Shinehorn",
+    "id": "ChibiDino_SpringShinehorn"
+  },
+  {
+    "name": "Chibi Straw Hat Otter",
+    "id": "ChibiDino_OtterStrawHat"
+  },
+  {
+    "name": "Chibi Tek Raptor",
+    "id": "ChibiDino_TEKRaptor"
+  },
+  {
+    "name": "Chibi The Witching Owl",
+    "id": "ChibiDino_WitchingOwl"
+  },
+  {
+    "name": "Chibi Thorny Dragon",
+    "id": "ChibiDino_SpineyLizard"
+  },
+  {
+    "name": "Chibi Velonasaur",
+    "id": "ChibiDino_Velonasaur"
+  },
+  {
+    "name": "Chibi Voidwyrm",
+    "id": "ChibiDino_VoidWyvern"
+  },
+  {
+    "name": "Chibi Vulture",
+    "id": "ChibiDino_Vulture"
+  },
+  {
+    "name": "Chibi X-Sabertooth",
+    "id": "ChibiDino_SaberX"
+  },
+  {
+    "name": "Cool Noglin-Print Shirt Skin",
+    "id": "HawaiianShirt_CoolNoglin"
+  },
+  {
+    "name": "Custom Recipe: Cake",
+    "id": "Type3"
+  },
+  {
+    "name": "Custom Recipe: Drink",
+    "id": "PrimalItemCustomDrinkRecipe_Type1"
+  },
+  {
+    "name": "Custom Recipe: Fancy Food",
+    "id": "PrimalItemCustomFoodRecipe_Type2"
+  },
+  {
+    "name": "Custom Recipe: Fizzy Drink",
+    "id": "PrimalItemCustomDrinkRecipe_Type2"
+  },
+  {
+    "name": "Custom Recipe: Sandwich",
+    "id": "PrimalItemCustomFoodRecipe_Type1"
+  },
+  {
+    "name": "Desmodus Saddle",
+    "id": "DesmodusSaddle"
+  },
+  {
+    "name": "Dinopithecus King Easy Tribute",
+    "id": "BossTribute_LostIsland_Easy"
+  },
+  {
+    "name": "Dinopithecus King Hard Tribute",
+    "id": "BossTribute_LostIsland_Hard"
+  },
+  {
+    "name": "Dinopithecus King Medium Tribute",
+    "id": "BossTribute_LostIsland_Medium"
+  },
+  {
+    "name": "Dragon Easy Tribute",
+    "id": "BossTribute_FJ_Dragon_Easy"
+  },
+  {
+    "name": "Dragon Hard Tribute",
+    "id": "BossTribute_FJ_Dragon_Hard"
+  },
+  {
+    "name": "Dragon Medium Tribute",
+    "id": "BossTribute_FJ_Dragon_Med"
+  },
+  {
+    "name": "Eel Swim Bottom Skin",
+    "id": "SummerSwimPants_Eels"
+  },
+  {
+    "name": "Eel Swim Top Skin",
+    "id": "SummerSwimShirt_Eels"
+  },
+  {
+    "name": "Federation Exo Gloves Skin",
+    "id": "TekGloves_V2"
+  },
+  {
+    "name": "Federation Exo Helmet Skin",
+    "id": "TekHelmet_V2"
+  },
+  {
+    "name": "Fenrisulfr Easy Tribute",
+    "id": "BossTribute_FenrirBoss_Easy"
+  },
+  {
+    "name": "Fenrisulfr Flag",
+    "id": "Flag_Fjordur"
+  },
+  {
+    "name": "Fenrisulfr Hard Tribute",
+    "id": "BossTribute_FenrirBoss_Hard"
+  },
+  {
+    "name": "Fenrisulfr Medium Tribute",
+    "id": "BossTribute_FenrirBoss_Medium"
+  },
+  {
+    "name": "Fertilized Carcharodontosaurus Egg",
+    "id": "Egg_Carcha_Fertilized"
+  },
+  {
+    "name": "Fertilized Fjordhawk Egg",
+    "id": "Egg_Fjordhawk_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Allosaurus Egg",
+    "id": "Egg_Allo_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Bronto Egg",
+    "id": "Egg_Bronto_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Carno Egg",
+    "id": "Egg_Carno_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Dilo Egg",
+    "id": "Egg_Dilo_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Giganotosaurus Egg",
+    "id": "Egg_Gigant_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Parasaur Egg",
+    "id": "Egg_Para_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Quetzal Egg",
+    "id": "Egg_Quetz_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Snow Owl Egg",
+    "id": "Egg_Owl_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Turtle Egg",
+    "id": "Egg_Turtle_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Gen2 Velonasaur Egg",
+    "id": "Egg_Spindles_Gen2_Fertilized"
+  },
+  {
+    "name": "Fertilized Ice Wyvern Egg (Lost Island)",
+    "id": "RAG_Item_Egg_Wyvern_Fertilized_Ice"
+  },
+  {
+    "name": "Voidwyrm Egg",
+    "id": "Egg_Wyvern_Fertilized_Tek"
+  },
+  {
+    "name": "Fjordhawk Egg",
+    "id": "PrimalItemConsumable_Egg_Fjordhawk"
+  },
+  {
+    "name": "Floaty Swim Bottom Skin",
+    "id": "SummerSwimPants_Floaties"
+  },
+  {
+    "name": "Floaty Swim Top Skin",
+    "id": "SummerSwimShirt_Floaties"
+  },
+  {
+    "name": "Floppy Straw Summer Hat Skin",
+    "id": "FloppyStrawHat"
+  },
+  {
+    "name": "Frozen Fur",
+    "id": "Saddle_Fenrir"
+  },
+  {
+    "name": "Gamma Fenrisulfr Trophy",
+    "id": "FenrirBoss_Gamma"
+  },
+  {
+    "name": "Gauntlet Boomerang",
+    "id": "WeaponBoomerang_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Broodmother Lysrix Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Spider"
+  },
+  {
+    "name": "Gauntlet Crossbow",
+    "id": "WeaponCrossbow_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Dragon Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Dragon"
+  },
+  {
+    "name": "Gauntlet Electric Prod",
+    "id": "WeaponProd_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Harpoon Launcher",
+    "id": "WeaponHarpoon_Hunt"
+  },
+  {
+    "name": "Gauntlet Maze Key",
+    "id": "EscapeRoomKey"
+  },
+  {
+    "name": "Gauntlet Minigun",
+    "id": "WeaponMinigun_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Net Projectile",
+    "id": "ArrowNet_Hunt"
+  },
+  {
+    "name": "Gauntlet Phase Cannon Rig",
+    "id": "TekStriderLargeCannon_STA"
+  },
+  {
+    "name": "Gauntlet Shotgun",
+    "id": "WeaponShotgun_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Slingshot",
+    "id": "WeaponSlingshot_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Stone Pick",
+    "id": "WeaponStonePick_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Summon Megapithecus",
+    "id": "GauntletDamageBuffKey_TempTame_Gorilla"
+  },
+  {
+    "name": "Gauntlet Super Mining Drill",
+    "id": "WeaponMiningDrill_Maze"
+  },
+  {
+    "name": "Gauntlet Tek Bow",
+    "id": "WeaponTekBow_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Grenade",
+    "id": "TekGrenade_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Phase Pistol",
+    "id": "WeaponTekPistol_Gauntlet"
+  },
+  {
+    "name": "Gauntlet Tek Rifle (STA)",
+    "id": "TekRifle_Gauntlet_STA"
+  },
+  {
+    "name": "Gauntlet VR Allosaurus Pack Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Allo"
+  },
+  {
+    "name": "Gauntlet VR Astrodelphis Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_SpaceDolphin"
+  },
+  {
+    "name": "Gauntlet VR Bloodstalker Summon",
+    "id": "GauntletDamageBuffKey_TempTame_BogSpider"
+  },
+  {
+    "name": "Gauntlet VR Dimorphodon Flock Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Dimorph"
+  },
+  {
+    "name": "Gauntlet VR Enforcer Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Enforcer"
+  },
+  {
+    "name": "Gauntlet VR Ferox Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Shapeshifter"
+  },
+  {
+    "name": "Gauntlet VR Kaprosuchus Bask Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Kapro"
+  },
+  {
+    "name": "Gauntlet VR Karkinos Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Crab"
+  },
+  {
+    "name": "Gauntlet VR Lymantria Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Moth"
+  },
+  {
+    "name": "Gauntlet VR Mantis Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Mantis"
+  },
+  {
+    "name": "Gauntlet VR Raptor Pack Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Raptor"
+  },
+  {
+    "name": "Gauntlet VR Ravager Pack Summon",
+    "id": "GauntletDamageBuffKey_TempTame_CaveWolf"
+  },
+  {
+    "name": "Gauntlet VR Shadowmane Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_LionfishLion"
+  },
+  {
+    "name": "Gauntlet VR Stegosaurus Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Stego"
+  },
+  {
+    "name": "Gauntlet VR Triceratops Pair Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Trike"
+  },
+  {
+    "name": "Gauntlet VR Velonasaur Summon",
+    "id": "GauntletDamageBuffKey_TempTame_Spindles"
+  },
+  {
+    "name": "Gauntlet Wooden Club (LifeSupport)",
+    "id": "WeaponStoneClub_LifeSupport"
+  },
+  {
+    "name": "Gauntlet Wooden Club",
+    "id": "WeaponStoneClub_Gauntlet"
+  },
+  {
+    "name": "Gen2 Allosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Allo_Gen2"
+  },
+  {
+    "name": "Gen2 Bronto Egg",
+    "id": "PrimalItemConsumable_Egg_Bronto_Gen2"
+  },
+  {
+    "name": "Gen2 Carno Egg",
+    "id": "PrimalItemConsumable_Egg_Carno_Gen2"
+  },
+  {
+    "name": "Gen2 Dilo Egg",
+    "id": "PrimalItemConsumable_Egg_Dilo_Gen2"
+  },
+  {
+    "name": "Gen2 Giganotosaurus Egg",
+    "id": "PrimalItemConsumable_Egg_Gigant_Gen2"
+  },
+  {
+    "name": "Gen2 Parasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Para_Gen2"
+  },
+  {
+    "name": "Gen2 Quetzal Egg",
+    "id": "PrimalItemConsumable_Egg_Quetz_Gen2"
+  },
+  {
+    "name": "Gen2 Snow Owl Egg",
+    "id": "PrimalItemConsumable_Egg_Owl_Gen2"
+  },
+  {
+    "name": "Gen2 Turtle Egg",
+    "id": "PrimalItemConsumable_Egg_Turtle_Gen2"
+  },
+  {
+    "name": "Gen2 Velonasaur Egg",
+    "id": "PrimalItemConsumable_Egg_Spindles_Gen2"
+  },
+  {
+    "name": "Greenhouse Windowframe",
+    "id": "GreenhouseWallWithWindow"
+  },
+  {
+    "name": "Hati and Skoll Tribute",
+    "id": "BossTribute_HatiAndSkoll"
+  },
+  {
+    "name": "Hati Relic",
+    "id": "MiniBossDrop_Hati"
+  },
+  {
+    "name": "Heart-shaped Shield",
+    "id": "Vday_Shield"
+  },
+  {
+    "name": "Heart-shaped Sunglasses",
+    "id": "SunGlasses_Vday"
+  },
+  {
+    "name": "HLN-A Winter Beanie Skin",
+    "id": "WW_WinterHatJ"
+  },
+  {
+    "name": "Hoversail-Print Shirt Skin",
+    "id": "HawaiianShirt_Hoversail"
+  },
+  {
+    "name": "Hula Dance Emote Unlock",
+    "id": "UnlockEmote_HulaDance"
+  },
+  {
+    "name": "Inflatable Rex Costume Skin",
+    "id": "Costume_InflatableRex"
+  },
+  {
+    "name": "Jellyfish Swim Bottom Skin",
+    "id": "SummerSwimPants_Jellyfish"
+  },
+  {
+    "name": "Jellyfish Swim Top Skin",
+    "id": "SummerSwimShirt_Jellyfish"
+  },
+  {
+    "name": "Jotunheim Return Tribute",
+    "id": "BossTribute_Jotunheim_Back"
+  },
+  {
+    "name": "Jotunheim Tribute",
+    "id": "PrimalItem_BossTribute_Jotunheim"
+  },
+  {
+    "name": "Loadout Dummy Hotbar",
+    "id": "LoadoutDummyHotbar"
+  },
+  {
+    "name": "Megapithecus Easy Tribute (FJ)",
+    "id": "BossTribute_FJ_Gorilla_Easy"
+  },
+  {
+    "name": "Megapithecus Hard Tribute (FJ)",
+    "id": "BossTribute_FJ_Gorilla_Hard"
+  },
+  {
+    "name": "Megapithecus Medium Tribute (FJ)",
+    "id": "BossTribute_FJ_Gorilla_Med"
+  },
+  {
+    "name": "Mjolnir Skin",
+    "id": "WeaponTekSword_Mjolnir"
+  },
+  {
+    "name": "Net Gun Ammo",
+    "id": "PrimalItemAmmo_NetGunGen"
+  },
+  {
+    "name": "Netgun",
+    "id": "PrimalItemAmmo_NetGun"
+  },
+  {
+    "name": "Noglin Regift Winter Beanie Skin",
+    "id": "WW_WinterHatI"
+  },
+  {
+    "name": "Odd Couple Swim Bottom Skin",
+    "id": "Vday_SwimPants_OddCouple"
+  },
+  {
+    "name": "Odd Couple Swim Top Skin",
+    "id": "Vday_SwimShirt_OddCouple"
+  },
+  {
+    "name": "Parasaur 'ARK: The Animated Series' Costume",
+    "id": "AnimeParasaur"
+  },
+  {
+    "name": "Phase Cannon Rig (LifeSupport)",
+    "id": "TekStriderLargeCannon_LifeSupport"
+  },
+  {
+    "name": "Pulse Cannon Rig (LifeSupport)",
+    "id": "TekStriderMachinegun_LifeSupport"
+  },
+  {
+    "name": "Pulse Cannon Rig (STA)",
+    "id": "TekStriderMachinegun_STA"
+  },
+  {
+    "name": "Raptor Sleighing Winter Beanie Skin",
+    "id": "WW_WinterHatH"
+  },
+  {
+    "name": "Retro Sunglasses Skin",
+    "id": "SunGlasses_Retro"
+  },
+  {
+    "name": "Runestone",
+    "id": "ApexDrop_Runestone"
+  },
+  {
+    "name": "Sanguine Elixir",
+    "id": "SanguineElixir"
+  },
+  {
+    "name": "Santa Costume Skin",
+    "id": "Costume_Santa"
+  },
+  {
+    "name": "Santa Emote Unlock",
+    "id": "UnlockEmote_Santa"
+  },
+  {
+    "name": "Sauropod Heart Swim Bottom Skin",
+    "id": "Vday_SwimPants_SauropodHeart"
+  },
+  {
+    "name": "Sauropod Heart Swim Top Skin",
+    "id": "Vday_SwimShirt_SauropodHeart"
+  },
+  {
+    "name": "Scary Dino Pumpkin Helmet Skin",
+    "id": "FE_PumpkinHat_Dino"
+  },
+  {
+    "name": "Self Hug Emote Unlock",
+    "id": "UnlockEmote_SelfHug"
+  },
+  {
+    "name": "Shadowmane Fishing-Print Shirt Skin",
+    "id": "HawaiianShirt_ShadowmaneFishing"
+  },
+  {
+    "name": "Shield Projector Rig (Mission)",
+    "id": "TekStriderOnesidedShield_Mission"
+  },
+  {
+    "name": "Skeleton Costume Skin",
+    "id": "Costume_Skeleton"
+  },
+  {
+    "name": "Skelly-Print Shirt Skin",
+    "id": "HawaiianShirt_Skellies"
+  },
+  {
+    "name": "Skoll Relic",
+    "id": "MiniBossDrop_Skoll"
+  },
+  {
+    "name": "Snowy Winter Beanie Skin",
+    "id": "WW_WinterHatG"
+  },
+  {
+    "name": "Steinbjorn Relic",
+    "id": "MiniBossDrop_Stein"
+  },
+  {
+    "name": "Steinbjorn Tribute",
+    "id": "BossTribute_Steinbjorn"
+  },
+  {
+    "name": "Strawman Costume Skin",
+    "id": "Costume_Strawman"
+  },
+  {
+    "name": "Tail Wiggle Emote Unlock",
+    "id": "UnlockEmote_TailWiggle"
+  },
+  {
+    "name": "Tek Canteen Refill",
+    "id": "TekCanteenRefill"
+  },
+  {
+    "name": "Tentacle-Print Shirt Skin",
+    "id": "HawaiianShirt_Tentacles"
+  },
+  {
+    "name": "Tracer Rounds",
+    "id": "TracerRound"
+  },
+  {
+    "name": "Turkey Costume Skin",
+    "id": "Costume_Turkey"
+  },
+  {
+    "name": "Ugly Dodo's Revenge Sweater Skin",
+    "id": "Sweater_DodosRevenge"
+  },
+  {
+    "name": "Ugly Foliage Friends Sweater Skin",
+    "id": "Sweater_FallFun"
+  },
+  {
+    "name": "Ugly Noglin Regift Sweater Skin",
+    "id": "WW_XmasSweater_Noglin"
+  },
+  {
+    "name": "Ugly Raptor Claws Sweater Skin",
+    "id": "WW_XmasSweater_RaptorClaws"
+  },
+  {
+    "name": "Ugly Rockwell Sweater Skin",
+    "id": "WW_XmasSweater_Rockwell"
+  },
+  {
+    "name": "Ugly Turkey Target Sweater Skin",
+    "id": "Sweater_TheHunted"
+  },
+  {
+    "name": "Vanaheim Return Tribute",
+    "id": "BossTribute_Vanaheim_Back"
+  },
+  {
+    "name": "Vanaheim Tribute",
+    "id": "PrimalItem_BossTribute_Vanaheim"
+  },
+  {
+    "name": "ZombDodo-Print Shirt Skin",
+    "id": "HawaiianShirt_DodoZombies"
+  },
+  {
+    "name": "Zombie Wyvern-Print Shirt Skin",
+    "id": "HawaiianShirt_ZombieWyvern"
+  },
+  {
+    "name": "Summon\nA\nBoss",
+    "id": "BossTributeEX"
+  },
+  {
+    "name": "Generate\nFenrisúlfr\nPortal",
+    "id": "PrimalItem_BossTribute_FenrirBoss"
+  },
+  {
+    "name": "Fenrisúlfr Trophy",
+    "id": "PrimalItemTrophy_FenrirBoss"
+  },
+  {
+    "name": "Lootcrate",
+    "id": "PrimalItemConsumable_Lootcrate"
+  },
+  {
+    "name": "Code-Key",
+    "id": "CodeKey"
+  },
+  {
+    "name": "Tek Hoversail",
+    "id": "Spawner_HoverSail_Parent"
+  },
+  {
+    "name": "Generate\nDinopithecus King\nPortal",
+    "id": "PrimalItem_BossTribute_LostIsland"
+  },
+  {
+    "name": "Summon\nA\nBoss",
+    "id": "BossTributeGeneric"
+  },
+  {
+    "name": "Access\nDungeon",
+    "id": "DungeonEntrance_Base"
+  },
+  {
+    "name": "Rhyniognatha Saddle",
+    "id": "RhynioSaddle"
+  },
+  {
+    "name": "Chibi-Andrewsarchus",
+    "id": "ChibiDino_Andrewsarchus"
+  },
+  {
+    "name": "Chibi-Festive Bulbdog (Green)",
+    "id": "ChibiDino_Bulbdog_FestiveG"
+  },
+  {
+    "name": "Chibi-Festive Bulbdog (Red)",
+    "id": "ChibiDino_Bulbdog_FestiveR"
+  },
+  {
+    "name": "Chibi-Diplodocus",
+    "id": "ChibiDino_Diplodocus"
+  },
+  {
+    "name": "Chibi-Festive Featherlight (Green)",
+    "id": "ChibiDino_Featherlight_FestiveG"
+  },
+  {
+    "name": "Chibi-Festive Featherlight (Red)",
+    "id": "ChibiDino_Featherlight_FestiveR"
+  },
+  {
+    "name": "Chibi-Fenrir",
+    "id": "ChibiDino_Fenrir"
+  },
+  {
+    "name": "Chibi-Fjordhawk",
+    "id": "ChibiDino_Fjordhawk"
+  },
+  {
+    "name": "Chibi-Stuffed Glowtail",
+    "id": "ChibiDino_GlowtailStuffed"
+  },
+  {
+    "name": "Chibi-Festive Glowtail (Green)",
+    "id": "ChibiDino_Glowtail_FestiveG"
+  },
+  {
+    "name": "Chibi-Festive Glowtail (Red)",
+    "id": "ChibiDino_Glowtail_FestiveR"
+  },
+  {
+    "name": "Chibi-Lymantria",
+    "id": "ChibiDino_Lymantria"
+  },
+  {
+    "name": "Chibi-Mosasaurus",
+    "id": "ChibiDino_Mosa"
+  },
+  {
+    "name": "Chibi-Pachy",
+    "id": "ChibiDino_Pachy"
+  },
+  {
+    "name": "Chibi-Festive Shinehorn (Green)",
+    "id": "ChibiDino_Shinehorn_FestiveG"
+  },
+  {
+    "name": "Chibi-Festive Shinehorn (Red)",
+    "id": "ChibiDino_Shinehorn_FestiveR"
+  },
+  {
+    "name": "Chibi-Tek Stryder",
+    "id": "ChibiDino_TekStryder"
+  },
+  {
+    "name": "Random Chibi-Dino",
+    "id": "ChibiDino_RandomCraftable_Birthday"
+  },
+  {
+    "name": "Random Chibi-Dino (COMMON)",
+    "id": "ChibiDino_RandomCraftable_Common"
+  },
+  {
+    "name": "Random Chibi-Dino",
+    "id": "ChibiDino_RandomCraftable_FearEvolved"
+  },
+  {
+    "name": "Random Chibi-Dino (LEGENDARY)",
+    "id": "ChibiDino_RandomCraftable_Legendary"
+  },
+  {
+    "name": "Random Chibi-Dino",
+    "id": "ChibiDino_RandomCraftable_LoveEvolved"
+  },
+  {
+    "name": "Random Chibi-Dino (RARE)",
+    "id": "ChibiDino_RandomCraftable_Rare"
+  },
+  {
+    "name": "Random Chibi-Dino",
+    "id": "ChibiDino_RandomCraftable_SummerBash"
+  },
+  {
+    "name": "Random Chibi-Dino",
+    "id": "PrimalItem_ChibiDino_RandomCraftable_TurkeyTrial"
+  },
+  {
+    "name": "Random Chibi-Dino (RARE)",
+    "id": "ChibiDino_RandomCraftable_TurkeyTrial_Rare"
+  },
+  {
+    "name": "Random Chibi-Dino (UNCOMMON)",
+    "id": "ChibiDino_RandomCraftable_Uncommon"
+  },
+  {
+    "name": "Random Chibi-Dino (VERY RARE)",
+    "id": "ChibiDino_RandomCraftable_VeryRare"
+  },
+  {
+    "name": "Full Body Costume Test Skin",
+    "id": "FullCostumeTest"
+  },
+  {
+    "name": "A Food Recipe",
+    "id": "PrimalItemCustomDrinkRecipe_Base"
+  },
+  {
+    "name": "A Food Recipe",
+    "id": "PrimalItemCustomFoodRecipe_Base"
+  },
+  {
+    "name": "Elevator Platform",
+    "id": "ElevatorPlatformBase"
+  },
+  {
+    "name": "Fishing Rod",
+    "id": "WeaponFishingRod_Mission"
+  },
+  {
+    "name": "Rhyniognatha Pheromone",
+    "id": "RhynioPheromone"
+  },
+  {
+    "name": "Resin",
+    "id": "Resin"
+  },
+  {
+    "name": "Second Helmet",
+    "id": "PrimalItemHelmet2"
+  },
+  {
+    "name": "Dodo 'ARK: The Animated Series' Costume",
+    "id": "AnimeDodo"
+  },
+  {
+    "name": "Rex 'ARK: The Animated Series' Costume",
+    "id": "AnimeRex"
+  },
+  {
+    "name": "Hemogoblin Cocktail",
+    "id": "HemogoblinCocktail"
+  },
+  {
+    "name": "Archelon Saddle",
+    "id": "Armor_Archelon_Saddle_ASA"
+  },
+  {
+    "name": "Deinosuchus Saddle",
+    "id": "Deinosuchus_Saddle_ASA_C"
+  },
+  {
+    "name": "Xiphactinus Saddle",
+    "id": "XiphSaddle_ASA"
+  },
+  {
+    "name": "Algae Sushi",
+    "id": "Sushi_ASA"
+  },
+  {
+    "name": "Archelon Algae",
+    "id": "Veggie_TurtleAlgae_ASA"
+  },
+  {
+    "name": "Fasolasuchus Saddle",
+    "id": "FasolasuchusSaddle"
+  },
+  {
+    "name": "Gigantoraptor Saddle",
+    "id": "GigantoraptorSaddle"
+  },
+  {
+    "name": "Shastasaurus Submarine Saddle",
+    "id": "ShastaSaddle_Submarine"
+  },
+  {
+    "name": "Ceratosaurus Saddle",
+    "id": "CeratosaurusSaddle"
+  },
+  {
+    "name": "Yi Ling Saddle",
+    "id": "YiLingSaddle"
+  },
+  {
+    "name": "Display Case",
+    "id": "DisplayCase"
+  },
+  {
+    "name": "Gigantoraptor Egg",
+    "id": "Egg_Gigantoraptor"
+  },
+  {
+    "name": "Medium Tek Teleporter",
+    "id": "TekTeleportersmall"
+  },
+  {
+    "name": "Flaming Medium Animal Feces",
+    "id": "DinoPoopMedium_OnFire"
+  },
+  {
+    "name": "Dreadnoughtus Platform Saddle",
+    "id": "DreadSaddle_Platform"
+  },
+  {
+    "name": "Dreadnoughtus Egg",
+    "id": "Egg_Dreadnoughtus"
+  },
+  {
+    "name": "Maeguana Saddle",
+    "id": "MaelizardSaddle"
+  }
+]

@@ -1,0 +1,1097 @@
+[
+  {
+    "name": "EnableCheats",
+    "description": "This command enables access to cheat commands (admincheat), if the given password is correct. The password is set in the server configuration as \"ServerAdminPassword\".",
+    "syntax": "EnableCheats <Password>"
+  },
+  {
+    "name": "SetCheatPlayer",
+    "description": "This command enables (true) or disables (false) cheats for the player that executes it.",
+    "syntax": "SetCheatPlayer <True / False>"
+  },
+  {
+    "name": "AddExperience",
+    "description": "This command adds experience points to the experience amount of the player who executes it.",
+    "syntax": "cheat AddExperience <Amount> <From Tribe> <Prevent Sharing With Tribe>"
+  },
+  {
+    "name": "AllowPlayerToJoinNoCheck",
+    "description": "This command adds a player to the server's whitelist, specified by their numerical Steam ID.",
+    "syntax": "cheat AllowPlayerToJoinNoCheck <Steam ID>"
+  },
+  {
+    "name": "DisallowPlayerToJoinNoCheck",
+    "description": "This command removes a player from the server's whitelist, using their numerical Steam ID.",
+    "syntax": "cheat DisallowPlayerToJoinNoCheck <Steam ID>"
+  },
+  {
+    "name": "AutoCycle",
+    "description": "This command provides unlimited health for the specified duration (to the player who executes the command).",
+    "syntax": "cheat AutoCycle <Duration>"
+  },
+  {
+    "name": "BanPlayer",
+    "description": "This command bans the player with the steam ID provided, kicking them from the server and preventing them from ever reconnecting. Use a player's Xbox or PlayStation name if you are using this command on a console.",
+    "syntax": "cheat BanPlayer <Steam ID>"
+  },
+  {
+    "name": "Broadcast",
+    "description": "This command will send the specified message to all players currently connected to the server.",
+    "syntax": "cheat Broadcast <Message>"
+  },
+  {
+    "name": "CE",
+    "description": "This command will change the weather to the weather with the specified ID. View command page for all weather IDs.",
+    "syntax": "cheat CE <Type>"
+  },
+  {
+    "name": "ChangeSize",
+    "description": "This command will change your character's size. A multiplier of 2 would double your size, 0.5 would half it.",
+    "syntax": "cheat ChangeSize <Multiplier>"
+  },
+  {
+    "name": "ClearPlayerInventory",
+    "description": "This command will clear the inventory of the player with the specified numerical ID.",
+    "syntax": "cheat ClearPlayerInventory <UE4 ID> <Inventory> <Slot Items> <Equipped Items>"
+  },
+  {
+    "name": "ClearTutorials",
+    "description": "This command resets your current tutorial position, meaning it will be re-enabled (if disabled/finished) and play from the start.",
+    "syntax": "ClearTutorials"
+  },
+  {
+    "name": "DebugStructures",
+    "description": "This command toggles on or off the structure debug interface.",
+    "syntax": "cheat DebugStructures"
+  },
+  {
+    "name": "DestroyAll",
+    "description": "This command will remove all creatures of the specified entity/creature ID.",
+    "syntax": "cheat DestroyAll <Entity ID>"
+  },
+  {
+    "name": "DestroyAllEnemies",
+    "description": "This command will clear the map of all non-player creatures. Enemies refers to all creatures, including those that are tamed or non-hostile.",
+    "syntax": "cheat DestroyAllEnemies"
+  },
+  {
+    "name": "DestroyMyTarget",
+    "description": "This command will remove the creature, entity or structure that the player's crosshair is over.",
+    "syntax": "cheat DestroyMyTarget"
+  },
+  {
+    "name": "DestroyStructures",
+    "description": "This command removes all structures that are in the map (including your own).",
+    "syntax": "cheat DestroyStructures"
+  },
+  {
+    "name": "DestroyTribeDinos",
+    "description": "This command destroys all of the dinos that belong to the tribe of the thing you are currently looking at.",
+    "syntax": "cheat DestroyTribeDinos"
+  },
+  {
+    "name": "DestroyTribePlayers",
+    "description": "This command destroys all of the players that belong to the tribe of the thing you are currently looking at.",
+    "syntax": "cheat DestroyTribePlayers"
+  },
+  {
+    "name": "DestroyTribeStructures",
+    "description": "This command destroys all of the structures that belong to the tribe of the thing you are currently looking at.",
+    "syntax": "cheat DestroyTribeStructures"
+  },
+  {
+    "name": "DestroyWildDinos",
+    "description": "This command destroys all of the creatures that are not-yet tamed in the map.",
+    "syntax": "cheat DestroyWildDinos"
+  },
+  {
+    "name": "DisableSpectator",
+    "description": "This command will take you out of spectator mode.",
+    "syntax": "cheat DisableSpectator"
+  },
+  {
+    "name": "DoExit",
+    "description": "This command will stop/shutdown the server at the soonest possible time.",
+    "syntax": "cheat DoExit"
+  },
+  {
+    "name": "DoRestartLevel",
+    "description": "This command will restart the map.",
+    "syntax": "cheat DoRestartLevel"
+  },
+  {
+    "name": "DoTame",
+    "description": "This command tames the creature you are currently looking at, if it is a creature that can be tamed.",
+    "syntax": "cheat DoTame"
+  },
+  {
+    "name": "EnemyInvisible",
+    "description": "This command will make it so creatures will not attack you, even if provoked.",
+    "syntax": "cheat EnemyInvisible <True / False>"
+  },
+  {
+    "name": "ExecSetSleeping",
+    "description": "This command will put you to sleep (true) or wake you up (false).",
+    "syntax": "cheat ExecSetSleeping <True / False>"
+  },
+  {
+    "name": "Fly",
+    "description": "This command enables fly mode, disabling collisions with all objects. To disable, use the command 'walk'.",
+    "syntax": "cheat Fly"
+  },
+  {
+    "name": "ForceTame",
+    "description": "This command will forcefully tame the creature that is behind your crosshair. If tamed with this command, creatures can be ridden without a saddle.",
+    "syntax": "cheat ForceTame"
+  },
+  {
+    "name": "ForceTameAOE",
+    "description": "This command forcefully tames every dino within the specified radius.",
+    "syntax": "cheat ForceTameAOE <Radius>"
+  },
+  {
+    "name": "ForcePlayerToJoinTargetTribe",
+    "description": "This command sets the tribe of the player, specified by their ID, to that of the entity/structure you are currently looking at.",
+    "syntax": "cheat ForcePlayerToJoinTargetTribe <UE4 ID>"
+  },
+  {
+    "name": "ForcePlayerToJoinTribe",
+    "description": "This command forces the player with the specified ID to join the specified tribe.",
+    "syntax": "cheat ForcePlayerToJoinTribe <UE4 ID> <Tribe Name>"
+  },
+  {
+    "name": "ForceTribes",
+    "description": "This command will create a new tribe (name of tribe is the last argument), and force the specified players to join it.",
+    "syntax": "cheat ForceTribes <Player Name> <Player Name> <New Tribe Name>"
+  },
+  {
+    "name": "GameCommand",
+    "description": "This command runs a command specific to the gamemode the server is currently running.",
+    "syntax": "cheat GameCommand <Command>"
+  },
+  {
+    "name": "GetChat",
+    "description": "This is an RCON command to retrieve the latest chat messages (technically, the 'latest chat buffer') sent on the server.",
+    "syntax": "GetChat"
+  },
+  {
+    "name": "GetAllState",
+    "description": "This command prints information about each of the individual entities of the given type currently in the map. It is most commonly used to check if an entity is spawned (as if there is no entity of the specified type, nothing will be printed).",
+    "syntax": "cheat GetAllState <Entity ID>"
+  },
+  {
+    "name": "GetGameLog",
+    "description": "You must launch the server with the -servergamelog argument for this command to work. This command prints 100 entries of the game log.",
+    "syntax": "GetGameLog"
+  },
+  {
+    "name": "GetPlayerIDForSteamID",
+    "description": "This command <strong>may not work currently</strong> (due to a bug). If working, it will return the player ID (UE4) for the player with the specified steam ID.",
+    "syntax": "GetPlayerIDForSteamID <Steam ID>"
+  },
+  {
+    "name": "GetSteamIDForPlayerID",
+    "description": "This command <strong>may not work currently</strong> (due to a bug). If working, it will return the Steam ID for the player with the specified player ID (UE4).",
+    "syntax": "GetSteamIDForPlayerID <UE4 ID>"
+  },
+  {
+    "name": "GetTribeIdPlayerList",
+    "description": "This command returns a list of players in the tribe with the specified ID.",
+    "syntax": "cheat GetTribeIdPlayerList <Tribe ID>"
+  },
+  {
+    "name": "GFI",
+    "description": "This command adds an item to your inventory, relative to the blueprint, amount and quality specified. You can specify only part of the blueprint instead of the full blueprint, provided it is a unique part that no other blueprints have (e.g. 'gem' is shared between the Blue Gem, Green Gem and Red Gem, so it cannot be used, but 'Absorbent' is only in 'Absorbent Substrate' so it is fine). See our <a href=\"https://arkids.net/items\">Ark ID list</a> for item IDs, blueprints, GFI codes, etc.",
+    "syntax": "cheat GFI <Blueprint / GFI> <Amount> <Quality> <Force Blueprint>"
+  },
+  {
+    "name": "Ghost",
+    "description": "This command enables 'noclip' mode, disabling collisions (allowing you to pass through any objects, including the terrain of the map). Use the 'walk' command to disable this mode.",
+    "syntax": "cheat Ghost"
+  },
+  {
+    "name": "GiveAllStructure",
+    "description": "This command gives you ownership of the structure (and any connected/touching structures) that your crosshair is on.",
+    "syntax": "cheat GiveAllStructure"
+  },
+  {
+    "name": "GiveColors",
+    "description": "This command gives you every dye in the game, specify an amount to receive multiple of each dye (relative to the amount specified, e.g. 3 would give you 3 of each dye).",
+    "syntax": "cheat GiveColors <Amount>"
+  },
+  {
+    "name": "GiveCreativeMode",
+    "description": "This command sets your gamemode to creative mode.",
+    "syntax": "cheat GiveCreativeMode"
+  },
+  {
+    "name": "GiveCreativeModeToTarget",
+    "description": "This command sets the gamemode of the player/thing your crosshair is over to creative mode.",
+    "syntax": "cheat GiveCreativeModeToTarget"
+  },
+  {
+    "name": "GiveCreativeModeToPlayer",
+    "description": "This command sets the gamemode of another player to creative mode.",
+    "syntax": "cheat GiveCreativeModeToPlayer <UE4 ID>"
+  },
+  {
+    "name": "GiveEngrams",
+    "description": "This command will unlock all crafting recipes for your character.",
+    "syntax": "cheat GiveEngrams"
+  },
+  {
+    "name": "GiveExpToPlayer",
+    "description": "This command will give experience points to another player.",
+    "syntax": "cheat GiveExpToPlayer <UE4 ID> <Amount> <From Tribe> <Prevent Sharing With Tribe>"
+  },
+  {
+    "name": "GiveExpToTarget",
+    "description": "This command will give experience points to the player, or dino, that is behind your crosshair.",
+    "syntax": "cheat GiveExpToTarget <Amount> <From Tribe> <Prevent Sharing With Tribe>"
+  },
+  {
+    "name": "GiveInfiniteStatsToTarget",
+    "description": "This command will give infinite stats to the player, or dino, that is under your crosshair.",
+    "syntax": "cheat GiveInfiniteStatsToTarget"
+  },
+  {
+    "name": "GiveItem",
+    "description": "This command adds an item to your inventory, relative to the blueprint, amount and quality specified. Unlike the 'GFI' command, you must specify the <strong>full</strong> blueprint.",
+    "syntax": "cheat GiveItem <Blueprint> <Amount> <Quality> <Force Blueprint>"
+  },
+  {
+    "name": "GiveItemNum",
+    "description": "This command adds an item to your inventory, relative to the numerical item ID provided. Not all items have a numerical item ID, so it may be best to use the GFI command instead.",
+    "syntax": "cheat GiveItemNum <Item ID> <Amount> <Quality> <Force Blueprint>"
+  },
+  {
+    "name": "GiveItemToPlayer",
+    "description": "This command adds an item to the inventory of the player with the specified player ID, relative to the blueprint, amount and quality specified. Unlike the 'GFI' command, you must specify the <strong>full</strong> blueprint.",
+    "syntax": "cheat GiveItemToPlayer <UE4 ID> <Blueprint> <Amount> <Quality> <Force Blueprint>"
+  },
+  {
+    "name": "GiveItemNumToPlayer",
+    "description": "This command adds an item to the inventory of the player with the specified player ID, relative to the numerical item ID provided. Not all items have a numerical item ID, so it may be best to use the GiveItemToPlayer command instead.",
+    "syntax": "cheat GiveItemNumToPlayer <UE4 ID> <Item ID> <Amount> <Quality> <Force Blueprint>"
+  },
+  {
+    "name": "GiveResources",
+    "description": "This command gives you 50 of each resource. Note: due to the weight of all these resources, your movement speed may be severely hindered.",
+    "syntax": "cheat GiveResources"
+  },
+  {
+    "name": "GiveSlotItem",
+    "description": "This command puts an item (relative to the provided blueprint) in the specified item slot. If there are too many items (stacked), the extra items will be placed into your inventory.",
+    "syntax": "cheat GiveSlotItem <Blueprint> <Slot Number> <Amount>"
+  },
+  {
+    "name": "GiveSlotItemNum",
+    "description": "This command puts an item (relative to the provided item ID) in the specified item slot. If there are too many items (stacked), the extra items will be placed into your inventory.",
+    "syntax": "cheat GiveSlotItemNum <Item ID> <Slot Number> <Amount>"
+  },
+  {
+    "name": "GiveToMe",
+    "description": "This command will make you the owner of the entity that your crosshair is currently over. Note: it will <strong>not tame</strong> creatures, it will only make you the owner - to tame a creature, use the tame command.",
+    "syntax": "cheat GiveToMe"
+  },
+  {
+    "name": "GMBuff",
+    "description": "This command will give you near unlimited experience, enable EnemyInvisible (so that creatures do not attack you), infinite stats and make you invincible (god mode).",
+    "syntax": "cheat GMBuff"
+  },
+  {
+    "name": "GMSummon",
+    "description": "This command spawns the creature with the specified entity ID and level in front of your character. Note that you must put quotation marks around the entity ID.",
+    "syntax": "cheat GMSummon <Entity ID> <Creature Level>"
+  },
+  {
+    "name": "God",
+    "description": "This command will make your character enter god mode if you are not already in god mode. If you are already in god mode, it will disable it. God mode makes you invincible to most forms of damage. You can still die via drowning when in god mode, so if you do not wish to drown, you will need to use the InfiniteStats command.",
+    "syntax": "cheat God"
+  },
+  {
+    "name": "HideTutorial",
+    "description": "This command will completely hide a tutorial, relative to the tutorial ID/index provided: either '0' (Blank) or '1' (Your first day).",
+    "syntax": "HideTutorial <Tutorial ID>"
+  },
+  {
+    "name": "HurtMe",
+    "description": "This command damages your character by the specified amount.",
+    "syntax": "cheat HurtMe <Amount>"
+  },
+  {
+    "name": "InfiniteStats",
+    "description": "This command will give you infinite stats: health, oxygen, stamina, food and water.",
+    "syntax": "cheat InfiniteStats"
+  },
+  {
+    "name": "KickPlayer",
+    "description": "This command will kick a player, specified by their Steam ID, from the server (disconnects them). This does not ban a player.",
+    "syntax": "cheat KickPlayer <Steam ID>"
+  },
+  {
+    "name": "Kill",
+    "description": "This command will kill the entity or structure that is currently behind your crosshair (leaves a corpse).",
+    "syntax": "cheat Kill"
+  },
+  {
+    "name": "KillPlayer",
+    "description": "This command will kill the player with the player ID specified.",
+    "syntax": "cheat KillPlayer <UE4 ID>"
+  },
+  {
+    "name": "KillAOE",
+    "description": "This command will destroy all of the specified category within the specified radius. Categories are: pawns, dinos, tamed, players, wild, structures. Note that dinos includes your own tames.",
+    "syntax": "cheat KillAOE <Category> <Radius>"
+  },
+  {
+    "name": "LeaveMeAlone",
+    "description": "This command will put you in god mode (God), give you infinite stats (InfiniteStats) and make creatures not attack you (EnemyInvisible).",
+    "syntax": "cheat LeaveMeAlone"
+  },
+  {
+    "name": "ListPlayers",
+    "description": "The command will send you a list of all players who are connected to the server, along with their Steam IDs.",
+    "syntax": "cheat ListPlayers"
+  },
+  {
+    "name": "MakeTribeAdmin",
+    "description": "This command will make you an admin of your current tribe.",
+    "syntax": "cheat MakeTribeAdmin"
+  },
+  {
+    "name": "MakeTribeFounder",
+    "description": "This command will make you the founder of your current tribe.",
+    "syntax": "cheat MakeTribeFounder"
+  },
+  {
+    "name": "OnToggleInGameMenu",
+    "description": "This command will toggle the in-game menu.",
+    "syntax": "OnToggleInGameMenu"
+  },
+  {
+    "name": "OpenMap",
+    "description": "This command will load a map, relative to the specified map name.",
+    "syntax": "cheat OpenMap <Map Name>"
+  },
+  {
+    "name": "PlayersOnly",
+    "description": "This command will halt all creature movement, and stop/prevent crafting. Enter the command again to re-enable creature movement/crafting. This command does not affect players (only creatures).",
+    "syntax": "cheat PlayersOnly"
+  },
+  {
+    "name": "PrintColors",
+    "description": "This command will print the IDs of all colors.",
+    "syntax": "PrintColors"
+  },
+  {
+    "name": "RainCritters",
+    "description": "This command will spawn a random selection of sheep and dodos above you.",
+    "syntax": "cheat RainCritters <Amount> <Spread Radius> <Height>"
+  },
+  {
+    "name": "RemoveTribeAdmin",
+    "description": "This command will remove all admins (other than yourself) from your current tribe.",
+    "syntax": "cheat RemoveTribeAdmin"
+  },
+  {
+    "name": "RenamePlayer",
+    "description": "This command will change a player's name.",
+    "syntax": "cheat RenamePlayer <Player Name> <New Name>"
+  },
+  {
+    "name": "RenameTribe",
+    "description": "This command will change a tribe's name.",
+    "syntax": "cheat RenameTribe <Tribe Name> <New Name>"
+  },
+  {
+    "name": "RequestSpectator",
+    "description": "This command will put you in spectator mode, if the password provided is correct. Password is set in GameUserSettings.ini under 'SpectatorPassword'.",
+    "syntax": "RequestSpectator <Password>"
+  },
+  {
+    "name": "SaveWorld",
+    "description": "This command forcefully saves the map (on both servers and singleplayer).",
+    "syntax": "cheat SaveWorld"
+  },
+  {
+    "name": "ScriptCommand",
+    "description": "This command runs a command or script that is specific to the servers current game mode.",
+    "syntax": "cheat ScriptCommand <Command>"
+  },
+  {
+    "name": "SDF",
+    "description": "This command spawns a creature in-front of you with a random level, relative to the creature ID specified.",
+    "syntax": "cheat SDF <Creature ID> <Tamed> <Level>"
+  },
+  {
+    "name": "ServerChat",
+    "description": "This command sends a message in the chat to all players currently connected to the server.",
+    "syntax": "cheat ServerChat <Message>"
+  },
+  {
+    "name": "ServerChatTo",
+    "description": "This command will send a PM from the server to the player with the steam ID specified.",
+    "syntax": "cheat ServerChatTo <Steam ID> <Message>"
+  },
+  {
+    "name": "ServerChatToPlayer",
+    "description": "This command will send a PM from the server to the player with the name (not ID) specified.",
+    "syntax": "cheat ServerChatToPlayer <Name> <Message>"
+  },
+  {
+    "name": "SetAdminIcon",
+    "description": "This command will show or hide your admin icon in the in-game chat that by default shows when cheats are enabled.",
+    "syntax": "cheat SetAdminIcon <True / False>"
+  },
+  {
+    "name": "SetBabyAge",
+    "description": "This command will set the age of the creature (provided it is a baby) behind your crosshair.",
+    "syntax": "cheat SetBabyAge <Age>"
+  },
+  {
+    "name": "SetFacialHairPercent",
+    "description": "This command sets your facial hair percentage.",
+    "syntax": "cheat SetFacialHairPercent <Percentage>"
+  },
+  {
+    "name": "SetFacialHairStyle",
+    "description": "This command will set the style of your facial hair, relative to the facial hair ID specified (0-7).",
+    "syntax": "cheat SetFacialHairStyle <Facial Hair ID>"
+  },
+  {
+    "name": "SetGlobalPause",
+    "description": "This command will completely pause (or unpause) the game/server.",
+    "syntax": "cheat SetGlobalPause <True/False>"
+  },
+  {
+    "name": "SetGodMode",
+    "description": "This command to enable or disable god mode. God mode prevents your character from taking most forms of damage (you can still drown).",
+    "syntax": "cheat SetGodMode <True/False>"
+  },
+  {
+    "name": "SetGraphicsQuality",
+    "description": "This command sets your client's graphics quality, relative to the 'quality' number provided (0-3).",
+    "syntax": "SetGraphicsQuality <Quality>"
+  },
+  {
+    "name": "SetHeadHairPercent",
+    "description": "This command sets the percentage of hair that is on your characters head.",
+    "syntax": "cheat SetHeadHairPercent <Percentage>"
+  },
+  {
+    "name": "SetHeadHairStyle",
+    "description": "This command will set the style of your hair, relative to the hair ID specified (0-7).",
+    "syntax": "cheat SetHeadHairStyle <Hair ID>"
+  },
+  {
+    "name": "SetImprintQuality",
+    "description": "This command will set the quality of the entity under your crosshair.",
+    "syntax": "cheat SetImprintQuality <Percentage>"
+  },
+  {
+    "name": "SetMessageOfTheDay",
+    "description": "This command sets the MOTD (message of the day). The MOTD is a message that is displayed to a player when they connect to the server.",
+    "syntax": "cheat SetMessageOfTheDay <Message>"
+  },
+  {
+    "name": "SetShowAllPlayers",
+    "description": "This command enables/disables names when in spectator mode.",
+    "syntax": "cheat SetShowAllPlayers <True / False>"
+  },
+  {
+    "name": "SetTargetDinoColor",
+    "description": "The command will set the color of the dino (relative to the color ID and region specified) your crosshair is currently over.",
+    "syntax": "cheat SetTargetDinoColor <Region> <Color ID>"
+  },
+  {
+    "name": "SetTargetPlayerBodyVal",
+    "description": "This command allows you to resize a specific part of a character's body. Note that the player may have to respawn for the changes to take effect.",
+    "syntax": "cheat SetTargetPlayerBodyVal <Body Region ID> <Scale>"
+  },
+  {
+    "name": "SetTargetPlayerColorVal",
+    "description": "This command allows you to recolor a specific part of a character's body. Note that the player may have to respawn for the changes to take effect.",
+    "syntax": "cheat SetTargetPlayerColorVal <Body Part> <Color>"
+  },
+  {
+    "name": "SetPlayerPos",
+    "description": "This command will teleport your character to the specified coordinates. View our <a href=\"https://arkids.net/locations\">location list</a> to find out common coordinates.",
+    "syntax": "cheat SetPlayerPos <X> <Y> <Z>"
+  },
+  {
+    "name": "SetTimeOfDay",
+    "description": "This command sets the time of the day in the current game world.",
+    "syntax": "cheat SetTimeOfDay <Hour:Minute[:Second]>"
+  },
+  {
+    "name": "ShowInGameMenu",
+    "description": "This command will show the in-game menu.",
+    "syntax": "ShowInGameMenu"
+  },
+  {
+    "name": "ShowMessageOfTheDay",
+    "description": "This command will send you a chat message with the server's current MOTD (message of the day).",
+    "syntax": "ShowMessageOfTheDay"
+  },
+  {
+    "name": "ShowTutorial",
+    "description": "This command shows a tutorial, relative to the tutorial ID entered.",
+    "syntax": "ShowTutorial <Tutorial ID> <Force Display>"
+  },
+  {
+    "name": "Slomo",
+    "description": "This command sets the speed multiplier of the game, allowing you to speed it up or slow it down, 1 is default/normal speed.",
+    "syntax": "cheat Slomo <Multiplier>"
+  },
+  {
+    "name": "SpawnActor",
+    "description": "This command spawns an entity, relative to the blueprint specified, with a random level.",
+    "syntax": "cheat SpawnActor <Blueprint> <Spawn Distance> <Y Offset> <Z Offset>"
+  },
+  {
+    "name": "SpawnActorSpread",
+    "description": "This command spawns a given amount of entities, relative to the blueprint specified.",
+    "syntax": "cheat SpawnActorSpread <Blueprint> <Spawn Distance> <Y Offset> <Z Offset> <Amount> <Radius>"
+  },
+  {
+    "name": "SpawnDino",
+    "description": "This command spawns an entity (creature or dinosaur), relative to the blueprint path and level specified. Specify Y/Z offsets to change the location it will spawn at (relative to your character).",
+    "syntax": "cheat SpawnDino <Blueprint> <Spawn Distance> <Y Offset> <Z Offset> <Level>"
+  },
+  {
+    "name": "Suicide",
+    "description": "This command will forcefully kill your character.",
+    "syntax": "Suicide"
+  },
+  {
+    "name": "Summon",
+    "description": "This command will spawn a creature, relative to the entity ID specified.",
+    "syntax": "cheat Summon <Entity ID>"
+  },
+  {
+    "name": "SummonTamed",
+    "description": "This command will spawn a tamed creature, relative to the entity ID specified.",
+    "syntax": "cheat SummonTamed <Entity ID>"
+  },
+  {
+    "name": "TakeAllDino",
+    "description": "This command will forcefully make your tribe the owner of <strong>all dinos</strong> that belong to the tribe of the entity/structure your crosshair is over.",
+    "syntax": "cheat TakeAllDino"
+  },
+  {
+    "name": "TakeAllStructure",
+    "description": "This command will forcefully make your tribe the owner of <strong>all structures</strong> that belong to the tribe of the entity/structure your crosshair is over.",
+    "syntax": "cheat TakeAllStructure"
+  },
+  {
+    "name": "Teleport",
+    "description": "This command will move your character forward (very fast) until you collide with something.",
+    "syntax": "cheat Teleport"
+  },
+  {
+    "name": "TeleportPlayerIDToMe",
+    "description": "This command will teleport a player to you, specified by their player ID (UE4).",
+    "syntax": "cheat TeleportPlayerIDToMe <UE4 ID>"
+  },
+  {
+    "name": "TeleportPlayerNameToMe",
+    "description": "This command will teleport a player to you, specified by their player name (not ID).",
+    "syntax": "cheat TeleportPlayerNameToMe <Player Name>"
+  },
+  {
+    "name": "TeleportToPlayer",
+    "description": "This command will teleport you to the player with the specified player ID (UE4).",
+    "syntax": "cheat TeleportToPlayer <UE4 ID>"
+  },
+  {
+    "name": "TestSteamRefreshItems",
+    "description": "This command will check that Steam can refresh items.",
+    "syntax": "cheat TestSteamRefreshItems"
+  },
+  {
+    "name": "ToggleInfiniteAmmo",
+    "description": "The command will toggle on or off unlimited ammo for any weapons that your character fires.",
+    "syntax": "cheat ToggleInfiniteAmmo"
+  },
+  {
+    "name": "UnbanPlayer",
+    "description": "This command will unban a player from the server, relative to the Steam ID specified.",
+    "syntax": "cheat UnbanPlayer <Steam ID>"
+  },
+  {
+    "name": "UnlockEngram",
+    "description": "This command will unlock Tek Engrams/Tekgrams, specified by their blueprint path.",
+    "syntax": "cheat UnlockEngram <Blueprint>"
+  },
+  {
+    "name": "Walk",
+    "description": "This command deactivates fly mode, meaning your character will again be affected by the game's physics.",
+    "syntax": "cheat Walk"
+  },
+  {
+    "name": "Stat",
+    "description": "This command toggles on-screen debug information for the specified stat. Types are: FPS, Levels, Unit and UnitGraph.",
+    "syntax": "Stat <Stat Type>"
+  },
+  {
+    "name": "ShowDebug",
+    "description": "This command shows debug information overlays, relative to the debug type specified. Types: reset (disables all debug screens), physics, camera, bones, animation, input, collision, net, weapon and ai.",
+    "syntax": "ShowDebug <Debug Type>"
+  },
+  {
+    "name": "ShowMyAdminManager",
+    "description": "This command opens the admin management interface, which has a lot of useful admin tools.",
+    "syntax": "cheat ShowMyAdminManager"
+  },
+  {
+    "name": "EnableSpectator",
+    "description": "This command enables spectator mode for your character.",
+    "syntax": "cheat EnableSpectator"
+  },
+  {
+    "name": "StopSpectating",
+    "description": "This command disables spectator mode for your character.",
+    "syntax": "StopSpectating"
+  },
+  {
+    "name": "ToggleGun",
+    "description": "This command toggles the visibility of the item in your hands. If you do not have an item in your hands, and this setting is enabled, your hands will be hidden.",
+    "syntax": "cheat ToggleGun"
+  },
+  {
+    "name": "TribeMessage",
+    "description": "This admin command sends a message to the tribe with the specified ID.",
+    "syntax": "cheat TribeMessage <Tribe ID> <Message>"
+  },
+  {
+    "name": "TPCoords",
+    "description": "This command will teleport your character to the specified GPS coordinates (latitude and longitude, <em>not X, Y, Z</em>.",
+    "syntax": "cheat TPCoords <GPS Latitude> <GPS Longitude> <Altitude>"
+  },
+  {
+    "name": "SPI",
+    "description": "This console command will teleport your character to the specified coordinates, and make your character face the specified yaw and pitch. View our <a href=\"https://arkids.net/locations\">coordinates list</a> to find out common coordinates.",
+    "syntax": "cheat SPI <X> <Y> <Z> <Yaw> <Pitch>"
+  },
+  {
+    "name": "DestroyTribeId",
+    "description": "This console command will delete the tribe with the specified tribe ID.",
+    "syntax": "cheat DestroyTribeId <Tribe ID>"
+  },
+  {
+    "name": "DestroyTribeIdDinos",
+    "description": "This console command will kill all dinos that the tribe with the specified tribe ID has tamed.",
+    "syntax": "cheat DestroyTribeIdDinos <Tribe ID>"
+  },
+  {
+    "name": "DestroyTribeIdPlayers",
+    "description": "This cheat command will kill all players in the tribe with the specified tribe ID.",
+    "syntax": "cheat DestroyTribeIdPlayers <Tribe ID>"
+  },
+  {
+    "name": "DestroyTribeIdStructures",
+    "description": "This command will destroy all structures that belong to the tribe with the specified ID.",
+    "syntax": "cheat DestroyTribeIdStructures <Tribe ID>"
+  },
+  {
+    "name": "HideRiders",
+    "description": "This command will make players (or other riders) of dinosaurs invisible. After unmounting, they will stay invisible - they will need to rejoin the game, or turn this feature off to become visible again.",
+    "syntax": "cheat HideRiders <True / False>"
+  },
+  {
+    "name": "RefillStats",
+    "description": "This command will replenish your health, stamina, oxygen, water, food and other depletable stats. Unlike the InfiniteStats command, your stats will continue to drain/be affected by the game after executing this command.",
+    "syntax": "cheat RefillStats"
+  },
+  {
+    "name": "GiveArmorSet",
+    "description": "This command gives you a full set of the specified armor tier, with the specified quality. It will be equipped to your character (not placed in your inventory). Types: cloth, chitin, metal, riot, hazard, tek.",
+    "syntax": "cheat GiveArmorSet <Armor Type> <Quality>"
+  },
+  {
+    "name": "GiveWeaponSet",
+    "description": "This command gives you a set of weapons. Tier options are:<ul><li>0 - a bow, pike, spear and bola</li><li>1 - an assault rifle, shotgun, longneck rifle, sword and grenade</li><li>2 - compound bow, fabricated sniper rifle, rocket launcher, C4 charge</li><li>3 - a tek grenade, tek railgun, tek rifle and tek sword</li></li></ul>",
+    "syntax": "cheat GiveWeaponSet <Weapon Set #> <Quality>"
+  },
+  {
+    "name": "GiveItemSet",
+    "description": "This command gives you a set of items. Item set numbers:<ul><li>0 - 200 stimberries, 90 cooked meat and 2 waterskins</li><li>1 - 200 stimberries, 100 medical brews, 90 cooked meat and 2 water jars</li><li>2 - 100 energy brews, 100 medical brews, 100 cactus broth, 60 cooked meat jerky and 2 canteens</li><li>3 - 100 cactus broth, 100 medical brews, 100 energy brews, 90 cooked meat jerky, 5 shadow steak sautes, 5 enduro stews, 5 focal chilis and 5 lazaurs chowders</li></ul>",
+    "syntax": "cheat GiveItemSet <Item Set #>"
+  },
+  {
+    "name": "ClearMyBuffs",
+    "description": "This command will clear all of the buffs (status effects) your character has attained (from things like enduro stews, etc).",
+    "syntax": "cheat ClearMyBuffs"
+  },
+  {
+    "name": "RainDinos",
+    "description": "This console command will spawn a random selection of trikes and parasaurs above your character.",
+    "syntax": "cheat RainDinos <Amount> <Spread Radius> <Height>"
+  },
+  {
+    "name": "RainDanger",
+    "description": "This console command will spawn a random selection of Tyrannosauruses and Allosauruses above your character.",
+    "syntax": "cheat RainDanger <Amount> <Spread Radius> <Height>"
+  },
+  {
+    "name": "StartNearestHorde",
+    "description": "Provided you are playing on Extinction (this is an Extinction-only command), this command will spawn either an Element Node, or an Orbital Supply Drop. To spawn an Orbital Supply Drop, specify 'Crate' as the type, to spawn an Element Node, specify 'Element' as the type. Difficulty is a number ranging from 1 to 4, 1 being the easiest and 4 being legendary.",
+    "syntax": "cheat StartNearestHorde <Crate / Element> <Difficulty>"
+  },
+  {
+    "name": "ListActiveHordeEvents",
+    "description": "Extinction only command. This admin command will print all Orbital Supply Drops and Element Nodes that are currently active to the extended console, along with their location (X, Y, and Z coordinates). The extended console can be opened by pressing the TAB key with the console already open.",
+    "syntax": "cheat ListActiveHordeEvents"
+  },
+  {
+    "name": "ToggleDamageNumbers",
+    "description": "This console command enables and disables (toggles) floating damage numbers on the server it is executed on. If floating damage numbers are enabled when you run this command, it will disable them (and vice versa).",
+    "syntax": "cheat ToggleDamageNumbers"
+  },
+  {
+    "name": "HatchEgg",
+    "description": "This admin command instantly completes the incubation progress of the egg you are currently looking at (i.e. that your crosshair is over). Because this command only sets the incubation progress of an egg to 0%, you will need to make sure that hatching conditions (temperature) are met in order for the egg to hatch.",
+    "syntax": "cheat HatchEgg"
+  },
+  {
+    "name": "TribeStructureAudit",
+    "description": "This command will list all of the structures the tribe with the specified Tribe ID has, along with the amount of each structure that they have.",
+    "syntax": "cheat TribeStructureAudit <Tribe ID>"
+  },
+  {
+    "name": "TribeDinoAudit",
+    "description": "This console command will list all of the dinos that the tribe with the specified ID has, along with the amount of each dino that they have.",
+    "syntax": "cheat TribeDinoAudit <Tribe ID>"
+  },
+  {
+    "name": "LevelUp",
+    "description": "This command will level up the stat with the specified ID (see arguments for a list of IDs) by the amount you specify. Running this command when riding a dinosaur will level up the specific stat for the dinosaur you are riding (rather than yourself).",
+    "syntax": "cheat LevelUp <Stat ID> <Levels>"
+  },
+  {
+    "name": "LevelUpAOE",
+    "description": "This console command is similar to the LevelUp command, but instead of only levelling yourself up, it will level up a stat for all players and dinosaurs within the specified radius. For example, you could level up all players and dinos Stamina by 5 within a 25 meter radius. See arguments for a list of stat IDs.",
+    "syntax": "cheat LevelUpAOE <Stat ID> <Radius> <Levels>"
+  },
+  {
+    "name": "LevelUpTarget",
+    "description": "This command levels up the specified stat by the specified amount for the player or dinosaur that your crosshair is over. See arguments for a list of all of the stat IDs.",
+    "syntax": "cheat LevelUpTarget <Stat ID> <Levels>"
+  },
+  {
+    "name": "TeleportToPlayerName",
+    "description": "This command will teleport you to the player with the specified in-game name.",
+    "syntax": "cheat TeleportToPlayerName <Player Name>"
+  },
+  {
+    "name": "TeleportToActorLocation",
+    "description": "This admin command will teleport you to the location of the actor with the specified actor ID.",
+    "syntax": "cheat TeleportToActorLocation <Actor ID>"
+  },
+  {
+    "name": "TP",
+    "description": "This command will teleport you to a predefined location. There are 31 predefined locations you can teleport to, see argument information for a full list.",
+    "syntax": "cheat TP <Location Code>"
+  },
+  {
+    "name": "MoveTargetTo",
+    "description": "This command will teleport the the player, dinosaur, or entity that your crosshair is over to the specified X, Y, and Z coordinates.",
+    "syntax": "cheat MoveTargetTo <X> <Y> <Z>"
+  },
+  {
+    "name": "TeleportToActiveHorde",
+    "description": "This console command will teleport you to the horde event with the specified ID.",
+    "syntax": "cheat TeleportToActiveHorde <Horde ID>"
+  },
+  {
+    "name": "ForceJoinTribe",
+    "description": "This command will make you forcefully join the tribe of the player, dino, or structure that your crosshair is over -- i.e. if you look at a structure belonging to tribe A and type this command, you will join tribe A.",
+    "syntax": "cheat ForceJoinTribe"
+  },
+  {
+    "name": "TakeTribe",
+    "description": "This admin command will transfer all of the dinosaurs and structures of the tribe with the specified ID to you.",
+    "syntax": "cheat TakeTribe <Tribe ID>"
+  },
+  {
+    "name": "GiveEngramsTekOnly",
+    "description": "This console command will instantly give you all of the Tek Engrams until you leave the server.",
+    "syntax": "cheat GiveEngramsTekOnly"
+  },
+  {
+    "name": "GiveTekEngramsTo",
+    "description": "This command will give and permanently unlock the Tek Engram with the specified ID for the player with the specified player ID. Tek Engram IDs are the same as the GFI code for the item, find them at <a href='https://arkids.net/items'>arkids.net/items</a>.",
+    "syntax": "cheat GiveTekEngramsTo <UE4 ID> <GFI Code>"
+  },
+  {
+    "name": "Playercommand",
+    "description": "This console command will give you an Ascension effect. Specify 'Ascend1' (without quotes) for Gamma Ascension,'Ascend2' (without quotes) for Beta Ascension, or 'Ascend3' (without quotes) for Alpha Ascension.",
+    "syntax": "cheat Playercommand <Ascend1 / Ascend2 / Ascend3>"
+  },
+  {
+    "name": "SetMyTargetSleeping",
+    "description": "This command, if you specify '1' (without quotes) as an argument will put to sleep (knock out) the dinosaur, player, or entity, that your crosshair is over. If '0' (without quotes) is specified as an argument, it will wake up the player or dino under your crosshair.",
+    "syntax": "cheat SetMyTargetSleeping <True / False>"
+  },
+  {
+    "name": "MaxAscend",
+    "description": "This console command unlocks the Alpha Rockwell and Alpha Overseer Ascensions for the player with the specified player ID. You need to upload and re-download your save in order for the implant to change - the other Ascension Effects (Tek Engrams, levels) will apply instantly (no need to upload/re-download).",
+    "syntax": "cheat MaxAscend <UE4 ID>"
+  },
+  {
+    "name": "DefeatBoss",
+    "description": "This admin command will defeat/unlock the specified boss for the player with the specified ID. You also need to specify a difficulty (0 for Gamma, 1 for Beta, or 2 for Alpha). Unlocking a boss will instantly give the player all of the Tek Engrams associated with it. They will need to die and respawn in order for the levels and implant to change. See argument information for boss IDs.",
+    "syntax": "cheat DefeatBoss <UE4 ID> <Boss ID> <Difficulty>"
+  },
+  {
+    "name": "DefeatAllBosses",
+    "description": "This command will defeat and unlock all Alpha difficulty bosses for the player with the specified player ID. Specify 0 as the player ID to unlock all Alpha bosses for yourself.",
+    "syntax": "cheat DefeatAllBosses <UE4 ID / 0>"
+  },
+  {
+    "name": "DumpDinoStats",
+    "description": "This is a debug command that will print to the console all of the statistics and information there is about a dinosaur. If you are riding a dino when you run this command, the information will be printed for this dino, otherwise, this command will print information about the dino that your crosshair is over.",
+    "syntax": "cheat DumpDinoStats"
+  },
+  {
+    "name": "SetImprintedPlayer",
+    "description": "This command will change the imprinted player for the dinosaur that your crosshair is over to the player with the specified name and ID. Use TransferImprints to transfer all of a player's imprinted dinos to you.",
+    "syntax": "cheat SetImprintedPlayer <Name> <UE4 ID>"
+  },
+  {
+    "name": "TransferImprints",
+    "description": "This console command transfers all of a player's imprinted dinos to another player - i.e. all dinos that are imprinted to player A will become imprinted on player B instead. First player ID is the player who initially had the imprinted dinos, the second player ID is the player who the imprints will be transferred to.",
+    "syntax": "cheat TransferImprints <UE4 ID> <UE4 ID> <Player Name>"
+  },
+  {
+    "name": "GiveDinoSet",
+    "description": "This admin command will spawn a set of dinos, relative to the tier you specify. See tier ID argument information for a list of tier IDs and what dinos are in each tier. You also need to specify a quantity (0 for the entire set) of dinos that should spawn.",
+    "syntax": "cheat GiveDinoSet <Tier ID> <0 / Amount>"
+  },
+  {
+    "name": "SpawnSetupDino",
+    "description": "This command will spawn a dinosaur (specified by blueprint path) with your desired configuration. This command allows you to specify the saddle, level, stats, and location of the spawned dino.",
+    "syntax": "cheat SpawnSetupDino <Blueprint Path> <Blueprint Path (Saddle)> <Saddle Quality> <Level> <Stats> <Spawn Distance> <Y Offset> <Z Offset>"
+  },
+  {
+    "name": "ForcePoop",
+    "description": "This cheat command makes a dinosaur poop. If you are riding a dino when you run this command, it will make that dino poop, otherwise, it will make the dino that your crosshair is over poop.",
+    "syntax": "cheat ForcePoop"
+  },
+  {
+    "name": "ClearCryoSickness",
+    "description": "This command will heal the Cryo Sickness of the dinosaur that is under your crosshair, waking it up.",
+    "syntax": "cheat ClearCryoSickness"
+  },
+  {
+    "name": "Dino Reset",
+    "description": "If you are looking at or riding an Enforcer when you run this console command, it will reset all existing blink cooldowns for the Enforcer (its teleport ability). If you are looking at or riding a Mek, it will reset its fuel and heat levels to 100% and 0, respectively.",
+    "syntax": "cheat Dino Reset"
+  },
+  {
+    "name": "Dino InfiniteBlink",
+    "description": "This console command will disable blink cooldowns for the Enforcer you are currently riding or that your crosshair is over. This allows for blinks without a cooldown in between. Not recommended if playing seriously as without the cooldowns the Enforcer will teleport a lot.",
+    "syntax": "cheat Dino InfiniteBlink"
+  },
+  {
+    "name": "DinoSet Cooldowns",
+    "description": "This admin command sets the blink cooldown slot amount of the Enforcer that you are riding or looking at (the amount of additional teleport charges it can gain).",
+    "syntax": "cheat DinoSet Cooldowns <Amount>"
+  },
+  {
+    "name": "Dino DontHideRiderDuringBlink",
+    "description": "This enables and disables (toggles) interference with rider visibility when the Enforcer blinks. Affects the Enforcer that you are currently riding, or the Enforcer that you are looking at (i.e. the enforcer your crosshair is over).",
+    "syntax": "cheat Dino DontHideRiderDuringBlink"
+  },
+  {
+    "name": "DinoSet Blink",
+    "description": "This command sets the percentage the Enforcer can blink forwards -- the percentage should be given as a decimal 0.5 = 50%, 0.34 = 34%. Affects the Enforcer that you are currently riding, or the Enforcer that you are looking at (i.e. the enforcer your crosshair is over).",
+    "syntax": "cheat DinoSet Blink <Blink Percentage>"
+  },
+  {
+    "name": "DinoSet BlinkBack",
+    "description": "This command sets the percentage the Enforcer can blink backwards -- the percentage should be given as a decimal 0.5 = 50%, 0.34 = 34%. Affects the Enforcer that you are currently riding, or the Enforcer that you are looking at (i.e. the enforcer your crosshair is over).",
+    "syntax": "cheat DinoSet BlinkBack <Blink Percentage>"
+  },
+  {
+    "name": "Dino Inflate",
+    "description": "This cheat command fully inflates the Gasbag that you are currently riding or looking at - i.e. it will set its inflation to the maximum possible level.",
+    "syntax": "cheat Dino Inflate"
+  },
+  {
+    "name": "DinoSet Inflate",
+    "description": "This admin command will increase or decrease a Gasbag's inflation by the amount specified. Specify negative numbers to decrease a Gasbag's inflation. The Gasbag that this command has an effect on is the one you are looking at (i.e. under your crosshair, in the middle of your screen), or if you are riding a Gasbag, the one you are riding.",
+    "syntax": "cheat DinoSet Inflate <Amount>"
+  },
+  {
+    "name": "Dino InfiniteGas",
+    "description": "This is a toggle command -- i.e. using it on a Gasbag will turn the feature on, but you can run it again (while looking at the same Gasbag) to disable it. It will enable infinite inflation for the Gasbag you are looking at or riding. This is different to the \"Dino Inflate\" command in that it will not deflate at all until you toggle it off.",
+    "syntax": "cheat Dino InfiniteGas"
+  },
+  {
+    "name": "Dino InfiniteFuel",
+    "description": "This is a toggle command, running it again while targeting the same dino will disable it. It will give the Mek that you are looking at or riding infinite maximum fuel. This is different to the Reset command because the fuel will not run out until you toggle it off.",
+    "syntax": "cheat Dino InfiniteFuel"
+  },
+  {
+    "name": "DinoSet Fuel",
+    "description": "This console command will increase or decrease the fuel level of the Mek you are currently looking at or riding by the specified amount.",
+    "syntax": "cheat DinoSet Fuel <Amount>"
+  },
+  {
+    "name": "Dino NoHeat",
+    "description": "This command gives the Mek you are looking at or riding infinite 0% heat -- i.e. they can hover forever and not overheat. Note that this is a toggle command, run it again while looking at/riding the same dino to disable it.",
+    "syntax": "cheat Dino NoHeat"
+  },
+  {
+    "name": "Dino ToggleUpkeep",
+    "description": "This is a toggle command. Using this command while looking at or riding a Mek will disable the upkeep system (i.e. health and fuel is no longer subtracted every minute). Running it again whilst riding or looking at a Mek you've disabled it on will re-enable it.",
+    "syntax": "cheat Dino ToggleUpkeep"
+  },
+  {
+    "name": "DinoSet UpkeepInterval",
+    "description": "This console command sets the interval, in seconds, between each update of the Mek's upkeep system. Default is 60.",
+    "syntax": "cheat DinoSet UpkeepInterval <Seconds>"
+  },
+  {
+    "name": "Dino ReplayIntro",
+    "description": "This command will replay the VFX intro for the Mega Mek that is behind your crosshair.",
+    "syntax": "cheat Dino ReplayIntro"
+  },
+  {
+    "name": "DinoSet EatTime",
+    "description": "This admin commands sets the amount of time, in seconds, that the Gacha you are looking at or riding takes to eat/digest.",
+    "syntax": "cheat DinoSet EatTime <Seconds>"
+  },
+  {
+    "name": "Dino DestroyRightNode",
+    "description": "This console command destroys the right arm and node of the Forest Titan that you are looking at.",
+    "syntax": "cheat Dino DestroyRightNode"
+  },
+  {
+    "name": "Dino DestroyLeftNode",
+    "description": "This console command destroys the left arm and node of the Forest Titan that you are looking at.",
+    "syntax": "cheat Dino DestroyLeftNode"
+  },
+  {
+    "name": "Dino DestroyCenterNode",
+    "description": "This console command destroys center node of the Forest Titan that you are looking at.",
+    "syntax": "cheat Dino DestroyCenterNode"
+  },
+  {
+    "name": "CopyCoordsToClipboard",
+    "description": "This console command will copy to your clipboard your X, Y, Z, Pitch, and Yaw coordinates. This is useful for commands, teleports, etc.",
+    "syntax": "cheat CopyCoordsToClipboard"
+  },
+  {
+    "name": "r.shadowquality",
+    "description": "This command sets your client's shadow quality to the specified level.",
+    "syntax": "r.shadowquality <Quality>"
+  },
+  {
+    "name": "previewmode",
+    "description": "This command switches the game to preview mode.",
+    "syntax": "previewmode"
+  },
+  {
+    "name": "Open",
+    "description": "This command connects your game to the server with the specified IP address, port, and optional password.",
+    "syntax": "cheat Open <IP:Port?Password>"
+  },
+  {
+    "name": "AddEquipmentDurability",
+    "description": "This console command adds the specified amount of durability (water or energy where relevant) to any items that are in your hotbar or equipped.",
+    "syntax": "cheat AddEquipmentDurability <Amount>"
+  },
+  {
+    "name": "GetEgg",
+    "description": "This command will spawn a fertilized egg for the type of dino that your crosshair is over (i.e. targeting a Parasaur will result in a Parasaur egg). The dino you target will become aggressive towards you if you pick up the egg.",
+    "syntax": "cheat GetEgg"
+  },
+  {
+    "name": "SetDifficultyValue",
+    "description": "This console command sets the maximum level that wild dinos can spawn at. Due to spawn limits, it is best to run the DestroyWildDinos command after using this command (as new dinos will only spawn in where there aren't enough existing ones).",
+    "syntax": "cheat SetDifficultyValue <Level>"
+  },
+  {
+    "name": "ForceGiveBuff",
+    "description": "This command will forcefully enable (1) or disable (0) the buff with the specified ID for your character.",
+    "syntax": "cheat ForceGiveBuff <Buff ID> <Enable>"
+  },
+  {
+    "name": "SetDay",
+    "description": "This command sets the day to the specified number (e.g. 100 for the 100th day of time).",
+    "syntax": "cheat SetDay <Day>"
+  },
+  {
+    "name": "ForceUpdateDynamicConfig",
+    "description": "This command forcefully updates the dynamic config (i.e. applies any changes you've made to the config file).",
+    "syntax": "cheat ForceUpdateDynamicConfig"
+  },
+  {
+    "name": "DestroyWildDinoClasses",
+    "description": "This command kills all wild (untamed) dinos and creatures that match the specified creature ID.",
+    "syntax": "cheat DestroyWildDinoClasses <Creature ID>"
+  },
+  {
+    "name": "DestroyFoliage",
+    "description": "This command will destroy all foliage, resource nodes, and other extra cosmetic models within the given radius (centered on your character). Resources gathered from nodes destroyed will be added to your character's inventory.",
+    "syntax": "cheat DestroyFoliage <Radius> <Add to Inventory> <Tribe Share>"
+  },
+  {
+    "name": "DestroyTribeStructuresLessThan",
+    "description": "This command will destroy all structures belonging to the tribe with the specified ID that have less than the specified amount of connections.",
+    "syntax": "cheat DestroyTribeStructuresLessThan <Tribe ID> <Minimum Connections>"
+  },
+  {
+    "name": "DebugAllowvrMissionTeleport",
+    "description": "This command will allow you to teleport to the final boss from Genesis: Part 1 without having to complete all of the required missions.",
+    "syntax": "cheat DebugAllowvrMissionTeleport"
+  },
+  {
+    "name": "EnvQA",
+    "description": "This is a shortcut command that will run the following commands: GMBuff, stat fps, stat unit AND GiveArmorSet Tek 0.",
+    "syntax": "cheat EnvQA"
+  },
+  {
+    "name": "GiveAllExplorerNotes",
+    "description": "This console command unlocks every Explorer Note for your player. You must be close to an Explorer Note to unlock any notes that aren't classified as Creature Dossiers.",
+    "syntax": "cheat GiveAllExplorerNotes"
+  },
+  {
+    "name": "GiveExplorerNote",
+    "description": "This command unlocks the Explorer Note at the specified index.",
+    "syntax": "cheat GiveExplorerNote <Index>"
+  },
+  {
+    "name": "AddHexagons",
+    "description": "This console command gives you the specified amount of Hexagons.",
+    "syntax": "cheat AddHexagons <Amount>"
+  },
+  {
+    "name": "InfiniteWeight",
+    "description": "This is a toggle command. Using this command will enable or disable infinite weight for your character, meaning you will not have any weight restrictions. When enabled, the maximum amount of inventory slots that you can have is 299 and you are only able to transfer up to two times the max carry weight of a creature into its inventory.",
+    "syntax": "cheat InfiniteWeight"
+  },
+  {
+    "name": "SetStatOnTarget",
+    "description": "This console command sets a specified stat to a specified value for the creature, structure or player behind your crosshair (your target).",
+    "syntax": "cheat SetStatOnTarget <Stat> <Value>"
+  },
+  {
+    "name": "SpawnExactDino",
+    "description": "This command spawns the specified creature with all of the specified settings. You will need to put the spawned creature into a crypod and then take it out in order for it to function correctly. See the argument information and/or the command builder for more help using this command. Set arguments to 0 (numbers) or \"\" (text) to skip them.",
+    "syntax": "cheat SpawnExactDino <Blueprint> <Saddle Blueprint> <Saddle Quality> <Base Level> <Extra Levels> <Base Stats> <Added Stats> <Name> <Cloned> <Neutered> <Tamed Date> <Uploaded From> <Imprinter Name> <Imprinter ID> <Imprint Quality> <0> <Region Colors> <Creature ID> <Experience> <Spawn Distance> <Spawn Y> <Spawn Z>"
+  },
+  {
+    "name": "Dino TitanMode",
+    "description": "This console command increases the inflation of Gasbags by 1000% (10x).",
+    "syntax": "cheat Dino TitanMode"
+  },
+  {
+    "name": "PrintActorLocation",
+    "description": "This command prints to console the coordinates of the actor with the specified ID.",
+    "syntax": "cheat PrintActorLocation <Actor ID>"
+  }
+]

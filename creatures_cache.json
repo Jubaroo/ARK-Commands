@@ -1,0 +1,3082 @@
+[
+  {
+    "name": "Achatina",
+    "class": "Achatina_Character_BP_C"
+  },
+  {
+    "name": "Allosaurus",
+    "class": "Allo_Character_BP_C"
+  },
+  {
+    "name": "Alpha Carno",
+    "class": "MegaCarno_Character_BP_C"
+  },
+  {
+    "name": "Alpha Deathworm",
+    "class": "MegaDeathworm_Character_BP_C"
+  },
+  {
+    "name": "Alpha Fire Wyvern",
+    "class": "MegaWyvern_Character_BP_Fire_C"
+  },
+  {
+    "name": "Alpha Leedsichthys",
+    "class": "Alpha_Leedsichthys_Character_BP_C"
+  },
+  {
+    "name": "Alpha Megalodon",
+    "class": "MegaMegalodon_Character_BP_C"
+  },
+  {
+    "name": "Alpha Mosasaurus",
+    "class": "Mosa_Character_BP_Mega_C"
+  },
+  {
+    "name": "Alpha Raptor",
+    "class": "MegaRaptor_Character_BP_C"
+  },
+  {
+    "name": "Alpha Rex",
+    "class": "MegaRex_Character_BP_C"
+  },
+  {
+    "name": "Alpha Tusoteuthis",
+    "class": "Mega_Tusoteuthis_Character_BP_C"
+  },
+  {
+    "name": "Ammonite",
+    "class": "Ammonite_Character_C"
+  },
+  {
+    "name": "Anglerfish",
+    "class": "Angler_Character_BP_C"
+  },
+  {
+    "name": "Ankylosaurus",
+    "class": "Ankylo_Character_BP_C"
+  },
+  {
+    "name": "Araneo",
+    "class": "SpiderS_Character_BP_C"
+  },
+  {
+    "name": "Archaeopteryx",
+    "class": "Archa_Character_BP_C"
+  },
+  {
+    "name": "Argentavis",
+    "class": "Argent_Character_BP_C"
+  },
+  {
+    "name": "Arthropluera",
+    "class": "Arthro_Character_BP_C"
+  },
+  {
+    "name": "Baryonyx",
+    "class": "Baryonyx_Character_BP_C"
+  },
+  {
+    "name": "Basilosaurus",
+    "class": "Basilosaurus_Character_BP_C"
+  },
+  {
+    "name": "Beelzebufo",
+    "class": "Toad_Character_BP_C"
+  },
+  {
+    "name": "BunnyDodo",
+    "class": "Dodo_Character_BP_Bunny_C"
+  },
+  {
+    "name": "Bunny Oviraptor",
+    "class": "BunnyOviraptor_Character_BP_C"
+  },
+  {
+    "name": "Brontosaurus",
+    "class": "Sauropod_Character_BP_C"
+  },
+  {
+    "name": "Broodmother Lysrix",
+    "class": "SpiderL_Character_BP_C"
+  },
+  {
+    "name": "Chalicotherium",
+    "class": "Chalico_Character_BP_C"
+  },
+  {
+    "name": "Carbonemys",
+    "class": "Turtle_Character_BP_C"
+  },
+  {
+    "name": "Carnotaurus",
+    "class": "Carno_Character_BP_C"
+  },
+  {
+    "name": "Castoroides",
+    "class": "Beaver_Character_BP_C"
+  },
+  {
+    "name": "Cnidaria",
+    "class": "Cnidaria_Character_BP_C"
+  },
+  {
+    "name": "Coelacanth",
+    "class": "Coel_Character_BP_C"
+  },
+  {
+    "name": "Compy",
+    "class": "Compy_Character_BP_C"
+  },
+  {
+    "name": "Daeodon",
+    "class": "Daeodon_Character_BP_C"
+  },
+  {
+    "name": "Deathworm",
+    "class": "Deathworm_Character_BP_C"
+  },
+  {
+    "name": "Dilophosaur",
+    "class": "Dilo_Character_BP_C"
+  },
+  {
+    "name": "Dimetrodon",
+    "class": "Dimetro_Character_BP_C"
+  },
+  {
+    "name": "Dimorphodon",
+    "class": "Dimorph_Character_BP_C"
+  },
+  {
+    "name": "Diplocaulus",
+    "class": "Diplocaulus_Character_BP_C"
+  },
+  {
+    "name": "Diplodocus",
+    "class": "Diplodocus_Character_BP_C"
+  },
+  {
+    "name": "Direbear",
+    "class": "Direbear_Character_BP_C"
+  },
+  {
+    "name": "Direwolf",
+    "class": "Direwolf_Character_BP_C"
+  },
+  {
+    "name": "Dodo",
+    "class": "Dodo_Character_BP_C"
+  },
+  {
+    "name": "DodoRex",
+    "class": "DodoRex_Character_BP_C"
+  },
+  {
+    "name": "Dodo Wyvern",
+    "class": "DodoWyvern_Character_BP_C"
+  },
+  {
+    "name": "Doedicurus",
+    "class": "Doed_Character_BP_C"
+  },
+  {
+    "name": "Dragon",
+    "class": "Dragon_Character_BP_C"
+  },
+  {
+    "name": "Dung Beetle",
+    "class": "DungBeetle_Character_BP_C"
+  },
+  {
+    "name": "Dunkleosteus",
+    "class": "Dunkle_Character_BP_C"
+  },
+  {
+    "name": "Electrophorus",
+    "class": "Eel_Character_BP_C"
+  },
+  {
+    "name": "Equus",
+    "class": "Equus_Character_BP_C"
+  },
+  {
+    "name": "Unicorn",
+    "class": "Equus_Character_BP_Unicorn_C"
+  },
+  {
+    "name": "Eurypterid",
+    "class": "Euryp_Character_C"
+  },
+  {
+    "name": "Gallimimus",
+    "class": "Galli_Character_BP_C"
+  },
+  {
+    "name": "Giant Bee",
+    "class": "Bee_Character_BP_C"
+  },
+  {
+    "name": "Giganotosaurus",
+    "class": "Gigant_Character_BP_C"
+  },
+  {
+    "name": "Gigantopithecus",
+    "class": "Bigfoot_Character_BP_C"
+  },
+  {
+    "name": "Griffin",
+    "class": "Griffin_Character_BP_C"
+  },
+  {
+    "name": "Hesperornis",
+    "class": "Hesperornis_Character_BP_C"
+  },
+  {
+    "name": "Human (Male)",
+    "class": "PlayerPawnTest_Male_C"
+  },
+  {
+    "name": "Human (Female)",
+    "class": "PlayerPawnTest_Female_C"
+  },
+  {
+    "name": "Hyaenodon",
+    "class": "Hyaenodon_Character_BP_C"
+  },
+  {
+    "name": "Ichthyornis",
+    "class": "Ichthyornis_Character_BP_C"
+  },
+  {
+    "name": "Ichthyosaurus",
+    "class": "Dolphin_Character_BP_C"
+  },
+  {
+    "name": "Iguanodon",
+    "class": "Iguanodon_Character_BP_C"
+  },
+  {
+    "name": "Jerboa",
+    "class": "Jerboa_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Jerboa",
+    "class": "Bone_Jerboa_Character_BP_C"
+  },
+  {
+    "name": "Jug Bug",
+    "class": "Jugbug_Character_BaseBP_C"
+  },
+  {
+    "name": "Oil Jug Bug",
+    "class": "Jugbug_Oil_Character_BP_C"
+  },
+  {
+    "name": "Water Jug Bug",
+    "class": "Jugbug_Water_Character_BP_C"
+  },
+  {
+    "name": "Kairuku",
+    "class": "Kairuku_Character_BP_C"
+  },
+  {
+    "name": "Kaprosuchus",
+    "class": "Kaprosuchus_Character_BP_C"
+  },
+  {
+    "name": "Kentrosaurus",
+    "class": "Kentro_Character_BP_C"
+  },
+  {
+    "name": "Leech",
+    "class": "Leech_Character_C"
+  },
+  {
+    "name": "Diseased Leech",
+    "class": "Leech_Character_Diseased_C"
+  },
+  {
+    "name": "Leedsichthys",
+    "class": "Leedsichthys_Character_BP_C"
+  },
+  {
+    "name": "Liopleurodon",
+    "class": "Liopleurodon_Character_BP_C"
+  },
+  {
+    "name": "Lymantria",
+    "class": "Moth_Character_BP_C"
+  },
+  {
+    "name": "Lystrosaurus",
+    "class": "Lystro_Character_BP_C"
+  },
+  {
+    "name": "Mammoth",
+    "class": "Mammoth_Character_BP_C"
+  },
+  {
+    "name": "Manta",
+    "class": "Manta_Character_BP_C"
+  },
+  {
+    "name": "Manticore",
+    "class": "Manticore_Character_BP_C"
+  },
+  {
+    "name": "Mantis",
+    "class": "Mantis_Character_BP_C"
+  },
+  {
+    "name": "Megalania",
+    "class": "Megalania_Character_BP_C"
+  },
+  {
+    "name": "Megaloceros",
+    "class": "Stag_Character_BP_C"
+  },
+  {
+    "name": "Megalodon",
+    "class": "Megalodon_Character_BP_C"
+  },
+  {
+    "name": "Megalosaurus",
+    "class": "Megalosaurus_Character_BP_C"
+  },
+  {
+    "name": "Meganeura",
+    "class": "Dragonfly_Character_BP_C"
+  },
+  {
+    "name": "Megapithecus",
+    "class": "Gorilla_Character_BP_C"
+  },
+  {
+    "name": "Megatherium",
+    "class": "Megatherium_Character_BP_C"
+  },
+  {
+    "name": "Mesopithecus",
+    "class": "Monkey_Character_BP_C"
+  },
+  {
+    "name": "Microraptor",
+    "class": "Microraptor_Character_BP_C"
+  },
+  {
+    "name": "Morellatops",
+    "class": "camelsaurus_Character_BP_C"
+  },
+  {
+    "name": "Mosasaurus",
+    "class": "Mosa_Character_BP_C"
+  },
+  {
+    "name": "Moschops",
+    "class": "Moschops_Character_BP_C"
+  },
+  {
+    "name": "Onychonycteris",
+    "class": "Bat_Character_BP_C"
+  },
+  {
+    "name": "Otter",
+    "class": "Otter_Character_BP_C"
+  },
+  {
+    "name": "Oviraptor",
+    "class": "Oviraptor_Character_BP_C"
+  },
+  {
+    "name": "Ovis",
+    "class": "Sheep_Character_BP_C"
+  },
+  {
+    "name": "Pachy",
+    "class": "Pachy_Character_BP_C"
+  },
+  {
+    "name": "Pachyrhinosaurus",
+    "class": "Pachyrhino_Character_BP_C"
+  },
+  {
+    "name": "Paraceratherium",
+    "class": "Paracer_Character_BP_C"
+  },
+  {
+    "name": "Parasaurolophus",
+    "class": "Para_Character_BP_C"
+  },
+  {
+    "name": "Pegomastax",
+    "class": "Pegomastax_Character_BP_C"
+  },
+  {
+    "name": "Pelagornis",
+    "class": "Pela_Character_BP_C"
+  },
+  {
+    "name": "Phiomia",
+    "class": "Phiomia_Character_BP_C"
+  },
+  {
+    "name": "Phoenix",
+    "class": "Phoenix_Character_BP_C"
+  },
+  {
+    "name": "Piranha",
+    "class": "Piranha_Character_BP_C"
+  },
+  {
+    "name": "Plesiosaur",
+    "class": "Plesiosaur_Character_BP_C"
+  },
+  {
+    "name": "Procoptodon",
+    "class": "Procoptodon_Character_BP_C"
+  },
+  {
+    "name": "Pteranodon",
+    "class": "Ptero_Character_BP_C"
+  },
+  {
+    "name": "Pulmonoscorpius",
+    "class": "Scorpion_Character_BP_C"
+  },
+  {
+    "name": "Purlovia",
+    "class": "Purlovia_Character_BP_C"
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "class": "Quetz_Character_BP_C"
+  },
+  {
+    "name": "Raptor",
+    "class": "Raptor_Character_BP_C"
+  },
+  {
+    "name": "Rex",
+    "class": "Rex_Character_BP_C"
+  },
+  {
+    "name": "Rock Elemental",
+    "class": "RockGolem_Character_BP_C"
+  },
+  {
+    "name": "Rubble Golem",
+    "class": "RubbleGolem_Character_BP_C"
+  },
+  {
+    "name": "Sabertooth",
+    "class": "Saber_Character_BP_C"
+  },
+  {
+    "name": "Sabertooth Salmon",
+    "class": "Salmon_Character_BP_C"
+  },
+  {
+    "name": "Sarco",
+    "class": "Sarco_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Bronto",
+    "class": "Bone_Sauropod_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Giganotosaurus",
+    "class": "Bone_Gigant_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Quetzal",
+    "class": "Bone_Quetz_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Raptor",
+    "class": "Bone_MegaRaptor_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Rex",
+    "class": "Bone_MegaRex_Character_BP_C"
+  },
+  {
+    "name": "Spino",
+    "class": "Spino_Character_BP_C"
+  },
+  {
+    "name": "Stegosaurus",
+    "class": "Stego_Character_BP_C"
+  },
+  {
+    "name": "Tapejara",
+    "class": "Tapejara_Character_BP_C"
+  },
+  {
+    "name": "Terror Bird",
+    "class": "TerrorBird_Character_BP_C"
+  },
+  {
+    "name": "Therizinosaur",
+    "class": "Therizino_Character_BP_C"
+  },
+  {
+    "name": "Thorny Dragon",
+    "class": "SpineyLizard_Character_BP_C"
+  },
+  {
+    "name": "Thylacoleo",
+    "class": "Thylacoleo_Character_BP_C"
+  },
+  {
+    "name": "Titanoboa",
+    "class": "BoaFrill_Character_BP_C"
+  },
+  {
+    "name": "Titanomyrma",
+    "class": "Ant_Character_BP_C"
+  },
+  {
+    "name": "Flying Titanomyrma",
+    "class": "FlyingAnt_Character_BP_C"
+  },
+  {
+    "name": "Titanosaur",
+    "class": "Titanosaur_Character_BP_C"
+  },
+  {
+    "name": "Triceratops",
+    "class": "Trike_Character_BP_C"
+  },
+  {
+    "name": "Stryder",
+    "class": "TekStrider_Character_BP_C"
+  },
+  {
+    "name": "Noglin",
+    "class": "BrainSlug_Character_BP_C"
+  },
+  {
+    "name": "Astrodelphis",
+    "class": "SpaceDolphin_Character_BP_C"
+  },
+  {
+    "name": "Shadowmane",
+    "class": "LionFishLion_Character_BP_C"
+  },
+  {
+    "name": "Tek Wyvern",
+    "class": "TekWyvern_Character_BP_C"
+  },
+  {
+    "name": "Maewing",
+    "class": "MilkGlider_character_BP_C"
+  },
+  {
+    "name": "Summoner",
+    "class": "Summoner_Character_BP_C"
+  },
+  {
+    "name": "Macrophage",
+    "class": "Macrophage_Swarm_Character_C"
+  },
+  {
+    "name": "Exo-Mek",
+    "class": "Exosuit_Character_BP_C"
+  },
+  {
+    "name": "Rockwell Allosaurus",
+    "class": "Allo_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Carno",
+    "class": "Carno_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Dilo",
+    "class": "Dilo_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Reaper Male",
+    "class": "Xenomorph_Character_BP_Male_Gen2_C"
+  },
+  {
+    "name": "Rockwell Reaper Female",
+    "class": "Xenomorph_Character_BP_Female_Gen2_C"
+  },
+  {
+    "name": "Rockwell Bronto",
+    "class": "Sauropod_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Velonasaur",
+    "class": "Spindles_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Turtle",
+    "class": "Turtle_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Giga",
+    "class": "Gigant_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Rockwell Quetzal",
+    "class": "Quetz_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "Eden Daeodon",
+    "class": "Daeodon_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Direwolf",
+    "class": "Direwolf_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Equus",
+    "class": "Equus_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Gasbag",
+    "class": "GasBags_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Megatherium",
+    "class": "Megatherium_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Owl",
+    "class": "Owl_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Parasaur",
+    "class": "Para_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Procoptodon",
+    "class": "Procoptodon_Character_BP_Eden_C"
+  },
+  {
+    "name": "Eden Thylacoleo",
+    "class": "Thylacoleo_Character_BP_Eden_C"
+  },
+  {
+    "name": "Trilobite",
+    "class": "Trilobite_Character_C"
+  },
+  {
+    "name": "Troodon",
+    "class": "Troodon_Character_BP_C"
+  },
+  {
+    "name": "Turkey",
+    "class": "TurkeyBase_Character_BP_C"
+  },
+  {
+    "name": "Super Turkey",
+    "class": "Turkey_Character_BP_C"
+  },
+  {
+    "name": "Tusoteuthis",
+    "class": "Tusoteuthis_Character_BP_C"
+  },
+  {
+    "name": "Vulture",
+    "class": "Vulture_Character_BP_C"
+  },
+  {
+    "name": "Wyvern",
+    "class": "Wyvern_Character_BP_Base_C"
+  },
+  {
+    "name": "Fire Wyvern",
+    "class": "Wyvern_Character_BP_Fire_C"
+  },
+  {
+    "name": "Lightning Wyvern",
+    "class": "Wyvern_Character_BP_Lightning_C"
+  },
+  {
+    "name": "Poison Wyvern",
+    "class": "Wyvern_Character_BP_Poison_C"
+  },
+  {
+    "name": "Ice Wyvern",
+    "class": "Ragnarok_Wyvern_Override_Ice_C"
+  },
+  {
+    "name": "Bone Fire Wyvern",
+    "class": "Bone_MegaWyvern_Character_BP_Fire_C"
+  },
+  {
+    "name": "Zombie Fire Wyvern",
+    "class": "Wyvern_Character_BP_ZombieFire_C"
+  },
+  {
+    "name": "Zombie Lightning Wyvern",
+    "class": "Wyvern_Character_BP_ZombieLightning_C"
+  },
+  {
+    "name": "Zombie Poison Wyvern",
+    "class": "Wyvern_Character_BP_ZombiePoison_C"
+  },
+  {
+    "name": "Woolly Rhino",
+    "class": "Rhino_Character_BP_C"
+  },
+  {
+    "name": "Yeti",
+    "class": "Yeti_Character_BP_C"
+  },
+  {
+    "name": "Yutyrannus",
+    "class": "Yutyrannus_Character_BP_C"
+  },
+  {
+    "name": "Zomdodo",
+    "class": "ZombieDodo_Character_BP_C"
+  },
+  {
+    "name": "Aberrant Coelacanth",
+    "class": "Coel_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Achatina",
+    "class": "Achatina_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Anglerfish",
+    "class": "Angler_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Ankylosaurus",
+    "class": "Ankylo_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Araneo",
+    "class": "SpiderS_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Arthropluera",
+    "class": "Arthro_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Baryonyx",
+    "class": "Baryonyx_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Beelzebufo",
+    "class": "Toad_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Carbonemys",
+    "class": "Turtle_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Carnotaurus",
+    "class": "Carno_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Cnidaria",
+    "class": "Cnidaria_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Dimetrodon",
+    "class": "Dimetro_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Dimorphodon",
+    "class": "Dimorph_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Diplocaulus",
+    "class": "Diplocaulus_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Diplodocus",
+    "class": "Diplodocus_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Dodo",
+    "class": "Dodo_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Doedicurus",
+    "class": "Doed_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Dung Beetle",
+    "class": "DungBeetle_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Electrophorus",
+    "class": "Eel_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Equus",
+    "class": "Equus_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Iguanodon",
+    "class": "Iguanodon_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Lystrosaurus",
+    "class": "Lystro_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Manta",
+    "class": "Manta_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Megalania",
+    "class": "Megalania_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Megalosaurus",
+    "class": "Megalosaurus_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Meganeura",
+    "class": "Dragonfly_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Moschops",
+    "class": "Moschops_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Otter",
+    "class": "Otter_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Ovis",
+    "class": "Sheep_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Paraceratherium",
+    "class": "Paracer_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Parasaur",
+    "class": "Para_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Piranha",
+    "class": "Piranha_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Pulmonoscorpius",
+    "class": "Scorpion_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Purlovia",
+    "class": "Purlovia_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Raptor",
+    "class": "Raptor_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Salmon",
+    "class": "Salmon_Character_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Sarco",
+    "class": "Sarco_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Spino",
+    "class": "Spino_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Stegosaurus",
+    "class": "Stego_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Titanoboa",
+    "class": "BoaFrill_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Triceratops",
+    "class": "Trike_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Trilobite",
+    "class": "Trilobite_Character_Aberrant_C"
+  },
+  {
+    "name": "Alpha Basilisk",
+    "class": "MegaBasilisk_Character_BP_C"
+  },
+  {
+    "name": "Alpha Karkinos",
+    "class": "MegaCrab_Character_BP_C"
+  },
+  {
+    "name": "Basilisk",
+    "class": "Basilisk_Character_BP_C"
+  },
+  {
+    "name": "Bulbdog",
+    "class": "LanternPug_Character_BP_C"
+  },
+  {
+    "name": "Featherlight",
+    "class": "LanternBird_Character_BP_C"
+  },
+  {
+    "name": "Glowbug",
+    "class": "Lightbug_Character_BaseBP_C"
+  },
+  {
+    "name": "Glowtail",
+    "class": "LanternLizard_Character_BP_C"
+  },
+  {
+    "name": "Karkinos",
+    "class": "Crab_Character_BP_C"
+  },
+  {
+    "name": "Lamprey",
+    "class": "Lamprey_Character_C"
+  },
+  {
+    "name": "Nameless",
+    "class": "ChupaCabra_Character_BP_C"
+  },
+  {
+    "name": "Nameless Queen",
+    "class": "Xenomorph_Character_BP_C"
+  },
+  {
+    "name": "Ravager",
+    "class": "CaveWolf_Character_BP_C"
+  },
+  {
+    "name": "Reaper King",
+    "class": "Xenomorph_Character_BP_Male_C"
+  },
+  {
+    "name": "Reaper King (Tamed)",
+    "class": "Xenomorph_Character_BP_Male_Tamed_C"
+  },
+  {
+    "name": "Reaper Queen",
+    "class": "Xenomorph_Character_BP_Female_C"
+  },
+  {
+    "name": "Rock Drake",
+    "class": "RockDrake_Character_BP_C"
+  },
+  {
+    "name": "Rockwell",
+    "class": "Rockwell_Character_BP_C"
+  },
+  {
+    "name": "Rockwell (Alpha)",
+    "class": "Rockwell_Character_BP_Hard_C"
+  },
+  {
+    "name": "Rockwell (Beta)",
+    "class": "Rockwell_Character_BP_Medium_C"
+  },
+  {
+    "name": "Rockwell (Gamma)",
+    "class": "Rockwell_Character_BP_Easy_C"
+  },
+  {
+    "name": "Rockwell Tentacle",
+    "class": "RockwellTentacle_Character_BP_C"
+  },
+  {
+    "name": "Rockwell Tentacle (Alpha)",
+    "class": "RockwellTentacle_Character_BP_Alpha_C"
+  },
+  {
+    "name": "Rockwell Tentacle (Beta)",
+    "class": "RockwellTentacle_Character_BP_Beta_C"
+  },
+  {
+    "name": "Rockwell Tentacle (Gamma)",
+    "class": "RockwellTentacle_Character_BP_Gamma_C"
+  },
+  {
+    "name": "Roll Rat",
+    "class": "MoleRat_Character_BP_C"
+  },
+  {
+    "name": "Seeker",
+    "class": "Pteroteuthis_Char_BP_C"
+  },
+  {
+    "name": "Shinehorn",
+    "class": "LanternGoat_Character_BP_C"
+  },
+  {
+    "name": "Tek Raptor",
+    "class": "BionicRaptor_Character_BP_C"
+  },
+  {
+    "name": "Tek Quetzal",
+    "class": "BionicQuetz_Character_BP_C"
+  },
+  {
+    "name": "Tek Rex",
+    "class": "BionicRex_Character_BP_C"
+  },
+  {
+    "name": "Tek Stego",
+    "class": "BionicStego_Character_BP_C"
+  },
+  {
+    "name": "Tek Parasaur",
+    "class": "BionicPara_Character_BP_C"
+  },
+  {
+    "name": "Aberrant Direbear",
+    "class": "Direbear_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Aberrant Gigantopithecus",
+    "class": "Bigfoot_Character_BP_Aberrant_C"
+  },
+  {
+    "name": "Alpha Surface Reaper King",
+    "class": "MegaXenomorph_Character_BP_Male_Surface_C"
+  },
+  {
+    "name": "Overseer",
+    "class": "EndBoss_Character_C"
+  },
+  {
+    "name": "Overseer Gamma",
+    "class": "EndBoss_Character_Easy_C"
+  },
+  {
+    "name": "Overseer Beta",
+    "class": "EndBoss_Character_Medium_C"
+  },
+  {
+    "name": "Overseer Alpha",
+    "class": "EndBoss_Character_Hard_C"
+  },
+  {
+    "name": "Broodmother Guardian",
+    "class": "EndBossSpiderL_Character_BP_C"
+  },
+  {
+    "name": "Broodmother Lysrix Gamma",
+    "class": "EndBossSpiderL_Character_BP_Easy_C"
+  },
+  {
+    "name": "Broodmother Lysrix Beta",
+    "class": "EndBossSpiderL_Character_BP_Medium_C"
+  },
+  {
+    "name": "Broodmother Lysrix Alpha",
+    "class": "EndBossSpiderL_Character_BP_Hard_C"
+  },
+  {
+    "name": "Dragon Guardian",
+    "class": "EndBossDragon_Character_BP_C"
+  },
+  {
+    "name": "Dragon Gamma",
+    "class": "EndBossDragon_Character_BP_Easy_C"
+  },
+  {
+    "name": "Dragon Beta",
+    "class": "EndBossDragon_Character_BP_Medium_C"
+  },
+  {
+    "name": "Dragon Alpha",
+    "class": "EndBossDragon_Character_BP_Hard_C"
+  },
+  {
+    "name": "Megapithecus Guardian",
+    "class": "EndBossGorilla_Character_BP_C"
+  },
+  {
+    "name": "Megapithecus Gamma",
+    "class": "EndBossGorilla_Character_BP_Easy_C"
+  },
+  {
+    "name": "Megapithecus Beta",
+    "class": "EndBossGorilla_Character_BP_Medium_C"
+  },
+  {
+    "name": "Megapithecus Alpha",
+    "class": "EndBossGorilla_Character_BP_Hard_C"
+  },
+  {
+    "name": "Snow Owl",
+    "class": "Owl_Character_BP_C"
+  },
+  {
+    "name": "Managarmr",
+    "class": "IceJumper_Character_BP_C"
+  },
+  {
+    "name": "Ice Titan",
+    "class": "IceKaiju_Character_BP_C"
+  },
+  {
+    "name": "Mek",
+    "class": "Mek_Character_BP_C"
+  },
+  {
+    "name": "Gasbags",
+    "class": "GasBags_Character_BP_C"
+  },
+  {
+    "name": "Velonasaur",
+    "class": "Spindles_Character_BP_C"
+  },
+  {
+    "name": "Gacha",
+    "class": "Gacha_Character_BP_C"
+  },
+  {
+    "name": "Desert Titan",
+    "class": "DesertKaiju_Character_BP_C"
+  },
+  {
+    "name": "Scout",
+    "class": "Scout_Character_BP_C"
+  },
+  {
+    "name": "Defense Unit",
+    "class": "Defender_Character_BP_C"
+  },
+  {
+    "name": "Enforcer",
+    "class": "Enforcer_Character_BP_C"
+  },
+  {
+    "name": "Forest Wyvern",
+    "class": "Wyvern_Character_BP_Fire_Minion_C"
+  },
+  {
+    "name": "Forest Titan",
+    "class": "ForestKaiju_Character_BP_C"
+  },
+  {
+    "name": "Alpha King Titan",
+    "class": "KingKaiju_Character_BP_Alpha_C"
+  },
+  {
+    "name": "Beta King Titan",
+    "class": "KingKaiju_Character_BP_Beta_C"
+  },
+  {
+    "name": "Corrupt Tumor",
+    "class": "CorruptTumor_Character_BP_C"
+  },
+  {
+    "name": "Corrupted Arthropluera",
+    "class": "Arthro_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Carnotaurus",
+    "class": "Carno_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Chalicotherium",
+    "class": "Chalico_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Dilophosaur",
+    "class": "Dilo_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Dimorphodon",
+    "class": "Dimorph_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Giganotosaurus",
+    "class": "Gigant_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Paraceratherium",
+    "class": "Paracer_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Pteranodon",
+    "class": "Ptero_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Raptor",
+    "class": "Raptor_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Tamed_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Rex",
+    "class": "Rex_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Rock Drake",
+    "class": "RockDrake_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Spino",
+    "class": "Spino_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Stegosaurus",
+    "class": "Stego_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Triceratops",
+    "class": "Trike_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Corrupted Wyvern",
+    "class": "Wyvern_Character_BP_Fire_Corrupt_C"
+  },
+  {
+    "name": "Desert Titan Flock",
+    "class": "DesertKaiju_FirstFlockChar_BP_C"
+  },
+  {
+    "name": "Enraged Corrupted Rex",
+    "class": "MegaRex_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Enraged Triceratops",
+    "class": "MegaTrike_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Gacha Claus",
+    "class": "Gacha_Claus_Character_BP_C"
+  },
+  {
+    "name": "Gamma King Titan",
+    "class": "KingKaiju_Character_BP_C"
+  },
+  {
+    "name": "Mega Mek",
+    "class": "MegaMek_Character_BP_C"
+  },
+  {
+    "name": "Deinonychus",
+    "class": "Deinonychus_Character_BP_C"
+  },
+  {
+    "name": "Astrocetus",
+    "class": "SpaceWhale_Character_BP_C"
+  },
+  {
+    "name": "Megachelon",
+    "class": "GiantTurtle_Character_BP_C"
+  },
+  {
+    "name": "Magmasaur",
+    "class": "Cherufe_Character_BP_C"
+  },
+  {
+    "name": "Bloodstalker",
+    "class": "BogSpider_Character_BP_C"
+  },
+  {
+    "name": "Insect Swarm",
+    "class": "InsectSwarmChar_BP_C"
+  },
+  {
+    "name": "Microbe Swarm",
+    "class": "MicrobeSwarmChar_BP_C"
+  },
+  {
+    "name": "Eel Minion",
+    "class": "EelMinion_Character_BP_C"
+  },
+  {
+    "name": "Moeder",
+    "class": "EelBoss_Character_BP_C"
+  },
+  {
+    "name": "Ferox (Small)",
+    "class": "Shapeshifter_Small_Character_BP_C"
+  },
+  {
+    "name": "Ferox (Large)",
+    "class": "Shapeshifter_Small_Character_BP_C"
+  },
+  {
+    "name": "X-Parasaur",
+    "class": "Bog_Para_Character_BP_C"
+  },
+  {
+    "name": "X-Paraceratherium",
+    "class": "Bog_Paracer_Character_BP_C"
+  },
+  {
+    "name": "X-Raptor",
+    "class": "Bog_Raptor_Character_BP_C"
+  },
+  {
+    "name": "X-Spino",
+    "class": "Bog_Spino_Character_BP_C"
+  },
+  {
+    "name": "X-Tapejara",
+    "class": "Bog_Tapejara_Character_BP_C"
+  },
+  {
+    "name": "X-Sabertooth Salmon",
+    "class": "Lunar_Salmon_Character_BP_C"
+  },
+  {
+    "name": "X-Basilosaurus",
+    "class": "Ocean_Basilosaurus_Character_BP_C"
+  },
+  {
+    "name": "X-Ichthyosaurus",
+    "class": "Ocean_Dolphin_Character_BP_C"
+  },
+  {
+    "name": "X-Dunkleosteus",
+    "class": "Ocean_Dunkle_Character_BP_C"
+  },
+  {
+    "name": "X-Megalodon",
+    "class": "Ocean_Megalodon_Character_BP_C"
+  },
+  {
+    "name": "X-Mosasaurus",
+    "class": "Ocean_Mosa_Character_BP_C"
+  },
+  {
+    "name": "X-Argentavis",
+    "class": "Snow_Argent_Character_BP_C"
+  },
+  {
+    "name": "X-Otter",
+    "class": "Snow_Otter_Character_BP_C"
+  },
+  {
+    "name": "X-Woolly Rhino",
+    "class": "Snow_Rhino_Character_BP_C"
+  },
+  {
+    "name": "X-Sabertooth",
+    "class": "Snow_Saber_Character_BP_C"
+  },
+  {
+    "name": "X-Yutyrannus",
+    "class": "Snow_Yutyrannus_Character_BP_C"
+  },
+  {
+    "name": "Hover Skiff",
+    "class": "TekHoverSkiff_Character_BP_C"
+  },
+  {
+    "name": "X-Dragon",
+    "class": "Volcanic_Dragon_Character_BP_C"
+  },
+  {
+    "name": "X-Allosaurus",
+    "class": "Volcano_Allo_Character_BP_C"
+  },
+  {
+    "name": "X-Ankylosaurus",
+    "class": "Volcano_Ankylo_Character_BP_C"
+  },
+  {
+    "name": "X-Rock Elemental",
+    "class": "Volcano_Golem_Character_BP_C"
+  },
+  {
+    "name": "X-Rex",
+    "class": "Volcano_Rex_Character_BP_C"
+  },
+  {
+    "name": "X-Triceratops",
+    "class": "Volcano_Trike_Character_BP_C"
+  },
+  {
+    "name": "Drone",
+    "class": "EndDrone_Lunar_Character_BP_C"
+  },
+  {
+    "name": "Drone Tank",
+    "class": "EndTank_Lunar_Character_BP_C"
+  },
+  {
+    "name": "Lunar Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Lunar_C"
+  },
+  {
+    "name": "Virtual Daeodon",
+    "class": "VRDaeodon_Character_BP_C"
+  },
+  {
+    "name": "Virtual Drone",
+    "class": "VREndDrone_Character_BP_C"
+  },
+  {
+    "name": "Virtual Giganotosaurus",
+    "class": "VRGigant_Character_BP_C"
+  },
+  {
+    "name": "Virtual Raptor",
+    "class": "VRRaptor_Character_BP_C"
+  },
+  {
+    "name": "Virtual Reaper King",
+    "class": "VRXenomorph_Character_BP_Male_Minion_C"
+  },
+  {
+    "name": "Virtual Rex",
+    "class": "VRRex_Character_BP_C"
+  },
+  {
+    "name": "Virtual Triceratops",
+    "class": "VRTrike_Character_BP_C"
+  },
+  {
+    "name": "Virtual Yutyrannus",
+    "class": "VRYutyrannus_Character_BP_C"
+  },
+  {
+    "name": "Rare X-Sabertooth Salmon",
+    "class": "Rare_Lunar_Salmon_Character_BP_C"
+  },
+  {
+    "name": "Crystal Wyvern Queen",
+    "class": "CrystalWyvern_Character_BP_Boss_C"
+  },
+  {
+    "name": "Gamma Crystal Wyvern Queen",
+    "class": "CrystalWyvern_Character_BP_Boss_Easy_C"
+  },
+  {
+    "name": "Alpha Crystal Wyvern Queen",
+    "class": "CrystalWyvern_Character_BP_Boss_Hard_C"
+  },
+  {
+    "name": "Beta Crystal Wyvern Queen",
+    "class": "CrystalWyvern_Character_BP_Boss_Medium_C"
+  },
+  {
+    "name": "Crystal Wyvern Minion",
+    "class": "CrystalWyvern_Character_BP_Minion_C"
+  },
+  {
+    "name": "Crystal Wyvern Minion (Blood)",
+    "class": "CrystalWyvern_Character_BP_Minion_Blood_C"
+  },
+  {
+    "name": "Crystal Wyvern Minion (Ember)",
+    "class": "CrystalWyvern_Character_BP_Minion_Ember_C"
+  },
+  {
+    "name": "Crystal Wyvern Minion (Tropical)",
+    "class": "CrystalWyvern_Character_BP_Minion_WS_C"
+  },
+  {
+    "name": "Crystal Wyvern",
+    "class": "CrystalWyvern_Character_BP_Base_C"
+  },
+  {
+    "name": "Crystal Wyvern (Blood)",
+    "class": "CrystalWyvern_Character_BP_Blood_C"
+  },
+  {
+    "name": "Crystal Wyvern (Ember)",
+    "class": "CrystalWyvern_Character_BP_Ember_C"
+  },
+  {
+    "name": "Alpha Blood Crystal Wyvern",
+    "class": "CrystalWyvern_Character_BP_Mega_C"
+  },
+  {
+    "name": "Crystal Wyvern (Tropical)",
+    "class": "CrystalWyvern_Character_BP_WS_C"
+  },
+  {
+    "name": "Giant Worker Bee",
+    "class": "HoneyBee_Character_BP_C"
+  },
+  {
+    "name": "Tropeognathus",
+    "class": "Tropeognathus_Character_BP_C"
+  },
+  {
+    "name": "Cave Alpha Mosasaur",
+    "class": "Mosa_Character_BP_Mega_Cave_C"
+  },
+  {
+    "name": "Alpha Araneo Boss Minion",
+    "class": "SpiderS_Character_BP_Aggressive_Hard_C"
+  },
+  {
+    "name": "Beta Araneo Boss Minion",
+    "class": "SpiderS_Character_BP_Aggressive_Med_C"
+  },
+  {
+    "name": "Gamma Araneo Boss Minion",
+    "class": "SpiderS_Character_BP_Aggressive_C"
+  },
+  {
+    "name": "Basilisk Ghost",
+    "class": "Ghost_Basilisk_Character_BP_C"
+  },
+  {
+    "name": "Alpha Broodmother Lysrix",
+    "class": "SpiderL_Character_BP_Hard_C"
+  },
+  {
+    "name": "Alpha Broodmother Lysrix (The Center)",
+    "class": "SpiderL_Character_BP_TheCenterHard_C"
+  },
+  {
+    "name": "Beta Broodmother Lysrix",
+    "class": "SpiderL_Character_BP_Medium_C"
+  },
+  {
+    "name": "Beta Broodmother Lysrix (The Center)",
+    "class": "SpiderL_Character_BP_TheCenterMedium_C"
+  },
+  {
+    "name": "Gamma Broodmother Lysrix",
+    "class": "SpiderL_Character_BP_Easy_C"
+  },
+  {
+    "name": "Gamma Broodmother Lysrix (The Center)",
+    "class": "SpiderL_Character_BP_TheCenter_C"
+  },
+  {
+    "name": "Broodmother Lysrix (Valguero)",
+    "class": "SpiderL_VAL_Character_BP_C"
+  },
+  {
+    "name": "Bulbdog Ghost",
+    "class": "Ghost_LanternPug_Character_BP_C"
+  },
+  {
+    "name": "Chalk Golem",
+    "class": "ChalkGolem_Character_BP_C"
+  },
+  {
+    "name": "Deep Sea Coelacanth",
+    "class": "Coel_Character_BP_Ocean_C"
+  },
+  {
+    "name": "Corrupt Arthropluera Boss Minion",
+    "class": "Corrupt_Arthro_Character_BP_C"
+  },
+  {
+    "name": "Corrupted Deathworm",
+    "class": "Deathworm_Character_BP_Corrupt_C"
+  },
+  {
+    "name": "Deathworm Boss Minion",
+    "class": "Deathworm_Character_Minion_BP_C"
+  },
+  {
+    "name": "Alpha Dimorphodon Boss Minion",
+    "class": "Dimorph_Character_BP_Aggressive_DragonBoss_Hard_C"
+  },
+  {
+    "name": "Beta Dimorphodon Boss Minion",
+    "class": "Dimorph_Character_BP_Aggressive_DragonBoss_Med_C"
+  },
+  {
+    "name": "Gamma Dimorphodon Boss Minion",
+    "class": "Dimorph_Character_BP_Aggressive_DragonBoss_C"
+  },
+  {
+    "name": "Spirit Direbear",
+    "class": "Direbear_LL_Character_BP_C"
+  },
+  {
+    "name": "Spirit Direwolf",
+    "class": "Direwolf_LL_Character_BP_C"
+  },
+  {
+    "name": "Direwolf Ghost",
+    "class": "Ghost_Direwolf_Character_BP_C"
+  },
+  {
+    "name": "DodoRex (Alt)",
+    "class": "DodoRex_Character_BP_FearEvolved_C"
+  },
+  {
+    "name": "Alpha Dragon",
+    "class": "Dragon_Character_BP_Boss_Hard_C"
+  },
+  {
+    "name": "Alpha Dragon (Ragnarok)",
+    "class": "Dragon_Character_BP_Boss_Hard_Ragnarok_C"
+  },
+  {
+    "name": "Beta Dragon",
+    "class": "Dragon_Character_BP_Boss_Medium_C"
+  },
+  {
+    "name": "Beta Dragon (Ragnarok)",
+    "class": "Dragon_Character_BP_Boss_Medium_Ragnarok_C"
+  },
+  {
+    "name": "Gamma Dragon",
+    "class": "Dragon_Character_BP_Boss_Easy_C"
+  },
+  {
+    "name": "Gamma Dragon (Ragnarok)",
+    "class": "Dragon_Character_BP_Boss_Easy_Ragnarok_C"
+  },
+  {
+    "name": "Elemental Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Minion_C"
+  },
+  {
+    "name": "Alpha Attack Drone",
+    "class": "EndDrone_Character_BP_Hard_C"
+  },
+  {
+    "name": "Beta Attack Drone",
+    "class": "EndDrone_Character_BP_Med_C"
+  },
+  {
+    "name": "Gamma Attack Drone",
+    "class": "EndDrone_Character_BP_C"
+  },
+  {
+    "name": "Alpha Defense Unit",
+    "class": "EndTank_Character_BP_Hard_C"
+  },
+  {
+    "name": "Beta Defense Unit",
+    "class": "EndTank_Character_BP_Med_C"
+  },
+  {
+    "name": "Gamma Defense Unit",
+    "class": "EndTank_Character_BP_C"
+  },
+  {
+    "name": "Fire Wyvern (Ragnarok)",
+    "class": "Ragnarok_Wyvern_Override_C"
+  },
+  {
+    "name": "Giant Queen Bee",
+    "class": "Bee_Queen_Character_BP_C"
+  },
+  {
+    "name": "Tek Cave Giganotosaurus",
+    "class": "Gigant_Character_BP_TekCave_C"
+  },
+  {
+    "name": "Alpha Gigantopithecus Boss Minion",
+    "class": "Bigfoot_Character_BP_Aggressive_Hard_C"
+  },
+  {
+    "name": "Beta Gigantopithecus Boss Minion",
+    "class": "Bigfoot_Character_BP_Aggressive_Med_C"
+  },
+  {
+    "name": "Gamma Gigantopithecus Boss Minion",
+    "class": "Bigfoot_Character_BP_Aggressive_C"
+  },
+  {
+    "name": "Griffin Boss Minion",
+    "class": "Griffin_Character_Minion_BP_C"
+  },
+  {
+    "name": "Ice Golem (Valguero)",
+    "class": "IceGolem_Character_BP_C"
+  },
+  {
+    "name": "Iceworm Queen",
+    "class": "Iceworm_Queen_Character_BP_C"
+  },
+  {
+    "name": "Iceworm Male",
+    "class": "Iceworm_Character_Minion_BP_smaller_C"
+  },
+  {
+    "name": "Lava Elemental",
+    "class": "LavaGolem_Character_BP_C"
+  },
+  {
+    "name": "Alpha Manticore",
+    "class": "Manticore_Character_BP_Hard_C"
+  },
+  {
+    "name": "Alpha Manticore (Ragnarok)",
+    "class": "Manticore_Character_BP_Hard_Ragnarok_C"
+  },
+  {
+    "name": "Beta Manticore",
+    "class": "Manticore_Character_BP_Medium_C"
+  },
+  {
+    "name": "Beta Manticore (Ragnarok)",
+    "class": "Manticore_Character_BP_Medium_Ragnarok_C"
+  },
+  {
+    "name": "Gamma Manticore",
+    "class": "Manticore_Character_BP_Easy_C"
+  },
+  {
+    "name": "Gamma Manticore (Ragnarok)",
+    "class": "Manticore_Character_BP_Easy_Ragnarok_C"
+  },
+  {
+    "name": "Mantis Ghost",
+    "class": "Ghost_Mantis_Character_BP_C"
+  },
+  {
+    "name": "Megaloceros (Lifes Labyrinth)",
+    "class": "Stag_LL_Character_BP_C"
+  },
+  {
+    "name": "Tek Cave Megalosaurus",
+    "class": "Megalosaurus_Character_BP_TekCave_C"
+  },
+  {
+    "name": "Alpha Megapithecus",
+    "class": "Gorilla_Character_BP_Hard_C"
+  },
+  {
+    "name": "Alpha Megapithecus (The Center)",
+    "class": "Gorilla_Character_BP_TheCenter_Hard_C"
+  },
+  {
+    "name": "Beta Megapithecus",
+    "class": "Gorilla_Character_BP_Medium_C"
+  },
+  {
+    "name": "Beta Megapithecus (The Center)",
+    "class": "Gorilla_Character_BP_TheCenter_Medium_C"
+  },
+  {
+    "name": "Gamma Megapithecus",
+    "class": "Gorilla_Character_BP_Easy_C"
+  },
+  {
+    "name": "Gamma Megapithecus (The Center)",
+    "class": "Gorilla_Character_BP_TheCenter_C"
+  },
+  {
+    "name": "Alpha Mesopithecus Boss Minion",
+    "class": "Monkey_Character_BP_Aggressive_Hard_C"
+  },
+  {
+    "name": "Beta Mesopithecus Boss Minion",
+    "class": "Monkey_Character_BP_Aggressive_Med_C"
+  },
+  {
+    "name": "Gamma Mesopithecus Boss Minion",
+    "class": "Monkey_Character_BP_Aggressive_C"
+  },
+  {
+    "name": "Cave Mosasaurus",
+    "class": "Mosa_Character_BP_Cave_C"
+  },
+  {
+    "name": "Chupacabra Minion",
+    "class": "ChupaCabra_Character_BP_Minion_C"
+  },
+  {
+    "name": "Surface Chupacabra",
+    "class": "ChupaCabra_Character_BP_Surface_C"
+  },
+  {
+    "name": "Party Dodo",
+    "class": "Dodo_Character_BP_Birthday_C"
+  },
+  {
+    "name": "Polar Bear",
+    "class": "Direbear_Character_Polar_C"
+  },
+  {
+    "name": "Polar Bear (Ragnarok)",
+    "class": "Polar_Bear_C"
+  },
+  {
+    "name": "Alpha Pteranodon Boss Minion",
+    "class": "Ptero_Minion_Character_Hard_C"
+  },
+  {
+    "name": "Beta Pteranodon Boss Minion",
+    "class": "Ptero_Minion_Character_Med_C"
+  },
+  {
+    "name": "Gamma Pteranodon Boss Minion",
+    "class": "Ptero_Minion_Character_BP_C"
+  },
+  {
+    "name": "Polar Purlovia",
+    "class": "Purlovia_Character_BP_Polar_C"
+  },
+  {
+    "name": "Rex Ghost",
+    "class": "Ghost_Rex_Character_BP_C"
+  },
+  {
+    "name": "Rock Golem Boss Minion",
+    "class": "RockGolem_Character_Minion_BP_C"
+  },
+  {
+    "name": "Surface Seeker",
+    "class": "Pteroteuthis_Char_BP_Surface_C"
+  },
+  {
+    "name": "Skeletal Carnotaurus",
+    "class": "Bone_MegaCarno_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Stego",
+    "class": "Bone_Stego_Character_BP_C"
+  },
+  {
+    "name": "Skeletal Trike",
+    "class": "Bone_Trike_Character_BP_C"
+  },
+  {
+    "name": "Snow Owl Ghost",
+    "class": "Ghost_Owl_Character_BP_C"
+  },
+  {
+    "name": "Subterranean Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Chupa_C"
+  },
+  {
+    "name": "Surface Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Surface_C"
+  },
+  {
+    "name": "Surface Reaper King Ghost",
+    "class": "Ghost_Xenomorph_Character_BP_Male_Surface_C"
+  },
+  {
+    "name": "Tek Giganotosaurus",
+    "class": "BionicGigant_Character_BP_C"
+  },
+  {
+    "name": "Tek Triceratops",
+    "class": "BionicTrike_Character_BP_C"
+  },
+  {
+    "name": "Cave Tusoteuthis",
+    "class": "Tusoteuthis_Character_BP_Caves_C"
+  },
+  {
+    "name": "Valentine's Aberrant Coelacanth",
+    "class": "Coel_Character_BP_VDay_Aberrant_C"
+  },
+  {
+    "name": "Valentine's Coelacanth",
+    "class": "Coel_Character_BP_VDay_C"
+  },
+  {
+    "name": "Deep Sea Valentine's Coelacanth",
+    "class": "Coel_Character_BP_VDay_Ocean_C"
+  },
+  {
+    "name": "Amargasaurus",
+    "class": "Amargasaurus_Character_BP_C"
+  },
+  {
+    "name": "Dinopithecus",
+    "class": "Dinopithecus_Character_BP_C"
+  },
+  {
+    "name": "Dinopithecus King (Gamma)",
+    "class": "BossDinopithecus_Character_BP_Easy_C"
+  },
+  {
+    "name": "Dinopithecus King (Beta)",
+    "class": "BossDinopithecus_Character_BP_Medium_C"
+  },
+  {
+    "name": "Dinopithecus King (Alpha)",
+    "class": "BossDinopithecus_Character_BP_Hard_C"
+  },
+  {
+    "name": "Sinomacrops",
+    "class": "Sinomacrops_Character_BP_C"
+  },
+  {
+    "name": "Amargasaurus Minion",
+    "class": "Amargasaurus_Character_BP_Minion_C"
+  },
+  {
+    "name": "Andrewsarchus",
+    "class": "Andrewsarchus_Character_BP_C"
+  },
+  {
+    "name": "Any Insect",
+    "class": "Insect_Character_Base_C"
+  },
+  {
+    "name": "Any Titanomyrma",
+    "class": "Ant_Character_Base_C"
+  },
+  {
+    "name": "Beyla",
+    "class": "Beyla_Character_BP_C"
+  },
+  {
+    "name": "Beyla Minion",
+    "class": "BeylaMinion_Character_BP_C"
+  },
+  {
+    "name": "Broodmother Lysrix Alpha (Fjordur)",
+    "class": "SpiderL_Character_BP_Hard_FJ_C"
+  },
+  {
+    "name": "Broodmother Lysrix Beta (Fjordur)",
+    "class": "SpiderL_Character_BP_Medium_FJ_C"
+  },
+  {
+    "name": "Broodmother Lysrix Gamma (Fjordur)",
+    "class": "SpiderL_Character_BP_Easy_FJ_C"
+  },
+  {
+    "name": "Carcharodontosaurus",
+    "class": "Carcha_Character_BP_C"
+  },
+  {
+    "name": "Corrupted Avatar",
+    "class": "Bot_Character_BP_C"
+  },
+  {
+    "name": "Corrupted Avatar, With Bow",
+    "class": "Bot_WithBow_BP_C"
+  },
+  {
+    "name": "Corrupted Avatar, With Spear",
+    "class": "Bot_WithSpear_BP_C"
+  },
+  {
+    "name": "Corrupted Avatar, With Tek Grenades",
+    "class": "Bot_WithTekGrenades_BP_C"
+  },
+  {
+    "name": "Corrupted Avatar, With Tek Rifle",
+    "class": "Bot_WithTekRifle_BP_C"
+  },
+  {
+    "name": "Corrupted Master Controller (Alpha)",
+    "class": "VRMainBoss_Character_Hard_C"
+  },
+  {
+    "name": "Corrupted Master Controller (Beta)",
+    "class": "VRMainBoss_Character_Medium_C"
+  },
+  {
+    "name": "Corrupted Master Controller (Gamma)",
+    "class": "VRMainBoss_Character_Easy_C"
+  },
+  {
+    "name": "Corrupted Survivor",
+    "class": "RockwellSpawn_Character_BP_C"
+  },
+  {
+    "name": "Corrupted Survivor (Alpha)",
+    "class": "RockwellSpawn_Character_BP_Alpha_C"
+  },
+  {
+    "name": "Corrupted Survivor (Alt, Alpha)",
+    "class": "RockwellSpawn_Character_BP_AltAnim_Alpha_C"
+  },
+  {
+    "name": "Corrupted Survivor (Alt, Beta)",
+    "class": "RockwellSpawn_Character_BP_AltAnim_Beta_C"
+  },
+  {
+    "name": "Corrupted Survivor (Alt, Gamma)",
+    "class": "RockwellSpawn_Character_BP_AltAnim_Gamma_C"
+  },
+  {
+    "name": "Corrupted Survivor (Beta)",
+    "class": "RockwellSpawn_Character_BP_Beta_C"
+  },
+  {
+    "name": "Corrupted Survivor (Gamma)",
+    "class": "RockwellSpawn_Character_BP_Gamma_C"
+  },
+  {
+    "name": "Corrupted Survivor, Alt",
+    "class": "RockwellSpawn_Character_BP_AltAnim_C"
+  },
+  {
+    "name": "Corrupted Survivor, With Tek Rifle",
+    "class": "CorruptHuman_WithTekRifle_Character_BP_C"
+  },
+  {
+    "name": "Desmodus",
+    "class": "Desmodus_Character_BP_C"
+  },
+  {
+    "name": "Dinopithecus (Minion)",
+    "class": "Dinopithecus_Character_BP_Minion_C"
+  },
+  {
+    "name": "Dire Polar Bear",
+    "class": "Polar_Bear_C"
+  },
+  {
+    "name": "DodoRex (Turkey Trials)",
+    "class": "DodoRex_Character_BP_TurkeyTrials_C"
+  },
+  {
+    "name": "Dragon Alpha (Fjordur)",
+    "class": "Dragon_Character_BP_Boss_Hard_FJ_C"
+  },
+  {
+    "name": "Dragon Alpha (Valguero)",
+    "class": "Dragon_Character_BP_Boss_Hard_C"
+  },
+  {
+    "name": "Dragon Beta (Fjordur)",
+    "class": "Dragon_Character_BP_Boss_Medium_FJ_C"
+  },
+  {
+    "name": "Dragon Beta (Valguero)",
+    "class": "Dragon_Character_BP_Boss_Medium_C"
+  },
+  {
+    "name": "Dragon Gamma (Fjordur)",
+    "class": "Dragon_Character_BP_Boss_Easy_FJ_C"
+  },
+  {
+    "name": "Dragon Gamma (Valguero)",
+    "class": "Dragon_Character_BP_Boss_Easy_C"
+  },
+  {
+    "name": "Eel Minion Alpha",
+    "class": "EelMinion_Character_BP_Hard_C"
+  },
+  {
+    "name": "Eel Minion Beta",
+    "class": "EelMinion_Character_BP_Medium_C"
+  },
+  {
+    "name": "Eel Minion Gamma",
+    "class": "EelMinion_Character_BP_Easy_C"
+  },
+  {
+    "name": "Exo-Mek (RTS)",
+    "class": "Exosuit_RTS_Character_BP_C"
+  },
+  {
+    "name": "Exo-Mek (Final Fight)",
+    "class": "Exosuit_Character_BP_FinalFight_C"
+  },
+  {
+    "name": "Fenrir",
+    "class": "Fenrir_Character_BP_C"
+  },
+  {
+    "name": "Fenrir Mini Boss",
+    "class": "Fenrir_Character_BP_MiniBoss_C"
+  },
+  {
+    "name": "Fenrir Minion",
+    "class": "Fenrir_Character_BP_Minion_C"
+  },
+  {
+    "name": "Fenrisulfr Alpha",
+    "class": "Fenrir_Character_BP_Boss_Hard_C"
+  },
+  {
+    "name": "Fenrisulfr Beta",
+    "class": "Fenrir_Character_BP_Boss_Medium_C"
+  },
+  {
+    "name": "Fenrisulfr Gamma",
+    "class": "Fenrir_Character_BP_Boss_Easy_C"
+  },
+  {
+    "name": "Fjordhawk",
+    "class": "Fjordhawk_Character_BP_C"
+  },
+  {
+    "name": "Hati",
+    "class": "Fenrir_Character_BP_MiniBoss_Hati_C"
+  },
+  {
+    "name": "Ice Golem",
+    "class": "IceGolem_Character_BP_C"
+  },
+  {
+    "name": "Ice Wyvern (Lost Island)",
+    "class": "Ragnarok_Wyvern_Override_Ice_C"
+  },
+  {
+    "name": "Iceworm Minion",
+    "class": "Iceworm_Character_Minion_BP_smaller_C"
+  },
+  {
+    "name": "Malfunctioned Attack Drone",
+    "class": "EndDrone_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Defense Unit",
+    "class": "EndTank_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Enforcer",
+    "class": "Enforcer_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Giganotosaurus",
+    "class": "BionicGigant_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Parasaur",
+    "class": "BionicPara_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Quetzal",
+    "class": "BionicQuetz_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Raptor",
+    "class": "BionicRaptor_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Stegosaurus",
+    "class": "BionicStego_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Malfunctioned Tek Triceratops",
+    "class": "BionicTrike_Character_BP_Malfunctioned_C"
+  },
+  {
+    "name": "Manticore Alpha (Valguero)",
+    "class": "Manticore_Character_BP_Hard_C"
+  },
+  {
+    "name": "Manticore Beta (Valguero)",
+    "class": "Manticore_Character_BP_Medium_C"
+  },
+  {
+    "name": "Manticore Gamma (Valguero)",
+    "class": "Manticore_Character_BP_Easy_C"
+  },
+  {
+    "name": "Megapithecus Alpha (Fjordur)",
+    "class": "Gorilla_Character_BP_Hard_FJ_C"
+  },
+  {
+    "name": "Megapithecus Alpha (Valguero)",
+    "class": "Gorilla_Character_BP_Hard_C"
+  },
+  {
+    "name": "Megapithecus Beta (Valguero)",
+    "class": "Gorilla_Character_BP_Medium_C"
+  },
+  {
+    "name": "Megapithecus Beta (Fjordur)",
+    "class": "Gorilla_Character_BP_Medium_FJ_C"
+  },
+  {
+    "name": "Megapithecus Gamma (Valguero)",
+    "class": "Gorilla_Character_BP_Easy_C"
+  },
+  {
+    "name": "Megapithecus Gamma (Fjordur)",
+    "class": "Gorilla_Character_BP_Easy_FJ_C"
+  },
+  {
+    "name": "Moeder Alpha",
+    "class": "EelBoss_Character_BP_Hard_C"
+  },
+  {
+    "name": "Moeder Beta",
+    "class": "EelBoss_Character_BP_Medium_C"
+  },
+  {
+    "name": "Moeder Gamma",
+    "class": "EelBoss_Character_BP_Easy_C"
+  },
+  {
+    "name": "Net Breaking Piranha",
+    "class": "Piranha_Character_BP_BreakNet_C"
+  },
+  {
+    "name": "R-Direbear",
+    "class": "Direbear_Character_BP_Rockwell_C"
+  },
+  {
+    "name": "R-Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Gen2_C"
+  },
+  {
+    "name": "R-Reaper Queen",
+    "class": "Xenomorph_Character_BP_Female_Gen2_C"
+  },
+  {
+    "name": "Rare Sabertooth Salmon",
+    "class": "Salmon_Character_Rare_BP_C"
+  },
+  {
+    "name": "Rockwell Node Alpha",
+    "class": "RockwellNode_Character_BP_FinalFight_Alpha_C"
+  },
+  {
+    "name": "Rockwell Node Beta",
+    "class": "RockwellNode_Character_BP_FinalFight_Beta_C"
+  },
+  {
+    "name": "Rockwell Node Gamma",
+    "class": "RockwellNode_Character_BP_FinalFight_Gamma_C"
+  },
+  {
+    "name": "Rockwell Prime Alpha",
+    "class": "RockwellNode_Character_BP_Boss_Alpha_C"
+  },
+  {
+    "name": "Rockwell Prime Beta",
+    "class": "RockwellNode_Character_BP_Boss_Beta_C"
+  },
+  {
+    "name": "Rockwell Prime Gamma",
+    "class": "RockwellNode_Character_BP_Boss_Gamma_C"
+  },
+  {
+    "name": "Rubble Bear",
+    "class": "Direbear_Character_BP_SteinbjornMinion_C"
+  },
+  {
+    "name": "Shadowmane Female",
+    "class": "LionfishLion_Character_BP_Female_C"
+  },
+  {
+    "name": "Sinomacrops Minion",
+    "class": "Sinomacrops_Character_BP_Minion_C"
+  },
+  {
+    "name": "Skoll",
+    "class": "Fenrir_Character_BP_MiniBoss_Skoll_C"
+  },
+  {
+    "name": "Steinbjorn",
+    "class": "Steinbjorn_Character_BP_C"
+  },
+  {
+    "name": "Summoned Aberrant Arthropluera",
+    "class": "Arthro_Character_BP_Aberrant_Summoned_C"
+  },
+  {
+    "name": "Summoned Araneo",
+    "class": "SpiderS_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Argentavis",
+    "class": "Argent_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Baryonyx",
+    "class": "Baryonyx_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Basilisk",
+    "class": "Basilisk_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Bloodstalker",
+    "class": "BogSpider_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Direbear",
+    "class": "Direbear_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Ferox",
+    "class": "Shapeshifter_Large_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Kaprosuchus",
+    "class": "Kaprosuchus_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Karkinos",
+    "class": "Crab_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Magmasaur",
+    "class": "Cherufe_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Managarmr",
+    "class": "IceJumper_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Mantis",
+    "class": "Mantis_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Microraptor",
+    "class": "Microraptor_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Onyc",
+    "class": "Bat_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Paraceratherium",
+    "class": "Paracer_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Pteranodon",
+    "class": "Ptero_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Purlovia",
+    "class": "Purlovia_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Allosaurus",
+    "class": "Allo_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Brontosaurus",
+    "class": "Sauropod_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Carnotaurus",
+    "class": "Carno_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Daeodon",
+    "class": "Daeodon_Character_BP_Eden_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Dilophosaur",
+    "class": "Dilo_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Direbear",
+    "class": "Direbear_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Direwolf",
+    "class": "Direwolf_Character_BP_Eden_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Megatherium",
+    "class": "Megatherium_Character_BP_Eden_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Quetzal",
+    "class": "Quetz_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Gen2_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Snow Owl",
+    "class": "Owl_Character_BP_Eden_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Thylacoleo",
+    "class": "Thylacoleo_Character_BP_Eden_Summoned_C"
+  },
+  {
+    "name": "Summoned R-Velonasaur",
+    "class": "Spindles_Character_BP_Rockwell_Summoned_C"
+  },
+  {
+    "name": "Summoned Ravager",
+    "class": "CaveWolf_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Rex",
+    "class": "Rex_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Rock Drake",
+    "class": "RockDrake_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Rock Elemental",
+    "class": "RockGolem_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Sabertooth",
+    "class": "Saber_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Sarco",
+    "class": "Sarco_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Shadowmane",
+    "class": "LionfishLion_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Spino",
+    "class": "Spino_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Stegosaurus",
+    "class": "Stego_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Terror Bird",
+    "class": "TerrorBird_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Therizinosaur",
+    "class": "Therizino_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Thorny Dragon",
+    "class": "SpineyLizard_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Titanoboa",
+    "class": "BoaFrill_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Triceratops",
+    "class": "Trike_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoned Yutyrannus",
+    "class": "Yutyrannus_Character_BP_Summoned_C"
+  },
+  {
+    "name": "Summoner Alpha",
+    "class": "Summoner_Character_BP_FinalFight_Alpha_C"
+  },
+  {
+    "name": "Summoner Beta",
+    "class": "Summoner_Character_BP_FinalFight_Beta_C"
+  },
+  {
+    "name": "Summoner Gamma",
+    "class": "Summoner_Character_BP_FinalFight_Gamma_C"
+  },
+  {
+    "name": "Tamed R-Reaper King",
+    "class": "Xenomorph_Character_BP_Male_Tamed_Gen2_C"
+  },
+  {
+    "name": "Young Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_Adolescent_C"
+  },
+  {
+    "name": "Reaper Prince",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_C"
+  },
+  {
+    "name": "Fenrisúlfr",
+    "class": "Fenrir_Character_BP_Boss_C"
+  },
+  {
+    "name": "Reaper Prince",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_Escort_C"
+  },
+  {
+    "name": "Megapithecus",
+    "class": "Gorilla_Character_BP_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Giganotosaurus",
+    "class": "BionicGigant_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Parasaur",
+    "class": "BionicPara_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Quetzal",
+    "class": "BionicQuetz_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Raptor",
+    "class": "BionicRaptor_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Stegosaurus",
+    "class": "BionicStego_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Malfunctioned Tek Triceratops",
+    "class": "BionicTrike_Character_BP_Malfunctioned_Gauntlet_C"
+  },
+  {
+    "name": "Reaper Prince",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_Gauntlet_C"
+  },
+  {
+    "name": "Brute Fire Wyvern",
+    "class": "Wyvern_Character_BP_Fire_GauntletBoss_C"
+  },
+  {
+    "name": "Brute Mammoth",
+    "class": "Mammoth_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Ferox",
+    "class": "Shapeshifter_Large_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Yutyrannus",
+    "class": "Snow_Yutyrannus_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Megaloceros",
+    "class": "Stag_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Megaloceros",
+    "class": "Stag_Character_BP_Hunt_Mega_C"
+  },
+  {
+    "name": "Brute Bloodstalker",
+    "class": "BogSpider_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Raptor",
+    "class": "Bog_Raptor_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Spino",
+    "class": "Bog_Spino_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Sarco",
+    "class": "Sarco_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Araneo",
+    "class": "SpiderS_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Malfunctioned Tek Giganotosaurus",
+    "class": "BionicGigant_Character_BP_Malfunctioned_Hunt_C"
+  },
+  {
+    "name": "Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_Adolescent_Hunt_C"
+  },
+  {
+    "name": "Brute Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_Hunt_C"
+  },
+  {
+    "name": "Brute Seeker",
+    "class": "Pteroteuthis_Char_BP_HuntFollower_C"
+  },
+  {
+    "name": "Brute Astrocetus",
+    "class": "SpaceWhale_Character_BP_Brute_C"
+  },
+  {
+    "name": "Brute Reaper King",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt_C"
+  },
+  {
+    "name": "Brute Basilosaurus",
+    "class": "Basilosaurus_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Leedsichthys",
+    "class": "Leedsichthys_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Megalodon",
+    "class": "Ocean_Megalodon_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Mosasaurus",
+    "class": "Ocean_Mosa_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Plesiosaur",
+    "class": "Plesiosaur_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Tusoteuthis",
+    "class": "Tusoteuthis_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute Magmasaur",
+    "class": "Cherufe_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Allosaurus",
+    "class": "Volcano_Allo_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Rock Elemental",
+    "class": "Volcano_Golem_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Brute X-Rex",
+    "class": "Volcano_Rex_Character_BP_Hunt_C"
+  },
+  {
+    "name": "Hover Skiff",
+    "class": "TekHoverSkiff_Character_BP_Race_C"
+  },
+  {
+    "name": "Malfunctioned Tek Parasaur",
+    "class": "BionicPara_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Malfunctioned Tek Quetzal",
+    "class": "BionicQuetz_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Malfunctioned Tek Raptor",
+    "class": "BionicRaptor_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Malfunctioned Tek Rex",
+    "class": "BionicRex_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Malfunctioned Tek Stegosaurus",
+    "class": "BionicStego_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Malfunctioned Tek Triceratops",
+    "class": "BionicTrike_Character_BP_Malfunctioned_Retrieve_C"
+  },
+  {
+    "name": "Reaper Prince",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_Retrieve_C"
+  },
+  {
+    "name": "Injured Brute Reaper King",
+    "class": "Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve_C"
+  },
+  {
+    "name": "Golden Striped Megalodon",
+    "class": "Ocean_Megalodon_Character_BP_Retrieve_C"
+  },
+  {
+    "name": "Golden Striped Brute Megalodon",
+    "class": "Ocean_Megalodon_Character_BP_Retrieve_Brute_C"
+  },
+  {
+    "name": "Alpha X-Triceratops",
+    "class": "Volcano_Trike_Character_BP_Retrieve_Alpha_C"
+  },
+  {
+    "name": "Hover Skiff",
+    "class": "TekHoverSkiff_Character_BP_C"
+  },
+  {
+    "name": "Cruise Missile",
+    "class": "TekCruiseMissile_Character_BP_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_C"
+  },
+  {
+    "name": "Rockwell",
+    "class": "RockwellNode_Character_BP_C"
+  },
+  {
+    "name": "Tek Hoversail",
+    "class": "TekHoverSail_Character_BP_C"
+  },
+  {
+    "name": "Tek Hoversail",
+    "class": "TekHoverSail_Character_BP_Race_C"
+  },
+  {
+    "name": "Brute Ferox",
+    "class": "Shapeshifter_Large_Character_BP_Hunt_Gen2_C"
+  },
+  {
+    "name": "VR Allosaurus",
+    "class": "Allo_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Bloodstalker",
+    "class": "BogSpider_Character_TameSTA_C"
+  },
+  {
+    "name": "VR Ravager",
+    "class": "CaveWolf_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Karkinos",
+    "class": "Crab_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Dimorphodon",
+    "class": "Dimorph_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "Dragon",
+    "class": "Dragon_Character_BP_STA_C"
+  },
+  {
+    "name": "VR Enforcer",
+    "class": "Enforcer_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "Megapithecus",
+    "class": "Gorilla_Character_BP_STA_C"
+  },
+  {
+    "name": "VR Kaprosuchus",
+    "class": "Kaprosuchus_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Shadowmane",
+    "class": "LionfishLion_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Mantis",
+    "class": "Mantis_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Lymantria",
+    "class": "Moth_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Raptor",
+    "class": "Raptor_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Ferox",
+    "class": "Shapeshifter_Large_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Astrodelphis",
+    "class": "SpaceDolphin_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Velonasaur",
+    "class": "Spindles_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Stegosaurus",
+    "class": "Stego_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Triceratops",
+    "class": "Trike_Character_BP_TameSTA_C"
+  },
+  {
+    "name": "VR Argentavis",
+    "class": "Argent_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "VR Onyc",
+    "class": "Bat_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Tek Raptor",
+    "class": "BionicRaptor_Character_BP_Malfunctioned_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Tek Stegosaurus",
+    "class": "BionicStego_Character_BP_Malfunctioned_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Tek Triceratops",
+    "class": "BionicTrike_Character_BP_Malfunctioned_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Enforcer",
+    "class": "Enforcer_Character_BP_Malfunctioned_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Mek Knight",
+    "class": "Mek_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "VR Parasaur",
+    "class": "Para_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "VR Rex",
+    "class": "Rex_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "Malfunctioned Tek Stryder",
+    "class": "TekStrider_Character_BP_LifeSupport_C"
+  },
+  {
+    "name": "VR Argentavis",
+    "class": "Argent_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Onyc",
+    "class": "Bat_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Carnotaurus",
+    "class": "Carno_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Chalicotherium",
+    "class": "Chalico_Character_BP_ExpG_C"
+  },
+  {
+    "name": "Experimental Giganotosaurus",
+    "class": "Gigant_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Kaprosuchus",
+    "class": "Kaprosuchus_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Megatherium",
+    "class": "Megatherium_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Lymantria",
+    "class": "Moth_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Pachy",
+    "class": "Pachy_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Parasaur",
+    "class": "Para_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Raptor",
+    "class": "Raptor_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Rex",
+    "class": "Rex_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Pulmonoscorpius",
+    "class": "Scorpion_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Araneo",
+    "class": "SpiderS_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Tapejara",
+    "class": "Tapejara_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Terror Bird",
+    "class": "TerrorBird_Character_BP_ExpG_C"
+  },
+  {
+    "name": "VR Onyc",
+    "class": "Bat_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Titanoboa",
+    "class": "BoaFrill_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Carnotaurus",
+    "class": "Carno_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Dilophosaur",
+    "class": "Dilo_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Kaprosuchus",
+    "class": "Kaprosuchus_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Mantis",
+    "class": "Mantis_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Megalania",
+    "class": "Megalania_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Lymantria",
+    "class": "Moth_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Raptor",
+    "class": "Raptor_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Pulmonoscorpius",
+    "class": "Scorpion_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "VR Araneo",
+    "class": "SpiderS_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "Macro-Summoner",
+    "class": "Summoner_Character_BP_CorruptedMaze_C"
+  },
+  {
+    "name": "VR Tapejara",
+    "class": "Tapejara_Character_BP_CorrMaze_C"
+  },
+  {
+    "name": "Hover Skiff",
+    "class": "TekHoverSkiff_Character_BP_WhaleRescue_C"
+  },
+  {
+    "name": "Hover Skiff",
+    "class": "TekHoverSkiff_Character_BP_WhaleRescue_StaticCharging_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_Race_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_Race_Alpha_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_Race_Beta_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_Race_Gamma_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_TeamRace_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_TeamRace_Alpha_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_TeamRace_Beta_C"
+  },
+  {
+    "name": "Canoe",
+    "class": "Canoe_BP_TeamRace_Gamma_C"
+  },
+  {
+    "name": "Rhyniognatha",
+    "class": "Rhynio_Character_BP_C"
+  },
+  {
+    "name": "Motorboat",
+    "class": "MotorRaft_BP_C"
+  },
+  {
+    "name": "Raft",
+    "class": "Raft_BP_C"
+  },
+  {
+    "name": "Tek ATV",
+    "class": "VH_Buggy_C"
+  },
+  {
+    "name": "Archelon",
+    "class": "Archelon_Character_BP_ASA"
+  },
+  {
+    "name": "Ceratosaurus",
+    "class": "Ceratosaurus_Character_BP_ASA"
+  },
+  {
+    "name": "Dreadmare",
+    "class": "DarkPegasus_Character_BP_C"
+  },
+  {
+    "name": "Deinosuchus",
+    "class": "DeinosuchusASA_Character_BP_C"
+  },
+  {
+    "name": "Fasolasuchus",
+    "class": "Fasola_Character_BP_C"
+  },
+  {
+    "name": "Aberrant Fasolasuchus",
+    "class": "Fasola_Character_BP_Aberrant"
+  },
+  {
+    "name": "Pyromane",
+    "class": "FireLion_Character_BP_C"
+  },
+  {
+    "name": "Gigantoraptor",
+    "class": "Gigantoraptor_Character_BP_C"
+  },
+  {
+    "name": "Aberrant Gigantoraptor",
+    "class": "Gigantoraptor_Character_BP_Aberrant"
+  },
+  {
+    "name": "Shastasaurus",
+    "class": "Shastasaurus_Character_BP_C"
+  },
+  {
+    "name": "Xiphactinus",
+    "class": "Xiphactinus_Character_BP_ASA"
+  },
+  {
+    "name": "Yi Ling",
+    "class": "YiLing_Character_BP_C"
+  },
+  {
+    "name": "Oasisaur",
+    "class": "Oasisaur_Character_BP_C"
+  },
+  {
+    "name": "Oasisaur (Vulture)",
+    "class": "Vulture_Character_BP_OasisaurTaming"
+  },
+  {
+    "name": "SIR-5rM8",
+    "class": "HelperBot_Character_BP_C"
+  },
+  {
+    "name": "Cosmo",
+    "class": "JumpingSpider_Character_BP_C"
+  },
+  {
+    "name": "Aberrant Oviraptor",
+    "class": "Oviraptor_Character_BP_Aberrant"
+  },
+  {
+    "name": "Dreadnoughtus",
+    "class": "Dreadnoughtus_Character_BP_C"
+  },
+  {
+    "name": "King Titan",
+    "class": "KingKaiju_Character_BP_WorldBoss_C"
+  },
+  {
+    "name": "Armadoggo",
+    "class": "Doggo_Character_BP_c"
+  },
+  {
+    "name": "Broodmother Lysrix (Gauntlet)",
+    "class": "SpiderL_Character_BP_Gauntlet_C"
+  },
+  {
+    "name": "Maeguana",
+    "class": "Maelizard_Character_BP_C"
+  },
+  {
+    "name": "Deinotherium",
+    "class": "DeinotheriumASA_Character_BP_C"
+  },
+  {
+    "name": "Cat",
+    "class": "CAT_Character_BP_C"
+  }
+]
