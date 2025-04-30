@@ -2128,104 +2128,520 @@
     "id": "Boulder_Fire"
   },
   {
+    "name": "All Colors",
+    "id": "GiveColors"
+  },
+  {
+    "name": "Aquamarine Coloring",
+    "id": "5_a"
+  },
+  {
+    "name": "Avocado Coloring",
+    "id": "2_a"
+  },
+  {
+    "name": "Azure Coloring",
+    "id": "az"
+  },
+  {
+    "name": "Babyblue Coloring",
+    "id": "5_b"
+  },
+  {
+    "name": "Bark Coloring",
+    "id": "2_b"
+  },
+  {
     "name": "Black Coloring",
-    "id": "PrimalItemDye_Black"
+    "id": "1_bl"
   },
   {
     "name": "Blue Coloring",
-    "id": "PrimalItemDye_Blue"
+    "id": "4_bl"
   },
   {
     "name": "Brick Coloring",
-    "id": "Brick"
+    "id": "c_1"
+  },
+  {
+    "name": "Bronze Coloring",
+    "id": "1_br"
   },
   {
     "name": "Brown Coloring",
-    "id": "Brown"
+    "id": "3_br"
+  },
+  {
+    "name": "Bruise Coloring",
+    "id": "8_b"
+  },
+  {
+    "name": "Bubblegum Coloring",
+    "id": "c_12"
+  },
+  {
+    "name": "Burn Coloring",
+    "id": "1_b"
+  },
+  {
+    "name": "Buttermilk Coloring",
+    "id": "6_b"
+  },
+  {
+    "name": "Camel Coloring",
+    "id": "5_ca"
+  },
+  {
+    "name": "Canary Coloring",
+    "id": "5_can"
   },
   {
     "name": "Cantaloupe Coloring",
-    "id": "Cantaloupe"
+    "id": "5_cant"
+  },
+  {
+    "name": "Celadon Coloring",
+    "id": "7_ce"
+  },
+  {
+    "name": "Celeste Coloring",
+    "id": "6_ce"
+  },
+  {
+    "name": "Cetecean Coloring",
+    "id": "1_ce"
+  },
+  {
+    "name": "Charcoal Coloring",
+    "id": "3_ch"
+  },
+  {
+    "name": "Chartreuse Coloring",
+    "id": "4_ch"
+  },
+  {
+    "name": "Chateau Coloring",
+    "id": "8_ch"
+  },
+  {
+    "name": "Citron Coloring",
+    "id": "3_ci"
+  },
+  {
+    "name": "Cobalt Coloring",
+    "id": "3_co"
+  },
+  {
+    "name": "Cornflower Coloring",
+    "id": "6_co"
+  },
+  {
+    "name": "Cottoncandy Coloring",
+    "id": "6_cot"
+  },
+  {
+    "name": "Craggy-Dew Coloring",
+    "id": "c_5"
+  },
+  {
+    "name": "Cream Coloring",
+    "id": "9_cr"
+  },
+  {
+    "name": "Crystal Coloring",
+    "id": "7_cr"
   },
   {
     "name": "Cyan Coloring",
-    "id": "Cyan"
+    "id": "4_cy"
+  },
+  {
+    "name": "Deepfreeze Coloring",
+    "id": "8_de"
+  },
+  {
+    "name": "Denim Coloring",
+    "id": "5_d"
+  },
+  {
+    "name": "Dirt Coloring",
+    "id": "8_d"
+  },
+  {
+    "name": "Drab Coloring",
+    "id": "1_d"
+  },
+  {
+    "name": "Dusk Coloring",
+    "id": "c_10"
+  },
+  {
+    "name": "Edocha Coloring",
+    "id": "8_e"
+  },
+  {
+    "name": "Eggplant Coloring",
+    "id": "1_e"
+  },
+  {
+    "name": "Electricity Coloring",
+    "id": "5_e"
+  },
+  {
+    "name": "Emerald Coloring",
+    "id": "3_e"
+  },
+  {
+    "name": "Eminence Coloring",
+    "id": "2_e"
+  },
+  {
+    "name": "Filth Coloring",
+    "id": "8_f"
+  },
+  {
+    "name": "Flamingo Coloring",
+    "id": "5_f"
   },
   {
     "name": "Forest Coloring",
-    "id": "PrimalItemDye_Forest"
+    "id": "2_f"
+  },
+  {
+    "name": "Frost Coloring",
+    "id": "7_f"
+  },
+  {
+    "name": "Fuschia Coloring",
+    "id": "4_f"
+  },
+  {
+    "name": "Gold Coloring",
+    "id": "c_3"
+  },
+  {
+    "name": "Gore Coloring",
+    "id": "3_g"
+  },
+  {
+    "name": "Grass Coloring",
+    "id": "c_6"
   },
   {
     "name": "Green Coloring",
-    "id": "PrimalItemDye_Green"
+    "id": "g"
+  },
+  {
+    "name": "Grey Coloring",
+    "id": "7_g"
+  },
+  {
+    "name": "Gunmetal Coloring",
+    "id": "4_gu"
+  },
+  {
+    "name": "Haze Coloring",
+    "id": "c_9"
+  },
+  {
+    "name": "Hunter Coloring",
+    "id": "2_h"
+  },
+  {
+    "name": "Ice Coloring",
+    "id": "6_i"
+  },
+  {
+    "name": "Incense Coloring",
+    "id": "7_i"
+  },
+  {
+    "name": "Indigo Coloring",
+    "id": "3_i"
+  },
+  {
+    "name": "Jungle Coloring",
+    "id": "1_j"
+  },
+  {
+    "name": "Khaki Coloring",
+    "id": "7_k"
+  },
+  {
+    "name": "Kobi Coloring",
+    "id": "7_ko"
+  },
+  {
+    "name": "Lagoon Coloring",
+    "id": "3_la"
+  },
+  {
+    "name": "Latte Coloring",
+    "id": "7_l"
+  },
+  {
+    "name": "Lavender Coloring",
+    "id": "6_l"
+  },
+  {
+    "name": "Leather Coloring",
+    "id": "4_l"
+  },
+  {
+    "name": "Lilac Coloring",
+    "id": "5_l"
+  },
+  {
+    "name": "Lust Coloring",
+    "id": "3_l"
   },
   {
     "name": "Magenta Coloring",
-    "id": "ActuallyMagenta"
+    "id": "4_ma"
+  },
+  {
+    "name": "Mariana Coloring",
+    "id": "1_ma"
+  },
+  {
+    "name": "Marine Coloring",
+    "id": "c_8"
+  },
+  {
+    "name": "Mauve Coloring",
+    "id": "7_m"
+  },
+  {
+    "name": "Menthol Coloring",
+    "id": "5_me"
+  },
+  {
+    "name": "Midnight Coloring",
+    "id": "1_mi"
+  },
+  {
+    "name": "Mint Coloring",
+    "id": "5_m"
+  },
+  {
+    "name": "Mold Coloring",
+    "id": "8_m"
+  },
+  {
+    "name": "Moonstone Coloring",
+    "id": "8_moo"
   },
   {
     "name": "Mud Coloring",
-    "id": "Mud"
+    "id": "1_m"
+  },
+  {
+    "name": "Mustard Coloring",
+    "id": "c_4"
   },
   {
     "name": "Navy Coloring",
-    "id": "Navy"
+    "id": "2_n"
+  },
+  {
+    "name": "Nori Coloring",
+    "id": "1_n"
+  },
+  {
+    "name": "Nyanza Coloring",
+    "id": "6_n"
+  },
+  {
+    "name": "Ocean Coloring",
+    "id": "8_o"
   },
   {
     "name": "Olive Coloring",
-    "id": "Olive"
+    "id": "2_o"
   },
   {
     "name": "Orange Coloring",
-    "id": "Orange"
+    "id": "4_o"
+  },
+  {
+    "name": "Orc Coloring",
+    "id": "3_o"
+  },
+  {
+    "name": "Orchid Coloring",
+    "id": "7_or"
+  },
+  {
+    "name": "Overcast Coloring",
+    "id": "7_o"
   },
   {
     "name": "Parchment Coloring",
-    "id": "Parchment"
+    "id": "8_p"
+  },
+  {
+    "name": "Peach Coloring",
+    "id": "6_p"
   },
   {
     "name": "Pink Coloring",
-    "id": "Pink"
+    "id": "5_p"
+  },
+  {
+    "name": "Pistachio Coloring",
+    "id": "6_pi"
+  },
+  {
+    "name": "Plum Coloring",
+    "id": "2_p"
+  },
+  {
+    "name": "Prussian Coloring",
+    "id": "2_pr"
   },
   {
     "name": "Purple Coloring",
-    "id": "Purple"
+    "id": "3_p"
+  },
+  {
+    "name": "Putrescence Coloring",
+    "id": "7_p"
+  },
+  {
+    "name": "Raisin Coloring",
+    "id": "1_r"
   },
   {
     "name": "Red Coloring",
-    "id": "PrimalItemDye_Red"
+    "id": "red"
+  },
+  {
+    "name": "Rouge Coloring",
+    "id": "8_r"
   },
   {
     "name": "Royalty Coloring",
-    "id": "Royalty"
+    "id": "8_roy"
+  },
+  {
+    "name": "Salmon Coloring",
+    "id": "6_s"
+  },
+  {
+    "name": "Sand Coloring",
+    "id": "7_s"
+  },
+  {
+    "name": "Sapphire Coloring",
+    "id": "3_s"
+  },
+  {
+    "name": "Scab Coloring",
+    "id": "2_s"
+  },
+  {
+    "name": "Seafoam Coloring",
+    "id": "6_se"
+  },
+  {
+    "name": "Shadow Coloring",
+    "id": "2_sh"
+  },
+  {
+    "name": "Shamrock Coloring",
+    "id": "8_s"
   },
   {
     "name": "Silver Coloring",
-    "id": "Silver"
+    "id": "8_si"
   },
   {
-    "name": "Sky Coloring",
-    "id": "Sky"
+    "name": "Skobeloff Coloring",
+    "id": "2_sk"
   },
   {
     "name": "Slate Coloring",
-    "id": "Slate"
+    "id": "5_sl"
+  },
+  {
+    "name": "Sky Coloring",
+    "id": "az"
+  },
+  {
+    "name": "Spring Coloring",
+    "id": "4_s"
+  },
+  {
+    "name": "Steel Coloring",
+    "id": "6_st"
+  },
+  {
+    "name": "Stream Coloring",
+    "id": "c_7"
+  },
+  {
+    "name": "Swamp Coloring",
+    "id": "1_s"
   },
   {
     "name": "Tan Coloring",
-    "id": "PrimalItemDye_Tan"
+    "id": "6_t"
   },
   {
     "name": "Tangerine Coloring",
-    "id": "Tangerine"
+    "id": "c_2"
+  },
+  {
+    "name": "Teal Coloring",
+    "id": "3_t"
+  },
+  {
+    "name": "Terracotta Coloring",
+    "id": "2_te"
+  },
+  {
+    "name": "Thistle Coloring",
+    "id": "c_11"
+  },
+  {
+    "name": "Tulip Coloring",
+    "id": "5_t"
+  },
+  {
+    "name": "Turquoise Coloring",
+    "id": "7_t"
+  },
+  {
+    "name": "Twilight Coloring",
+    "id": "1_t"
+  },
+  {
+    "name": "Tyrian Coloring",
+    "id": "2_t"
+  },
+  {
+    "name": "Valentine Coloring",
+    "id": "6_v"
+  },
+  {
+    "name": "Violet Coloring",
+    "id": "4_v"
   },
   {
     "name": "White Coloring",
-    "id": "White"
+    "id": "whit"
+  },
+  {
+    "name": "Windsor Coloring",
+    "id": "3_w"
+  },
+  {
+    "name": "Wisp Coloring",
+    "id": "9_w"
   },
   {
     "name": "Yellow Coloring",
-    "id": "Yellow"
+    "id": "4_y"
   },
   {
     "name": "Raw Meat",
@@ -4006,10 +4422,6 @@
   {
     "name": "Tintoberry Seed (instant grow)",
     "id": "Seed_Tintoberry_SpeedHack"
-  },
-  {
-    "name": "Magenta Coloring 2",
-    "id": "PrimalItemDye_Magenta"
   },
   {
     "name": "Wizard Ballcap Skin",
@@ -7182,10 +7594,6 @@
   {
     "name": "Any Club",
     "id": "WeaponBaseClub"
-  },
-  {
-    "name": "Any Coloring",
-    "id": "PrimalItemDyeGeneric"
   },
   {
     "name": "Any Craftable Resource",
