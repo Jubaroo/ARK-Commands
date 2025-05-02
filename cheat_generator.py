@@ -7,6 +7,7 @@ from typing import Optional, List
 import requests
 from bs4 import BeautifulSoup
 from PyQt5 import QtWidgets, QtGui, QtCore
+from PyQt5.QtWidgets import QLabel, QListWidget, QFormLayout, QListView
 
 # Determine directory for resources when running packaged or in source
 if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
@@ -20,6 +21,7 @@ CACHE_CREATURES_FILE = os.path.join(BASE_PATH, "creatures_cache.json")
 CACHE_LOCATIONS_FILE = os.path.join(BASE_PATH, "locations_cache.json")
 CACHE_COLORS_FILE    = os.path.join(BASE_PATH, "colors_cache.json")
 CACHE_COMMANDS_FILE  = os.path.join(BASE_PATH, "commands_cache.json")
+CACHE_TAMING_FILE    = os.path.join(BASE_PATH, "taming_cache.json")
 BASE_URL             = "https://arkids.net"
 
 
@@ -116,12 +118,18 @@ def load_creatures() -> list[dict]:
     _save_json(CACHE_CREATURES_FILE, creatures)
     return creatures
 
+def load_taming() -> list[dict]:
+    try:
+        with open(CACHE_TAMING_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return []
 
 def load_locations() -> list[dict]:
     """
     Return list of {name, code} for map locations, caching result.
     """
-    if (cached := _load_json(CACHE_LOCATIONS_FILE)):
+    if cached := _load_json(CACHE_LOCATIONS_FILE):
         return cached
     resp = requests.get(f"{BASE_URL}/locations", timeout=10)
     soup = BeautifulSoup(resp.text, "html.parser")
@@ -203,6 +211,7 @@ class CheatApp(QtWidgets.QMainWindow):
         super().__init__()
         self.items, self.creatures = items, creatures
         self.locations, self.colors = locations, colors
+        self.taming = load_taming()
         self.commands = commands
         self.auto_copy = True
         self._build_ui()
@@ -234,6 +243,38 @@ class CheatApp(QtWidgets.QMainWindow):
         )
         self.tabs.addTab(cre_tab, "Creatures")
 
+        # Taming tab
+        tame_tab, self.search_taming, self.dd_taming = self._make_tab(
+            "Filter creatures…", [c["name"] for c in self.creatures]
+        )
+        # record its index so we can detect when it's shown
+        self.taming_index = self.tabs.addTab(tame_tab, "Taming")
+
+        # prepare plain labels instead of list‐widgets/group‐boxes
+        self.lbl_type = QLabel()
+        self.lbl_type.setFrameShape(QLabel.NoFrame)
+        self.lbl_type.setAlignment(QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
+
+        self.lbl_feed = QLabel()
+        self.lbl_feed.setFrameShape(QLabel.NoFrame)
+        self.lbl_feed.setWordWrap(True)
+        self.lbl_feed.setAlignment(QtCore.Qt.AlignLeft | QtCore.Qt.AlignTop)
+
+        self.lbl_notes = QLabel()
+        self.lbl_notes.setFrameShape(QLabel.NoFrame)
+        self.lbl_notes.setWordWrap(True)
+        self.lbl_notes.setAlignment(QtCore.Qt.AlignLeft | QtCore.Qt.AlignTop)
+
+        # lay them out in a simple form
+        self.tame_form = QFormLayout()
+        self.tame_form.addRow(self.lbl_type)                # full row: "Tame type: X"
+        self.tame_form.addRow("Feed:",  self.lbl_feed)      # label + feed text
+        self.tame_form.addRow("Notes:", self.lbl_notes)     # label + notes text
+
+        # insert the form into the tab
+        layout = tame_tab.layout() or QtWidgets.QVBoxLayout(tame_tab)
+        layout.addLayout(self.tame_form)
+
         # Locations tab
         loc_tab, self.search_locations, self.dd_locations = self._make_tab(
             "Filter locations…", [l["name"] for l in self.locations]
@@ -260,6 +301,9 @@ class CheatApp(QtWidgets.QMainWindow):
         # Initial filter and output
         self._filter_lists()
         self._update_output()
+
+        # Immediately populate the Taming labels with the first creature
+        self._update_taming_info()
 
     @staticmethod
     def _make_tab(placeholder: str, completer_items: List[str]):
@@ -347,6 +391,7 @@ class CheatApp(QtWidgets.QMainWindow):
         """
         Wire UI control events to filtering and output update handlers.
         """
+        # Tab‐switch & combo/slider/spinbox events all go to _update_output
         widgets = (
             self.dd_items, self.dd_creatures, self.dd_locations,
             self.dd_colors, self.dd_region, self.qty, self.qual, self.bp, self.tabs
@@ -361,27 +406,85 @@ class CheatApp(QtWidgets.QMainWindow):
             else:
                 w.stateChanged.connect(self._update_output)
 
+        # Commands tab signals
         self.dd_commands.currentIndexChanged.connect(self._update_cmd_desc)
         self.dd_commands.currentIndexChanged.connect(self._build_cmd_inputs)
 
-        for le in (self.search_items, self.search_creatures, self.search_locations, self.search_colors, self.search_commands):
+        # Taming tab: update labels when selection changes
+        self.dd_taming.currentIndexChanged.connect(self._update_taming_info)
+
+        # Also refresh when user clicks into the Taming tab
+        self.tabs.currentChanged.connect(
+            lambda idx: self._update_taming_info()
+                        if idx == self.taming_index else None
+        )
+
+        # Search boxes → filter lists
+        for le in (
+            self.search_items,
+            self.search_creatures,
+            self.search_taming,
+            self.search_locations,
+            self.search_colors,
+            self.search_commands,
+        ):
             le.textChanged.connect(self._filter_lists)
 
+        # Keyboard shortcuts
         QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+C"), self, self._copy_to_clip)
         QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+F"), self, self._focus_search)
         for i in range(5):
-            QtWidgets.QShortcut(QtGui.QKeySequence(f"Ctrl+{i+1}"), self,
-                                 lambda ix=i: self.tabs.setCurrentIndex(ix))
+            QtWidgets.QShortcut(
+                QtGui.QKeySequence(f"Ctrl+{i+1}"),
+                self,
+                lambda ix=i: self.tabs.setCurrentIndex(ix)
+            )
 
     def _filter_lists(self) -> None:
         """
         Apply search filters to all dropdown lists and rebuild command inputs.
         """
-        self._update_combo(self.search_items.text(), self.items, self.dd_items, "name", "id")
-        self._update_combo(self.search_creatures.text(), self.creatures, self.dd_creatures, "name", "class")
-        self._update_combo(self.search_locations.text(), self.locations, self.dd_locations, "name", "code")
+        # Items
+        self._update_combo(
+            self.search_items.text(),
+            self.items,
+            self.dd_items,
+            "name",
+            "id",
+        )
+
+        # Creatures for spawning
+        self._update_combo(
+            self.search_creatures.text(),
+            self.creatures,
+            self.dd_creatures,
+            "name",
+            "class",
+        )
+
+        # Creatures for taming
+        self._update_combo(
+            self.search_taming.text(),  # <-- use the taming search box
+            self.taming,                # <-- data source is the taming list
+            self.dd_taming,
+            "name",
+            "name",                     # we store the creature name as data too
+        )
+
+        # Locations
+        self._update_combo(
+            self.search_locations.text(),
+            self.locations,
+            self.dd_locations,
+            "name",
+            "code",
+        )
+
+        # Colors & Commands (unchanged)
         self._update_colors()
         self._update_commands()
+
+        # Rebuild command inputs & output
         self._build_cmd_inputs()
         self._update_output()
 
@@ -397,6 +500,29 @@ class CheatApp(QtWidgets.QMainWindow):
             if term in item[key_name].lower():
                 combo.addItem(item[key_name], item[key_data])
         combo.blockSignals(False)
+
+    def _update_taming_info(self) -> None:
+        """
+        Called when the user picks a creature or switches to the Taming tab.
+        Fills in the three QLabel widgets with tame-type, feed, and notes.
+        """
+        name = self.dd_taming.currentText()
+        entry = next((t for t in self.taming if t["name"] == name), None)
+
+        if not entry:
+            self.lbl_type .setText("Tame type: —")
+            self.lbl_feed .setText("—")
+            self.lbl_notes.setText("No data.")
+            return
+
+        # Tame type
+        self.lbl_type.setText(f"Tame type: {entry.get('tame_type', '—')}")
+
+        # Feed
+        self.lbl_feed.setText(entry.get("feed", "") or "—")
+
+        # Notes
+        self.lbl_notes.setText(entry.get("notes", ""))
 
     def _update_colors(self) -> None:
         """
@@ -459,6 +585,53 @@ class CheatApp(QtWidgets.QMainWindow):
             sp = self._make_spin(0, 9999, "Radius in units")
             self.cmd_params_layout.addRow("Radius:", sp)
             self.cmd_param_widgets.append(("Radius", sp))
+
+        # Specialized UI for GFI command
+        elif len(syntax.split()) > 1 and syntax.split()[1].upper() == "GFI":
+            # Item dropdown (uses GFI codes behind the scenes)
+            cb_item = QtWidgets.QComboBox()
+            for it in self.items:
+                cb_item.addItem(it["name"], it["id"])
+            cb_item.setToolTip("Select item by name")
+            cb_item.currentIndexChanged.connect(self._update_output)
+            self.cmd_params_layout.addRow("Item:", cb_item)
+            self.cmd_param_widgets.append(("Blueprint / GFI", cb_item))
+
+            # Amount spinbox
+            sp_amount = self._make_spin(1, 9999, "Quantity of item to give")
+            self.cmd_params_layout.addRow("Amount:", sp_amount)
+            self.cmd_param_widgets.append(("Amount", sp_amount))
+
+            # Quality spinbox
+            sp_quality = self._make_spin(0, 100, "Quality percentage of item")
+            self.cmd_params_layout.addRow("Quality:", sp_quality)
+            self.cmd_param_widgets.append(("Quality", sp_quality))
+
+            # Force Blueprint checkbox (0 = use GFI code, 1 = use full blueprint)
+            cb_force = self._make_checkbox("Use full blueprint instead of GFI code")
+            self.cmd_params_layout.addRow("Force Blueprint:", cb_force)
+            self.cmd_param_widgets.append(("Force Blueprint", cb_force))
+
+        # Specialized UI for SetGamma command
+        elif name == "SetGamma":
+            slider = QtWidgets.QSlider(QtCore.Qt.Horizontal)
+            slider.setRange(0, 60)  # integer steps
+            slider.setTickInterval(1)
+            slider.setTickPosition(QtWidgets.QSlider.TicksBelow)
+            slider.setValue(10)  # default → 1.0
+            slider.setToolTip("Gamma value from 0.0 (dark) to 6.0 (bright)")
+            slider.valueChanged.connect(self._update_output)
+
+            self.cmd_params_layout.addRow("Gamma:", slider)
+            self.cmd_param_widgets.append(("Value", slider))
+
+        # Specialized UI for ClearWater (new checkbox)
+        elif name == "ClearWater":
+            cb_clear = QtWidgets.QCheckBox("Disable underwater volumetric fog")
+            cb_clear.setToolTip("Check to disable fog (r.VolumetricFog 0), uncheck to enable fog (r.VolumetricFog 1)")
+            cb_clear.stateChanged.connect(self._update_output)
+            self.cmd_params_layout.addRow("Clear Water:", cb_clear)
+            self.cmd_param_widgets.append(("ClearWater", cb_clear))
 
         # Specialized UI for SpawnExactDino parameters
         elif name == "SpawnExactDino":
@@ -537,38 +710,65 @@ class CheatApp(QtWidgets.QMainWindow):
     def _update_output(self) -> None:
         """
         Build final cheat command string based on active tab and inputs.
-        Auto-copy to clipboard if enabled.
+        Auto-copy to clipboard if enabled.  Leaves output blank on Taming tab.
         """
         tab = self.tabs.currentIndex()
         txt = ""
+
+        # Items tab (0)
         if tab == 0:
             if (gid := self.dd_items.currentData()):
                 txt = f"cheat gfi {gid} {self.qty.value()} {self.qual.value()} {int(self.bp.isChecked())}"
+
+        # Creature spawn tab (1)
         elif tab == 1:
             if (cls := self.dd_creatures.currentData()):
                 txt = f"admincheat Summon {cls}"
+
+        # Taming tab (2) → no command output
         elif tab == 2:
-            if (data := self.dd_locations.currentData()):
-                x,y,z = data.split()
-                txt = f"cheat setplayerpos {x} {y} {z}"
+            txt = ""  # explicitly blank
+
+        # Teleport (Locations) tab (3)
         elif tab == 3:
+            if (data := self.dd_locations.currentData()):
+                x, y, z = data.split()
+                txt = f"cheat setplayerpos {x} {y} {z}"
+
+        # Dino Color tab (4)
+        elif tab == 4:
             region = self.dd_region.currentData()
             if region is not None and (c := self.dd_colors.currentData()):
                 txt = f"cheat setTargetDinoColor {region} {c['id']}"
+
+        # Commands & custom console commands tab (5+)
         else:
             if (cmd := self.dd_commands.currentData()):
-                parts = cmd["syntax"].split()[:2]
-                for _, w in self.cmd_param_widgets:
-                    if isinstance(w, QtWidgets.QSpinBox):
-                        parts.append(str(w.value()))
-                    elif isinstance(w, QtWidgets.QCheckBox):
-                        parts.append("1" if w.isChecked() else "0")
-                    elif isinstance(w, QtWidgets.QLineEdit):
-                        parts.append(w.text().strip())
-                    elif isinstance(w, QtWidgets.QComboBox):
-                        data = w.currentData()
-                        parts.append(str(data) if data is not None else w.currentText())
-                txt = " ".join(parts)
+                if cmd["name"] == "ClearWater":
+                    cb = next(
+                        (w for name, w in self.cmd_param_widgets if name == "ClearWater"),
+                        None
+                    )
+                    if cb:
+                        fog_state = "0" if cb.isChecked() else "1"
+                        txt = f"r.VolumetricFog {fog_state}"
+                else:
+                    parts = cmd["syntax"].split()[:2]
+                    for _, w in self.cmd_param_widgets:
+                        if isinstance(w, QtWidgets.QSpinBox):
+                            parts.append(str(w.value()))
+                        elif isinstance(w, QtWidgets.QSlider):
+                            parts.append(f"{w.value()/10:.1f}")
+                        elif isinstance(w, QtWidgets.QCheckBox):
+                            parts.append("1" if w.isChecked() else "0")
+                        elif isinstance(w, QtWidgets.QLineEdit):
+                            parts.append(w.text().strip())
+                        elif isinstance(w, QtWidgets.QComboBox):
+                            d = w.currentData()
+                            parts.append(str(d) if d is not None else w.currentText())
+                    txt = " ".join(parts)
+
+        # Update the output field and auto-copy if needed
         self.out_lbl.setText(txt)
         if self.auto_copy_act.isChecked() and txt:
             QtWidgets.QApplication.clipboard().setText(txt)
@@ -586,7 +786,13 @@ class CheatApp(QtWidgets.QMainWindow):
         Focus the search box in the active tab.
         """
         idx = self.tabs.currentIndex()
-        fields = [self.search_items, self.search_creatures, self.search_locations, self.search_colors, self.search_commands]
+        fields = [
+            self.search_items,
+            self.search_creatures,
+            self.search_locations,
+            self.search_colors,
+            self.search_commands
+        ]
         fields[idx].setFocus()
 
 
@@ -617,10 +823,14 @@ def run_app() -> None:
     app.processEvents()
 
     items     = load_items()
+    items.sort(key=lambda c: c["name"].lower())
     creatures = load_creatures()
+    creatures.sort(key=lambda c: c["name"].lower())
     locations = load_locations()
+    locations.sort(key=lambda c: c["name"].lower())
     colors    = load_colors()
     commands  = load_commands()
+    commands.sort(key=lambda c: c["name"].lower())
 
     splash.finish(None)
 

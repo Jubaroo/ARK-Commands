@@ -2153,7 +2153,7 @@
   },
   {
     "name": "Black Coloring",
-    "id": "1_bl"
+    "id": "Dye_Black"
   },
   {
     "name": "Blue Coloring",
@@ -2329,7 +2329,7 @@
   },
   {
     "name": "Green Coloring",
-    "id": "g"
+    "id": "Dye_Green"
   },
   {
     "name": "Grey Coloring",
@@ -4581,7 +4581,7 @@
   },
   {
     "name": "Bunny Egg",
-    "id": "1"
+    "id": "e_easteregg"
   },
   {
     "name": "Birthday Cake",

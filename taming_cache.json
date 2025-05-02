@@ -1,0 +1,848 @@
+[
+  {
+    "name": "Achatina",
+    "tame_type": "Passive",
+    "feed": "Sweet Vegetable Cake",
+    "notes": "Very slow snail found in swamp/redwoods; only eats Sweet Vegetable Cake for taming and even after tame. No narcotics needed (it's a passive tame). Produces Cementing Paste ('Achatina paste') and Organic Polymer in its inventory after taming."
+  },
+  {
+    "name": "Allosaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Found in packs (alpha Allo is buffed); best to lure or isolate one then tranq from a ledge or trap. High torpor and moderate torpor decay – bring enough tranqs. The alpha has a gnash bleed attack, so avoid taking hits. Use Exceptional Kibble for fastest tame; prime meat or mutton as alternatives."
+  },
+  {
+    "name": "Amargasaurus",
+    "tame_type": "Special",
+    "feed": "Exceptional Kibble, Crops, Mejoberries",
+    "notes": "Unique taming via combat: Aggro an Amargasaurus and survive until it \"bonds\" and becomes passive to you, then aid it in hunting other creatures to increase taming. Use soups (like Enduro Stew) to resist its thermal spines. Exceptional Kibble or vegetables give best efficiency once it trusts you."
+  },
+  {
+    "name": "Andrewsarchus",
+    "tame_type": "Passive",
+    "feed": "Giant Bee Honey",
+    "notes": "Throw Honey near it and quickly mount it; a mini-game ensues (similar to Equus taming). Steer while it bucks and feed more honey when prompted. Use Ghillie to approach. Honey is required to initiate taming – bring extra as they lose interest in bait quickly."
+  },
+  {
+    "name": "Anglerfish",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Fish Meat",
+    "notes": "Fragile deep-sea fish; clear area of predators then tranq from a distance (it will chase and bite). They flee when torpor is high, so use a crossbow or harpoon. feed Regular Kibble or prime fish meat. Low torpor drop – few narcotics needed."
+  },
+  {
+    "name": "Ankylosaurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Slow-moving herbivore with high torpor. Easy to kite and tranquilize; headshots are effective. feed Regular Kibble or vegetables for best results. Torpor drains slowly, but bring some narcotics for higher levels. Excellent metal ore harvester once tamed."
+  },
+  {
+    "name": "Araneo",
+    "tame_type": "Passive",
+    "feed": "Spoiled Meat",
+    "notes": "Cave spider tamed non-violently. Wear Bug Repellent to avoid aggro and crouch behind it to feed Spoiled Meat. They may attack if they sense you, so repellent and Ghillie are recommended."
+  },
+  {
+    "name": "Archaeopteryx",
+    "tame_type": "Passive",
+    "feed": "Chitin",
+    "notes": "Skittish gliding creature. Must be immobilized (bola) then fed Chitin for a passive tame (do not knock it out). Keep your distance after bola so it doesn’t get startled. Acts as a living parachute when tamed."
+  },
+  {
+    "name": "Argentavis",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Aggressive vulture-like bird. Best trapped with a gateway trap or bear traps, then tranq. In the wild, it heals by eating corpses, but once KO'd just feed it. Use Superior Kibble or mutton. Torpor drains moderate – have narcotics ready. Very useful flyer with high carry weight."
+  },
+  {
+    "name": "Arthropluera",
+    "tame_type": "Passive",
+    "feed": "Broth of Enlightenment, Spoiled Meat",
+    "notes": "Giant cave centipede. Approach with Bug Repellent and Ghillie; it’s a passive tame that prefers Broth of Enlightenment (for a quick tame) or Spoiled Meat. Don’t get too close to its head or it will aggro and spit acid. Broth yields a very fast tame; spoiled meat works with lower efficiency."
+  },
+  {
+    "name": "Astrocetus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Meat",
+    "notes": "\"Space Whale\" from Genesis. Must be knocked out using explosive ordnance (e.g. cannon shells fired from a Skiff) – normal tranqs won’t work. Once unconscious, feed Exceptional Kibble or raw meat. High torpor and slow drain; ensure you bring sufficient firepower to KO without killing it."
+  },
+  {
+    "name": "Astrodelphis",
+    "tame_type": "Passive",
+    "feed": "Element",
+    "notes": "The Space Dolphin (Gen2). Approach calmly and \"pet\" it, then feed Element repeatedly. Each feed requires more Element (increasing amounts: 1, 3, 5, 10, then repeats). It may attack or flee after the first pet, so be prepared to chase with a Tek suit or fast flyer. No trap possible since it roams open space."
+  },
+  {
+    "name": "Baryonyx",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Fish Meat, Raw Prime Fish Meat",
+    "notes": "Semi-aquatic carnivore. It’s fast on land and water; using a bola or trapping in a pen helps. Only eats fish meat or kibble (no regular meat). Tranq on land for easier handling. Watch out for its stun attack in water. Moderate torpor drop – a few narcotics recommended."
+  },
+  {
+    "name": "Basilisk",
+    "tame_type": "Passive",
+    "feed": "Fertilized Eggs (Rock Drake, Magmasaur, Wyvern)",
+    "notes": "Aggressive three-headed serpent (Aberration). Cannot be tranqed. Drop fertilized eggs in front of it (Rock Drake eggs preferred); it will burrow and eat the egg to gain taming progress. Wear Hazard Suit to protect from its poison spit. High-level Basilisks may require multiple eggs."
+  },
+  {
+    "name": "Basilosaurus",
+    "tame_type": "Passive",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Large whale often surrounded by hostile mantas. Clear the area, then swim near its back to feed. It passively moves and occasionally dives. Use Exceptional Kibble or prime meat. It doesn’t flee or attack during taming. Immune to deep water pressure and jellyfish/eel stun when tamed."
+  },
+  {
+    "name": "Beelzebufo",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Giant frog in swamps. Use a bola or trap as it can jump away quickly. KO with tranqs (low health, so use caution). Regular Kibble is fastest; raw meat works with lower efficiency. Low torpor drop – minimal narcotics needed. Produces Cementing Paste by eating bugs once tamed."
+  },
+  {
+    "name": "Bloodstalker",
+    "tame_type": "Special",
+    "feed": "Blood Packs",
+    "notes": "Large spider-like creature (Bog, Gen1). It tames by drinking your blood. Let it grab you from a tree and consume Blood Packs from your inventory. Bring hundreds of Blood Packs for high levels. No traditional feeding; just survive until taming is finished. A parachute or glider is useful in case it drops you."
+  },
+  {
+    "name": "Brontosaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Crops, Mejoberries",
+    "notes": "Massive sauropod with huge torpor. Best tamed by trapping its legs with large bear traps or by tranqing from a cliff. Use many tranq darts/arrows. feed Exceptional Kibble or veggies for faster results. Torpor drains slowly, but the huge torpor pool means a long wait; bring narcotics for safety. Great berry and thatch harvester when tamed."
+  },
+  {
+    "name": "Bulbdog",
+    "tame_type": "Passive",
+    "feed": "Aquatic Mushroom, Amarberry Seed",
+    "notes": "One of Aberration’s \"light pets\". Approach and feed its preferred food (Aquatic Mushrooms are best) in the last slot. It’s docile and won’t attack or flee. Subsequent feedings occur after intervals. Very quick tame with mushrooms. Provides charge light when tamed (useful against nameless)."
+  },
+  {
+    "name": "Carbonemys",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Giant turtle with a thick shell. It’s slow – you can walk backward and tranq it safely. Aim for headshots for more torpor (shell greatly reduces damage). feed Regular Kibble or crops. Torpor drains slowly, but high torpor for high levels means longer KO time; have narcotics. Watch out for its strong bite if it catches up."
+  },
+  {
+    "name": "Carcharodontosaurus",
+    "tame_type": "Special",
+    "feed": "Dead creature corpses (to gain trust), then Raw Prime Meat",
+    "notes": "Enormous theropod added in late ARK. Not a standard KO tame: you must first earn its trust by feeding it carcasses. Lead it to dead creatures or throw corpses at it; once its trust bar is filled, you can ride it. While riding, kill creatures to fill the taming meter. Bring several creature corpses (e.g. baby dinos) to expedite. It’s aggressive until the trust phase is completed."
+  },
+  {
+    "name": "Carnotaurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Mid-sized carnivore with a fast sprint and headbutt. Lure into a trap or get it stuck between trees, then tranq. Use Regular Kibble or mutton for best results. Torpor drains at a moderate rate – have some narcotics handy. Its head-butt can knock you back; keep distance while shooting."
+  },
+  {
+    "name": "Castoroides",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Crops, Mejoberries",
+    "notes": "Giant beaver near water. It will attack when provoked; a trap or shooting from a ledge works well. KO with darts or arrows (they have decent torpor). feed Superior Kibble or veggies. Torpor drains fairly fast, so monitor and use narcotics as needed. Wild ones may be in groups and will assist each other."
+  },
+  {
+    "name": "Chalicotherium",
+    "tame_type": "Passive",
+    "feed": "Beer Jar",
+    "notes": "Large aggressive herbivore that throws boulders. Approach only with full Ghillie and Bug Repellent; they will attack if too close or if not ready to eat. Place a Beer Jar in last slot and feed from behind, then back away. Long interval between feedings. Beer is the only effective food. Be cautious taming, as they often inhabit dangerous areas."
+  },
+  {
+    "name": "Coelacanth",
+    "tame_type": "Special",
+    "feed": "Fish Basket (Aberration)",
+    "notes": "Passive fish, not tameable by conventional means. On Aberration, you can capture a Coelacanth in a Fish Basket and then release it as a tame. No feeding required during capture; place the basket near the fish and deploy. Once released, it is \"tamed.\" Limited utility – cannot be commanded far from water."
+  },
+  {
+    "name": "Compy",
+    "tame_type": "KO",
+    "feed": "Raw Mutton, Raw Prime Meat",
+    "notes": "Tiny pack-hunting dinosaur. They only eat prime meats while taming – have Raw Prime Meat or Mutton ready before knocking one out. Use a club or a couple of tranq arrows (very low torpor needed). They wake quickly, so feed immediately. Often tamed in groups; knock out the whole group at once if possible. No saddle needed."
+  },
+  {
+    "name": "Crystal Wyvern",
+    "tame_type": "Passive",
+    "feed": "Primal Crystal",
+    "notes": "Found on Crystal Isles (Tropical, Ember, Blood variants). Non-aggressive until attacked. To tame, hand-feed it Primal Crystal (obtained by knocking out a Crystal Wyvern and harvesting its crystals). After the first feed, it will fly around – follow with a fast flyer or parachute/glider and feed when it slows down until tamed. Using regular Crystal works but with lower efficiency. No milk needed like classic Wyverns."
+  },
+  {
+    "name": "Daeodon",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Heal-capable boar in packs. They have a hunger drain ability that makes them eat constantly when KO’d. Trap or immobilize them (they flee when torpor high). KO with tranqs; then immediately feed plenty of food. Use Superior Kibble or mutton for quicker taming. Bring extra meat – Daeodons rapidly consume food to heal, which can drop taming effectiveness. Use narcotics as needed (torpor drains fast)."
+  },
+  {
+    "name": "Deinonychus",
+    "tame_type": "Special",
+    "feed": "Raise from Egg (Raw Meat as baby)",
+    "notes": "Feathered raptor on Valguero. Cannot tame wild adults – must steal a fertilized Deinonychus egg from a nest and hatch it. Incubate the egg and raise the baby by feeding raw meat. The wild parents are aggressive; prepare a fast escape after grabbing an egg."
+  },
+  {
+    "name": "Desert Titan",
+    "tame_type": "Special",
+    "feed": "N/A (Boss Tame)",
+    "notes": "Extinction boss (flying). Tamed by \"defeating\" it. Attack the corruption nodes on its wings and tail; when all nodes are destroyed, it becomes tamed to the last damager. No food required. Temporary tame by default. Avoid its lightning strikes and swarming flock minions during the fight."
+  },
+  {
+    "name": "Desmodus",
+    "tame_type": "Passive",
+    "feed": "Blood Pack",
+    "notes": "Giant vampire bat (Fjordur). Non-traditional passive tame: have Blood Packs in your last slot and let the Desmodus grab you (or a tame). It will consume the Blood Packs as it drains blood. High-level Desmodus require many packs – bring dozens. Trap the Desmodus in a cage for safety if possible. Once tamed, it produces Sanguine Elixir (for taming boost) and can grant invisibility while ridden."
+  },
+  {
+    "name": "Dilophosaur",
+    "tame_type": "KO",
+    "feed": "Basic Kibble, Raw Meat",
+    "notes": "Common small predator that spits venom. Easily bola or even punch to knock out (very low torpor needed). feed Raw Meat; Basic Kibble will insta-tame most. No narcotics necessary. Good early-game \"guard dog,\" though low health."
+  },
+  {
+    "name": "Dimetrodon",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Prime Meat, Raw Mutton",
+    "notes": "Swamp-dwelling finned reptile. High torpor relative to low health – use darts or be very careful with arrows to avoid killing it. It’s slow-moving; you can kite on foot. feed Regular Kibble or prime meat. Torpor drains extremely fast, so bring a large amount of narcotics or Bio Toxin. Often tamed for its insulation buff (acts as an air conditioner when nearby)."
+  },
+  {
+    "name": "Dimorphodon",
+    "tame_type": "KO",
+    "feed": "Basic Kibble, Raw Prime Meat",
+    "notes": "Small flyer often in flocks. If attacked, nearby dimorphs will swarm. Bola one at a time and tranq. Low health – use weak tranqs or a slingshot to avoid killing. feed Basic Kibble or prime meat. Keep others at bay until tamed. No saddle; deadly when used in swarms as tames (ignore armor)."
+  },
+  {
+    "name": "Dinopithecus",
+    "tame_type": "Special",
+    "feed": "Exceptional Kibble, Raw Mutton, Mejoberries (Omnivore)",
+    "notes": "Large baboon (Lost Island). Only the alpha of a wild troop is tameable. Kill all other troop members, then injure the alpha until it’s below ~85% health. It becomes passive – approach and feed (it eats both plant and meat; Exceptional Kibble or mutton preferred). If it loses interest, inflict a bit more damage carefully. The alpha throws feces grenades and can call backup, so kill the extras first."
+  },
+  {
+    "name": "Diplocaulus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Prime Meat",
+    "notes": "Small amphibian in swamps, often chased by predators. Kill threats or carry it with a flyer to safety. KO with gentle means (low health). feed Regular Kibble or prime meat. Torpor drains moderate. After taming, you can carry it on shoulder or ride (as a scuba tank – provides oxygen when ridden or carried underwater)."
+  },
+  {
+    "name": "Diplodocus",
+    "tame_type": "Passive or KO",
+    "feed": "Simple Kibble, Crops, Mejoberries",
+    "notes": "Long-necked sauropod that playfully headbutts. Tame **passively** by approaching and feeding (it will nudge you but does no damage), or **KO** and then feed normally. Passive tame takes longer but you avoid torpor management. KO taming is straightforward but it will actively shove you during knockout attempt. Simple Kibble or veggies are effective. It has no damage attack, only push – so it’s safe, just annoying. Taming method (passive vs KO) does not change its stats."
+  },
+  {
+    "name": "Dire Bear",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Giant Bee Honey",
+    "notes": "Aggressive bear with high health and damage. Use a trap (e.g. 3 stone gateways in a row with small gaps) to contain it, then tranq. It gets faster the longer it chases, so trapping is safer. feed Superior Kibble or mutton. Torpor drains slowly, typically no need for many narcotics. Note: Giant Bee Honey is nearly as effective as prime meat for taming if available. After tame, Dire Bears are excellent all-around mounts with massive carry weight and damage."
+  },
+  {
+    "name": "Direwolf",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Pack-hunting wolf (no saddle needed). Isolate one from the pack (kill or lure away others) because packs have a leader buff. A bola can pin a single wolf, then tranq quickly. Use Superior Kibble or mutton for fastest tame. Torpor drains moderate; a few narcotics may be needed on high levels. Once tamed, they gain a pack howl buff in groups and are very good cave mounts."
+  },
+  {
+    "name": "Dodo",
+    "tame_type": "KO",
+    "feed": "Basic Kibble, Mejoberries",
+    "notes": "The quintessential starter tame. A couple of punches or a club hit will knock out this small bird. feed Mejoberries or other berries (Basic Kibble for instant tame on low levels). No narcotics needed. Often tamed for simple early food/ hide or as an egg layer for Basic Kibble."
+  },
+  {
+    "name": "Doedicurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Armored rolling herbivore. When low on health or torpor, it curls into a ball which greatly reduces further torpor gain and damage. Try to tranq it quickly before it balls up (use high torpor tranqs like darts). If it does ball, be patient until it uncurls to continue. feed Regular Kibble or veggies. Torpor drains slowly. Exceptional stone gatherer once tamed."
+  },
+  {
+    "name": "Dreadnoughtus",
+    "tame_type": "Special",
+    "feed": "Element",
+    "notes": "Giant sauropod (Extinction ASA). Unique taming event at Element Veins. Lure the Dreadnoughtus toward an active Element Node by feeding it Element so it follows you. Keep it near the vein as it absorbs element, fending off hostiles. Once it absorbs enough (taming bar fills), it becomes tamed. No inventory feeding is done – the Element used is effectively the cost. Clear area of threats beforehand; bring lots of Element. (This tame is event-based rather than standard food consumption.)"
+  },
+  {
+    "name": "Dung Beetle",
+    "tame_type": "Passive",
+    "feed": "Feces (Large Animal Feces preferred)",
+    "notes": "Found in caves. Approach and feed it feces – larger feces give more progress. It will wander; follow and feed when hungry again. Using massive feces (e.g. Titanosaur/Bronto) can tame in one feed. Be cautious of other cave threats. Once tamed, enable wandering in a secure area to convert feces into fertilizer and oil."
+  },
+  {
+    "name": "Dunkleosteus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Prime Fish Meat",
+    "notes": "Heavily armored fish in deep ocean. Use a crossbow or harpoon with tranq bolts from outside its turning radius (it’s slow to turn). It has armor reducing damage, so expect to use many tranqs. feed Exceptional Kibble or prime fish meat. Torpor drains slow. Once tamed, an excellent underwater harvester of oil and metal (weight reduced in its inventory)."
+  },
+  {
+    "name": "Electrophorus",
+    "tame_type": "Passive",
+    "feed": "Bio Toxin, Raw Prime Fish Meat",
+    "notes": "Electric eel. Use a Basilosaurus or Stego (immune to shocks) to approach safely. Passive tame by feeding Bio Toxin (jellyfish venom) – most effective and keeps them docile. You may need to let it start to aggro then feed quickly to calm it. Often in groups; try to separate one. No saddle needed; tamed eels have a shocking attack useful in water combat."
+  },
+  {
+    "name": "Equus",
+    "tame_type": "Passive",
+    "feed": "Simple Kibble, Rockarrot",
+    "notes": "Horse that flees when approached. Sneak up and press feed (with Rockarrot or Simple Kibble in last slot) to mount it. While riding, it will buck – press feed prompt (same food) when asked to calm it. Repeat until tamed. If thrown off, chase and re-mount as taming progress stays. Equus can kick to knock out creatures and act as a mobile mortar and pestle."
+  },
+  {
+    "name": "Featherlight",
+    "tame_type": "Passive",
+    "feed": "Auric Mushroom, Plant Species Z Seed",
+    "notes": "Small glowing bird (Aberration). Approach and feed an Auric Mushroom or Plant Z Seed (seed gives higher efficiency). It’s skittish but won’t attack. Ghillie can help to get close. After feed, wait for hunger and repeat. Provides charge light when tamed."
+  },
+  {
+    "name": "Ferox",
+    "tame_type": "Special",
+    "feed": "Element",
+    "notes": "Adorable yet dangerous shapeshifter (Genesis). Found in small form. Place Element in last slot and feed it to the small Ferox – it will transform into its giant form and become aggressive. Survive (or trap it with a net) until it calms back to small, then repeat feeding Element. Each Element feed increases taming. High levels need multiple Element. Caution: the big Ferox hits hard; use a net gun or grapple to keep distance during its rage. Once tamed, it stays small until you feed it element to transform at will."
+  },
+  {
+    "name": "Fjordhawk",
+    "tame_type": "Special",
+    "feed": "Dead Creature Corpses",
+    "notes": "Intelligent hawk (Fjordur). Tamed by feeding on corpses. Lure a wild Fjordhawk by killing a creature; the hawk will swoop down to eat. The more it eats, the more taming increases – larger corpses (high drag weight) give more progress. Plan to kill several big creatures in succession (e.g. Rex, Bronto) in the hawk’s vicinity. Alternatively, injure a large creature and let the hawk finish it. Do not attack the hawk. Once tamed, it will follow you and retrieve your inventory when you die. It will also eat your dead tame’s inventory if you’re not careful, so manage what corpses it has access to during taming."
+  },
+  {
+    "name": "Forest Titan",
+    "tame_type": "Special",
+    "feed": "N/A (Boss Tame)",
+    "notes": "Extinction boss (forest). Destroy the corruption on its body (one on each shoulder, one on its chin) to tame. Shoot the glowing corruption spots while dodging its vine attacks and summoned creatures. When all corruption is destroyed, the Forest Titan is tamed to you. No feeding needed. Temporary tame by default. It’s a massive platform creature with powerful melee and a sappling throw."
+  },
+  {
+    "name": "Gacha",
+    "tame_type": "Passive",
+    "feed": "Snow Owl Pellet, Metal Structures, Raw Metal",
+    "notes": "Crystal-producing creature (Extinction). Do not tranq. Instead, drop items on the ground for it to eat. Its favorites are Snow Owl Pellets and metal-based items (structures or raw metal). It will pick up and eat them, gaining taming progress. Continually drop high-value items until tamed. Avoid harming or it will reset taming. Tamed Gachas produce random resources (depending on what they eat) in their inventory as crystals."
+  },
+  {
+    "name": "Gallimimus",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Crops, Mejoberries",
+    "notes": "Skittish fast herbivore. Will sprint away. Bola or a trap strongly recommended. KO with tranq headshots (careful, low health). feed Superior Kibble or veggies. Torpor drains quickly – use narcotics. Very fast 3-seat mount once tamed, but low weight capacity."
+  },
+  {
+    "name": "Gasbags",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Crops, Mejoberries",
+    "notes": "Inflatable creature (Extinction). When attacked it puffs up and can blast you away. Net or trap it to stop inflation, then tranq. If it inflates, wait until deflated to continue. feed Superior Kibble or berries. Torpor drains slow. Once tamed, it can suck in air and rocket jump or float while carrying heavy loads (weight reduction for resources)."
+  },
+  {
+    "name": "Giant Bee (Queen)",
+    "tame_type": "Passive",
+    "feed": "Rare Flower",
+    "notes": "Found by destroying wild beehives. When a hive is broken, a Giant Queen Bee appears. Wear Ghillie and use Bug Repellent to approach. feed it a Rare Flower to tame. May need a few flowers; follow it as it flies erratically. Once tamed, it turns into a beehive structure in your inventory. Place that to produce honey (requires Rare Flowers as fuel)."
+  },
+  {
+    "name": "Gigantopithecus",
+    "tame_type": "Passive",
+    "feed": "Superior Kibble, Mejoberries",
+    "notes": "Large ape wandering in jungles. It’s a passive tame but will become aggressive if you touch or get in front of it. Wear Ghillie and Bug Repellent to reduce detection. Approach from behind and feed (Superior Kibble or Mejo). Back off and follow at a short distance until next feeding. If it aggroes, run out of range and wait for it to calm (progress persists). No saddle needed; can carry you and throw you (or shoulder pets)."
+  },
+  {
+    "name": "Giganotosaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "One of the hardest tames due to massive torpor and damage. Use a large trap (e.g. metal gateways with bear traps) to contain it. Fire an enormous amount of tranq darts (shocking tranqs ideal) – arrows can enrage it if it takes too much damage quickly. It has extremely fast torpor decay – bring hundreds of narcotics or Bio Toxin and keep its torpor topped. Once down, feed Exceptional Kibble or mutton. Maintain torpor diligently. Beware its rage mechanic (when tamed it can \"rage\" if it takes too much damage, but this doesn’t affect taming)."
+  },
+  {
+    "name": "Glowtail",
+    "tame_type": "Passive",
+    "feed": "Auric Mushroom, Plant Species Z Seed",
+    "notes": "Glowing gecko (Aberration). Passive tame with Auric Mushrooms or Plant Z Seeds (seeds are preferred for efficiency). Found in Element Chamber (radiation area) – require Hazard Suit to reach. Approach carefully and feed. It won’t attack. Provides charge light when tamed."
+  },
+  {
+    "name": "Griffin",
+    "tame_type": "KO",
+    "feed": "Extraordinary Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Mythical flying predator (Ragnarok). Cannot be bola'd; best to trap in a few stone gates or use a fast flyer to chase and tranq mid-air. Flee when torpor is high, so trapping is recommended. Use longneck with darts (or arrows carefully). Extraordinary Kibble (formerly Allosaur Kibble) is best. Torpor drains moderate. No saddle needed when tamed; can dive-bomb and carry one passenger on back. Difficult but rewarding tame."
+  },
+  {
+    "name": "Hesperornis",
+    "tame_type": "Passive",
+    "feed": "Fish (drag a fish corpse)",
+    "notes": "Duck-like bird around water. Cannot be fed items from inventory. Instead, kill a fish and drag the fish corpse to the Hesperornis, then press feed to give it the whole fish. Larger fish give more progress (salmon are great). It will not attack you, but moves around – try trapping it in a small area with structures to easily feed multiple fish. After a few fish (depending on size and level) it tames. Once tamed, it can lay Golden Eggs if enabled to hunt fish on wander, which are used for extraordinary kibble."
+  },
+  {
+    "name": "Hyaenodon",
+    "tame_type": "Passive",
+    "feed": "Spoiled Meat, Raw Prime Meat",
+    "notes": "Hyena that flees and hides. Tamed by petting (no food needed in last slot). Isolate one from its pack (others will attack if it’s threatened). Wear Ghillie and crouch; approach from behind and press \"Pet\" when prompted. Then back away until it calms and repeat. Do not get in front of it or touch it, or it will panic. No saddle; tamed Hyaenodons can be picked up (shoulder) and have an inventory preserving feature when carried."
+  },
+  {
+    "name": "Ice Titan",
+    "tame_type": "Special",
+    "feed": "N/A (Boss Tame)",
+    "notes": "Extinction boss (ice). Tamed by breaking the corruption on its body (one on each thigh, one on its chest). It will jump and use ice breath; use a fast mount to avoid. Destroy all three corruption nodes to tame it. No feeding required. Temporary tame by default. Functions as a powerful siege beast with freezing breath when tamed."
+  },
+  {
+    "name": "Ichthyornis",
+    "tame_type": "KO",
+    "feed": "Raw Prime Fish Meat, Raw Fish Meat",
+    "notes": "Pesky seagull that steals items. They fly in circles and swoop to steal food. Use a bola when it dives, then tranq it. Only eats fish meat while taming (prime fish for best results). Torpor drains fast; use a few narcotics if needed. Once tamed, you can set it to hunt fish or small prey and it will \"golden\" the corpse (increasing yields). But be mindful if set free in base – they’ll steal food out of feeding troughs."
+  },
+  {
+    "name": "Ichthyosaurus",
+    "tame_type": "Passive",
+    "feed": "Simple Kibble, Raw Prime Fish Meat",
+    "notes": "Friendly dolphin. Often approaches swimmers. Passive tame – feed it meat (prefers Raw Prime Fish or Simple Kibble, but will take regular raw fish). They usually stick around and tame quickly. No saddle needed to ride initially (saddle optional for two-seater). Great beginner water mount – very fast and agile."
+  },
+  {
+    "name": "Iguanodon",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Versatile herbivore. Fairly easy KO – a few tranq arrows or bola then tranq. It will fight back but not too hard. feed Regular Kibble or veggies. Low torpor drain. After tame, it can convert fruit to seeds and run indefinitely on all fours (no stamina drain in quadruped mode). Good early-game harvester and scout."
+  },
+  {
+    "name": "Jerboa",
+    "tame_type": "KO",
+    "feed": "Mejoberries, Crops",
+    "notes": "Tiny desert rodent. A couple of punches or one tranq arrow will knock it out. feed Mejoberries or any berry. They tame very fast (no narcotics needed). Often the first tame on Scorched Earth – they act as weather forecasters (will make distinct noises for incoming storms). Wears on shoulder."
+  },
+  {
+    "name": "Kairuku",
+    "tame_type": "KO",
+    "feed": "Raw Prime Fish Meat, Raw Fish Meat",
+    "notes": "Penguin in cold biomes. Very low health – use a club or weak tranq to KO (headshots can kill it). Only eats fish meat while taming (Raw Prime Fish best). They don’t fight back. Torpor drains fast but tame is quick. Mainly tamed for their Organic Polymer yield (breeding and harvesting babies) or as cute pets. They also provide insulation when nearby."
+  },
+  {
+    "name": "Kaprosuchus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Small swamp crocodile that can leap and pin you. Use a shield or a mount to absorb its leap, then bola or net it. Tranq quickly once immobilized. If it pins you, have a tribemate shoot it. KO and feed Regular Kibble or mutton. Torpor drains fast; use narcotics. Watch out for other swamp threats while taming."
+  },
+  {
+    "name": "Karkinos",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Spoiled Meat",
+    "notes": "Giant crab (Aberration). Cannot be tranqed – must be KO’d with blunt force to its body. Use a catapult with boulders or a cannon to hit its shell (avoid hitting legs/claws to not kill it). Trap it in a gateway pen for easier aiming. After a few direct hits it will fall unconscious. feed Exceptional Kibble or spoiled meat. Torpor drains slowly. Be cautious not to over-damage it with cannon shots; use just enough to KO. Once tamed, it can pick up two creatures at once with its claws."
+  },
+  {
+    "name": "Kentrosaurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Small spiked stegosaur. It reflects damage and can impale attackers. Use tranq darts from range or a bear trap to hold it; avoid close melee due to impale. KO and feed Regular Kibble or crops. Torpor drains moderate. Do not use a mount to attack it for KO – you’ll injure your mount. Tamed Kentros can be used as base defense (turret mode to impale enemies)."
+  },
+  {
+    "name": "Lamprey",
+    "tame_type": "Special",
+    "feed": "Fish Basket",
+    "notes": "Leech-like creature (Aberration). Cannot be hand-fed. Use a Fish Basket: place the basket near the Lamprey in water and capture it. Once released from the basket, it becomes tamed. (Letting it latch onto you gives a buff but doesn’t tame it permanently.) Tamed lampreys can be carried on shoulder and give radiation immunity when they latch onto you (similar to leeches)."
+  },
+  {
+    "name": "Liopleurodon",
+    "tame_type": "Passive",
+    "feed": "Giant Bee Honey",
+    "notes": "Magical reef shark (rare). Only appears briefly during each instance. Passive tame by feeding Giant Bee Honey. Usually one honey will tame it instantly. Tamed Liopleurodon lasts only 30 minutes before disappearing. Its main benefit while tamed is increasing the quality of loot crates for the player. Treat it as a temporary buff rather than a permanent tame."
+  },
+  {
+    "name": "Lymantria",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Vegetables, Mejoberries",
+    "notes": "Giant moth (Scorched Earth). It flees and emits slowing spores. Bola it as it tries to escape, then tranq. Fragile, so use a few darts or tranq arrows carefully. feed Regular Kibble or veggies. Torpor drains slowly. Tamed Lymantria can be ridden but has no attack (just spores to slow targets). Good early flyer for transport but very low stamina."
+  },
+  {
+    "name": "Lystrosaurus",
+    "tame_type": "Passive",
+    "feed": "Rare Flower, Mejoberries",
+    "notes": "Small, friendly herbivore. Approach and feed Mejoberries or Rare Flowers (flowers speed up taming). It just waddles around – very easy tame. Pet it after taming to give an XP boost to nearby tames. Often one of the first passive tames."
+  },
+  {
+    "name": "Maewing",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Gliding platypus (Gen2). Very fast and will flee. Use a net gun or bola to stop it, then tranq. KO with darts or arrows (low health so be cautious). feed Superior Kibble or mutton. Low torpor decay – usually no narcotics needed. Tamed Maewings are phenomenal for raising babies (acts as a nursing trough) and for travel due to their gliding and speed."
+  },
+  {
+    "name": "Mammoth",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Vegetables, Mejoberries",
+    "notes": "Large woolly mammoth. Trap with stone gateways or a large bear trap to stop its charge, then tranq. It can knock you back with its tusk sweep. KO with darts/arrows. feed Superior Kibble or veggies. Torpor drains slowly. After taming, it’s an excellent wood harvester and now has a war-drum saddle that buffs allies."
+  },
+  {
+    "name": "Managarmr",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Agile ice-breathing drake (Extinction). They jump and dash crazily. Use a net projectile or chain bola to pin it, or trap between gates, then tranq. If no net, high speed and erratic movement make it tricky. KO with darts (they can injure themselves by thrashing in trap, so be efficient). feed Exceptional Kibble or mutton. Torpor drains moderate. Tamed Managarmrs are extremely fast and have a freezing breath, but wild ones are hard to target while taming."
+  },
+  {
+    "name": "Manta",
+    "tame_type": "Passive",
+    "feed": "AnglerGel",
+    "notes": "Stingray. Aggressive and usually around Basilo or coast. Requires passive tame with AnglerGel (its only accepted food). Use SCUBA and Lazarus Chowder. It will aggro when you get close – either trap it in a cage underwater or have it follow and quickly feed when it loses interest. Bug Repellent can reduce aggro from other fish. Expect to take some damage; high Health or a tanky tame as a distraction helps. Once tamed, Mantas are extremely fast water mounts that can leap out of water, but they have low health."
+  },
+  {
+    "name": "Mantis",
+    "tame_type": "Passive",
+    "feed": "Deathworm Horn",
+    "notes": "Large praying mantis (Scorched Earth). Wear full Ghillie and Bug Repellent. Approach from behind and feed a Deathworm Horn (only food it accepts, except Woolly Rhino Horn at lower efficiency). It will become aggressive if it sees you, so stay low and hidden. Usually takes a few horns for a high level. Once tamed, it can wield tools/weapons in its claws – excellent for combat and resource gathering. Found in deserts and volcanic areas."
+  },
+  {
+    "name": "Megachelon",
+    "tame_type": "Special",
+    "feed": "Microbe Swarm (Genesis)",
+    "notes": "Giant sea turtle (Gen1). Not tamed by KO or feeding. Must get a wild Microbe Swarm (fish shoal) to attack it and stay around it. Lure a Microbe Swarm to the Megachelon; the swarm will nibble the turtle and gradually tame it. You may need to swim around the turtle to keep the swarm interested. Clear any sharks or eels that threaten the swarm. No direct feeding by player. Once tamed, you can build on its shell and it provides oxygen and acts as a mobile base. It also passively generates rare resources like rare flowers and mushrooms."
+  },
+  {
+    "name": "Megalania",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Cave lizard that clings to walls/ceilings. It gives a rabies debuff if it bites you. Often you have to shoot it down from the wall. Tranq from a distance; it will drop and fight. Moderate torpor and low HP – darts recommended. feed Regular Kibble or mutton. Torpor drains moderate; use a few narcotics if needed. After taming, it can climb walls and ceilings when ridden. Bring antidote in case you get Mega Rabies from wild bites."
+  },
+  {
+    "name": "Megaloceros",
+    "tame_type": "KO",
+    "feed": "Simple Kibble, Vegetables, Mejoberries",
+    "notes": "Elk (male with antlers, female without). Skittish. Bola works on females (not sure if works on males in ASA, historically no for male due to size), but you can still corner/pen males. KO with a few tranqs or even a club on females. feed Simple Kibble or veggies. Torpor drains slow. Males are decent land mounts with a strong knockback attack; females are faster but cannot attack."
+  },
+  {
+    "name": "Megalodon",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Prime Fish Meat, Raw Fish Meat",
+    "notes": "Famous giant shark. Lure one to the surface or shallows where it can’t dive too deep, then tranq with crossbow or harpoon. They often come in groups – isolate one. KO and feed Superior Kibble or prime fish. Torpor drains moderate; underwater taming can be lengthy so have a scuba and some narcotics. Once tamed, a good starter ocean mount. Be mindful of its stamina and fairly average speed vs other sea creatures."
+  },
+  {
+    "name": "Megalosaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Carnivorous cave dino with day/night cycle (weak in day, strong at night). Usually found sleeping in daytime – ideal time to trap and tranq it (it will wake up but be groggy with reduced stats). At night they are fast and hit hard, so try to tame during day. KO with darts or arrows (sturdier than a Carno). feed Exceptional Kibble or mutton. Torpor drains moderate. After taming, it will get sleepy during daytime (lower stats) and is very strong at night. Great caving mount if managed around its sleep requirement."
+  },
+  {
+    "name": "Megaraptor",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "New large raptor (Valguero ASA). Aggressive and fast. Use a bola or net to stop it, then tranq quickly. If none, a trap or elevation is needed because of its speed and potential pack. KO and feed Regular Kibble or mutton. Torpor drains moderate. Treat it like an Allosaurus-level predator – dangerous in groups. Once tamed, it’s a strong mid-tier carnivore mount."
+  },
+  {
+    "name": "Megatherium",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Giant sloth with insect rage. Normally passive until attacked. Use large bear traps or a stone trap; it’s strong when enraged by killing bugs (bug-killer buff). Tranq with darts/arrows (keep it away from insects during taming or it can buff mid-fight). feed Exceptional Kibble or mutton. Torpor drains slow. Clear out any bugs in the area first, because if the Megatherium kills one mid-tame, it will get a massive strength boost and potentially break traps/kill you. After tame, it’s one of the best creatures for chitin harvesting and boss fights (Broodmother) due to the bug buff."
+  },
+  {
+    "name": "Mesopithecus",
+    "tame_type": "Passive",
+    "feed": "Mejoberries",
+    "notes": "Small monkey in jungles. Skittish – will flee if startled. Wear Ghillie and crouch to approach with Mejoberries in last slot. feed, then back off and follow until it hungers again. Do not bump it or move too fast. It may take a few berries. No saddle; rides on shoulder and can throw poop to slow targets."
+  },
+  {
+    "name": "Microraptor",
+    "tame_type": "KO",
+    "feed": "Rare Flower, Raw Prime Meat",
+    "notes": "Tiny bird that stuns riders. Aggressive to players. Use a bola when it attacks (or before it flees), then tranq. Prefers Rare Flowers once knocked out (they eat flowers for taming); raw prime meat also works. Torpor drains fast; use a couple narcotics. Often spawns in forests. After taming, can be used to knock players off mounts in PvP or set to attack to stun wild creatures."
+  },
+  {
+    "name": "Morellatops",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Camel-like creature (Scorched Earth). Usually found in herds that will defend each other. Bola one or separate it, then tranq. It flees when torpor gets high. KO and feed Regular Kibble or veggies. Torpor drains moderate. Once tamed, it acts as a water tank (can store water you can drink) and is a decent pack animal with good weight."
+  },
+  {
+    "name": "Mosasaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Prime Fish Meat",
+    "notes": "Massive deep-sea reptile. Very dangerous. Often stays near the deep bottom. Many use the \"quetz platform and grappling\" trick – not applicable underwater. Instead, build a large behemoth gate trap on sea floor, or utilize its tendency not to surface past a certain depth – you can hover just above its \"boundary\" and shoot down at it safely. KO with lots of tranq harpoons or crossbow bolts. feed Exceptional Kibble or prime fish. Torpor drains moderate to slow. Bring plenty of narcotics if using fish meat (long tame). Once tamed, one of the most powerful ocean mounts. Use caution during pursuit – its bite is deadly and it often comes with eels or other dangers."
+  },
+  {
+    "name": "Moschops",
+    "tame_type": "Passive",
+    "feed": "Varied (e.g. Mejoberry, Rare Mushroom, Prime Meat)",
+    "notes": "Cowardly omnivore. Each Moschops has a random preferred food (shown on HUD when you approach). Could be Mejoberry, Prime Meat, Prime Fish, Organic Polymer, Rare Flower, Giant Bee Honey, etc.. Have a variety ready or check a few individuals to find one wanting something you have. Put that item in last slot and feed to start taming. It will wander; follow and feed the requested item each time it asks (its desired food may change each feed). Skittish but won’t attack. Once tamed, it won’t fight but is an excellent gatherer of specific resources when directed."
+  },
+  {
+    "name": "Noglin",
+    "tame_type": "Special",
+    "feed": "Sacrificial Tames (via mind control)",
+    "notes": "Tiny mind-control creature (Gen2). To tame, you must let it \"mind control\" and kill your tamed creatures. Build a small pen and fill it with a few weak tames (high XP yield ones are best, e.g. baby Spinos). Lure the Noglin to the pen (a Skiff helps) and let it latch onto and kill the tames one by one. Each kill increases taming percent. Repeat with enough creatures until fully tamed. It doesn't eat from inventory at all. Bring more sacrificial creatures than you think needed in case. Once tamed, it can be thrown to mind-control enemy creatures or players for a short duration. Requires no saddle."
+  },
+  {
+    "name": "Onyc",
+    "tame_type": "Passive",
+    "feed": "Raw Meat, Raw Prime Meat",
+    "notes": "Giant bat (caves). Aggressive if alerted. Wear Bug Repellent and Ghillie to approach. Passive tame with meat (Raw Prime Meat speeds it up). feed it while it’s not aggro – careful, they often travel in swarms. Ideally isolate one (kill others or separate them). They have a large detection range, so repellent is crucial. After a feed, wait until it’s hungry again and repeat. Tamed Onycs cannot be ridden but can be useful as base defense (they inflict bleed)."
+  },
+  {
+    "name": "Otter",
+    "tame_type": "Passive",
+    "feed": "Fish (drag fish corpse)",
+    "notes": "Small otter found by rivers. To tame, you must feed it dead fish. Kill a fish, drag the corpse, and approach the otter to feed the whole fish. Bigger fish = more taming progress. They are usually docile. It may take a few fish for higher levels. Once tamed, an otter can ride on your shoulder and boost your insulation. They can also be directed to gather fish and sometimes collect Black Pearls from fish."
+  },
+  {
+    "name": "Oviraptor",
+    "tame_type": "Passive",
+    "feed": "Fertilized Eggs",
+    "notes": "Egg thief. Only tamed by feeding fertilized eggs. Larger eggs give more progress. Put a fertilized egg in last slot and feed it (you’ll lose the egg). It will run after each feed – using a bola to keep it in place helps. No narcotics needed (passive). High level Oviraptors may need multiple eggs (using a Rex or Giga egg can tame one in a single feed). Once tamed, it boosts egg-laying of nearby tamed dinos when set to wander (but will constantly eat meat to sustain the buff)."
+  },
+  {
+    "name": "Ovis",
+    "tame_type": "Passive",
+    "feed": "Sweet Vegetable Cake",
+    "notes": "Peaceful sheep. Approach and feed Sweet Vegetable Cake to tame. One cake often instantly tames a low-level Ovis. They are rare and typically flee when attacked but otherwise don’t run from players. After tame, they only eat berries (cakes not required). Often kept for their wool (shear it) or slaughtered for large amounts of mutton. Breed them for a renewable mutton supply."
+  },
+  {
+    "name": "Pachy",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Vegetables, Mejoberries",
+    "notes": "Small dome-headed herbivore that inflicts torpor with its headbutt. It will attack if approached too closely. A bola works to immobilize, then a few tranqs or a club will knock it out. feed Regular Kibble or veggies. Low torpor drain. Tamed Pachy can be ridden and used to knock out other creatures (its charge headbutt does torpor damage), though it’s relatively weak."
+  },
+  {
+    "name": "Pachyrhinosaurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Horned dino with special pheromone gas. It’s normally passive unless attacked, but can release a \"calming\" scent to de-aggro nearby creatures or an \"irritant\" scent to aggro them. For taming, treat it like a Trike: tranq it from a distance (if attacked it might flee rather than fight due to calm pheromone). KO and feed Regular Kibble or crops. Torpor drains slow. After tame, you can ride it and use its two types of gas to manage nearby wild dino behavior – useful utility."
+  },
+  {
+    "name": "Paraceratherium",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Crops, Mejoberries",
+    "notes": "Giant swamp giraffe (\"Paracer\"). Fairly slow but hits hard. Use large bear traps or a gate trap to hold it still, or tranq from a cliff. KO with many tranqs (similar torpor to a Bronto). feed Exceptional Kibble or veggies. Torpor drains slow, but long tame on berries – kibble recommended. Bring narcotics for high levels just in case. Once tamed, can equip a platform saddle to build a mobile base – excellent pack animal."
+  },
+  {
+    "name": "Parasaur",
+    "tame_type": "KO",
+    "feed": "Basic Kibble, Mejoberries",
+    "notes": "Very common and usually first tame for many. They flee when attacked. Bola to stop it, then punch or tranq to knock out (easy torpor). feed Mejoberries or other berries (Basic Kibble for near instant tame on low levels). Torpor drains slow. Tamed Parasaur is a beginner mount with decent speed and a detection ability to warn of enemies."
+  },
+  {
+    "name": "Pegomastax",
+    "tame_type": "Passive",
+    "feed": "Mejoberries",
+    "notes": "Pesky little thief. Tamed by letting it steal from you. Put Mejoberries in your last slot (a full stack). When a Pegomastax runs up and pickpockets you, it will take the berries and that counts as a feeding. If one theft isn’t enough, put another stack in last slot and let it steal again. Try to isolate one (they often come in packs). Once tamed, they can be set on wander to pickpocket players."
+  },
+  {
+    "name": "Pelagornis",
+    "tame_type": "KO",
+    "feed": "Raw Prime Fish Meat, Raw Fish Meat",
+    "notes": "Seagull-like bird that lands on water. They flee when attacked. Bola when it lands (on ground or water surface) then tranq. Only eats fish meat when taming – prime fish is best. Torpor drains fast; use a few narcotics if using regular fish. Tamed Pelagornis can land on water and is good for fishing (harvests extra prime fish). Low carry weight but useful early-game water-capable flier."
+  },
+  {
+    "name": "Phiomia",
+    "tame_type": "KO",
+    "feed": "Mejoberries, Vegetables",
+    "notes": "Pig-like herbivore. Simple tame: a few tranq arrows or club hits (they flee). feed Mejoberries or any berries (veggies faster). Torpor drains fast but tame is short. Hardly any narcotics needed if at all. Primarily tamed to mass-produce feces by force-feeding Stimberries (for fertilizer production). Not a great mount."
+  },
+  {
+    "name": "Phoenix",
+    "tame_type": "Special",
+    "feed": "N/A (ignite during Superheat event)",
+    "notes": "Mystical flaming bird (Scorched Earth). Only spawns during a Superheat event. Cannot be tranquilized or fed. To tame, you must continually burn it until tamed. Use a Flame Thrower, fire arrows, or a Fire Wyvern’s breath to keep it ignited. It will fly around quickly; you may need a fast flyer to chase it. It doesn’t show a taming bar normally, but each flame hit increases taming. It may require multiple heat events to complete. Once tamed, it never lands and only \"eats\" Sulfur. It functions as a living furnace (cooks meat and smelts metal ore in its inventory)."
+  },
+  {
+    "name": "Piranha",
+    "tame_type": "Special",
+    "feed": "Fish Basket (Aberration)",
+    "notes": "Vicious small fish. Not tameable through knockout or feeding. Like other fish, use the Fish Basket on Aberration to capture it. Place a basket near a piranha, wait for it to swim in, then capture. Release from the basket to obtain a tamed piranha. These tamed fish have limited use (they can defend a pond or be a novelty, but can’t travel on land or follow far)."
+  },
+  {
+    "name": "Plesiosaur",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Prime Fish Meat",
+    "notes": "Huge marine reptile (Loch Ness type). Often found in deep underwater caves and has an \"above depth\" barrier beyond which it won’t chase. Use that: swim up until it stops pursuing, then float above and tranq downward where it can’t reach you. Alternatively, trap with 4 behemoth gateways in a box formation underwater. KO with crossbow or harpoon tranqs. feed Exceptional Kibble or prime fish. Torpor drains moderate; underwater tame can be long – bring narcotics. Watch for it often spawning in pairs and with other threats (eels, Mosas). Once tamed, it’s a powerful ocean mount and platform saddle can be attached."
+  },
+  {
+    "name": "Procoptodon",
+    "tame_type": "KO",
+    "feed": "Rare Mushroom, Vegetables, Mejoberries",
+    "notes": "Giant kangaroo. They flee quickly and are immune to normal bola. Use a chain bola (via Ballista) or trap to immobilize, or chase with a fast mount. KO with tranqs (low health, so use darts if possible). Prefers Rare Mushrooms for taming. Veggies or Mejos work slower. Torpor drains slowly. Hard to trap due to high jump. After taming, it can carry a small creature or baby in its pouch (great for raising babies or hauling a tribemate) and leap great distances."
+  },
+  {
+    "name": "Pteranodon",
+    "tame_type": "KO",
+    "feed": "Simple Kibble, Raw Prime Meat",
+    "notes": "Common flyer. Wait for it to land, then bola it and tranq (just a couple of arrows). They have low stamina and torpor. feed Simple Kibble or prime meat for quick tame. Torpor drains fast – use a few narcotics if using regular meat. Often first flyer for survivors; saddle at level 38. Low weight capacity but good speed; pump stamina after taming."
+  },
+  {
+    "name": "Pulmonoscorpius",
+    "tame_type": "KO",
+    "feed": "Spoiled Meat",
+    "notes": "Giant scorpion (caves). KO with tranqs – watch out, its sting will raise your torpor. Clear other threats first. They prefer Spoiled Meat once unconscious (more effective than raw meat). Torpor drains slowly. Useful as a tame for its ability to inflict torpor with attacks (some use it to help knock out other creatures) and eggs for Kibble. No saddle needed (ride bareback)."
+  },
+  {
+    "name": "Purlovia",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Burrowing ambush predator. Typically hidden underground – it will burst out to attack. Either bait it to emerge or use a Parasaur’s detection to find it. Once it’s out, tranq it quickly (a bola can stop it from re-burrowing). KO and feed Regular Kibble or mutton. Torpor drains moderate. Tamed Purlovia cannot be ridden, but can be buried to serve as a hidden storage or base defender that ambushes intruders."
+  },
+  {
+    "name": "Quetzal",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Giant solitary bird that always flies high and never lands. Hard to tame solo. Common methods: ride a fast flier (Tapejara or Griffin) and shoot from its back; or use a chain bola fired from a platform saddle; or have a tribe mate carry you with an Argent. If solo on single-player, you can try a \"transponder trick\" or use a Parachute and Whistle Aggressive on a flier to attack and get the Quetzal downed (complex). Easiest in ASA might be net projectile (if available). Once KO’d (likely in mid-air), it will fall – try to KO it above relatively safe ground. Exceptional Kibble is best. Torpor drains slow. Bring narcotics because taming takes a while. Once tamed, Quetzals are essential for transporting large loads and for their platform saddle (mobile base, Quetz trap). Often used to carry tames (with grab or ramps) or as a bomber with turrets."
+  },
+  {
+    "name": "Ravager",
+    "tame_type": "KO",
+    "feed": "Raw Mutton, Raw Prime Meat, Regular Kibble",
+    "notes": "Aberration pack predator. They have a bleed bite and can climb ziplines. Usually in packs of 3 (alpha has a glow). Kill or distract others, then bola one and tranq. KO and feed Raw Mutton or prime meat (Regular Kibble works too). Torpor drains moderate. They have a weight reduction for resources in inventory and are great cave mounts. Saddle allows them to use ziplines."
+  },
+  {
+    "name": "Rock Drake",
+    "tame_type": "Special",
+    "feed": "Raise from Egg (nameless Venom for baby)",
+    "notes": "Gliding, cloaking lizard (Aberration). Cannot tame wild adults. Must steal a fertilized Rock Drake egg from the Aberration biozone (radiation area). Use Hazard Suit. Once you have an egg, incubate it. The baby Rock Drake will only eat nameless Venom (drops from nameless) until grown. Stock up on venom (store in preserving salt or fridge). Raise the baby with venom feedings. After grown, you have a powerful gliding mount that can climb walls and go invisible. (Note: Also spawns on Fjordur in cave.)"
+  },
+  {
+    "name": "Rock Elemental",
+    "tame_type": "KO",
+    "feed": "Extraordinary Kibble, Sulfur, Stone",
+    "notes": "Massive living boulder (Scorched Earth). Appears as a rock until provoked. Cannot be tranqed – must be KO’d with explosive headshots. Common method: lure it to a trap (e.g. metal gateways) and use a Cannon to shoot its head (3-4 direct cannon headshots to KO a high level). Rockets to the head also work but risk killing it. Once knocked out, feed Extraordinary Kibble for best results, or Sulfur (preferred non-kibble) or stone/clay (slow). Torpor drains very slowly. Tamed Rock Elementals eat stone. They have high damage reduction and are superb siege and tank creatures (can throw rocks as attack)."
+  },
+  {
+    "name": "Sabertooth",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Large feline predator. Often in packs. A simple stone trap or bola will hold it still, then tranq. Moderate torpor and fairly low health; darts or careful arrows to KO. feed Regular Kibble or mutton. Torpor drains moderate; have a few narcotics for high levels. Common in mountains and caves. After taming, a good cave mount with decent attack and weight but lower health than a Thylacoleo."
+  },
+  {
+    "name": "Sabertooth Salmon",
+    "tame_type": "Special",
+    "feed": "Fish Basket (Aberration)",
+    "notes": "Angry fish with sharp teeth. Only tameable via Fish Basket capture, like Coelacanth and Piranha. Place a Fish Basket near a Salmon, wait for it to swim in, then capture and release to tame. Limited utility beyond novelty or possibly releasing in enclosed ponds as base defense (they attack when provoked). They cannot follow on land."
+  },
+  {
+    "name": "Sarco",
+    "tame_type": "KO",
+    "feed": "Raw Prime Fish Meat, Raw Fish Meat, Regular Kibble",
+    "notes": "Large crocodile. Slow on land, fast in water. Kite it on land and circle it to avoid its jaws, or stand just out of reach and tranq. In water, try to lure to shore because it’s very quick underwater. KO and feed Raw Prime Fish Meat (its preferred) or Regular Kibble. Torpor drains slowly. After tame, a good early amphibious mount with decent speed and stamina in water."
+  },
+  {
+    "name": "Shadowmane",
+    "tame_type": "Passive",
+    "feed": "Filled Fish Basket (≥0.5 weight fish)",
+    "notes": "Lionfish creature (Gen2 & Fjordur). Only tameable during its rest (for Shadowmane: in daytime they sleep, in groups). Wear full Ghillie and approach a sleeping Shadowmane with a Fish Basket (containing a large fish, 0.5+ weight is best). From behind, feed the filled fish basket to it. Then quickly retreat – once it wakes, it will teleport around. Track it until it lies down to sleep again, then repeat. Each feed must be a new basket with a fresh fish. Large fish improve taming efficiency. If it detects you, it will attack and you must break line-of-sight and wait for it to sleep to continue (taming progress retains). Best strategy is to trap a high weight fish (Sabertooth Salmon) beforehand. Once tamed, a Shadowmane is a top-tier mount: no saddle needed, can cloak, teleport-pounce, and has a powerful group roar buff if multiple are tamed."
+  },
+  {
+    "name": "Shastasaurus",
+    "tame_type": "Passive",
+    "feed": "Barnacle Scraping (requires Ichthyosaur)",
+    "notes": "Giant ichthyosaur marine reptile (The Center ASA). Taming involves scraping barnacles off its belly. Use a tamed Ichthyosaurus to safely get close underneath. When directly under the Shastasaurus, an option to \"Scrape Barnacles\" appears – do this to feed (acts like a passive feeding). Each scrape gives taming progress. After each scrape, the Shasta will become aggressive, spawning/attracting aggressive fish (e.g. Mantas, Megalodons). Deal with those threats and wait for the Shasta to calm, then scrape again. Repeat until tamed. This is a lengthy process but doesn’t consume items except time. Once tamed, the Shastasaurus serves as a massive sea base – its back can function as a large moving platform. It has huge health and can carry creatures (even a platform saddle dino) on its back in water."
+  },
+  {
+    "name": "Shinehorn",
+    "tame_type": "Passive",
+    "feed": "Aggeravic Mushroom, Plant Species Z Seed",
+    "notes": "Tiny glowing horned deer (Aberration). Passive tame with Aggeravic Mushrooms or Plant Z Seeds (seeds give higher effectiveness). They are docile; just walk up and feed when prompted. Follow and repeat until tamed. Typically found in the element or blue areas – watch for radiation. Once tamed, serves as a shoulder pet providing charge light to fend off nameless."
+  },
+  {
+    "name": "Sinomacrops",
+    "tame_type": "Passive",
+    "feed": "Chitin",
+    "notes": "Gliding shoulder pet (Lost Island). They are curious but skittish. Place Chitin in last slot, wear Ghillie, and approach slowly. Often, a Sinomacrops will fly to you out of curiosity – stop moving and let it come, then it will hover and \"ask\" for food. feed it chitin when it hovers near you. It will fly off; do not chase, just track it. It will come back for another feed. Repeat until tamed. If you spook it (move too fast or too close), it will flee and you’ll have to wait for it to calm and approach again. Once tamed, equip it on your back – it allows you to glide, double jump, and parachute. Also can screech to scare small creatures."
+  },
+  {
+    "name": "Snow Owl",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Owl (Extinction) similar to Argentavis in behavior. Aggressive and uses a slow effect. Trap in a flyer trap or net it to simplify. KO with darts or arrows. feed Superior Kibble or mutton. Torpor drains moderate. After taming, the Snow Owl can fly fast, heal allies (by an ability that freezes itself and others), and use heat vision. It also produces pellets used for Gacha taming."
+  },
+  {
+    "name": "Spinosaurus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Fish Meat",
+    "notes": "Large amphibious predator. Very fast in water, moderately fast on land. Either trap with large bear traps and gates or tranq from a high ledge; avoid fighting it in water. Use a lot of tranqs (darts ideal). It has a hydration buff when in water making it stronger, so lure it on land if possible. feed Exceptional Kibble or mutton (it prefers fish but will take regular meat for taming). Torpor drains faster than a Rex – have narcotics ready. Once tamed, Spino is an excellent combat mount (especially near water) with a bipedal and quadrupedal stance for versatility."
+  },
+  {
+    "name": "Stegosaurus",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Plated herbivore. Since TLC, it has different plate modes and resistance. It’s slow, so you can tranq while backing away. Aim for its head (not plates) for more torpor, but note plates reduce damage. KO and feed Regular Kibble or veggies. Torpor drains slow. They sometimes spawn in herds; nearby Stegos won’t actively defend each other like Trikes, but be careful of multiple aggro. Once tamed, its plate modes can be switched (heavy/defense, sharpened for armor penetration, etc.), making Stego versatile for harvesting or soaking turrets."
+  },
+  {
+    "name": "Tapejara",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Skittish three-seater pterosaur. It will fly away if spooked. One trick: consume a Rare Flower near it to get it to attack you instead of fleeing, then quickly bola it. Otherwise, a chain bola from a Ballista or net projectile can immobilize it. Once restrained, tranq it. feed Exceptional Kibble or mutton. Torpor drains moderate; use narcotics if needed. After tame, Tapejara can cling to walls and allow two additional riders (one front, one back) – great for base raids or taming Quetzals (pilot + shooter positions)."
+  },
+  {
+    "name": "Tek Stryder",
+    "tame_type": "Special",
+    "feed": "Mission Hacking (Gen2)",
+    "notes": "Huge robotic strider (Gen2). No KO or passive feed. To tame, you must complete a requisite number of Gen2 missions first (varies by Stryder level). Then you can initiate a hacking mini-game. Approach and activate the Stryder (with no aggressive creatures around). You’ll have to locate highlighted glowing spots on the Stryder and interact with them in sequence while staying within range. The Stryder will periodically attempt to jam the hack by moving; you must follow the prompts and re-engage at each node. If you stray too far or fail, taming efficiency drops and you must try again. Succeeding in all hack phases tames it. Higher level Stryders have more nodes and require more mission credits (plus they spawn with better modules). Once tamed, modules on it provide functions like a drill, shield, radar, or mobile base platform. It can be ridden without a saddle and even linked to a dedicated storage remotely."
+  },
+  {
+    "name": "Terror Bird",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Aggressive big bird. Usually in packs. They run fast and can glide. A bola can immobilize one, then tranq it. Watch for its pack mates. KO and feed Regular Kibble or mutton. Torpor drains moderate. Once tamed, you have a fast land mount that can briefly flutter to avoid fall damage. Common in Redwood and jungle areas – clear nearby threats like Thylacoleo before taming."
+  },
+  {
+    "name": "Therizinosaur",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Crops, Mejoberries",
+    "notes": "Very dangerous herbivore (\"Tickle Chicken\"). High torpor and high damage. Use a strong trap (e.g. 3 stone gateways and large bear traps) because it can easily kill a player or tame. It also has good torpor resistance, so bring lots of tranqs (preferably darts). KO and feed Exceptional Kibble or crops. Incredibly fast torpor drain – expect to use many narcotics or bio toxin. After a long tame, the Therizino is one of the most versatile tames: excellent at harvesting wood, fiber, berries, and a fearsome combatant (rivals a Rex when leveled)."
+  },
+  {
+    "name": "Thorny Dragon",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Spike-throwing lizard (Scorched Earth). Aggressive and can project narcotic spikes. Use a shield or terrain to block the spikes while tranqing, or attack from range. KO and feed Regular Kibble or mutton. Torpor drains moderate. After tame, Thorny Dragon works as a smithy and is a good wood harvester. Its spines can tranquilize wild targets (with some effect)."
+  },
+  {
+    "name": "Thylacoleo",
+    "tame_type": "KO",
+    "feed": "Extraordinary Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Redwood tree ambush predator (\"marsupial lion\"). They pounce from trees and pin prey. When searching, ride a flyer above tree line or use Paracer with platform to avoid surprise. To tame, it’s best to build a trap at the base of a tree and lure it down with a bait creature or by getting its attention (fly near it and dodge the pounce). Once on ground, a chain bola or net can restrain it, then tranq out. KO and feed Extraordinary Kibble or mutton. Torpor drains moderate. Very strong mount: fast climber, high melee, and can pounce on targets (including pinning and gashing players/tames). Be extremely careful in redwoods – always look up for Thylas!"
+  },
+  {
+    "name": "Titanoboa",
+    "tame_type": "Passive",
+    "feed": "Fertilized Eggs",
+    "notes": "Giant snake (swamps, caves). Like the Basilisk, it only tames by eating fertilized eggs. Clear the area of other threats, then drop a fertilized egg near the Titanoboa. It will slither over and consume it, gaining taming progress. Larger eggs (Wyvern, Rock Drake) give more progress per egg. You must remain out of aggro range (Ghillie and lying prone helps). Do not attack or it will reset taming. It might take several eggs for a high level. Once tamed, Titanoboa doesn’t require a saddle and will eat regular meat. Not rideable, and unfortunately cannot breed. Often tamed for its eggs (used in Extraordinary Kibble prior to Kibble rework) or as base defense (torpor-inducing bite)."
+  },
+  {
+    "name": "Titanosaur",
+    "tame_type": "Special",
+    "feed": "N/A (KO with Cannon projectiles)",
+    "notes": "The largest dinosaur (temporary tame). It’s a special KO tame: you must inflict massive torpor by hitting its head with Cannon Balls (or rocket launcher, etc.). Typically done using a Quetzal with a cannon platform or a stationary cannon and luring the Titanosaur into line of fire. Aim for the head; each direct hit adds torpor. It won’t eat or have an inventory, and once torpor maxes, it becomes tamed automatically. On official settings, Titanosaur cannot eat and will starve after 16-24 hours (unless \"Enable Raid feeding\" is on). On single-player or servers with that setting, you can feed it Exceptional Kibble or crops via a chain bola to keep it alive, but by default it’s meant as a short-term siege engine. No saddle needed; it comes with a built-in platform saddle. Use it to smash enemy bases or carry an entire base on its back, but be aware of the time limit."
+  },
+  {
+    "name": "Triceratops",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Crops, Mejoberries",
+    "notes": "Trike, a common 3-horned herbivore. It charges at you if provoked (and if you take an egg). You can dodge its charge by stepping aside last second, or use a large bear trap to stop it. Aim tranqs at the body or the unarmored head area (the crest and head give reduced damage). KO and feed Regular Kibble or veggies. Torpor drains slow. Be cautious of its “rivalry buff” if large predators are nearby, which boosts its stats. Once tamed, a trike is a solid early game mount that harvests berries well and has a charge attack that can knock back foes and even stun small creatures when fully charged."
+  },
+  {
+    "name": "Troodon",
+    "tame_type": "Special",
+    "feed": "Sacrificed Creatures (no direct feed)",
+    "notes": "Small nocturnal predator with venom. Taming requires sacrificing your own tames for it. At night, put a high-level (or several lower-level) tamed creatures on passive in an enclosure with wild Troodons. The Troodon gains taming progress each time it kills one of your tames. Use creatures with high EXP value: the higher the sacrifice’s level, the more progress. Popular strategy: use a couple of freshly hatched, high-level baby rexes or spinos – they yield a lot of XP when killed. Once the Troodon has consumed enough of your tames, it will become yours. No inventory feeding, and higher level Troodons require more or bigger sacrifices. After taming, Troodons are not rideable but can be useful as guard dogs – they maintain their venomous bite and have a pack buff at night."
+  },
+  {
+    "name": "Tropeognathus",
+    "tame_type": "Passive (after immobilization)",
+    "feed": "Extraordinary Kibble, Raw Mutton",
+    "notes": "Large pterosaur (Crystal Isles). Aggressive and flies quickly. First, immobilize it: ideally using a Chain Bola fired from a Ballista Turret (normal bola usually doesn’t work). Once chain-bola’d and down, approach and feed it Extraordinary Kibble or Raw Mutton. It will eat and then eventually break free and fly off – you must bola it again when it becomes hungry for the next feeding. It may take 2-3 rounds of bola + feeding to finish taming a high level. You can build a trap with a ballista facing into it to catch it each time it flees. Be careful not to injure it between feeds, as that can reduce effectiveness. Once tamed, equip its unique saddle which includes jet boosters and a grenade launcher, turning it into a fast aerial combat mount."
+  },
+  {
+    "name": "Tusoteuthis",
+    "tame_type": "Passive",
+    "feed": "Black Pearls",
+    "notes": "Giant squid. It will grab onto a mount with tentacles. To tame, let it grab a durable tame (e.g. a carbonemys turtle with high health and some veggie cakes for healing) or a basilosaurus (immune to grabbing but can soak damage) to occupy it. While it has your tame in its clutches, swim to its mouth and feed it Black Pearls. It usually takes a bunch of pearls, with time between feeds. After the first feed, it will let go and flee briefly; chase it until it grabs again for the next feed. Repeat until tamed. Make sure to monitor your mount’s health – a turtle with 20k health and some cakes or a Basilo is commonly used. Tamed Tuso is an excellent underwater fighter and it produces oil in its inventory. No saddle required (just ride it)."
+  },
+  {
+    "name": "Velonasaur",
+    "tame_type": "KO",
+    "feed": "Regular Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Living turret (Extinction). It fires spikes in rapid succession. Approach carefully or use cover. Best to net or chain bola it, because its ranged attack is deadly if you’re exposed. Tranq it once immobilized. If no net, try to line-of-sight behind rocks or use a shield to get close. KO and feed Regular Kibble or mutton. Torpor drains moderate. After taming, the Velonasaur can enter a turret mode and shoot a barrage of spikes, making it great for base defense or ranged support."
+  },
+  {
+    "name": "Voidwyrm",
+    "tame_type": "Special",
+    "feed": "Mutagen",
+    "notes": "Tek Wyvern (Gen2). Similar to a Wyvern but taming is via a \"ride and feed\" mechanic. First, weaken the Voidwyrm by fighting it until it starts to flutter in place (at around 10% health left). Once it’s in this state, it will attempt to grab you with its mouth during one of its bite attacks. Let it chomp you (you need decent health/armor to survive this). While you are bitten (you’ll be held in its jaws, camera third-person), a prompt will appear to feed Mutagen (have Mutagen in last slot). feed it, which increases taming percent and it will release you. It will then fly off and eventually attempt to bite/grab you again. Continue to let it grab and feed it Mutagen each time until tamed. Each consecutive feed requires more Mutagen (like 1 then 3 then 5, etc., for a total of ~9 per high-level). Be sure to bring enough Mutagen. Also using a parachute or shoulder pet with slow-fall can help if it drops you mid-air. Once tamed, it’s a strong aerial mount that can shoot plasma breath and doesn’t need a saddle."
+  },
+  {
+    "name": "Vulture",
+    "tame_type": "Passive",
+    "feed": "Spoiled Meat",
+    "notes": "Scavenger bird (Scorched Earth, deserts). Approach with Spoiled Meat in last slot and feed. They are usually found around corpses. They won’t attack unless provoked, but if you kill something near them they may aggro to contest the corpse. Use Ghillie and feed one at a time (others might aggro if they smell meat). After first feed, wait for hunger and feed again. Once tamed, they sit on your shoulder and will eat spoiled meat (handy waste disposal) and attack targets, inflicting a bleed. They also have the trait of not taking damage from most sources when on shoulder, making them good for carrying around."
+  },
+  {
+    "name": "Woolly Rhino",
+    "tame_type": "KO",
+    "feed": "Superior Kibble, Crops, Mejoberries",
+    "notes": "Large furry rhino. It has a charge attack that builds tremendous damage. Try to trap it or use bear traps, or tranq from a cliff – do not let it charge you fully (it will likely one-shot you). KO with darts/arrows (aim for head for extra torpor). feed Superior Kibble or veggies. Torpor drains slowly. Once tamed, its charge attack is extremely powerful (can one-shot many creatures when fully charged). Found in snow biomes; watch out for other threats when taming."
+  },
+  {
+    "name": "Wyvern",
+    "tame_type": "Special",
+    "feed": "Raise from Egg (Wyvern Milk for baby)",
+    "notes": "Fire, Lightning, Poison (Scorched/Ragnarok/Valguero) and Ice (Ragnarok/Valguero) Wyverns cannot be tamed as adults. You must steal a fertilized egg from a Wyvern trench/nest and hatch it. Prepare a fast flier (like a high-speed Ptera or Tek Suit for quick extraction), and grab an egg from a nest (you’ll aggro all nearby wyverns). Escape and lose aggro. Incubate the egg until it hatches (requires very hot temperatures, use multiple torches or heat sources). The baby Wyvern will not eat meat or berries – it only drinks Wyvern Milk. To get Wyvern Milk, knock out a wild female Wyvern (trough method: lead one into a trap and tranq it) and collect the milk from its inventory, or kill an Alpha Wyvern which drops some. feed the baby Wyvern with milk until it matures (milk spoils quickly, so use preserving salt or cryopod the baby between feedings to pause hunger). The number of milk feedings depends on server rates and baby food consumption. Once grown, you have a powerful flying mount with a breath attack unique to its type. Note: Wyvern raising is intensive – ensure you have enough milk especially if raising multiple babies. (Crystal Wyverns are separate variants that use a different taming method)."
+  },
+  {
+    "name": "Yutyrannus",
+    "tame_type": "KO",
+    "feed": "Exceptional Kibble, Raw Mutton, Raw Prime Meat",
+    "notes": "Furry T-Rex relative with a fear roar. Usually spawns with 3 Carno bodyguards it buffs. To tame, eliminate or lure away the Carnos first (use a strong mount or traps). The Yuty’s roar will scare your ridden dino (and you if on foot) – fight it from a distance or use a mount immune to fear (e.g., Giganotosaurus doesn’t flee). You can also hop off your mount right before the fear roar hits to avoid your mount running. Another tactic: use a large bear trap to momentarily hold it and focus tranq darts. KO with darts or arrows (it has decent torpor). feed Exceptional Kibble or mutton. Torpor drains moderate. Watch out for its roar while tranqing (hide behind rocks to break line of sight during its roar). Once tamed, Yutyrannus is prized for its buff/debuff capabilities: its courage roar increases ally dinos’ damage and resistance, and its fear roar causes most wild or enemy dinos to flee. It's commonly used in boss fights to buff the team."
+  }
+]

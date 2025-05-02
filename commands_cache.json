@@ -201,7 +201,7 @@
   },
   {
     "name": "GFI",
-    "description": "This command adds an item to your inventory, relative to the blueprint, amount and quality specified. You can specify only part of the blueprint instead of the full blueprint, provided it is a unique part that no other blueprints have (e.g. 'gem' is shared between the Blue Gem, Green Gem and Red Gem, so it cannot be used, but 'Absorbent' is only in 'Absorbent Substrate' so it is fine). See our <a href=\"https://arkids.net/items\">Ark ID list</a> for item IDs, blueprints, GFI codes, etc.",
+  "description": "This command adds an item to your inventory, relative to the blueprint, amount and quality specified.",
     "syntax": "cheat GFI <Blueprint / GFI> <Amount> <Quality> <Force Blueprint>"
   },
   {
@@ -1088,6 +1088,16 @@
     "name": "Dino TitanMode",
     "description": "This console command increases the inflation of Gasbags by 1000% (10x).",
     "syntax": "cheat Dino TitanMode"
+  },
+  {
+    "name": "SetGamma",
+    "description": "Set the game's gamma (brightness) on a scale from 0.0 to 6.0",
+    "syntax": "Gamma"
+  },
+  {
+    "name": "ClearWater",
+    "description": "Toggles underwater volumetric fog off (clear water).",
+    "syntax": "r.VolumetricFog 0"
   },
   {
     "name": "PrintActorLocation",
