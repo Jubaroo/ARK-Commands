@@ -1,13 +1,11 @@
-import sys
+import json
 import os
 import re
-import json
+import sys
 from typing import Optional, List
 
-import requests
-from bs4 import BeautifulSoup
 from PyQt5 import QtWidgets, QtGui, QtCore
-from PyQt5.QtWidgets import QLabel, QListWidget, QFormLayout, QListView
+from PyQt5.QtWidgets import QLabel, QFormLayout
 
 # Determine directory for resources when running packaged or in source
 if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
@@ -22,8 +20,6 @@ CACHE_LOCATIONS_FILE = os.path.join(BASE_PATH, "locations_cache.json")
 CACHE_COLORS_FILE    = os.path.join(BASE_PATH, "colors_cache.json")
 CACHE_COMMANDS_FILE  = os.path.join(BASE_PATH, "commands_cache.json")
 CACHE_TAMING_FILE    = os.path.join(BASE_PATH, "taming_cache.json")
-BASE_URL             = "https://arkids.net"
-
 
 def _load_json(path: str) -> Optional[list]:
     """
@@ -36,14 +32,12 @@ def _load_json(path: str) -> Optional[list]:
     except (FileNotFoundError, json.JSONDecodeError):
         return None
 
-
 def _save_json(path: str, data) -> None:
     """
     Serialize Python data to JSON file with indentation.
     """
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
 
 def _create_completer(items: List[str]) -> QtWidgets.QCompleter:
     """
@@ -54,154 +48,35 @@ def _create_completer(items: List[str]) -> QtWidgets.QCompleter:
     comp.setFilterMode(QtCore.Qt.MatchContains)
     return comp
 
-
-# Data retrieval functions: use cache when available, otherwise scrape pages
-
 def load_items() -> list[dict]:
-    """
-    Return list of {name, id} for all items, caching results.
-    """
-    if (cached := _load_json(CACHE_ITEMS_FILE)):
-        return cached
-    items, page = [], 1
-    while True:
-        url = BASE_URL + ("/items" if page == 1 else f"/items/page/{page}")
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
-            break
-        soup = BeautifulSoup(resp.text, "html.parser")
-        table = soup.find("table")
-        if not table:
-            break
-        for row in table.find_all("tr")[1:]:
-            cols = row.find_all("td")
-            if len(cols) < 4:
-                continue
-            name = cols[1].get_text(strip=True)
-            syntax = cols[3].get_text(strip=True).split()
-            gfi_id = syntax[2] if len(syntax) >= 3 else cols[2].get_text(strip=True)
-            items.append({"name": name, "id": gfi_id})
-        if not soup.find("a", string="Next Page"):
-            break
-        page += 1
-    _save_json(CACHE_ITEMS_FILE, items)
-    return items
-
+    """Return cached list of {name, id} for all items."""
+    return _load_json(CACHE_ITEMS_FILE) or []
 
 def load_creatures() -> list[dict]:
-    """
-    Return list of {name, class} for creatures, caching pages.
-    """
-    if (cached := _load_json(CACHE_CREATURES_FILE)):
-        return cached
-    creatures, page = [], 1
-    while True:
-        url = BASE_URL + ("/creatures" if page == 1 else f"/creatures/page/{page}")
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
-            break
-        soup = BeautifulSoup(resp.text, "html.parser")
-        table = soup.find("table")
-        if not table:
-            break
-        for row in table.find_all("tr")[1:]:
-            cols = row.find_all("td")
-            if len(cols) < 3:
-                continue
-            name = cols[1].get_text(strip=True)
-            raw = cols[2].get_text(strip=True)
-            cls = raw.split(".")[-1].strip("'\"")
-            creatures.append({"name": name, "class": cls})
-        if not soup.find("a", string="Next Page"):
-            break
-        page += 1
-    _save_json(CACHE_CREATURES_FILE, creatures)
-    return creatures
+    """Return cached list of {name, class} for creatures."""
+    return _load_json(CACHE_CREATURES_FILE) or []
 
 def load_taming() -> list[dict]:
-    try:
-        with open(CACHE_TAMING_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except Exception:
-        return []
+    """Return cached taming data."""
+    return _load_json(CACHE_TAMING_FILE) or []
 
 def load_locations() -> list[dict]:
-    """
-    Return list of {name, code} for map locations, caching result.
-    """
-    if cached := _load_json(CACHE_LOCATIONS_FILE):
-        return cached
-    resp = requests.get(f"{BASE_URL}/locations", timeout=10)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    locations = []
-    for row in soup.select("table tr")[1:]:
-        cols = row.find_all("td")
-        if len(cols) < 6:
-            continue
-        name = cols[2].get_text(strip=True)
-        coord = cols[5].get_text(strip=True).replace("cheat setplayerpos ", "").strip()
-        locations.append({"name": name, "code": coord})
-    _save_json(CACHE_LOCATIONS_FILE, locations)
-    return locations
-
+    """Return cached list of {name, code} for map locations."""
+    return _load_json(CACHE_LOCATIONS_FILE) or []
 
 def load_colors() -> list[dict]:
-    """
-    Return list of {name, id, hex} for dino color options.
-    """
-    if (cached := _load_json(CACHE_COLORS_FILE)):
-        return cached
-    resp = requests.get(f"{BASE_URL}/color-ids", timeout=10)
-    soup = BeautifulSoup(resp.text, "html.parser")
-    colors = []
-    for opt in soup.select("select option"):
-        val, hexcol = opt["value"], opt.get("data-color")
-        name = opt.get_text(strip=True).rsplit("(", 1)[0].strip()
-        colors.append({"name": name, "id": val, "hex": hexcol})
-    _save_json(CACHE_COLORS_FILE, colors)
-    return colors
-
+    """Return cached list of {name, id, hex} for dino colors."""
+    return _load_json(CACHE_COLORS_FILE) or []
 
 def load_commands() -> list[dict]:
-    """
-    Return list of {name, description, syntax} for console commands.
-    Scrape all pages if no cached data.
-    """
-    if (cached := _load_json(CACHE_COMMANDS_FILE)):
-        return cached
-    cmds, page = [], 1
-    while True:
-        url = BASE_URL + ("/commands" if page == 1 else f"/commands/page/{page}")
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
-            break
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for tr in soup.select("table#table-view tbody > tr"):
-            tds = tr.find_all("td", recursive=False)
-            if len(tds) < 4:
-                continue
-            name = tds[0].get_text(strip=True)
-            desc = tds[1].get_text(strip=True)
-            box = tds[3].find("div", class_="ac-code-showcase__box")
-            if not box:
-                continue
-            syntax = " ".join(box.stripped_strings)
-            cmds.append({"name": name, "description": desc, "syntax": syntax})
-        if not soup.find("a", string="Next Page"):
-            break
-        page += 1
-    _save_json(CACHE_COMMANDS_FILE, cmds)
-    return cmds
-
+    """Return cached list of {name, description, syntax} for console commands."""
+    return _load_json(CACHE_COMMANDS_FILE) or []
 
 def _resource_path(rel_name: str) -> str:
-    """
-    Get absolute path to resource inside PyInstaller bundle or source.
-    """
+    """Get absolute path to resource inside PyInstaller bundle or source."""
     if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
         return os.path.join(sys._MEIPASS, rel_name)
     return os.path.join(os.path.dirname(__file__), rel_name)
-
 
 class CheatApp(QtWidgets.QMainWindow):
     """
@@ -839,7 +714,6 @@ def run_app() -> None:
     w.show()
 
     sys.exit(app.exec_())
-
 
 if __name__ == "__main__":
     run_app()
