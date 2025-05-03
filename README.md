@@ -37,7 +37,7 @@ A simple, offline‑capable GUI tool for generating common "cheat" and admin com
    python cheat_generator.py
    ```
 
-> **Note:** This release bundles pre-built JSON caches; no network access or scraping is required at runtime.
+> **Note:** This release bundles pre-built JSON caches.
 
 ---
 
