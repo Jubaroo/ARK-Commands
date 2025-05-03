@@ -2,16 +2,28 @@ import json
 import os
 import re
 import sys
-from typing import Optional, List
+from datetime import datetime
+from tokenize import tabsize
+from typing import Optional, List, Any, Dict
 
 from PyQt5 import QtWidgets, QtGui, QtCore
-from PyQt5.QtWidgets import QLabel, QFormLayout
+from PyQt5.QtWidgets import QLabel, QFormLayout, QTextEdit, QVBoxLayout
 
 # Determine directory for resources when running packaged or in source
 if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
     BASE_PATH = sys._MEIPASS  # PyInstaller bundle path
 else:
     BASE_PATH = os.path.dirname(__file__)
+
+# Choose a persistent folder for user data
+if getattr(sys, "frozen", False):
+    # Windows %APPDATA% → C:\Users\<you>\AppData\Roaming\ARKCheatGenerator
+    data_dir = os.path.join(os.environ.get("APPDATA", BASE_PATH), "ARKCheatGenerator")
+else:
+    # during development, just drop it next to your script
+    data_dir = BASE_PATH
+
+os.makedirs(data_dir, exist_ok=True)
 
 # Paths for cached JSON data
 CACHE_ITEMS_FILE     = os.path.join(BASE_PATH, "items_cache.json")
@@ -20,7 +32,69 @@ CACHE_LOCATIONS_FILE = os.path.join(BASE_PATH, "locations_cache.json")
 CACHE_COLORS_FILE    = os.path.join(BASE_PATH, "colors_cache.json")
 CACHE_COMMANDS_FILE  = os.path.join(BASE_PATH, "commands_cache.json")
 CACHE_TAMING_FILE    = os.path.join(BASE_PATH, "taming_cache.json")
+FAVORITES_FILE       = os.path.join(data_dir, "favorites.json")
 
+# --------------------------------------------------
+# FavoritesManager
+# --------------------------------------------------
+class FavoritesManager:
+    """
+    Manages saving, loading, and retrieving favorite commands.
+    """
+    def __init__(self, favorites_file: str):
+        self.favorites_file = favorites_file
+        self.favorites: List[Dict[str, Any]] = []
+        self.load_favorites()
+
+    def load_favorites(self) -> None:
+        """Load saved favorites from disk."""
+        try:
+            if os.path.exists(self.favorites_file):
+                with open(self.favorites_file, 'r', encoding='utf-8') as f:
+                    self.favorites = json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Error loading favorites: {e}")
+            self.favorites = []
+
+    def save_favorites(self) -> None:
+        """Save current favorites to disk."""
+        try:
+            with open(self.favorites_file, 'w', encoding='utf-8') as f:
+                json.dump(self.favorites, f, indent=2)
+        except IOError as e:
+            print(f"Error saving favorites: {e}")
+
+    def add_favorite(self, command: str, description: str, tab_type: str) -> None:
+        """Add a new favorite command."""
+        favorite = {
+            "command": command,
+            "description": description,
+            "tab_type": tab_type,
+            "timestamp": datetime.now().isoformat()
+        }
+        # Don't add duplicates
+        if not any(f["command"] == command for f in self.favorites):
+            self.favorites.append(favorite)
+            self.save_favorites()
+
+    def remove_favorite(self, command: str) -> bool:
+        """Remove a favorite by its command string."""
+        initial_count = len(self.favorites)
+        self.favorites = [f for f in self.favorites if f["command"] != command]
+        if len(self.favorites) < initial_count:
+            self.save_favorites()
+            return True
+        return False
+
+    def get_favorites(self, tab_type: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Get all favorites, optionally filtered by tab type."""
+        if tab_type:
+            return [f for f in self.favorites if f["tab_type"] == tab_type]
+        return self.favorites
+
+# --------------------------------------------------
+# JSON helpers
+# --------------------------------------------------
 def _load_json(path: str) -> Optional[list]:
     """
     Load and parse JSON file at given path.
@@ -89,6 +163,7 @@ class CheatApp(QtWidgets.QMainWindow):
         self.taming = load_taming()
         self.commands = commands
         self.auto_copy = True
+        self.favorites_manager = FavoritesManager(FAVORITES_FILE)
         self._build_ui()
 
     def _build_ui(self) -> None:
@@ -167,6 +242,58 @@ class CheatApp(QtWidgets.QMainWindow):
         self._add_command_ui(cmd_tab)
         self.tabs.addTab(cmd_tab, "Commands")
 
+        # Favorites tab
+        fav_tab = QtWidgets.QWidget()
+        fav_layout = QtWidgets.QVBoxLayout(fav_tab)
+        # Filter
+        filter_layout = QtWidgets.QHBoxLayout()
+        filter_layout.addWidget(QtWidgets.QLabel("Filter by:"))
+        self.fav_filter = QtWidgets.QComboBox()
+        self.fav_filter.addItem("All", None)
+        for t in ["Items","Creatures","Taming","Locations","Dino Color","Commands"]:
+            self.fav_filter.addItem(t, t)
+        self.fav_filter.currentIndexChanged.connect(self._update_favorites_list)
+        filter_layout.addWidget(self.fav_filter)
+        filter_layout.addStretch()
+        fav_layout.addLayout(filter_layout)
+        # List
+        self.favorites_list = QtWidgets.QListWidget()
+        self.favorites_list.itemDoubleClicked.connect(self._use_favorite)
+        fav_layout.addWidget(self.favorites_list)
+        # Buttons
+        buttons_layout = QtWidgets.QHBoxLayout()
+        self.use_fav_btn = QtWidgets.QPushButton("Use")
+        self.use_fav_btn.clicked.connect(lambda: self._use_favorite(self.favorites_list.currentItem()))
+        self.remove_fav_btn = QtWidgets.QPushButton("Remove")
+        self.remove_fav_btn.clicked.connect(self._remove_favorite)
+        buttons_layout.addWidget(self.use_fav_btn)
+        buttons_layout.addWidget(self.remove_fav_btn)
+        fav_layout.addLayout(buttons_layout)
+        self.favorites_index = self.tabs.addTab(fav_tab, "Favorites")
+        self._update_favorites_list()
+
+        # ——— Info / Help Tab ———
+        info_tab = QtWidgets.QWidget()
+        info_layout = QVBoxLayout(info_tab)
+        info_text = QTextEdit()
+        info_text.setReadOnly(True)
+        info_text.setHtml("""
+        <h2>ARK Cheat Generator — Quick Help</h2>
+        <ul>
+          <li><b>Ctrl+C</b> – Copy the generated command to clipboard.</li>
+          <li><b>Ctrl+F</b> – Focus the search box in the current tab.</li>
+          <li><b>Ctrl+D</b> – Add the current command to Favorites.</li>
+          <li><b>Ctrl+1…Ctrl+8</b> – Switch between all eight tabs:
+            <ol>
+              <li>Items</li><li>Creatures</li><li>Taming</li><li>Locations</li><li>Dino Color</li><li>Commands</li><li>Favorites</li><li>Info</li>
+            </ol>
+          </li>
+        </ul>
+        <p>Just pick a tab, filter or browse your list, adjust any parameters, and the console string will be built for you.</p>
+        """)
+        info_layout.addWidget(info_text)
+        self.info_index = self.tabs.addTab(info_tab, "Info")
+
         # Toolbar and status field
         self._add_toolbar()
 
@@ -209,6 +336,9 @@ class CheatApp(QtWidgets.QMainWindow):
         self.qual.setRange(0, 100)
         self.qual.setValue(1)
         self.bp = QtWidgets.QCheckBox("Blueprint")
+        self.bp.setToolTip(
+            "When checked, spawns the blueprint instead of the raw item."
+        )
         form.addRow("Quantity:", self.qty)
         form.addRow("Quality:", self.qual)
         form.addRow("", self.bp)
@@ -253,14 +383,50 @@ class CheatApp(QtWidgets.QMainWindow):
         """
         tb = QtWidgets.QToolBar()
         self.addToolBar(QtCore.Qt.TopToolBarArea, tb)
-        self.auto_copy_act = QtWidgets.QAction("Auto-copy", self, checkable=True, checked=True)
+
+        # auto‐copy action
+        self.auto_copy_act = QtWidgets.QAction("Auto-copy", self)
+        self.auto_copy_act.setCheckable(True)
+        self.auto_copy_act.setChecked(True)
         tb.addAction(self.auto_copy_act)
+
+        # copy button
         copy_act = QtWidgets.QAction(QtGui.QIcon.fromTheme("edit-copy"), "Copy", self)
         tb.addAction(copy_act)
         copy_act.triggered.connect(self._copy_to_clip)
+
+        # output line
         self.out_lbl = QtWidgets.QLineEdit()
         self.out_lbl.setReadOnly(True)
         self.statusBar().addPermanentWidget(self.out_lbl, 1)
+
+        # favorites button
+        add_fav_act = QtWidgets.QAction("Add to Favorites", self)
+        add_fav_act.triggered.connect(self._add_to_favorites)
+        tb.addAction(add_fav_act)
+
+        # — spacer pushes the next button to the right —
+        spacer = QtWidgets.QWidget()
+        spacer.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
+        tb.addWidget(spacer)
+
+        # theme toggle (checkable): default unchecked = dark mode
+        self.theme_act = QtWidgets.QAction("Light Mode", self)
+        self.theme_act.setCheckable(True)
+        self.theme_act.toggled.connect(self._toggle_theme)
+        tb.addAction(self.theme_act)
+
+    def _toggle_theme(self, light: bool) -> None:
+        """
+        Switch between dark and light Fusion palettes.
+        """
+        app = QtWidgets.QApplication.instance()
+        if light:
+            app.setPalette(self.light_palette)
+            self.theme_act.setText("Dark Mode")
+        else:
+            app.setPalette(self.dark_palette)
+            self.theme_act.setText("Light Mode")
 
     def _connect_signals(self) -> None:
         """
@@ -307,8 +473,10 @@ class CheatApp(QtWidgets.QMainWindow):
 
         # Keyboard shortcuts
         QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+C"), self, self._copy_to_clip)
-        QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+F"), self, self._focus_search)
-        for i in range(5):
+        QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+S"), self, self._focus_search)
+        QtWidgets.QShortcut(QtGui.QKeySequence("Ctrl+F"), self, self._add_to_favorites)
+
+        for i in range(tabsize):
             QtWidgets.QShortcut(
                 QtGui.QKeySequence(f"Ctrl+{i+1}"),
                 self,
@@ -362,6 +530,109 @@ class CheatApp(QtWidgets.QMainWindow):
         # Rebuild command inputs & output
         self._build_cmd_inputs()
         self._update_output()
+
+    def _update_favorites_list(self):
+        """
+        Refresh the list of favorites. Show only the description
+        (which you’ve prefixed with the tab name).
+        """
+        self.favorites_list.clear()
+        tab_type = self.fav_filter.currentData()
+        favs = self.favorites_manager.get_favorites(tab_type)
+
+        for f in favs:
+            # display only the description (e.g. "Items - Stone", "Taming - Achatina", etc.)
+            item = QtWidgets.QListWidgetItem(f["description"])
+            item.setData(QtCore.Qt.UserRole, f)
+            self.favorites_list.addItem(item)
+
+    def _use_favorite(self, item):
+        if not item:
+            return
+        fav = item.data(QtCore.Qt.UserRole)
+        cmd, tab = fav["command"], fav["tab_type"]
+
+        # select the correct tab index
+        index_map = {
+            "Items": 0,
+            "Creatures": 1,
+            "Taming": 2,
+            "Locations": 3,
+            "Dino Color": 4,
+            "Commands": 5,
+        }
+        self.tabs.setCurrentIndex(index_map.get(tab, 0))
+
+        if tab == "Taming":
+            # re-select the creature and refresh its info
+            i = self.dd_taming.findText(cmd, QtCore.Qt.MatchExactly)
+            if i >= 0:
+                self.dd_taming.setCurrentIndex(i)
+            self._update_taming_info()
+        else:
+            # the old behavior: put the command in out_lbl (and auto‐copy)
+            self.out_lbl.setText(cmd)
+            if self.auto_copy_act.isChecked() and cmd:
+                QtWidgets.QApplication.clipboard().setText(cmd)
+
+    def _remove_favorite(self):
+        item = self.favorites_list.currentItem()
+        if not item: return
+        fav = item.data(QtCore.Qt.UserRole)
+        if self.favorites_manager.remove_favorite(fav['command']):
+            self._update_favorites_list()
+
+    def _add_to_favorites(self):
+        """
+        Add the current selection or command to Favorites, pre-populating
+        the description as "<Tab> - <Name>".
+        """
+        # Figure out which tab we’re on
+        idx = self.tabs.currentIndex()
+        tab = self.tabs.tabText(idx)
+
+        # Decide what to save as the 'command' (for copy/use) vs. what name to show
+        if tab == "Taming":
+            cmd = self.dd_taming.currentText()
+        else:
+            cmd = self.out_lbl.text()
+        if not cmd:
+            return
+
+        # Pick the human-readable name from the active widget
+        if tab == "Items":
+            name = self.dd_items.currentText()
+        elif tab == "Creatures":
+            name = self.dd_creatures.currentText()
+        elif tab == "Taming":
+            name = self.dd_taming.currentText()
+        elif tab == "Locations":
+            name = self.dd_locations.currentText()
+        elif tab == "Dino Color":
+            name = self.dd_colors.currentText()
+        elif tab == "Commands":
+            name = self.dd_commands.currentText()
+        else:
+            name = cmd
+
+        # Build default description with the tab prefix
+        default_desc = f"{tab} - {name}"
+
+        # Prompt the user, pre-filled with "<Tab> - <Name>"
+        desc, ok = QtWidgets.QInputDialog.getText(
+            self,
+            "Add to Favorites",
+            "Enter a description for this favorite:",
+            QtWidgets.QLineEdit.Normal,
+            default_desc
+        )
+        if not (ok and desc):
+            return
+
+        # Save and refresh
+        self.favorites_manager.add_favorite(cmd, desc, tab)
+        self._update_favorites_list()
+        self.statusBar().showMessage("Added to favorites!", 1500)
 
     @staticmethod
     def _update_combo(search: str, source: list, combo: QtWidgets.QComboBox, key_name: str, key_data: str) -> None:
@@ -604,9 +875,17 @@ class CheatApp(QtWidgets.QMainWindow):
         elif tab == 2:
             txt = ""  # explicitly blank
 
+        # Info tab → also blank
+        elif tab == self.info_index:
+            txt = ""
+
+        # Info tab → also blank
+        elif tab == self.favorites_index:
+            txt = ""
+
         # Teleport (Locations) tab (3)
         elif tab == 3:
-            if (data := self.dd_locations.currentData()):
+            if data := self.dd_locations.currentData():
                 x, y, z = data.split()
                 txt = f"cheat setplayerpos {x} {y} {z}"
 
@@ -618,7 +897,7 @@ class CheatApp(QtWidgets.QMainWindow):
 
         # Commands & custom console commands tab (5+)
         else:
-            if (cmd := self.dd_commands.currentData()):
+            if cmd := self.dd_commands.currentData():
                 if cmd["name"] == "ClearWater":
                     cb = next(
                         (w for name, w in self.cmd_param_widgets if name == "ClearWater"),
@@ -710,7 +989,11 @@ def run_app() -> None:
     splash.finish(None)
 
     w = CheatApp(items, creatures, locations, colors, commands)
-    w.resize(750, 500)
+    # store palettes for runtime toggling
+    w.dark_palette = pal
+    w.light_palette = QtWidgets.QApplication.instance().style().standardPalette()
+
+    w.resize(800, 500)
     w.show()
 
     sys.exit(app.exec_())
